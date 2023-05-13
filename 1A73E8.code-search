@@ -1,0 +1,10 @@
+# Query: 1A73E8
+# Flags: CaseSensitive WordMatch
+# ContextLines: 1
+
+1 result - 1 file
+
+public\manifest.json:
+  12    "display": "standalone",
+  13:   "theme_color": "",
+  14    "background_color": "#ffffff",
