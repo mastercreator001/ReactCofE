@@ -46,8 +46,8 @@ function AboutUs() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "fr download",
+          route: "https://www.facebook.com/groups/172663070820628",
+          label: "Join Us",
           color: "default",
         }}
         transparent

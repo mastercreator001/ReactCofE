@@ -25,8 +25,8 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
+import team3 from "assets/images/richard-McMaster.jpg";
+import team2 from "assets/images/richard-McMaster.jpg";
 
 function Team() {
   return (
@@ -55,7 +55,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
+                image={team3}
                 name="Richard McMaster"
                 position={{ color: "info", label: "UI Designer" }}
                 description="Learning new skills Can be difficult but if your persisant enough you will achieve. Live your dreams and you will suceed."

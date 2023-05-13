@@ -55,8 +55,8 @@ export default {
   },
 
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#12e41d",
+    focus: "#12e41d",
   },
 
   success: {
@@ -108,8 +108,8 @@ export default {
     },
 
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#12e41d",
+      state: "#12e41d",
     },
 
     success: {
@@ -202,7 +202,7 @@ export default {
 
   badgeColors: {
     primary: {
-      background: "#f8b3ca",
+      background: "#12e41d",
       text: "#cc084b",
     },
 
@@ -212,8 +212,8 @@ export default {
     },
 
     info: {
-      background: "#aecef7",
-      text: "#095bc6",
+      background: "#12e41d",
+      text: "#12e41d",
     },
 
     success: {
