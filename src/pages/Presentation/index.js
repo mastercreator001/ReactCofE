@@ -67,7 +67,17 @@ function Presentation() {
         }}
       >
         <Container>
-          <Grid container item xs={10} lg={6} justifyContent="center" mx="auto">
+          <Grid
+            container
+            item
+            xs={10}
+            lg={6}
+            justifyContent="center"
+            mx="auto"
+            sx={{ boxShadow: 2 }}
+            bgcolor="#150c0c87"
+            p="20px"
+          >
             <MKTypography
               variant="h1"
               color="white"

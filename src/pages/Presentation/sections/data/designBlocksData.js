@@ -16,18 +16,21 @@ Coded by www.creative-tim.com
 const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
 
+import harrisonImage from "../../../../assets/images/Teachers/harrison.jpg";
+import feltonImage from "../../../../assets/images/Teachers/feltonimg.jpg";
+
 export default [
   {
     title: "Staff Heads/teachers&support staff",
     description: "A page of senior staff members support staff and more ",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: harrisonImage,
         name: "Head Teachers",
-        route: "/sections/page-sections/page-headers",
+        route: "/pages/teachers",
       },
       {
-        image: `${imagesPrefix}/features.jpg`,
+        image: feltonImage,
         name: "Deputy Heads",
         route: "/sections/page-sections/features",
       },
