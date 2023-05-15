@@ -31,7 +31,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/school-building/school-Front.jpg";
 
 function ContactUs() {
   return (
@@ -46,15 +46,15 @@ function ContactUs() {
           }}
         />
       </MKBox>
-      <Grid container spacing={3} alignItems="center">
-        <Grid item xs={12} lg={6}>
+      <Grid container spacing={2} alignItems="center">
+        <Grid item xs={10} lg={6}>
           <MKBox
             display={{ xs: "none", lg: "flex" }}
             width="calc(100% - 2rem)"
-            height="calc(100vh - 2rem)"
+            height="calc(85vh - 2rem)"
             borderRadius="lg"
-            ml={2}
-            mt={2}
+            ml={5}
+            mt={5}
             sx={{ backgroundImage: `url(${bgImage})` }}
           />
         </Grid>

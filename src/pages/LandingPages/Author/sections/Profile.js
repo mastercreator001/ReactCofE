@@ -33,12 +33,12 @@ function Profile() {
       <Container>
         <Grid container item xs={12} justifyContent="center" mx="auto">
           <MKBox mt={{ xs: -16, md: -20 }} textAlign="center">
-            <MKAvatar src={profilePicture} alt="Burce Mars" size="xxl" shadow="xl" />
+            <MKAvatar src={profilePicture} alt="Richard McMaster" size="xxl" shadow="xl" />
           </MKBox>
           <Grid container justifyContent="center" py={6}>
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-                <MKTypography variant="h3">Richard McMaster</MKTypography>
+                <MKTypography variant="h2">Richard McMaster</MKTypography>
                 <MKButton variant="outlined" color="info" size="small">
                   Follow
                 </MKButton>

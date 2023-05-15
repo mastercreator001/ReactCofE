@@ -16,8 +16,8 @@ Coded by www.creative-tim.com
 const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
 
-import harrisonImage from "../../../../assets/images/Teachers/harrison.jpg";
-import feltonImage from "../../../../assets/images/Teachers/feltonimg.jpg";
+import harrisonImage from "../../../../assets/images/headTeachers/harrison.jpg";
+import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
 
 export default [
   {

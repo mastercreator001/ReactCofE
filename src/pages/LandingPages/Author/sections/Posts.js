@@ -25,7 +25,7 @@ import MKTypography from "components/MKTypography";
 import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
 
 // Images
-import post4 from "assets/images/examples/blog2.jpg";
+import post4 from "assets/images/examples/schoolShirt.jpg";
 
 function Places() {
   return (

@@ -32,7 +32,7 @@ import Footer from "pages/LandingPages/Author/sections/Footer";
 import routes from "routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/school-building/county-Press.jpg";
 
 function Author() {
   return (

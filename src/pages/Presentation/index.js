@@ -42,7 +42,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/Cofemiddleoverhead19102015.png";
 
 function Presentation() {
   return (
@@ -56,7 +56,7 @@ function Presentation() {
         sticky
       />
       <MKBox
-        minHeight="100vh"
+        minHeight="90vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
@@ -71,31 +71,54 @@ function Presentation() {
             container
             item
             xs={10}
-            lg={6}
+            lg={4}
             justifyContent="center"
             mx="auto"
             sx={{ boxShadow: 2 }}
             bgcolor="#150c0c87"
-            p="20px"
+            p="10px"
           >
             <MKTypography
               variant="h1"
               color="white"
-              mt={2}
-              mb={1}
+              mt={-1}
+              mb={-1}
+              ml={4}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
                   fontSize: size["3xl"],
                 },
               })}
             >
-              Wellington Road, <br /> Church Of England Middle School{" "}
+              Wellington Road, <br /> Church Of England Middle School
             </MKTypography>
+            <MKTypography
+              variant="body1"
+              color="blue"
+              textAlign="center"
+              px={{ xs: -12, lg: 12 }}
+              mt={-2}
+            ></MKTypography>
+          </Grid>
+        </Container>
+        <Container>
+          <Grid
+            container
+            item
+            xs={10}
+            lg={6}
+            justifyContent="center"
+            mx="auto"
+            sx={{ boxShadow: 2 }}
+            bgcolor="#150c0c87"
+            p="8px"
+          >
             <MKTypography
               variant="h1"
               color="white"
-              mt={2}
-              mb={25}
+              mt={-1}
+              mb={-1}
+              ml={4}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
                   fontSize: size["2xl"],
@@ -103,11 +126,11 @@ function Presentation() {
               })}
             >
               Welcome back to <br />
-              Welly Road middle school{" "}
+              Welly Road Middle school{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
-              color="white"
+              color="green"
               textAlign="center"
               px={{ xs: -12, lg: 12 }}
               mt={-2}
