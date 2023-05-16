@@ -47,6 +47,8 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
 import Teachers from "pages/Teachers";
+import dhTeachers from "pages/dhTeachers";
+
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -110,6 +112,13 @@ const routes = [
             route: "/pages/Teachers",
             component: <Teachers />,
           },
+
+          {
+            name: "Deputy Head Teachers",
+            route: "pages/Teachers/sections/dhTeachers",
+            component: <dhTeachers />,
+          },
+
           {
             name: "History",
             route: "/sections/page-sections/page-headers",

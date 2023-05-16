@@ -31,8 +31,8 @@ export default [
       },
       {
         image: feltonImage,
-        name: "Deputy Heads",
-        route: "/sections/page-sections/features",
+        name: "Deputy Head Teachers",
+        route: "pages/Teachers/sections/dhTeachers",
       },
       {
         image: `${imagesPrefix}/pricing.jpg`,

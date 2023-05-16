@@ -20,12 +20,12 @@ import MKBox from "components/MKBox";
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
-import Team from "pages/Teachers/sections/Team";
+import dhTeachers from "pages/Teachers/sections/dhTeachers";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
 
-function Teachers() {
+function dhTeachers() {
   return (
     <>
       <DefaultNavbar
@@ -36,12 +36,11 @@ function Teachers() {
           color: "info",
         }}
       />
-      <Team />
+      <dhTeachers />
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
   );
 }
-
-export default Teachers;
+export default dhTeachers;
