@@ -47,7 +47,7 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
 import Teachers from "pages/Teachers";
-import dhTeachers from "pages/dhTeachers";
+import dhTeachers from "pages/Teachers/sections/dhTeachers";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -114,7 +114,7 @@ const routes = [
           },
 
           {
-            name: "Deputy Head Teachers",
+            name: "dhTeachers",
             route: "pages/Teachers/sections/dhTeachers",
             component: <dhTeachers />,
           },
@@ -165,7 +165,7 @@ const routes = [
         ],
       },
       {
-        name: "input areas",
+        name: "teachers",
         description: "See all input areas",
         dropdown: true,
         collapse: [

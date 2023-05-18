@@ -18,6 +18,14 @@ const imagesPrefix =
 
 import harrisonImage from "../../../../assets/images/headTeachers/harrison.jpg";
 import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
+import teachersGroup from "../../../../assets/images/teachers/teachersGroup.jpg";
+import teachingStaff from "../../../../assets/images/teachers/teachingStaff.jpg";
+import careTaker from "../../../../assets/images/teachers/careTaker.jpg";
+import dinnerLady1 from "../../../../assets/images/teachers/dinnerLady1.jpg";
+import dinnerLady2 from "../../../../assets/images/teachers/dinnerLady2.jpg";
+import libraryStaff from "../../../../assets/images/teachers/libraryStaff.jpg";
+import mrsSmith from "../../../../assets/images/teachers/mrsSmith.jpg";
+import frenchTeacher from "../../../../assets/images/teachers/frenchTeacher.jpg";
 
 export default [
   {
@@ -32,45 +40,45 @@ export default [
       {
         image: feltonImage,
         name: "Deputy Head Teachers",
-        route: "pages/Teachers/sections/dhTeachers",
+        route: "/sections/dhTeachers",
       },
       {
-        image: `${imagesPrefix}/pricing.jpg`,
+        image: teachersGroup,
         name: "Teaching Staff",
         route: "/sections/page-sections/features",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: teachingStaff,
         name: "Teaching Staff",
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: careTaker,
         name: "Caretakers",
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: mrsSmith,
         name: "Dinner ladies",
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: dinnerLady1,
         name: "Kitchen Staff 1",
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: dinnerLady2,
         name: "Kitchen Staff 2",
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: libraryStaff,
         name: "Library Staff",
         route: "/sections/page-sections/page-headers",
       },
       {
-        image: `${imagesPrefix}/headers.jpg`,
+        image: frenchTeacher,
         name: "English teacher Miss Forer",
         route: "/sections/page-sections/page-headers",
       },
