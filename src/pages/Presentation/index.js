@@ -42,7 +42,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/Cofemiddleoverhead19102015.png";
+import overhead2015 from "../../assets/images/historicSchool/overhead2015.png";
 
 function Presentation() {
   return (
@@ -56,10 +56,10 @@ function Presentation() {
         sticky
       />
       <MKBox
-        minHeight="90vh"
+        minHeight="100vh"
         width="100%"
         sx={{
-          backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url(${overhead2015})`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",

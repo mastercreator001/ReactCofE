@@ -18,14 +18,14 @@ Coded by www.creative-tim.com
 
 import harrisonImage from "../../../../assets/images/headTeachers/harrison.jpg";
 import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
-import teachersGroup from "../../../../assets/images/teachers/teachersGroup.jpg";
-import teachingStaff from "../../../../assets/images/teachers/teachingStaff.jpg";
-import careTaker from "../../../../assets/images/teachers/careTaker.jpg";
-import dinnerLady1 from "../../../../assets/images/teachers/dinnerLady1.jpg";
-import dinnerLady2 from "../../../../assets/images/teachers/dinnerLady2.jpg";
-import libraryStaff from "../../../../assets/images/teachers/libraryStaff.jpg";
-import mrsSmith from "../../../../assets/images/teachers/mrsSmith.jpg";
-import frenchTeacher from "../../../../assets/images/teachers/frenchTeacher.jpg";
+import teachersGroup from "../../../../assets/images/Auxstaff/teachersGroup.jpg";
+import teachingStaff from "../../../../assets/images/Auxstaff/teachingStaff.jpg";
+import careTaker from "../../../../assets/images/Auxstaff/careTaker.jpg";
+import dinnerLady1 from "../../../../assets/images/Auxstaff/dinnerLady1.jpg";
+import dinnerLady2 from "../../../../assets/images/Auxstaff/dinnerLady2.jpg";
+import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
+import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
+import frenchTeacher from "../../../../assets/images/Auxstaff/frenchTeacher.jpg";
 import science from "../../../../assets/images/logos/science.png";
 import maths from "../../../../assets/images/logos/maths.png";
 import english from "../../../../assets/images/logos/english.png";
@@ -56,11 +56,11 @@ import romanVillanewport from "../../../../assets/images/schoolTrips/romanVillan
 import tripsOut from "../../../../assets/images/schoolTrips/tripsOut.jpg";
 import osbourneHouse from "../../../../assets/images/schoolTrips/osbourneHouse.png";
 import apolloTheatre from "../../../../assets/images/schoolTrips/apolloTheatre.png";
-import schoolmapcurrentoverview from "../../../../assets/images/historicSchoolViews/schoolmapcurrentoverview.png";
-import schoolhistorictotaloverview1 from "../../../../assets/images/historicSchoolViews/schoolhistorictotaloverview1.png";
-import Cofemiddleoverhead19102015 from "../../../../assets/images/historicSchoolViews/Cofemiddleoverhead19102015.png";
-import Overview1 from "../../../../assets/images/historicSchoolViews/Overview1.png";
-import schoolClosing4 from "../../../../assets/images/historicSchoolViews/schoolClosing4.png";
+import schoolmapcurrentoverview from "../../../../assets/images/historicSchool/schoolmapcurrentoverview.png";
+import schoolhistorictotaloverview1 from "../../../../assets/images/historicSchool/schoolhistorictotaloverview1.png";
+import overhead2015 from "../../../../assets/images/historicSchool/overhead2015.png";
+import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
+import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
 
 export default [
   {
@@ -75,12 +75,12 @@ export default [
       {
         image: feltonImage,
         name: "Deputy Head Teachers",
-        route: "/sections/dhTeachers",
+        route: "/pages/teachers/dhTeachers",
       },
       {
         image: teachersGroup,
         name: "Teaching Staff",
-        route: "/sections/page-sections/features",
+        route: "/pages/teachingstaff/allteachers",
       },
       {
         image: teachingStaff,
@@ -126,7 +126,7 @@ export default [
       {
         image: science,
         name: "Science",
-        route: "/sections/navigation/navbars",
+        route: "/pages/subjects",
       },
       {
         image: maths,
@@ -183,22 +183,22 @@ export default [
       {
         image: schoolPlanfinal,
         name: "A reworked Svg map of the school. ",
-        route: "/sections/navigation/pagination",
+        route: "/pages/maps",
       },
       {
         image: bookMap,
         name: "Original map of the school pre opening.",
-        route: "/sections/navigation/pagination",
+        route: "/pages/maps",
       },
       {
         image: advancedMap,
         name: "Opening Pamphlet hand drawn map of the school.",
-        route: "/sections/navigation/pagination",
+        route: "/pages/maps",
       },
       {
         image: finalMapCTK,
         name: "A final updated map of the school, converted from Trinity Middle School to Christ The King Lower Campus. Final map of the layout",
-        route: "/sections/navigation/pagination",
+        route: "/pages/maps",
       },
     ],
   },
@@ -208,19 +208,19 @@ export default [
       "The school from the air showing the school in it's original form and after demolition.",
     items: [
       {
-        image: Cofemiddleoverhead19102015,
+        image: overhead2015,
         name: "Image of the school in full operation. ",
-        route: "/sections/navigation/pagination",
+        route: "/pages/historic",
       },
       {
         image: Overview1,
         name: "A image from the air during the demolition process. ",
-        route: "/sections/navigation/pagination",
+        route: "/pages/historic",
       },
       {
         image: schoolClosing4,
         name: "A image of the school demolished overlaid with outline of the original. ",
-        route: "/sections/navigation/pagination",
+        route: "/pages/historic",
       },
     ],
   },
@@ -232,22 +232,22 @@ export default [
       {
         image: bbcComputer1,
         name: "BBC computers, does anyone remember them and what we played",
-        route: "/sections/attention-catchers/alerts",
+        route: "/pages/computer",
       },
       {
         image: bbcComputer2,
         name: "Seems familur to everyone",
-        route: "/sections/attention-catchers/alerts",
+        route: "/pages/computer",
       },
       {
         image: bbcComputer3,
         name: "A more advanced set up",
-        route: "/sections/attention-catchers/tooltips-popovers",
+        route: "/pages/computer",
       },
       {
         image: floopyDisc,
         name: "Floopy discs cutting edge at the time.",
-        route: "/sections/attention-catchers/modals",
+        route: "/pages/computer",
       },
     ],
   },
@@ -259,17 +259,17 @@ export default [
         image: schoolopening,
         name: "The story behind the music room",
         description: "Some Important articles you may have missed.",
-        route: "/sections/elements/buttons",
+        route: "/pages/attention",
       },
       {
         image: trinitymiddlefire22,
         name: "The Closing Tragedy",
-        route: "/sections/elements/avatars",
+        route: "/pages/attention",
       },
       {
         image: octogonWindow,
         name: "Marvels within the school",
-        route: "/sections/elements/dropdowns",
+        route: "/pages/attention",
       },
     ],
   },
@@ -281,62 +281,62 @@ export default [
       {
         image: weald,
         name: "1st Years Singleton trip.",
-        route: "/sections/elements/toggles",
+        route: "/pages/trips",
       },
       {
         image: totlandYouthhostel,
         name: "2nd years Totland YMCA Hostel.",
-        route: "/sections/elements/breadcrumbs",
+        route: "/pages/trips",
       },
       {
         image: newfieldHall,
         name: "3rd years Malham Yorkshire (HighField House).",
-        route: "/sections/elements/breadcrumbs",
+        route: "/pages/trips",
       },
       {
         image: pooleFlag,
         name: "4th years Poole in Dorset Adveture Center.",
-        route: "/sections/elements/badges",
+        route: "/pages/trips",
       },
       {
         image: carisbrookeCastle,
         name: "Carisbrooke Castle, mutiple trips.",
-        route: "/sections/elements/progress-bars",
+        route: "/pages/trips",
       },
       {
         image: romanVillanewport,
         name: "Newport Roman Villa trips",
-        route: "/sections/elements/breadcrumbs",
+        route: "/pages/trips",
       },
       {
         image: apolloTheatre,
         name: "Apollo Theatre in Newport.",
-        route: "/sections/elements/typography",
+        route: "/pages/trips",
       },
       {
         image: tripsOut,
         name: "Various Trips out across the Island",
-        route: "/sections/elements/typography",
+        route: "/pages/trips",
       },
       {
         image: osbourneHouse,
         name: "Osbourne House.",
-        route: "/sections/elements/typography",
+        route: "/pages/trips",
       },
       {
         image: apolloTheatre,
         name: "Various Trips out to Brading and across the Island.",
-        route: "/sections/elements/typography",
+        route: "/pages/trips",
       },
       {
         image: schoolmapcurrentoverview,
         name: "School Back in the Eighities ",
-        route: "/sections/elements/typography",
+        route: "/pages/trips",
       },
       {
         image: schoolhistorictotaloverview1,
         name: "Historic school",
-        route: "/sections/elements/typography",
+        route: "/pages/trips",
       },
     ],
   },

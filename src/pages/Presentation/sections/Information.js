@@ -27,7 +27,7 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import Cofemiddleoverhead19102015 from "assets/images/Cofemiddleoverhead19102015.png";
+import overhead2015 from "../../../assets/images/historicSchool/overhead2015.png";
 
 function Information() {
   return (
@@ -37,7 +37,7 @@ function Information() {
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
-                image={Cofemiddleoverhead19102015.png}
+                image={overhead2015.png}
                 icon="touch_app"
                 title={
                   <>
@@ -49,7 +49,7 @@ function Information() {
                 description="What's your Favourite lesson or the one you learn't to love? What was your least favourite lesson, let us know in the contact us section."
               />
               <RotatingCardBack
-                image={Cofemiddleoverhead19102015.png}
+                image={overhead2015.png}
                 title="Welcome back to your School"
                 description="The school may have been demolished but the memories will last forever. Any stories of memories please do let us know in the contact us section or submit your stories."
                 action={{

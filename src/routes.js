@@ -46,9 +46,15 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
-import Teachers from "pages/Teachers";
-import dhTeachers from "pages/Teachers/sections/dhTeachers";
-
+import Teachers from "pages/Templates/Teachers/Team";
+import Science from "pages/Templates/Subjects/Science";
+import DhTeachers from "pages/Templates/Teachers/DhTeachers";
+import Maps from "pages/Templates/Maps/Maps";
+import Historic from "pages/Templates/Historic/Historic";
+import Computer from "pages/Templates/Computer/Computer";
+import Attention from "pages/Templates/Attention/Attention";
+import Trips from "pages/Templates/Trips/Trips";
+import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -109,16 +115,20 @@ const routes = [
         collapse: [
           {
             name: "Teachers",
-            route: "/pages/Teachers",
+            route: "/pages/teachers",
             component: <Teachers />,
           },
 
           {
-            name: "dhTeachers",
-            route: "pages/Teachers/sections/dhTeachers",
-            component: <dhTeachers />,
+            name: "Deputy Head Teachers",
+            route: "/pages/teachers/dhTeachers",
+            component: <DhTeachers />,
           },
-
+          {
+            name: "Teaching Staff",
+            route: "/pages/teachingstaff/allteachers",
+            component: <AllTeachers />,
+          },
           {
             name: "History",
             route: "/sections/page-sections/page-headers",
@@ -146,6 +156,36 @@ const routes = [
         description: "See all navigations",
         dropdown: true,
         collapse: [
+          {
+            name: "School Subjects",
+            route: "/pages/subjects",
+            component: <Science />,
+          },
+          {
+            name: "School Maps",
+            route: "/pages/maps",
+            component: <Maps />,
+          },
+          {
+            name: "Historic School View",
+            route: "/pages/historic",
+            component: <Historic />,
+          },
+          {
+            name: "Comptuer Programming",
+            route: "/pages/computer",
+            component: <Computer />,
+          },
+          {
+            name: "Attention Catching Articles",
+            route: "/pages/attention",
+            component: <Attention />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips",
+            component: <Trips />,
+          },
           {
             name: "School Documents",
             route: "/sections/navigation/navbars",

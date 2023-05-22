@@ -20,7 +20,7 @@ import MKBox from "components/MKBox";
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
-import Team from "pages/Teachers/sections/Team";
+import Team from "pages/Templates/teachers/Team";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";

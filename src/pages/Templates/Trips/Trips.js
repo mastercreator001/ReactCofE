@@ -28,7 +28,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 import harrison from "assets/images/headTeachers/harrison.jpg";
 import knight1 from "assets/images/headTeachers/knight1.jpeg";
 import mrBloomfieldlarge from "assets/images/headTeachers/mrBloomfieldlarge.png";
-import mrspGoodheadlarge from "assets/images/headTeachers/mrspGoodheadlarge.png";
+import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
 
 function dhTeachers() {
   return (
@@ -45,7 +45,7 @@ function dhTeachers() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Meet The Head teaching Staff
+              School Trips
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
               All head teachers of Church Of England Middle School 1971-2008 Welly Road including
@@ -97,7 +97,7 @@ function dhTeachers() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={mrspGoodheadlarge}
+              image={mrsBlank}
               name="Mrs Pat Goodhead"
               position={{
                 color: "info",
