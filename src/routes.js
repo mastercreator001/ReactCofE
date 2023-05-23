@@ -55,6 +55,8 @@ import Computer from "pages/Templates/Computer/Computer";
 import Attention from "pages/Templates/Attention/Attention";
 import Trips from "pages/Templates/Trips/Trips";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
+import Maps1 from "pages/Templates/Maps/Maps1";
+
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -66,14 +68,15 @@ import Forms from "layouts/sections/input-areas/forms";
 import Alerts from "layouts/sections/attention-catchers/alerts";
 import Modals from "layouts/sections/attention-catchers/modals";
 import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
-import Avatars from "layouts/sections/elements/avatars";
-import Badges from "layouts/sections/elements/badges";
+//import Avatars from "layouts/sections/elements/avatars";
+//import Badges from "layouts/sections/elements/badges";
 import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
 import Buttons from "layouts/sections/elements/buttons";
 import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
+import Maps2 from "pages/Templates/Maps/Maps2";
 
 const routes = [
   {
@@ -167,6 +170,16 @@ const routes = [
             component: <Maps />,
           },
           {
+            name: "School Maps",
+            route: "/pages/maps1",
+            component: <Maps1 />,
+          },
+          {
+            name: "School Maps",
+            route: "/pages/maps2",
+            component: <Maps2 />,
+          },
+          {
             name: "Historic School View",
             route: "/pages/historic",
             component: <Historic />,
@@ -244,19 +257,19 @@ const routes = [
         ],
       },
       {
-        name: "elements",
-        description: "See all 32 examples",
+        name: "Maps",
+        description: "See school maps in developmet",
         dropdown: true,
         collapse: [
           {
             name: "avatars",
-            route: "/sections/elements/avatars",
-            component: <Avatars />,
+            route: "/pages/maps",
+            component: <Maps />,
           },
           {
             name: "badges",
-            route: "/sections/elements/badges",
-            component: <Badges />,
+            route: "/pages/maps/maps1",
+            component: <Maps1 />,
           },
           {
             name: "breadcrumbs",
