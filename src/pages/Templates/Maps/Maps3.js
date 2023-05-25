@@ -25,9 +25,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import overhead2015 from "assets/images/historicSchool/overhead2015.png";
+import bookMap from "assets/images/school maps/finalMapCTK.png";
 
-function Historic() {
+function Maps3() {
   return (
     <MKBox
       component="section"
@@ -42,20 +42,29 @@ function Historic() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Historic School View From The Air
+              School Maps third vvv
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Church Of England Middle School In Full Operation
+              All my own text about maps
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={overhead2015}
-              name="The School In full operation"
+              image={bookMap}
+              name="This is an original map recreated"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="TEXT TO BE ADDED"
+              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
+    His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
+    We can no longer see him or feel him but he is still with us all. 
+    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.
+    AS WRITTEN BY Mrs Hilary Knight 
+    It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
+    He had so may proud and happy memories. 
+    Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
+    By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
+    Please any thoughts comments and memories can be added and I'm sure will be read by the family."
             />
           </MKBox>
         </Grid>
@@ -64,4 +73,4 @@ function Historic() {
   );
 }
 
-export default Historic;
+export default Maps3;

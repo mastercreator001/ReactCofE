@@ -39,6 +39,8 @@ import frenchClass from "../../../../assets/images/logos/frenchClass.png";
 import advancedMap from "../../../../assets/images/school maps/advancedMap.jpg";
 import bookMap from "../../../../assets/images/school maps/bookMap.jpg";
 import finalMapCTK from "../../../../assets/images/school maps/finalMapCTK.png";
+import finalMapCTK1 from "../../../../assets/images/school maps/finalMapCTK1.png";
+import finalMapCTK2 from "../../../../assets/images/school maps/finalMapCTK2.png";
 import schoolPlanfinal from "../../../../assets/images/school maps/schoolPlanfinal.png";
 import bbcComputer1 from "../../../../assets/images/subjectImages/bbcComputer1.jpg";
 import bbcComputer2 from "../../../../assets/images/subjectImages/bbcComputer2.png";
@@ -61,6 +63,7 @@ import schoolhistorictotaloverview1 from "../../../../assets/images/historicScho
 import overhead2015 from "../../../../assets/images/historicSchool/overhead2015.png";
 import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
+import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
 
 export default [
   {
@@ -200,6 +203,12 @@ export default [
         name: "A final updated map of the school, converted from Trinity Middle School to Christ The King Lower Campus. Final map of the layout",
         route: "/pages/maps3",
       },
+      {
+        image: finalMapCTK1,
+        finalMapCTK2,
+        name: "A final updated map of the school, converted from Trinity Middle School to Christ The King Lower Campus. Final map of the layout",
+        route: "/pages/maps4",
+      },
     ],
   },
   {
@@ -213,14 +222,19 @@ export default [
         route: "/pages/historic",
       },
       {
-        image: Overview1,
+        image: cofeoverviewduring,
         name: "A image from the air during the demolition process. ",
-        route: "/pages/historic",
+        route: "/pages/historic1",
+      },
+      {
+        image: Overview1,
+        name: "A image of the school demolished overlaid with outline of the original. ",
+        route: "/pages/historic2",
       },
       {
         image: schoolClosing4,
         name: "A image of the school demolished overlaid with outline of the original. ",
-        route: "/pages/historic",
+        route: "/pages/historic3",
       },
     ],
   },

@@ -25,9 +25,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import overhead2015 from "assets/images/historicSchool/overhead2015.png";
+import cofeoverviewduring from "assets/images/historicSchool/cofeoverviewduring.png";
 
-function Historic() {
+function Historic1() {
   return (
     <MKBox
       component="section"
@@ -45,17 +45,17 @@ function Historic() {
               Historic School View From The Air
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Church Of England Middle School In Full Operation
+              Church Of England Middle School After Demolition And during Construction
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={overhead2015}
-              name="The School In full operation"
+              image={cofeoverviewduring}
+              name="The School after demolition but during new construction phase"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="TEXT TO BE ADDED"
+              description="TEXT TO BE ADDDED"
             />
           </MKBox>
         </Grid>
@@ -64,4 +64,4 @@ function Historic() {
   );
 }
 
-export default Historic;
+export default Historic1;

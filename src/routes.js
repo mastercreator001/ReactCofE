@@ -51,6 +51,10 @@ import Science from "pages/Templates/Subjects/Science";
 import DhTeachers from "pages/Templates/Teachers/DhTeachers";
 import Maps from "pages/Templates/Maps/Maps";
 import Historic from "pages/Templates/Historic/Historic";
+import Historic1 from "pages/Templates/Historic/Historic1";
+import Historic2 from "pages/Templates/Historic/Historic2";
+import Historic3 from "pages/Templates/Historic/Historic3";
+
 import Computer from "pages/Templates/Computer/Computer";
 import Attention from "pages/Templates/Attention/Attention";
 import Trips from "pages/Templates/Trips/Trips";
@@ -77,6 +81,8 @@ import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
 import Maps2 from "pages/Templates/Maps/Maps2";
+import Maps3 from "pages/Templates/Maps/Maps3";
+import Maps4 from "pages/Templates/Maps/Maps4";
 
 const routes = [
   {
@@ -117,7 +123,7 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "Teachers",
+            name: "Head Teachers",
             route: "/pages/teachers",
             component: <Teachers />,
           },
@@ -180,9 +186,34 @@ const routes = [
             component: <Maps2 />,
           },
           {
+            name: "School Maps",
+            route: "/pages/maps3",
+            component: <Maps3 />,
+          },
+          {
+            name: "School Maps",
+            route: "/pages/maps4",
+            component: <Maps4 />,
+          },
+          {
             name: "Historic School View",
             route: "/pages/historic",
             component: <Historic />,
+          },
+          {
+            name: "Historic School During further Redevolpment",
+            route: "/pages/historic1",
+            component: <Historic1 />,
+          },
+          {
+            name: "Historic School View Overlaid",
+            route: "/pages/historic2",
+            component: <Historic2 />,
+          },
+          {
+            name: "Historic School View Overlaid",
+            route: "/pages/historic3",
+            component: <Historic3 />,
           },
           {
             name: "Comptuer Programming",
