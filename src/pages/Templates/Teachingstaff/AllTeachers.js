@@ -47,6 +47,8 @@ import mrBlank from "assets/images/Dhteachers/mrBlank.png";
 import mrsCrump from "assets/images/Allteachers/mrsCrump.png";
 import mrHawes from "assets/images/Allteachers/mrHawes.png";
 import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
+import mrsDarby from "assets/images/Allteachers/mrsDarby.png";
+
 function AllTeachers() {
   return (
     <MKBox
@@ -132,7 +134,7 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={mrsBlank}
+              image={mrsDarby}
               name="Mrs Darby"
               position={{ color: "info", label: "Special help tutor" }}
               description="MORE INFORMATION REQUIRED MRS DERBY."
