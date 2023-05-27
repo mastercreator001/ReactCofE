@@ -18,14 +18,14 @@ Coded by www.creative-tim.com
 
 import harrisonImage from "../../../../assets/images/headTeachers/harrison.jpg";
 import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
-import teachersGroup from "../../../../assets/images/Auxstaff/teachersGroup.jpg";
-import teachingStaff from "../../../../assets/images/Auxstaff/teachingStaff.jpg";
-import careTaker from "../../../../assets/images/Auxstaff/careTaker.jpg";
+import teachersGroup from "../../../../assets/images/Allteachers/teachersGroup.jpg";
+import teachingStaff from "../../../../assets/images/Allteachers/teachingStaff.jpg";
+import careTaker from "../../../../assets/images/Auxstaff/careTaker.png";
 import dinnerLady1 from "../../../../assets/images/Auxstaff/dinnerLady1.jpg";
 import dinnerLady2 from "../../../../assets/images/Auxstaff/dinnerLady2.jpg";
 import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
 import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
-import frenchTeacher from "../../../../assets/images/Auxstaff/frenchTeacher.jpg";
+import frenchTeacher from "../../../../assets/images/Dhteachers/frenchTeacher.jpg";
 import science from "../../../../assets/images/logos/science.png";
 import maths from "../../../../assets/images/logos/maths.png";
 import english from "../../../../assets/images/logos/english.png";
@@ -93,7 +93,7 @@ export default [
       {
         image: careTaker,
         name: "Caretakers",
-        route: "/sections/page-sections/page-headers",
+        route: "/pages/auxstaff/caretakers1",
       },
       {
         image: mrsSmith,

@@ -54,7 +54,7 @@ import Historic from "pages/Templates/Historic/Historic";
 import Historic1 from "pages/Templates/Historic/Historic1";
 import Historic2 from "pages/Templates/Historic/Historic2";
 import Historic3 from "pages/Templates/Historic/Historic3";
-
+import Caretakers1 from "pages/Templates/auxStaff/Caretakers1";
 import Computer from "pages/Templates/Computer/Computer";
 import Attention from "pages/Templates/Attention/Attention";
 import Trips from "pages/Templates/Trips/Trips";
@@ -137,6 +137,11 @@ const routes = [
             name: "Teaching Staff",
             route: "/pages/teachingstaff/allteachers",
             component: <AllTeachers />,
+          },
+          {
+            name: "Caretakers",
+            route: "/pages/auxstaff/caretakers1",
+            component: <Caretakers1 />,
           },
           {
             name: "History",

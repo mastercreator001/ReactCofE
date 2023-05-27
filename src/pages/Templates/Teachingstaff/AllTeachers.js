@@ -118,6 +118,16 @@ Mr Felton was on my trip to Malham, and it was as fun as you could imagine espec
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
+              image={mrsBlank}
+              name="Mrs Callagari"
+              position={{ color: "info", label: "Geography Teacher" }}
+              description="MORE INFORMATION REQUIRED MISS GOODSHIP."
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard
               image={missForer2}
               name="Miss Forer"
               position={{ color: "info", label: "Deputy Head, Year head" }}
@@ -275,8 +285,8 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={mrsWatkins}
-              name="Mrs Watkins"
-              position={{ color: "info", label: "Watkins Teacher( Montgomery ) " }}
+              name="Mrs Montgomery (Mrs Watkins, Mrs Cobby)"
+              position={{ color: "info", label: "English ,French, & History Teacher " }}
               description="Hello to Mrs Watkins she remarried into Mrs Cobby and is now Mrs Montgomery so from here to the end of the post we shall use her new name just so it doesn't get to confusing . Mrs Montgomery joined the school in April 1980 to cover Mr Luckett 's time table so it wasn't a long term thing but fortunately enough we have kept her for longer. She progressed from there to Mrs Googes classed while she was away on maternity leave. Her time table progressed over the years and she stayed with us making many happy memories and contributing to the school through her teaching talent and participation in many school activities like Malham. Mrs Montgomery was a specialist teacher and taught years 3 and 4 or 7 and 8 dependant on your years served. Teaching English French and history she stayed at the school covering many subjects anc becoming an integral part of the staff. After I imagine was only supposed to be a short term posting to the school. Having been there for so long as was the tradition for teachers it seems at C of E she contributed to the education of many thousand of students over the years and making happy memories along the way. Remember Mrs Watkins is now Mrs Montgomery so please do feel free to say thank you as she's looking at the post. Staying in one place if any thing is a sign of commitment love of the job and the students. Linda Montgomery sadly left the school in 2012 after 32 years service but is happily in the group and still a part of the community."
             />
           </MKBox>
@@ -305,8 +315,8 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={mrsCrump}
-              name="Mrs Crump"
-              position={{ color: "info", label: "Teacher" }}
+              name="Mrs Crump (Manche)"
+              position={{ color: "info", label: "Maths Teacher" }}
               description="We have limited information but we believe Mr Seaward served as a temporary deputy head upon the retirment of Mr Felton. If anyone has any information on the school leadership structure it would be most appreciated. We would very much like to add more information into the website to get it as accurate as possible but also to pay recognition to staff that have served the school over the years. If anyone has any pictures of said staff it would be very much appreciated. Please feel free to contact us in the links on the contact us page."
             />
           </MKBox>
@@ -316,7 +326,10 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
             <HorizontalTeamCard
               image={mrHawes}
               name="Mr Hawes"
-              position={{ color: "info", label: "Teacher" }}
+              position={{
+                color: "info",
+                label: "English, Sex Education and Religious Education Teacher",
+              }}
               description="We have limited information but we believe Mr Seaward served as a temporary deputy head upon the retirment of Mr Felton. If anyone has any information on the school leadership structure it would be most appreciated. We would very much like to add more information into the website to get it as accurate as possible but also to pay recognition to staff that have served the school over the years. If anyone has any pictures of said staff it would be very much appreciated. Please feel free to contact us in the links on the contact us page."
             />
           </MKBox>
@@ -326,7 +339,7 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
             <HorizontalTeamCard
               image={mrBlank}
               name="Mr Besley"
-              position={{ color: "info", label: "Physical Education Teacher ?" }}
+              position={{ color: "info", label: "Maths Teacher ?" }}
               description="MORE INFORMATION REQUIRED MR BESLEY."
             />
           </MKBox>
@@ -335,7 +348,7 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={mrsBlank}
-              name="Mrs Besley"
+              name="Mrs Besley (formerly Hagan)"
               position={{ color: "info", label: " Maths Teacher ?" }}
               description="MORE INFORMATION REQUIRED MRS BESLEY."
             />
@@ -387,6 +400,29 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
               image={mrsBlank}
               name="Miss Honor"
               position={{ color: "info", label: "Physical Education Teacher" }}
+              description="MORE INFORMATION REQUIRED MISS HONOR."
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard
+              image={mrBlank}
+              name="Chris Hodgkinson"
+              position={{ color: "info", label: "Science Tec Teacher" }}
+              description="MORE INFORMATION REQUIRED MISS HONOR."
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard
+              image={mrsBlank}
+              name="Kathy Peaty"
+              position={{
+                color: "info",
+                label: "Science Tec Teacher  network manager /ICT support",
+              }}
               description="MORE INFORMATION REQUIRED MISS HONOR."
             />
           </MKBox>
