@@ -21,8 +21,9 @@ import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
 import teachersGroup from "../../../../assets/images/Allteachers/teachersGroup.jpg";
 import teachingStaff from "../../../../assets/images/Allteachers/teachingStaff.jpg";
 import careTaker from "../../../../assets/images/Auxstaff/careTaker.png";
-import dinnerLady1 from "../../../../assets/images/Auxstaff/dinnerLady1.jpg";
-import dinnerLady2 from "../../../../assets/images/Auxstaff/dinnerLady2.jpg";
+import kitchenStaff1 from "../../../../assets/images/Auxstaff/kitchenStaff1.jpg";
+//import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg";
+import mrsTout from "../../../../assets/images/Auxstaff/mrsTout.png";
 import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
 import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
 import frenchTeacher from "../../../../assets/images/Dhteachers/frenchTeacher.jpg";
@@ -97,18 +98,18 @@ export default [
       },
       {
         image: mrsSmith,
-        name: "Dinner ladies",
-        route: "/sections/page-sections/page-headers",
+        name: "Dinner Ladies Mrs Smith",
+        route: "/pages/auxstaff/dinnerladies1",
       },
       {
-        image: dinnerLady1,
-        name: "Kitchen Staff 1",
-        route: "/sections/page-sections/page-headers",
+        image: mrsTout,
+        name: "Dinner Ladies Mrs Tout ",
+        route: "/pages/auxstaff/dinnerladies2",
       },
       {
-        image: dinnerLady2,
-        name: "Kitchen Staff 2",
-        route: "/sections/page-sections/page-headers",
+        image: kitchenStaff1,
+        name: "Kitchen Staff ",
+        route: "/pages/auxstaff/Kitchenstaff1",
       },
       {
         image: libraryStaff,

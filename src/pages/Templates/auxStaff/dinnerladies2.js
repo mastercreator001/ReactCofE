@@ -25,9 +25,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import mrsSmith from "assets/images/Auxstaff/mrsSmith.jpg";
+import mrsTout from "assets/images/Auxstaff/mrsTout.png";
 
-function dinnerLadies1() {
+function dinnerladies2() {
   return (
     <MKBox
       component="section"
@@ -45,16 +45,16 @@ function dinnerLadies1() {
               Dinner Ladies at C of E Middle
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Mrs Smith
+              Mrs Tout
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={mrsSmith}
-              name="Mrs Smith"
-              position={{ color: "info", label: "30 years service" }}
+              image={mrsTout}
+              name="Mrs Tout"
+              position={{ color: "info", label: "Dinner lady" }}
               description="TEXT TO BE ADDED "
             />
           </MKBox>
@@ -64,4 +64,4 @@ function dinnerLadies1() {
   );
 }
 
-export default dinnerLadies1;
+export default dinnerladies2;

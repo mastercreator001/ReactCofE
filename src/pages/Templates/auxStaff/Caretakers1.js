@@ -27,6 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 import careTaker from "assets/images/Auxstaff/careTaker.png";
 import mrBlank from "assets/images/Dhteachers/mrBlank.png";
+
 function Caretakers1() {
   return (
     <MKBox
@@ -52,7 +53,7 @@ function Caretakers1() {
             <MKBox mb={1} mt={10}>
               <HorizontalTeamCard
                 image={mrBlank}
-                name=" Mr Farringford"
+                name="Mr Farringford"
                 position={{ color: "info", label: "Caretaker 1977-1981" }}
                 description="TEXT TO BE ADDED FOR THE 1ST CARE TAKER ???"
               />

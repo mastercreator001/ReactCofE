@@ -35,13 +35,10 @@ Coded by www.creative-tim.com
           you can set the columns amount based on this key.
   10. The `rowsPerColumn` key is used to define that how many rows should be in a column.
 */
-
 // @mui material components
 import Icon from "@mui/material/Icon";
-
 // @mui icons
 import GitHubIcon from "@mui/icons-material/GitHub";
-
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -54,12 +51,15 @@ import Historic from "pages/Templates/Historic/Historic";
 import Historic1 from "pages/Templates/Historic/Historic1";
 import Historic2 from "pages/Templates/Historic/Historic2";
 import Historic3 from "pages/Templates/Historic/Historic3";
-import Caretakers1 from "pages/Templates/auxStaff/Caretakers1";
 import Computer from "pages/Templates/Computer/Computer";
 import Attention from "pages/Templates/Attention/Attention";
 import Trips from "pages/Templates/Trips/Trips";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
 import Maps1 from "pages/Templates/Maps/Maps1";
+import dinnerLadies1 from "pages/Templates/auxStaff/dinnerLadies1";
+import dinnerLadies2 from "pages/Templates/auxStaff/dinnerLadies2";
+import kitchenStaff1 from "pages/Templates/auxStaff/kitchenStaff1";
+import Caretakers1 from "pages/Templates/auxStaff/Caretakers1";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -142,6 +142,21 @@ const routes = [
             name: "Caretakers",
             route: "/pages/auxstaff/caretakers1",
             component: <Caretakers1 />,
+          },
+          {
+            name: "Dinner Ladies",
+            route: "/pages/auxstaff/dinnerladies1",
+            component: <dinnerLadies1 />,
+          },
+          {
+            name: "Dinner Ladies",
+            route: "/pages/auxstaff/dinnerladies2",
+            component: <dinnerLadies2 />,
+          },
+          {
+            name: "Kitchen Staff",
+            route: "/pages/auxstaff/kitchenstaff1",
+            component: <kitchenStaff1 />,
           },
           {
             name: "History",
