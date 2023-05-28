@@ -21,11 +21,9 @@ import Icon from "@mui/material/Icon";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import schoolhistorictotaloverview1 from "assets/images/schoolhistorictotaloverview1.png";
 
 function BuiltByDevelopers() {
-  const bgImage =
-    "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg";
-
   return (
     <MKBox
       display="flex"
@@ -38,7 +36,7 @@ function BuiltByDevelopers() {
           `${linearGradient(
             rgba(gradients.dark.main, 0.8),
             rgba(gradients.dark.state, 0.8)
-          )}, url(${bgImage})`,
+          )}, url(${schoolhistorictotaloverview1})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -52,7 +50,7 @@ function BuiltByDevelopers() {
             Say Hello To Friends Old And New
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            Hello to Welly Road back again and on a new webiste for all to see enjoy and remember.
+            Hello to Welly Road back again and on a new website for all to see enjoy and remember.
           </MKTypography>
           <MKTypography
             component="a"

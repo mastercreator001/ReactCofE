@@ -76,11 +76,11 @@ function Pages() {
             </Grid>
           </Grid>
           <Grid item xs={12} lg={3}>
-            <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
+            <MKBox position="center" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
                 Mr Knight, Mr Harrison, Mr Blooomfied stories.....
               </MKTypography>
-              <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
+              <MKTypography variant="body2" fontWeight="heavy" color="secondary" mb={1} pr={2}>
                 There really is no end to the stories you have and can submit for others to enjoy
                 please feel free to email a story and we will post annomously if you would prefer.
               </MKTypography>

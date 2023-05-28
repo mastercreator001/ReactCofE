@@ -51,7 +51,6 @@ import Historic from "pages/Templates/Historic/Historic";
 import Historic1 from "pages/Templates/Historic/Historic1";
 import Historic2 from "pages/Templates/Historic/Historic2";
 import Historic3 from "pages/Templates/Historic/Historic3";
-import Computer from "pages/Templates/Computer/Computer";
 import Attention from "pages/Templates/Attention/Attention";
 import Trips from "pages/Templates/Trips/Trips";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
@@ -85,6 +84,10 @@ import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
+import Computer1 from "pages/Templates/Computer/Computer1";
+import Computer2 from "pages/Templates/Computer/Computer2";
+import Computer3 from "pages/Templates/Computer/Computer3";
+import Computer4 from "pages/Templates/Computer/Computer4";
 
 const routes = [
   {
@@ -248,9 +251,24 @@ const routes = [
             component: <Historic3 />,
           },
           {
-            name: "Comptuer Programming",
-            route: "/pages/computer",
-            component: <Computer />,
+            name: "Computer Programming",
+            route: "/pages/computer1",
+            component: <Computer1 />,
+          },
+          {
+            name: "Computer Programming",
+            route: "/pages/computer2",
+            component: <Computer2 />,
+          },
+          {
+            name: "Computer Programming",
+            route: "/pages/computer3",
+            component: <Computer3 />,
+          },
+          {
+            name: "Computer Programming",
+            route: "/pages/computer4",
+            component: <Computer4 />,
           },
           {
             name: "Attention Catching Articles",

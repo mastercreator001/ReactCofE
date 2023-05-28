@@ -26,7 +26,7 @@ import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg"
 import mrsTout from "../../../../assets/images/Auxstaff/mrsTout.png";
 import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
 import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
-import frenchTeacher from "../../../../assets/images/Dhteachers/frenchTeacher.jpg";
+//import frenchTeacher from "../../../../assets/images/Dhteachers/frenchTeacher.jpg";
 import science from "../../../../assets/images/logos/science.png";
 import maths from "../../../../assets/images/logos/maths.png";
 import english from "../../../../assets/images/logos/english.png";
@@ -43,10 +43,10 @@ import finalMapCTK from "../../../../assets/images/school maps/finalMapCTK.png";
 import finalMapCTK1 from "../../../../assets/images/school maps/finalMapCTK1.png";
 import finalMapCTK2 from "../../../../assets/images/school maps/finalMapCTK2.png";
 import schoolPlanfinal from "../../../../assets/images/school maps/schoolPlanfinal.png";
-import bbcComputer1 from "../../../../assets/images/subjectImages/bbcComputer1.jpg";
-import bbcComputer2 from "../../../../assets/images/subjectImages/bbcComputer2.png";
-import bbcComputer3 from "../../../../assets/images/subjectImages/bbcComputer3.png";
-import floopyDisc from "../../../../assets/images/subjectImages/floopyDisc.png";
+import bbcComputer1 from "../../../../assets/images/ComputerImages/bbcComputer1.jpg";
+import bbcComputer2 from "../../../../assets/images/ComputerImages/bbcComputer2.png";
+import bbcComputer3 from "../../../../assets/images/ComputerImages/bbcComputer3.png";
+import floopyDisc from "../../../../assets/images/ComputerImages/floopyDisc.png";
 import schoolopening from "../../../../assets/images/Attentioncatchers/schoolopening.jpg";
 import trinitymiddlefire22 from "../../../../assets/images/Attentioncatchers/trinitymiddlefire22.jpg";
 import octogonWindow from "../../../../assets/images/Attentioncatchers/octogonWindow.jpg";
@@ -120,11 +120,6 @@ export default [
         image: libraryStaff,
         name: "Library Staff",
         route: "/pages/auxstaff/librarystaff1",
-      },
-      {
-        image: frenchTeacher,
-        name: "English teacher Miss Forer",
-        route: "/sections/page-sections/page-headers",
       },
     ],
   },
@@ -252,22 +247,22 @@ export default [
       {
         image: bbcComputer1,
         name: "BBC computers, does anyone remember them and what we played",
-        route: "/pages/computer",
+        route: "/pages/computer1",
       },
       {
         image: bbcComputer2,
         name: "Seems familur to everyone",
-        route: "/pages/computer",
+        route: "/pages/computer2",
       },
       {
         image: bbcComputer3,
         name: "A more advanced set up",
-        route: "/pages/computer",
+        route: "/pages/computer3",
       },
       {
         image: floopyDisc,
         name: "Floopy discs cutting edge at the time.",
-        route: "/pages/computer",
+        route: "/pages/computer4",
       },
     ],
   },

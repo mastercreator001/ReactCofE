@@ -25,8 +25,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import overheadBig2015 from "assets/images/historicSchool/overhead2015Big.png";
-function Historic() {
+import bbcComputer1 from "assets/images/ComputerImages/bbcComputer1.jpg";
+
+function Computer1() {
   return (
     <MKBox
       component="section"
@@ -41,20 +42,20 @@ function Historic() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Historic School View From The Air
+              Computer Programming
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Church Of England Middle School In Full Operation
+              Does anyone rememeber these computers with the floppy disc drive?
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={overheadBig2015}
-              name="The School In full operation"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="TEXT TO BE ADDED"
+              image={bbcComputer1}
+              name="Bbc Computers"
+              position={{ color: "info", label: "A massive leap forward" }}
+              description="The BBC Computer Literacy Project was created in the 1980s to explore the world of computing as it was at the time. The project ran for nearly a decade, during the birth of the home computer, and included interviews with Steve Jobs, Bill Gates, Steve Wozniak, Bob Moog, and Roger Foster. As part of the project, the BBC commissioned its iconic BBC Micro computer, which became the cornerstone of computing in education throughout the 1980s.0 The Model B had 32 KB of user RAM and was built by Acorn Computers. The BBC Micro was notable for its ruggedness, expandability, and the quality of its operating system.1 It was launched in December 1981 as part of the BBC's Computer Literacy Project."
             />
           </MKBox>
         </Grid>
@@ -63,4 +64,4 @@ function Historic() {
   );
 }
 
-export default Historic;
+export default Computer1;

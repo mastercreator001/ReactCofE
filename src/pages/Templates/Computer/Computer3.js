@@ -25,8 +25,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import overheadBig2015 from "assets/images/historicSchool/overhead2015Big.png";
-function Historic() {
+import bbcComputer3 from "assets/images/ComputerImages/bbcComputer3.png";
+
+function Computer3() {
   return (
     <MKBox
       component="section"
@@ -41,20 +42,20 @@ function Historic() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Historic School View From The Air
+              Computer Programming
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Church Of England Middle School In Full Operation
+              Computer programming at C Of E Middle School
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={overheadBig2015}
-              name="The School In full operation"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="TEXT TO BE ADDED"
+              image={bbcComputer3}
+              name="Bbc Computers"
+              position={{ color: "info", label: "A massive leap forward" }}
+              description="The upgraded model with casette access on the keyboard"
             />
           </MKBox>
         </Grid>
@@ -63,4 +64,4 @@ function Historic() {
   );
 }
 
-export default Historic;
+export default Computer3;
