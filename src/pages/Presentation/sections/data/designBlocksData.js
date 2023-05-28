@@ -22,7 +22,7 @@ import teachersGroup from "../../../../assets/images/Allteachers/teachersGroup.j
 import teachingStaff from "../../../../assets/images/Allteachers/teachingStaff.jpg";
 import careTaker from "../../../../assets/images/Auxstaff/careTaker.png";
 import kitchenStaff1 from "../../../../assets/images/Auxstaff/kitchenStaff1.jpg";
-//import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg";
+import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg";
 import mrsTout from "../../../../assets/images/Auxstaff/mrsTout.png";
 import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
 import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
@@ -109,12 +109,17 @@ export default [
       {
         image: kitchenStaff1,
         name: "Kitchen Staff ",
-        route: "/pages/auxstaff/Kitchenstaff1",
+        route: "/pages/auxstaff/kitchenstaff1",
+      },
+      {
+        image: kitchenStaff2,
+        name: "Kitchen Staff ",
+        route: "/pages/auxstaff/kitchenstaff2",
       },
       {
         image: libraryStaff,
         name: "Library Staff",
-        route: "/sections/page-sections/page-headers",
+        route: "/pages/auxstaff/librarystaff1",
       },
       {
         image: frenchTeacher,

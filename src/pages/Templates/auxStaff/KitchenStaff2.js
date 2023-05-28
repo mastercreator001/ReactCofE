@@ -25,9 +25,9 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import mrsSmith from "assets/images/Auxstaff/mrsSmith.jpg";
+import kitchenStaff2 from "assets/images/Auxstaff/kitchenStaff2.jpg";
 
-function DinnerLadies1() {
+function KitchenStaff2() {
   return (
     <MKBox
       component="section"
@@ -42,26 +42,26 @@ function DinnerLadies1() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Dinner Ladies at C of E Middle
+              Kitchen Staff at C of E Middle
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Mrs Smith
+              CURRENTLY UNKNOWN
             </MKTypography>
           </Grid>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsSmith}
-              name="Mrs Smith"
-              position={{ color: "info", label: "30 years service" }}
-              description="TEXT TO BE ADDED "
-            />
-          </MKBox>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={1} mt={10}>
+              <HorizontalTeamCard
+                image={kitchenStaff2}
+                name="kitchen lady"
+                position={{ color: "info", label: "Ca1977-1981" }}
+                description="TEXT TO BE ADDED FOR THE 1ST KITCHEN STAFF ???"
+              />
+            </MKBox>
+          </Grid>
         </Grid>
       </Container>
     </MKBox>
   );
 }
 
-export default DinnerLadies1;
+export default KitchenStaff2;

@@ -27,7 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 import mrsTout from "assets/images/Auxstaff/mrsTout.png";
 
-function dinnerladies2() {
+function DinnerLadies2() {
   return (
     <MKBox
       component="section"
@@ -64,4 +64,4 @@ function dinnerladies2() {
   );
 }
 
-export default dinnerladies2;
+export default DinnerLadies2;

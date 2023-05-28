@@ -27,7 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 import kitchenStaff1 from "assets/images/Auxstaff/kitchenStaff1.jpg";
 
-function kitchenstaff1() {
+function KitchenStaff1() {
   return (
     <MKBox
       component="section"
@@ -42,7 +42,7 @@ function kitchenstaff1() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Caretakers at C of E Middle
+              Kitchen staff at C of E Middle
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
               Mr Houghton
@@ -54,7 +54,7 @@ function kitchenstaff1() {
                 image={kitchenStaff1}
                 name="kitchen lady"
                 position={{ color: "info", label: "Ca1977-1981" }}
-                description="TEXT TO BE ADDED FOR THE 1ST CARE TAKER ???"
+                description="TEXT TO BE ADDED FOR THE KITCHEN STAFF ???"
               />
             </MKBox>
           </Grid>
@@ -64,4 +64,4 @@ function kitchenstaff1() {
   );
 }
 
-export default kitchenstaff1;
+export default KitchenStaff1;

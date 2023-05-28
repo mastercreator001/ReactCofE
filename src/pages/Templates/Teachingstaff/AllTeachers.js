@@ -48,6 +48,7 @@ import mrsCrump from "assets/images/Allteachers/mrsCrump.png";
 import mrHawes from "assets/images/Allteachers/mrHawes.png";
 import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
 import mrsDarby from "assets/images/Allteachers/mrsDarby.png";
+import mrsEmery from "assets/images/Allteachers/mrsEmery.png";
 
 function AllTeachers() {
   return (
@@ -411,6 +412,18 @@ The Evacuees was I'm sure a stressful occasion for all staff involved and the lo
               name="Chris Hodgkinson"
               position={{ color: "info", label: "Science Tec Teacher" }}
               description="MORE INFORMATION REQUIRED MISS HONOR."
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard
+              image={mrsEmery}
+              name="Mrs Maureen Emery"
+              position={{ color: "info", label: "Head Teacher's P.A" }}
+              description="A slightly shorter post this one as although I'm sure she made a massive behind the scenes contribution I cannot in all honesty add lots to this profile. Maureen worked as the head teachers personal assistant and was also frequently called upon to help out as supervisors alongside her husband on school trips such as the peak district.
+The lady in question is called Mrs Emery and all I know or have been told is that she was operational staff. So we can draw she was doing all the stuff behind the scenes that mad with all work. 
+I have established she joined the school in the mid to late eighties and was there certainly in the early 1990 but little more than that I'm afraid.  Do you know more than me as it would be great to get a little more information please. ."
             />
           </MKBox>
         </Grid>

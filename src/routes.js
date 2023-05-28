@@ -56,11 +56,15 @@ import Attention from "pages/Templates/Attention/Attention";
 import Trips from "pages/Templates/Trips/Trips";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
 import Maps1 from "pages/Templates/Maps/Maps1";
-import dinnerLadies1 from "pages/Templates/auxStaff/dinnerLadies1";
-import dinnerLadies2 from "pages/Templates/auxStaff/dinnerLadies2";
-import kitchenStaff1 from "pages/Templates/auxStaff/kitchenStaff1";
+import DinnerLadies1 from "pages/Templates/auxStaff/DinnerLadies1";
+import DinnerLadies2 from "pages/Templates/auxStaff/DinnerLadies2";
+import KitchenStaff1 from "pages/Templates/auxStaff/KitchenStaff1";
+import KitchenStaff2 from "pages/Templates/auxStaff/KitchenStaff2";
 import Caretakers1 from "pages/Templates/auxStaff/Caretakers1";
-
+import Maps2 from "pages/Templates/Maps/Maps2";
+import Maps3 from "pages/Templates/Maps/Maps3";
+import Maps4 from "pages/Templates/Maps/Maps4";
+import Librarystaff1 from "pages/Templates/auxStaff/Librarystaff1";
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
 import Features from "layouts/sections/page-sections/featuers";
@@ -72,6 +76,7 @@ import Forms from "layouts/sections/input-areas/forms";
 import Alerts from "layouts/sections/attention-catchers/alerts";
 import Modals from "layouts/sections/attention-catchers/modals";
 import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
+
 //import Avatars from "layouts/sections/elements/avatars";
 //import Badges from "layouts/sections/elements/badges";
 import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
@@ -80,9 +85,6 @@ import Dropdowns from "layouts/sections/elements/dropdowns";
 import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
-import Maps2 from "pages/Templates/Maps/Maps2";
-import Maps3 from "pages/Templates/Maps/Maps3";
-import Maps4 from "pages/Templates/Maps/Maps4";
 
 const routes = [
   {
@@ -146,17 +148,27 @@ const routes = [
           {
             name: "Dinner Ladies",
             route: "/pages/auxstaff/dinnerladies1",
-            component: <dinnerLadies1 />,
+            component: <DinnerLadies1 />,
           },
           {
             name: "Dinner Ladies",
             route: "/pages/auxstaff/dinnerladies2",
-            component: <dinnerLadies2 />,
+            component: <DinnerLadies2 />,
           },
           {
             name: "Kitchen Staff",
             route: "/pages/auxstaff/kitchenstaff1",
-            component: <kitchenStaff1 />,
+            component: <KitchenStaff1 />,
+          },
+          {
+            name: "Kitchen Staff",
+            route: "/pages/auxstaff/kitchenstaff2",
+            component: <KitchenStaff2 />,
+          },
+          {
+            name: "Library Staff",
+            route: "/pages/auxstaff/librarystaff1",
+            component: <Librarystaff1 />,
           },
           {
             name: "History",
