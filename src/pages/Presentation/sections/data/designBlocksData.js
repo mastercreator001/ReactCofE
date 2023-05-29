@@ -130,17 +130,17 @@ export default [
       {
         image: science,
         name: "Science",
-        route: "/pages/subjects",
+        route: "/pages/subjects/science",
       },
       {
         image: maths,
         name: "Maths",
-        route: "/sections/navigation/nav-tabs",
+        route: "/pages/subjects/maths",
       },
       {
         image: english,
         name: "English",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/english",
       },
       {
         image: physicalEducation,

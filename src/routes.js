@@ -37,8 +37,7 @@ Coded by www.creative-tim.com
 */
 // @mui material components
 import Icon from "@mui/material/Icon";
-// @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
+
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -88,6 +87,8 @@ import Computer1 from "pages/Templates/Computer/Computer1";
 import Computer2 from "pages/Templates/Computer/Computer2";
 import Computer3 from "pages/Templates/Computer/Computer3";
 import Computer4 from "pages/Templates/Computer/Computer4";
+import English from "pages/Templates/Subjects/English";
+import Maths from "pages/Templates/Subjects/Maths";
 
 const routes = [
   {
@@ -202,8 +203,18 @@ const routes = [
         collapse: [
           {
             name: "School Subjects",
-            route: "/pages/subjects",
+            route: "/pages/subjects/science",
             component: <Science />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/english",
+            component: <English />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/maths",
+            component: <Maths />,
           },
           {
             name: "School Maps",
@@ -411,11 +422,6 @@ const routes = [
         href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
       },
     ],
-  },
-  {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "https://github.com/mastercreator001",
   },
 ];
 

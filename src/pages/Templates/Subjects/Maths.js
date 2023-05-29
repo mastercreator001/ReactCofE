@@ -30,7 +30,7 @@ import mrMoorse1 from "assets/images/Allteachers/mrMoorse1.jpg";
 import mrTansley1 from "assets/images/Allteachers/mrTansley1.jpg";
 import scienceClip from "assets/images/facebookClippings/scienceClip.jpg";
 
-function Science() {
+function Maths() {
   return (
     <MKBox
       component="section"
@@ -45,10 +45,10 @@ function Science() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Science Class
+              Maths Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              A journey into imagination and the possibilities of science
+              A journey mental journey into calclus and equations.
             </MKTypography>
           </Grid>
         </Grid>
@@ -110,4 +110,4 @@ function Science() {
   );
 }
 
-export default Science;
+export default Maths;

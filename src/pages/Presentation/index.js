@@ -42,7 +42,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import overhead2015 from "../../assets/images/historicSchool/overhead2015.png";
+import Background1 from "../../assets/images/BackgroundMain/Background1.jpg";
 
 function Presentation() {
   return (
@@ -59,7 +59,7 @@ function Presentation() {
         minHeight="100vh"
         width="100%"
         sx={{
-          backgroundImage: `url(${overhead2015})`,
+          backgroundImage: `url(${Background1})`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
@@ -70,34 +70,34 @@ function Presentation() {
           <Grid
             container
             item
-            xs={10}
-            lg={4}
+            xs={8}
+            lg={8}
             justifyContent="center"
             mx="auto"
-            sx={{ boxShadow: 2 }}
+            sx={{ boxShadow: 0 }}
             bgcolor="#150c0c87"
-            p="10px"
+            p="8px"
           >
             <MKTypography
               variant="h1"
               color="white"
-              mt={-1}
-              mb={-1}
-              ml={4}
+              mt={0}
+              mb={0}
+              ml={0}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
                   fontSize: size["3xl"],
                 },
               })}
             >
-              Wellington Road, <br /> Church Of England Middle School
+              Church Of England Middle School
             </MKTypography>
             <MKTypography
               variant="body1"
               color="blue"
               textAlign="center"
               px={{ xs: -12, lg: 12 }}
-              mt={-2}
+              mt={0}
             ></MKTypography>
           </Grid>
         </Container>
@@ -106,27 +106,26 @@ function Presentation() {
             container
             item
             xs={10}
-            lg={6}
+            lg={8}
             justifyContent="center"
             mx="auto"
-            sx={{ boxShadow: 2 }}
+            sx={{ boxShadow: 0 }}
             bgcolor="#150c0c87"
             p="8px"
           >
             <MKTypography
-              variant="h1"
+              variant="h2"
               color="white"
               mt={-1}
               mb={-1}
-              ml={4}
+              ml={-1}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
                   fontSize: size["2xl"],
                 },
               })}
             >
-              Welcome back to <br />
-              Welly Road Middle school{" "}
+              Welcome back to Welly Road Middle school{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -146,7 +145,7 @@ function Presentation() {
           mb: 4,
           backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
           backdropFilter: "saturate(200%) blur(30px)",
-          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          boxShadow: ({ boxShadows: { xl } }) => xl,
         }}
       >
         <Counters />
