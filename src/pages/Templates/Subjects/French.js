@@ -20,6 +20,7 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+//import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
@@ -30,7 +31,7 @@ import mrHawes1 from "assets/images/Allteachers/mrHawes1.jpg";
 import missForer3 from "assets/images/Allteachers/missForer3.jpg";
 import englishClip from "assets/images/facebookClippings/englishClip.jpg";
 
-function English() {
+function French() {
   return (
     <MKBox
       component="section"
@@ -45,10 +46,10 @@ function English() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 3 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              English Class
+              French Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              A journey of literacy spelling and grammar.
+              Working in different languages, learning and adapting.
             </MKTypography>
           </Grid>
         </Grid>
@@ -56,7 +57,7 @@ function English() {
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={missForer3}
-              name="Why Do We Need to learn English At School"
+              name="Why Do We Need to learn French At School"
               position={{ color: "info", label: "Mr Forer head of English, Drama, and French" }}
               description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
             />
@@ -108,4 +109,4 @@ function English() {
   );
 }
 
-export default English;
+export default French;

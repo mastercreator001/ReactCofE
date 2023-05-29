@@ -30,7 +30,7 @@ import mrHawes1 from "assets/images/Allteachers/mrHawes1.jpg";
 import missForer3 from "assets/images/Allteachers/missForer3.jpg";
 import englishClip from "assets/images/facebookClippings/englishClip.jpg";
 
-function English() {
+function ReligiousEducation() {
   return (
     <MKBox
       component="section"
@@ -45,10 +45,10 @@ function English() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 3 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              English Class
+              Religious Education Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              A journey of literacy spelling and grammar.
+              A Class in belief systems present throught the world.
             </MKTypography>
           </Grid>
         </Grid>
@@ -108,4 +108,4 @@ function English() {
   );
 }
 
-export default English;
+export default ReligiousEducation;

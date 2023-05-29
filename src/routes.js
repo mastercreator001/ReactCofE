@@ -50,7 +50,9 @@ import Historic from "pages/Templates/Historic/Historic";
 import Historic1 from "pages/Templates/Historic/Historic1";
 import Historic2 from "pages/Templates/Historic/Historic2";
 import Historic3 from "pages/Templates/Historic/Historic3";
-import Attention from "pages/Templates/Attention/Attention";
+import Attention1 from "pages/Templates/Attention/Attention1";
+import Attention2 from "pages/Templates/Attention/Attention2";
+import Attention3 from "pages/Templates/Attention/Attention3";
 import Trips from "pages/Templates/Trips/Trips";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
 import Maps1 from "pages/Templates/Maps/Maps1";
@@ -89,6 +91,13 @@ import Computer3 from "pages/Templates/Computer/Computer3";
 import Computer4 from "pages/Templates/Computer/Computer4";
 import English from "pages/Templates/Subjects/English";
 import Maths from "pages/Templates/Subjects/Maths";
+import PE from "pages/Templates/Subjects/PhysicalEducation";
+import Music from "pages/Templates/Subjects/Music";
+import WoodWork from "pages/Templates/Subjects/WoodWork";
+import DomesticScience from "pages/Templates/Subjects/DomesticScience";
+import Art from "pages/Templates/Subjects/Art";
+import ReligiousEducation from "pages/Templates/Subjects/ReligiousEducation";
+import French from "pages/Templates/Subjects/French";
 
 const routes = [
   {
@@ -217,6 +226,41 @@ const routes = [
             component: <Maths />,
           },
           {
+            name: "School Subjects",
+            route: "/pages/subjects/physicaleducation",
+            component: <PE />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/music",
+            component: <Music />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/woodwork",
+            component: <WoodWork />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/domesticscience",
+            component: <DomesticScience />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/art",
+            component: <Art />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/religiouseducation",
+            component: <ReligiousEducation />,
+          },
+          {
+            name: "School Subjects",
+            route: "/pages/subjects/French",
+            component: <French />,
+          },
+          {
             name: "School Maps",
             route: "/pages/maps",
             component: <Maps />,
@@ -283,8 +327,18 @@ const routes = [
           },
           {
             name: "Attention Catching Articles",
-            route: "/pages/attention",
-            component: <Attention />,
+            route: "/pages/attention1",
+            component: <Attention1 />,
+          },
+          {
+            name: "Attention Catching Articles",
+            route: "/pages/attention2",
+            component: <Attention2 />,
+          },
+          {
+            name: "Attention Catching Articles",
+            route: "/pages/attention3",
+            component: <Attention3 />,
           },
           {
             name: "School Trips",

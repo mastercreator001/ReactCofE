@@ -64,8 +64,9 @@ import schoolhistorictotaloverview1 from "../../../../assets/images/historicScho
 import overhead2015 from "../../../../assets/images/historicSchool/overhead2015.png";
 import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
+//import schoolClosure5 from "../../../../assets/images/Attentioncatchers/schoolClosure5.png";
 import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
-
+//import schoolClosing1 from "../../../../assets/images/Attentioncatchers/schoolClosing1.png";
 export default [
   {
     title: "Staff Heads/teachers&support staff",
@@ -145,37 +146,37 @@ export default [
       {
         image: physicalEducation,
         name: "Physical Education",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/physicaleducation",
       },
       {
         image: music,
         name: "Music",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/music",
       },
       {
         image: woodwork,
         name: "Wood Work",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/woodwork",
       },
       {
         image: cookingclass,
         name: "Domestic Science",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/domesticscience",
       },
       {
         image: artClass,
         name: "Art",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/art",
       },
       {
         image: religiousEducation,
         name: "Religious Education",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/religiouseducation",
       },
       {
         image: frenchClass,
         name: "French",
-        route: "/sections/navigation/pagination",
+        route: "/pages/subjects/french",
       },
     ],
   },
@@ -274,17 +275,17 @@ export default [
         image: schoolopening,
         name: "The story behind the music room",
         description: "Some Important articles you may have missed.",
-        route: "/pages/attention",
+        route: "/pages/attention1",
       },
       {
         image: trinitymiddlefire22,
         name: "The Closing Tragedy",
-        route: "/pages/attention",
+        route: "/pages/attention2",
       },
       {
         image: octogonWindow,
         name: "Marvels within the school",
-        route: "/pages/attention",
+        route: "/pages/attention3",
       },
     ],
   },
