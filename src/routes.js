@@ -53,7 +53,6 @@ import Historic3 from "pages/Templates/Historic/Historic3";
 import Attention1 from "pages/Templates/Attention/Attention1";
 import Attention2 from "pages/Templates/Attention/Attention2";
 import Attention3 from "pages/Templates/Attention/Attention3";
-import Trips from "pages/Templates/Trips/Trips";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
 import Maps1 from "pages/Templates/Maps/Maps1";
 import DinnerLadies1 from "pages/Templates/auxStaff/DinnerLadies1";
@@ -98,7 +97,9 @@ import DomesticScience from "pages/Templates/Subjects/DomesticScience";
 import Art from "pages/Templates/Subjects/Art";
 import ReligiousEducation from "pages/Templates/Subjects/ReligiousEducation";
 import French from "pages/Templates/Subjects/French";
-
+import Singleton from "pages/Templates/Trips/Singleton";
+import Totland from "pages/Templates/Trips/Totland";
+import Malham from "pages/Templates/Trips/Malham";
 const routes = [
   {
     name: "pages",
@@ -342,8 +343,18 @@ const routes = [
           },
           {
             name: "School Trips",
-            route: "/pages/trips",
-            component: <Trips />,
+            route: "/pages/trips/singleton",
+            component: <Singleton />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/totland",
+            component: <Totland />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/malham",
+            component: <Malham />,
           },
           {
             name: "School Documents",

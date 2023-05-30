@@ -59,8 +59,8 @@ import romanVillanewport from "../../../../assets/images/schoolTrips/romanVillan
 import tripsOut from "../../../../assets/images/schoolTrips/tripsOut.jpg";
 import osbourneHouse from "../../../../assets/images/schoolTrips/osbourneHouse.png";
 import apolloTheatre from "../../../../assets/images/schoolTrips/apolloTheatre.png";
-import schoolmapcurrentoverview from "../../../../assets/images/historicSchool/schoolmapcurrentoverview.png";
-import schoolhistorictotaloverview1 from "../../../../assets/images/historicSchool/schoolhistorictotaloverview1.png";
+//import schoolmapcurrentoverview from "../../../../assets/images/historicSchool/schoolmapcurrentoverview.png";
+//import schoolhistorictotaloverview1 from "../../../../assets/images/historicSchool/schoolhistorictotaloverview1.png";
 import overhead2015 from "../../../../assets/images/historicSchool/overhead2015.png";
 import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
@@ -297,17 +297,17 @@ export default [
       {
         image: weald,
         name: "1st Years Singleton trip.",
-        route: "/pages/trips",
+        route: "/pages/trips/singleton",
       },
       {
         image: totlandYouthhostel,
         name: "2nd years Totland YMCA Hostel.",
-        route: "/pages/trips",
+        route: "/pages/trips/totland",
       },
       {
         image: newfieldHall,
         name: "3rd years Malham Yorkshire (HighField House).",
-        route: "/pages/trips",
+        route: "/pages/trips/malham",
       },
       {
         image: pooleFlag,
@@ -342,16 +342,6 @@ export default [
       {
         image: apolloTheatre,
         name: "Various Trips out to Brading and across the Island.",
-        route: "/pages/trips",
-      },
-      {
-        image: schoolmapcurrentoverview,
-        name: "School Back in the Eighities ",
-        route: "/pages/trips",
-      },
-      {
-        image: schoolhistorictotaloverview1,
-        name: "Historic school",
         route: "/pages/trips",
       },
     ],
