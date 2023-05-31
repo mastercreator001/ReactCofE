@@ -312,37 +312,32 @@ export default [
       {
         image: pooleFlag,
         name: "4th years Poole in Dorset Adveture Center.",
-        route: "/pages/trips",
+        route: "/pages/trips/poole",
       },
       {
         image: carisbrookeCastle,
         name: "Carisbrooke Castle, mutiple trips.",
-        route: "/pages/trips",
+        route: "/pages/trips/carisbrooke",
       },
       {
         image: romanVillanewport,
         name: "Newport Roman Villa trips",
-        route: "/pages/trips",
+        route: "/pages/trips/romanvilla",
       },
       {
         image: apolloTheatre,
         name: "Apollo Theatre in Newport.",
-        route: "/pages/trips",
+        route: "/pages/trips/apollo",
       },
       {
         image: tripsOut,
         name: "Various Trips out across the Island",
-        route: "/pages/trips",
+        route: "/pages/trips/bradingandvarious",
       },
       {
         image: osbourneHouse,
         name: "Osbourne House.",
-        route: "/pages/trips",
-      },
-      {
-        image: apolloTheatre,
-        name: "Various Trips out to Brading and across the Island.",
-        route: "/pages/trips",
+        route: "/pages/trips/osbournehouse",
       },
     ],
   },

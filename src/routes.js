@@ -100,6 +100,13 @@ import French from "pages/Templates/Subjects/French";
 import Singleton from "pages/Templates/Trips/Singleton";
 import Totland from "pages/Templates/Trips/Totland";
 import Malham from "pages/Templates/Trips/Malham";
+import Poole from "pages/Templates/Trips/Poole";
+import Carisbrooke from "pages/Templates/Trips/Carisbrooke";
+import RomanVilla from "pages/Templates/Trips/RomanVilla";
+import Apollo from "pages/Templates/Trips/Apollo";
+import BradingandVarious from "pages/Templates/Trips/BradingandVarious";
+import OsbourneHouse from "pages/Templates/Trips/OsbourneHouse";
+
 const routes = [
   {
     name: "pages",
@@ -355,6 +362,36 @@ const routes = [
             name: "School Trips",
             route: "/pages/trips/malham",
             component: <Malham />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/poole",
+            component: <Poole />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/carisbrooke",
+            component: <Carisbrooke />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/romanvilla",
+            component: <RomanVilla />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/apollo",
+            component: <Apollo />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/bradingandvarious",
+            component: <BradingandVarious />,
+          },
+          {
+            name: "School Trips",
+            route: "/pages/trips/osbournehouse",
+            component: <OsbourneHouse />,
           },
           {
             name: "School Documents",
