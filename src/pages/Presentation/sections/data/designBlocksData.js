@@ -19,7 +19,7 @@ Coded by www.creative-tim.com
 import harrisonImage from "../../../../assets/images/headTeachers/harrison.jpg";
 import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
 import teachersGroup from "../../../../assets/images/Allteachers/teachersGroup.jpg";
-import teachingStaff from "../../../../assets/images/Allteachers/teachingStaff.jpg";
+//import teachingStaff from "../../../../assets/images/Allteachers/teachingStaff.jpg";
 import careTaker from "../../../../assets/images/Auxstaff/careTaker.png";
 import kitchenStaff1 from "../../../../assets/images/Auxstaff/kitchenStaff1.jpg";
 import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg";
@@ -86,11 +86,6 @@ export default [
         image: teachersGroup,
         name: "Teaching Staff",
         route: "/pages/teachingstaff/allteachers",
-      },
-      {
-        image: teachingStaff,
-        name: "Teaching Staff",
-        route: "/sections/page-sections/page-headers",
       },
       {
         image: careTaker,
