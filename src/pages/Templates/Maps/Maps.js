@@ -24,8 +24,6 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
-// Images
-import schoolPlanfinal from "assets/images/school maps/schoolPlanfinal.png";
 function Maps() {
   return (
     <MKBox
@@ -52,8 +50,8 @@ function Maps() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={schoolPlanfinal}
-              name="This Mpa is an Svg recreation of a previous map"
+              image="https://pictures.abebooks.com/inventory/31367552755.jpg"
+              name="This Map is an Svg recreation of a previous map"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
               description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
     His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 

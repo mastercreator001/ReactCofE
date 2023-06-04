@@ -24,20 +24,31 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
+import PhotoSwipe from "react-photoswipe";
+
 function HorizontalTeamCard({ image, name, position, description }) {
+  let isOpen = false;
+  let items = [
+    {
+      src: { image },
+      thumbnail: { image },
+      msrc: { image },
+      title: { name },
+    },
+  ];
+  let options = {
+    // history: false
+    //http://photoswipe.com/documentation/options.html
+  };
   return (
     <Card sx={{ mt: 3 }}>
       <Grid container>
         <Grid item xs={12} md={6} lg={4} sx={{ mt: -6 }}>
           <MKBox width="100%" pt={2} pb={1} px={2}>
-            <MKBox
-              component="img"
-              src={image}
-              alt={name}
-              width="100%"
-              borderRadius="md"
-              shadow="lg"
-            />
+            <img src={image} alt={name} title={name} />
+            <PhotoSwipe isOpen={isOpen} items={items} options={options}>
+              <img src={items[0].thumbnail} />
+            </PhotoSwipe>
           </MKBox>
         </Grid>
         <Grid item xs={12} md={6} lg={8} sx={{ my: "auto" }}>
