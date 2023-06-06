@@ -65,25 +65,11 @@ import Maps3 from "pages/Templates/Maps/Maps3";
 import Maps4 from "pages/Templates/Maps/Maps4";
 import Librarystaff1 from "pages/Templates/auxStaff/Librarystaff1";
 // Sections
-import PageHeaders from "layouts/sections/page-sections/page-headers";
-import Features from "layouts/sections/page-sections/featuers";
-import Navbars from "layouts/sections/navigation/navbars";
 import NavTabs from "layouts/sections/navigation/nav-tabs";
 import Pagination from "layouts/sections/navigation/pagination";
-import Inputs from "layouts/sections/input-areas/inputs";
-import Forms from "layouts/sections/input-areas/forms";
-import Alerts from "layouts/sections/attention-catchers/alerts";
-import Modals from "layouts/sections/attention-catchers/modals";
-import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
 
 //import Avatars from "layouts/sections/elements/avatars";
 //import Badges from "layouts/sections/elements/badges";
-import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
-import Buttons from "layouts/sections/elements/buttons";
-import Dropdowns from "layouts/sections/elements/dropdowns";
-import ProgressBars from "layouts/sections/elements/progress-bars";
-import Toggles from "layouts/sections/elements/toggles";
-import Typography from "layouts/sections/elements/typography";
 import Computer1 from "pages/Templates/Computer/Computer1";
 import Computer2 from "pages/Templates/Computer/Computer2";
 import Computer3 from "pages/Templates/Computer/Computer3";
@@ -109,39 +95,11 @@ import OsbourneHouse from "pages/Templates/Trips/OsbourneHouse";
 
 const routes = [
   {
-    name: "pages",
-    icon: <Icon>dashboard</Icon>,
-    columns: 2,
-    rowsPerColumn: 4,
-    collapse: [
-      {
-        name: " Nav Pages",
-        collapse: [
-          {
-            name: "about us",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
-          },
-          {
-            name: "contact us",
-            route: "/pages/landing-pages/contact-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    name: "sections",
+    name: "School Sections",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "School Staff",
+        name: "Head Teachers and Deputy Heads",
         description: "See all sections",
         dropdown: true,
         collapse: [
@@ -156,11 +114,25 @@ const routes = [
             route: "/pages/teachers/dhTeachers",
             component: <DhTeachers />,
           },
+        ],
+      },
+      {
+        name: "All Teachers",
+        description: "See all input areas",
+        dropdown: true,
+        collapse: [
           {
             name: "Teaching Staff",
             route: "/pages/teachingstaff/allteachers",
             component: <AllTeachers />,
           },
+        ],
+      },
+      {
+        name: "Auxillary Staff",
+        description: "Caretakers, Dinner Ladies Kitchen Staff",
+        dropdown: true,
+        collapse: [
           {
             name: "Caretakers",
             route: "/pages/auxstaff/caretakers1",
@@ -191,212 +163,62 @@ const routes = [
             route: "/pages/auxstaff/librarystaff1",
             component: <Librarystaff1 />,
           },
-          {
-            name: "History",
-            route: "/sections/page-sections/page-headers",
-            component: <PageHeaders />,
-          },
-          {
-            name: "School Maps",
-            route: "/sections/page-sections/features",
-            component: <Features />,
-          },
-          {
-            name: "Gallery",
-            route: "/sections/page-sections/features",
-            component: <Features />,
-          },
-          {
-            name: "Demolition",
-            route: "/sections/page-sections/features",
-            component: <Features />,
-          },
         ],
       },
       {
-        name: "Docs",
-        description: "See all navigations",
+        name: "School Subjects",
+        description: "Subjects taught at the school",
         dropdown: true,
         collapse: [
           {
-            name: "School Subjects",
+            name: "Science Class",
             route: "/pages/subjects/science",
             component: <Science />,
           },
           {
-            name: "School Subjects",
+            name: "English Class",
             route: "/pages/subjects/english",
             component: <English />,
           },
           {
-            name: "School Subjects",
+            name: "Maths Class",
             route: "/pages/subjects/maths",
             component: <Maths />,
           },
           {
-            name: "School Subjects",
+            name: "Physical Education",
             route: "/pages/subjects/physicaleducation",
             component: <PE />,
           },
           {
-            name: "School Subjects",
+            name: "Music Class",
             route: "/pages/subjects/music",
             component: <Music />,
           },
           {
-            name: "School Subjects",
+            name: "C.D.T Class",
             route: "/pages/subjects/woodwork",
             component: <WoodWork />,
           },
           {
-            name: "School Subjects",
+            name: "Domestic Science",
             route: "/pages/subjects/domesticscience",
             component: <DomesticScience />,
           },
           {
-            name: "School Subjects",
+            name: "Art Class",
             route: "/pages/subjects/art",
             component: <Art />,
           },
           {
-            name: "School Subjects",
+            name: "Religious Education Class",
             route: "/pages/subjects/religiouseducation",
             component: <ReligiousEducation />,
           },
           {
-            name: "School Subjects",
+            name: "French Class",
             route: "/pages/subjects/French",
             component: <French />,
-          },
-          {
-            name: "School Maps",
-            route: "/pages/maps",
-            component: <Maps />,
-          },
-          {
-            name: "School Maps",
-            route: "/pages/maps1",
-            component: <Maps1 />,
-          },
-          {
-            name: "School Maps",
-            route: "/pages/maps2",
-            component: <Maps2 />,
-          },
-          {
-            name: "School Maps",
-            route: "/pages/maps3",
-            component: <Maps3 />,
-          },
-          {
-            name: "School Maps",
-            route: "/pages/maps4",
-            component: <Maps4 />,
-          },
-          {
-            name: "Historic School View",
-            route: "/pages/historic",
-            component: <Historic />,
-          },
-          {
-            name: "Historic School During further Redevolpment",
-            route: "/pages/historic1",
-            component: <Historic1 />,
-          },
-          {
-            name: "Historic School View Overlaid",
-            route: "/pages/historic2",
-            component: <Historic2 />,
-          },
-          {
-            name: "Historic School View Overlaid",
-            route: "/pages/historic3",
-            component: <Historic3 />,
-          },
-          {
-            name: "Computer Programming",
-            route: "/pages/computer1",
-            component: <Computer1 />,
-          },
-          {
-            name: "Computer Programming",
-            route: "/pages/computer2",
-            component: <Computer2 />,
-          },
-          {
-            name: "Computer Programming",
-            route: "/pages/computer3",
-            component: <Computer3 />,
-          },
-          {
-            name: "Computer Programming",
-            route: "/pages/computer4",
-            component: <Computer4 />,
-          },
-          {
-            name: "Attention Catching Articles",
-            route: "/pages/attention1",
-            component: <Attention1 />,
-          },
-          {
-            name: "Attention Catching Articles",
-            route: "/pages/attention2",
-            component: <Attention2 />,
-          },
-          {
-            name: "Attention Catching Articles",
-            route: "/pages/attention3",
-            component: <Attention3 />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/singleton",
-            component: <Singleton />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/totland",
-            component: <Totland />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/malham",
-            component: <Malham />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/poole",
-            component: <Poole />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/carisbrooke",
-            component: <Carisbrooke />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/romanvilla",
-            component: <RomanVilla />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/apollo",
-            component: <Apollo />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/bradingandvarious",
-            component: <BradingandVarious />,
-          },
-          {
-            name: "School Trips",
-            route: "/pages/trips/osbournehouse",
-            component: <OsbourneHouse />,
-          },
-          {
-            name: "School Documents",
-            route: "/sections/navigation/navbars",
-            component: <Navbars />,
           },
           {
             name: "The School Day",
@@ -404,6 +226,140 @@ const routes = [
             route: "/sections/navigation/nav-tabs",
             component: <NavTabs />,
           },
+        ],
+      },
+      {
+        name: "School Trips ",
+        description: "Singleton Totland Malham ",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Singleton Trip",
+            route: "/pages/trips/singleton",
+            component: <Singleton />,
+          },
+          {
+            name: "Totland Trip",
+            route: "/pages/trips/totland",
+            component: <Totland />,
+          },
+          {
+            name: "Malham Trip",
+            route: "/pages/trips/malham",
+            component: <Malham />,
+          },
+          {
+            name: "Poole In Dorset Adventure Center Trip",
+            route: "/pages/trips/poole",
+            component: <Poole />,
+          },
+          {
+            name: "Carisbrooke Castle Trips",
+            route: "/pages/trips/carisbrooke",
+            component: <Carisbrooke />,
+          },
+          {
+            name: "Newport Roman Villa Trips",
+            route: "/pages/trips/romanvilla",
+            component: <RomanVilla />,
+          },
+          {
+            name: "Apollo Theatre Trips",
+            route: "/pages/trips/apollo",
+            component: <Apollo />,
+          },
+          {
+            name: " Brading Trips",
+            route: "/pages/trips/bradingandvarious",
+            component: <BradingandVarious />,
+          },
+          {
+            name: "Osbourne House Trips",
+            route: "/pages/trips/osbournehouse",
+            component: <OsbourneHouse />,
+          },
+        ],
+      },
+      {
+        name: "Demolition",
+        description: "Schools Demolition",
+        dropdown: true,
+        collapse: [
+          {
+            name: "To be created",
+            route: "/pages/teachingstaff/allteachers",
+            component: <AllTeachers />,
+          },
+        ],
+      },
+      {
+        name: "BBC Computers",
+        description: "Familur Sights",
+        dropdown: true,
+        collapse: [
+          {
+            name: "A Massive Leap Forward",
+            route: "/pages/computer1",
+            component: <Computer1 />,
+          },
+          {
+            name: "A row of BBC Computers",
+            route: "/pages/computer2",
+            component: <Computer2 />,
+          },
+          {
+            name: "New And Updated Keyboards",
+            route: "/pages/computer3",
+            component: <Computer3 />,
+          },
+          {
+            name: "Floopy Disc Revolution",
+            route: "/pages/computer4",
+            component: <Computer4 />,
+          },
+        ],
+      },
+
+      {
+        name: "Attention Catchers Articles",
+        description: "Interesting Facts",
+        dropdown: true,
+        collapse: [
+          {
+            name: "The Story Behind The Music Room",
+            route: "/pages/attention1",
+            component: <Attention1 />,
+          },
+          {
+            name: "The Closing Tragedy",
+            route: "/pages/attention2",
+            component: <Attention2 />,
+          },
+          {
+            name: "Marvels Build Into The School",
+            route: "/pages/attention3",
+            component: <Attention3 />,
+          },
+        ],
+      },
+      {
+        name: "The School Day Routines",
+        description: "Break Time Lunch Time and Home Time",
+        dropdown: true,
+        collapse: [
+          {
+            name: "The School Day",
+            name1: "School Routines, lunch Breaktimes",
+            route: "/sections/navigation/nav-tabs",
+            component: <NavTabs />,
+          },
+        ],
+      },
+      {
+        name: "Fire Alarms",
+        description: "Testing and Photos",
+        dropdown: true,
+        collapse: [
           {
             name: "Fire Alarms",
             route: "/sections/navigation/pagination",
@@ -411,117 +367,107 @@ const routes = [
           },
         ],
       },
+    ],
+  },
+  {
+    icon: <Icon>article</Icon>,
+    name: "Maps",
+    description: "See school maps in development",
+    dropdown: true,
+    collapse: [
       {
-        name: "teachers",
-        description: "See all input areas",
-        dropdown: true,
-        collapse: [
-          {
-            name: "inputs",
-            route: "/sections/input-areas/inputs",
-            component: <Inputs />,
-          },
-          {
-            name: "forms",
-            route: "/sections/input-areas/forms",
-            component: <Forms />,
-          },
-        ],
+        name: "School Maps Svg Recreation",
+        route: "/pages/maps",
+        component: <Maps />,
       },
       {
-        name: "attention catchers",
-        description: "See all examples",
-        dropdown: true,
-        collapse: [
-          {
-            name: "alerts",
-            route: "/sections/attention-catchers/alerts",
-            component: <Alerts />,
-          },
-          {
-            name: "modals",
-            route: "/sections/attention-catchers/modals",
-            component: <Modals />,
-          },
-          {
-            name: "tooltips & popovers",
-            route: "/sections/attention-catchers/tooltips-popovers",
-            component: <TooltipsPopovers />,
-          },
-        ],
+        name: "School Maps original Map",
+        route: "/pages/maps1",
+        component: <Maps1 />,
       },
       {
-        name: "Maps",
-        description: "See school maps in developmet",
-        dropdown: true,
-        collapse: [
-          {
-            name: "avatars",
-            route: "/pages/maps",
-            component: <Maps />,
-          },
-          {
-            name: "badges",
-            route: "/pages/maps/maps1",
-            component: <Maps1 />,
-          },
-          {
-            name: "breadcrumbs",
-            route: "/sections/elements/breadcrumbs",
-            component: <BreadcrumbsEl />,
-          },
-          {
-            name: "buttons",
-            route: "/sections/elements/buttons",
-            component: <Buttons />,
-          },
-          {
-            name: "dropdowns",
-            route: "/sections/elements/dropdowns",
-            component: <Dropdowns />,
-          },
-          {
-            name: "progress bars",
-            route: "/sections/elements/progress-bars",
-            component: <ProgressBars />,
-          },
-          {
-            name: "toggles",
-            route: "/sections/elements/toggles",
-            component: <Toggles />,
-          },
-          {
-            name: "typography",
-            route: "/sections/elements/typography",
-            component: <Typography />,
-          },
-        ],
+        name: "School Maps plain map",
+        route: "/pages/maps2",
+        component: <Maps2 />,
+      },
+      {
+        name: "School Maps Christ The King",
+        route: "/pages/maps3",
+        component: <Maps3 />,
+      },
+      {
+        name: "School Maps Recreation of final map",
+        route: "/pages/maps4",
+        component: <Maps4 />,
       },
     ],
   },
   {
-    name: "docs",
     icon: <Icon>article</Icon>,
+    name: "Historic School Maps",
+    description: "See school maps in development",
+    dropdown: true,
     collapse: [
       {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
+        name: "Historic School View",
+        route: "/pages/historic",
+        component: <Historic />,
       },
       {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
+        name: "Historic School During further Redevolpment",
+        route: "/pages/historic1",
+        component: <Historic1 />,
       },
       {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+        name: "Historic School View Overlaid",
+        route: "/pages/historic2",
+        component: <Historic2 />,
       },
       {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
+        name: "Historic School View Overlaid",
+        route: "/pages/historic3",
+        component: <Historic3 />,
+      },
+    ],
+  },
+  {
+    icon: <Icon>article</Icon>,
+    name: "School Demolition",
+    description: "Schools demolition to be made ",
+    dropdown: true,
+    collapse: [
+      {
+        name: "Historic School View",
+        route: "/pages/historic",
+        component: <Historic />,
+      },
+    ],
+  },
+  {
+    name: "Info Pages",
+    icon: <Icon>dashboard</Icon>,
+    columns: 2,
+    rowsPerColumn: 4,
+    collapse: [
+      {
+        name: " Information Pages",
+        collapse: [
+          {
+            name: "about us",
+            route: "/pages/landing-pages/about-us",
+            component: <AboutUs />,
+          },
+          {
+            name: "contact us",
+            route: "/pages/landing-pages/contact-us",
+            component: <ContactUs />,
+          },
+          {
+            name: "author",
+            route: "/pages/landing-pages/author",
+            component: <Author />,
+          },
+        ],
       },
     ],
   },
