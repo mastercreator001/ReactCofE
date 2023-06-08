@@ -92,6 +92,7 @@ import RomanVilla from "pages/Templates/Trips/RomanVilla";
 import Apollo from "pages/Templates/Trips/Apollo";
 import BradingandVarious from "pages/Templates/Trips/BradingandVarious";
 import OsbourneHouse from "pages/Templates/Trips/OsbourneHouse";
+import HomeWork from "pages/Templates/FireAlarms/HomeWork";
 
 const routes = [
   {
@@ -361,9 +362,14 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "HomeworkDiary",
+            name: "Fire Alarms and Testing",
             route: "/pages/templates/firealarms/firealarm1",
             component: <FireAlarm1 />,
+          },
+          {
+            name: "HomeworkDiary",
+            route: "/pages/templates/firealarms/homework",
+            component: <HomeWork />,
           },
         ],
       },

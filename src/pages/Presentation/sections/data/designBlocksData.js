@@ -340,7 +340,7 @@ export default [
   },
   {
     title: "Fire Alarms",
-    description: "Fire |Alarms and school routine ",
+    description: "Fire Alarms and school routines ",
     items: [
       {
         image: FireAlarm,
@@ -350,7 +350,7 @@ export default [
       {
         image: HomeworkDiary,
         name: "School Routines",
-        route: "/pages/trips/totland",
+        route: "/pages/templates/firealarms/homework",
       },
     ],
   },
