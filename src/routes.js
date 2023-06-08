@@ -66,7 +66,7 @@ import Maps4 from "pages/Templates/Maps/Maps4";
 import Librarystaff1 from "pages/Templates/auxStaff/Librarystaff1";
 // Sections
 import NavTabs from "layouts/sections/navigation/nav-tabs";
-import Pagination from "layouts/sections/navigation/pagination";
+import FireAlarm1 from "pages/Templates/FireAlarms/FireAlarm1.js";
 
 //import Avatars from "layouts/sections/elements/avatars";
 //import Badges from "layouts/sections/elements/badges";
@@ -118,7 +118,7 @@ const routes = [
       },
       {
         name: "All Teachers",
-        description: "See all input areas",
+        description: "Teaching Staff, Tutors, Year Heads",
         dropdown: true,
         collapse: [
           {
@@ -361,9 +361,9 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "Fire Alarms",
-            route: "/sections/navigation/pagination",
-            component: <Pagination />,
+            name: "HomeworkDiary",
+            route: "/pages/templates/firealarms/firealarm1",
+            component: <FireAlarm1 />,
           },
         ],
       },

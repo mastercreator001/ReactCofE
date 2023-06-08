@@ -66,6 +66,8 @@ import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
 //import schoolClosure5 from "../../../../assets/images/Attentioncatchers/schoolClosure5.png";
 import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
+import FireAlarm from "../../../../assets/images/logos/FireAlarm.jpg";
+import HomeworkDiary from "../../../../assets/images/logos/HomeworkDiary.png";
 //import schoolClosing1 from "../../../../assets/images/Attentioncatchers/schoolClosing1.png";
 export default [
   {
@@ -333,6 +335,22 @@ export default [
         image: osbourneHouse,
         name: "Osbourne House.",
         route: "/pages/trips/osbournehouse",
+      },
+    ],
+  },
+  {
+    title: "Fire Alarms",
+    description: "Fire |Alarms and school routine ",
+    items: [
+      {
+        image: FireAlarm,
+        name: "Fire Alarms",
+        route: "/pages/templates/firealarms/firealarm1",
+      },
+      {
+        image: HomeworkDiary,
+        name: "School Routines",
+        route: "/pages/trips/totland",
       },
     ],
   },

@@ -46,10 +46,10 @@ function BradingandVarious() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Bradng Walks about the Village
+              Brading Walks out and about the Village
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Various year trips random walks about the place.
+              Various year groups.
             </MKTypography>
           </Grid>
         </Grid>
@@ -58,7 +58,10 @@ function BradingandVarious() {
             <HorizontalTeamCard
               image={Tripsout1}
               name="Usually when other year groups are away and to stop kids staying in school. "
-              position={{ color: "info", label: "" }}
+              position={{
+                color: "info",
+                label: "Brading Marshes Perhaps.",
+              }}
               description="The school operated a policy of if your child was unable to attend a trip perhaps due to personal reason at home then they would still be attending school. However there seem to have been varying options. You have to understand that the schoo would in some occasions be uncocupied by an entire year group amounting to nearly 1 quater of the school and with this options needed to utilised to be entertain those few reminig students. One of the said options was to undertake a series of walks and the one I will refer to tody was the Brading walks. It's unclear as to how many students remained on site and as to when the routine was used to transport them to their locations but i'd imagine a yellow bus would be the order of the day. The walks consisted as series of site to visit each day and general nature observations were undertaken and observed. One teacher who has been involved in this assigment was Miss Forer. We May have a picture or two of such occasions. We have recently spoken to Mr Felton who indicated to me that the Brading town hall may have been utilised for just such an occasion as a base.   "
             />
           </MKBox>
@@ -67,13 +70,12 @@ function BradingandVarious() {
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={Tripsout2}
-              // name="Brading Marshes perhaps?"
+              name="Brading History"
               position={{
                 color: "info",
-                label:
-                  "Perhaps you can identify the picture or the students within it and show us what your remember about the Brading excursions or maybe the picture is of aothr location on the Island all together. By the looks of it the lady on the left is probably the teacher and the students may seem familur.  ",
+                label: "Brading Marshes Perhaps.",
               }}
-              description=""
+              description="Perhaps you can identify the picture or the students within it and show us what your remember about the Brading excursions or maybe the picture is of aothr location on the Island all together. By the looks of it the lady on the left is probably the teacher and the students may seem familur."
             />
           </MKBox>
         </Grid>
@@ -81,7 +83,7 @@ function BradingandVarious() {
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={Tripsout3}
-              name=" "
+              name="Brading History "
               position={{
                 color: "info",
                 label: "About Brading town",
@@ -121,7 +123,7 @@ In medieval times the town was governed by the Steward, Bailiffs and 13 Jurats, 
               name="What you have been Saying"
               position={{
                 color: "info",
-                label: "extract from the C Of E group Memory Corner",
+                label: "Extract from the C Of E group Memory Corner",
               }}
               description="What you have been saying about the school trips away and the options left open having not been able to go. "
             />

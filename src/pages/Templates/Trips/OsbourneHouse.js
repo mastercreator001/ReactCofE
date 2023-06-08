@@ -29,6 +29,7 @@ import osbourneHouse1 from "assets/images/TripsAway/osbourneHouse1.jpg";
 import osbourneHouse2 from "assets/images/TripsAway/osbourneHouse2.jpg";
 import osbourneHouse3 from "assets/images/TripsAway/osbourneHouse3.jpg";
 import osbourneHouse4 from "assets/images/TripsAway/osbourneHouse4.jpg";
+import osbourneHouse5 from "assets/images/TripsAway/osbourneHouse5.jpg";
 
 function OsbourneHouse() {
   return (
@@ -56,9 +57,9 @@ function OsbourneHouse() {
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={osbourneHouse1}
-              name="The Front of the royal palce"
-              position={{ color: "info", label: "" }}
-              description="View from the solent to the main wings of the residence."
+              name="The Front of the Royal Palace"
+              position={{ color: "info", label: "My Experiences" }}
+              description="As in Most cases The Island had a amazing resource and it would be shall we say neglectful for the school not to have taken the opportunity to utilise this resource. A fromer royal residence is an amazing attraction for children to study particually C Of E Middle school kids. I remeber frequent trips to osbourne and the option opps necessaity to fill out the obligatory forms and fact sheets to facilitate leaning. But I think in my case more an option to be outside school. I did enjoy school honestly but I personally liked the practical and adventuring side of life rather than an academic understanding of the history. I have included below exerts from Wikiopdia to outline the history and provinece of the school. Perhaps you have some more productive memories of school more tha I did. If you do or would like to submit some picture for inclusion into the website please do get in touch.   "
             />
           </MKBox>
         </Grid>
@@ -71,7 +72,9 @@ function OsbourneHouse() {
                 color: "info",
                 label: "Durbar Room",
               }}
-              description="A room for for entertaining royal guests."
+              description="Osborne House is a former royal residence in East Cowes, Isle of Wight, United Kingdom. The house was built between 1845 and 1851 for Queen Victoria and Prince Albert as a summer home and rural retreat. Albert designed the house himself, in the style of an Italian Renaissance palazzo. The builder was Thomas Cubitt, the London architect and builder whose company built the main facade of Buckingham Palace for the royal couple in 1847. An earlier smaller house on the site was demolished to make way for a new and far larger house, though the original entrance portico survives as the main gateway to the walled garden.
+
+Queen Victoria died at Osborne House on 22 January 1901, aged 81. Following her death, King Edward VII, who had never liked Osborne, presented the house to the state on the day of his coronation, with the royal pavilion being retained as a private museum to Victoria. From 1903 to 1921, part of the estate around the stables was used as a junior officer training college for the Royal Navy, known as the Royal Naval College, Osborne. Another section of the house was used as a convalescent home for officers. In 1933, many of the temporary buildings at Osborne were demolished. In 1954, Queen Elizabeth II gave permission for the first floor rooms (the private apartments) in the royal pavilion to be opened to the public. In 1986, English Heritage assumed management of Osborne House. In 1989, the second floor of the house was also opened to the public."
             />
           </MKBox>
         </Grid>
@@ -82,9 +85,14 @@ function OsbourneHouse() {
               name="Top Floor Royal Nursing"
               position={{
                 color: "info",
-                label: "The Royal Nursery",
+                label: "Osbourne's History",
               }}
-              description="The Royal Nursey was one of oppulance and gradur as the royal children wanted for no luxury."
+              description="Royal retreat
+Queen Victoria and Prince Albert bought Osborne House on the Isle of Wight from Lady Isabella Blachford in October 1845. They wanted a home removed from the stresses of court life. Victoria had spent two holidays on the Isle of Wight as a young girl, when her mother, the Duchess of Kent, rented Norris Castle, the estate next door to Osborne. The setting of the three-storey Georgian house appealed to Victoria and Albert. In particular, the views of the Solent reminded Albert of the Bay of Naples in Italy. They soon realised that the house was too small for their needs and decided, with advisors, to replace the house with a new, larger residence.
+
+
+Queen Victoria's bathing machine (now restored)
+The new Osborne House was built between 1845 and 1851 in the Italian Renaissance style, complete with two belvedere towers. Prince Albert designed the house himself in conjunction with Thomas Cubitt, the London architect and builder, whose company also built the main façade of Buckingham Palace.[3] The couple paid for much of the furnishing of the new house from the sale of the Royal Pavilion at Brighton.[4] The Prince Consort participated directly in laying out the estate, gardens and woodlands, to prove his knowledge of forestry and landscaping. At the more official royal residences, he had been overruled by the Commissioners of Woods and Forests, who had official responsibilities for the grounds.[5] Below the gardens on Osborne Bay was a private beach, where the Queen kept her own private bathing machine. According to a news report: The queen's bathing machine was unusually ornate, with a front veranda and curtains which would conceal her until she had entered the water. The interior had a changing room and a plumbed-in WC."
             />
           </MKBox>
         </Grid>
@@ -97,7 +105,36 @@ function OsbourneHouse() {
                 color: "info",
                 label: "Swiss Cottage on the Osbourne Estate.",
               }}
-              description="A lovoely Walk to the Swiss Cottage for some lovely clean air."
+              description="The grounds also included a Swiss Cottage  for the royal children. The cottage was dismantled and brought piece by piece from Switzerland to Osborne where it was reassembled. There, the royal children were encouraged to garden. Each child was given a rectangular plot in which to grow fruit, vegetables and flowers. They sold their produce to their father. Prince Albert used this as a way to teach the basics of economics. The children also learned to cook in the Swiss Cottage, which was equipped with a fully functioning kitchen. Both parents saw this kind of education as a way of grounding their children in the activities of daily life shared by the people in the kingdom despite their royal status.
+
+In 1859, Prince Albert designed a new and larger quadrangular stable block, which was built by Cubitts on the former cricket pitch. The building is listed Grade II* on the National Heritage List for England.
+
+After Prince Albert died at Windsor Castle in December 1861, Queen Victoria continued to visit Osborne House because it was one of her favourite homes.
+
+In 1876, as a tribute to Queen Victoria, the Government House in the colony (now State) of Victoria, Australia, was constructed as a copy of Osborne House.
+
+On 14 January 1878, Alexander Graham Bell demonstrated an early version of the telephone to the queen at Osborne House,[13] placing calls to Cowes, Southampton and London. They were the first publicly witnessed long-distance telephone calls in Britain. The queen tried the device and considered the process to be quite extraordinary although the sound was rather faint. She later asked to buy the equipment that was used, but Bell offered to make a set of telephones specifically for her."
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard
+              image={osbourneHouse5}
+              name="A gift to the Nation"
+              position={{
+                color: "info",
+                label: "A gift to the nation.",
+              }}
+              description="The grounds also included a Swiss Cottage  for the royal children. The cottage was dismantled and brought piece by piece from Switzerland to Osborne where it was reassembled. There, the royal children were encouraged to garden. Each child was given a rectangular plot in which to grow fruit, vegetables and flowers. They sold their produce to their father. Prince Albert used this as a way to teach the basics of economics. The children also learned to cook in the Swiss Cottage, which was equipped with a fully functioning kitchen. Both parents saw this kind of education as a way of grounding their children in the activities of daily life shared by the people in the kingdom despite their royal status.[3]
+
+In 1859, Prince Albert designed a new and larger quadrangular stable block, which was built by Cubitts on the former cricket pitch. The building is listed Grade II* on the National Heritage List for England.[12]
+
+After Prince Albert died at Windsor Castle in December 1861, Queen Victoria continued to visit Osborne House because it was one of her favourite homes.
+
+In 1876, as a tribute to Queen Victoria, the Government House in the colony (now State) of Victoria, Australia, was constructed as a copy of Osborne House.
+
+On 14 January 1878, Alexander Graham Bell demonstrated an early version of the telephone to the queen at Osborne House,[13] placing calls to Cowes, Southampton and London. They were the first publicly witnessed long-distance telephone calls in Britain. The queen tried the device and considered the process to be quite extraordinary although the sound was rather faint. She later asked to buy the equipment that was used, but Bell offered to make a set of telephones specifically for her."
             />
           </MKBox>
         </Grid>
