@@ -67,7 +67,8 @@ import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosi
 //import schoolClosure5 from "../../../../assets/images/Attentioncatchers/schoolClosure5.png";
 import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
 import FireAlarm from "../../../../assets/images/logos/FireAlarm.jpg";
-import HomeworkDiary from "../../../../assets/images/logos/HomeworkDiary.png";
+import schoolDiary from "../../../../assets/images/schoolDay/schoolDiary.png";
+import Clock1 from "../../../../assets/images/schoolDay/Clock1.png";
 //import schoolClosing1 from "../../../../assets/images/Attentioncatchers/schoolClosing1.png";
 export default [
   {
@@ -348,9 +349,14 @@ export default [
         route: "/pages/templates/firealarms/firealarm1",
       },
       {
-        image: HomeworkDiary,
-        name: "School Routines",
+        image: schoolDiary,
+        name: "School Diary",
         route: "/pages/templates/firealarms/homework",
+      },
+      {
+        image: Clock1,
+        name: "School Routines",
+        route: "/pages/templates/firealarms/schoolroutine",
       },
     ],
   },

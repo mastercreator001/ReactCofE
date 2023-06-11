@@ -66,7 +66,8 @@ import Maps4 from "pages/Templates/Maps/Maps4";
 import Librarystaff1 from "pages/Templates/auxStaff/Librarystaff1";
 // Sections
 import NavTabs from "layouts/sections/navigation/nav-tabs";
-import FireAlarm1 from "pages/Templates/FireAlarms/FireAlarm1.js";
+import FireAlarm1 from "pages/Templates/FireAlarms/FireAlarm1";
+import SchoolRoutine from "pages/Templates/FireAlarms/SchoolRoutine";
 
 //import Avatars from "layouts/sections/elements/avatars";
 //import Badges from "layouts/sections/elements/badges";
@@ -351,8 +352,8 @@ const routes = [
           {
             name: "The School Day",
             name1: "School Routines, lunch Breaktimes",
-            route: "/sections/navigation/nav-tabs",
-            component: <NavTabs />,
+            route: "/pages/templates/firealarms/schoolroutine",
+            component: <SchoolRoutine />,
           },
         ],
       },

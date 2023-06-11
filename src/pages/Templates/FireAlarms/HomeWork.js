@@ -25,9 +25,10 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
-import frontCoverPam from "assets/images/Attentioncatchers/frontCoverPam.png";
-import advancedMap from "assets/images/Attentioncatchers/advancedMap.jpg";
 import HomeworkDiary from "assets/images/logos/HomeworkDiary.png";
+import schoolDiary from "assets/images/schoolDay/schoolDiary.png";
+import schoolDiary1 from "assets/images/schoolDay/schoolDiary1.png";
+import usedDiary from "assets/images/schoolDay/usedDiary.jpg";
 
 function HomeWork() {
   return (
@@ -73,7 +74,7 @@ function HomeWork() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
-              image={frontCoverPam}
+              image={schoolDiary}
               name="A copy of the Pamphlet released on the opening day of the school."
               position={{ color: "info", label: "Opening Day" }}
               description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
@@ -83,7 +84,7 @@ function HomeWork() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
             <HorizontalTeamCard
-              image={advancedMap}
+              image={schoolDiary1}
               name="Map and general layout."
               position={{ color: "info", label: "A map showing the new layout of the new school." }}
               description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
@@ -93,16 +94,17 @@ function HomeWork() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              The Story Behind the Music Room
+              Learning to be able to organise
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Music Room.
+              The uses of the school diary around the school an hleping to organise the students
+              onto repsonsiable adults.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={HomeworkDiary} name="" position={{}} description="" />
+            <HorizontalTeamCard image={usedDiary} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>
