@@ -23,9 +23,11 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images
 import advancedMap from "assets/images/school maps/advancedMap.jpg";
+import advancedMaplarge from "public/images/advancedMaplarge.jpg";
 
 function Maps1() {
   return (
@@ -54,6 +56,22 @@ function Maps1() {
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard
               image={advancedMap}
+              xtralarge={advancedMaplarge}
+              name="This is an original map recreated"
+              position={{ color: "info", label: "Head Teacher 1971-1982" }}
+              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
+    His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
+    We can no longer see him or feel him but he is still with us all. 
+    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.
+    AS WRITTEN BY Mrs Hilary Knight 
+    It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
+    He had so may proud and happy memories. 
+    Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
+    By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
+    Please any thoughts comments and memories can be added and I'm sure will be read by the family."
+            />
+            <HorizontalTeamCard1
+              xtralarge={advancedMaplarge}
               name="This is an original map recreated"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
               description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
