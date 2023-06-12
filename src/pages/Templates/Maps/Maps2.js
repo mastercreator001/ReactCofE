@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import bookMap from "assets/images/school maps/bookMap.jpg";
+import bookMaplarge from "assets/images/school maps/bookMapLarge.jpg";
 
 function Maps2() {
   return (
@@ -51,8 +52,9 @@ function Maps2() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={bookMap}
+            <HorizontalTeamCard1
+              smimage={bookMap}
+              lgimage={bookMaplarge}
               name="This is an original map recreated"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
               description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 

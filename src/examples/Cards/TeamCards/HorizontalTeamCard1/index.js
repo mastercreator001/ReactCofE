@@ -26,13 +26,13 @@ import MKTypography from "components/MKTypography";
 
 import ModalImage from "react-modal-image-responsive";
 
-function HorizontalTeamCard1({ image, name, position, description }) {
+function HorizontalTeamCard1({ smimage, lgimage, position, description }) {
   return (
     <Card sx={{ mt: 3 }}>
       <Grid container>
         <Grid item xs={12} md={6} lg={4} sx={{ mt: -6 }}>
           <MKBox width="100%" pt={2} pb={1} px={2}>
-            <ModalImage  xtralarge={xtralarge} alt={name} />
+            <ModalImage small={smimage} large={lgimage} />
             {/* <MKBox
               component="img"
               src={image}
@@ -60,8 +60,9 @@ function HorizontalTeamCard1({ image, name, position, description }) {
 }
 
 // Typechecking props for the HorizontalTeamCard
-HorizontalTeamCard.propTypes = {
-  image: PropTypes.string.isRequired,
+HorizontalTeamCard1.propTypes = {
+  smimage: PropTypes.string.isRequired,
+  lgimage: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.shape({
     color: PropTypes.oneOf([

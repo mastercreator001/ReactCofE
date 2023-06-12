@@ -22,11 +22,13 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import finalMapCTK1 from "assets/images/school maps/finalMapCTK1.png";
+import finalMapCTK1Large from "assets/images/school maps/finalMapCTK1Large.png";
 import finalMapCTK2 from "assets/images/school maps/finalMapCTK2.png";
+import finalMapCTK2Large from "assets/images/school maps/finalMapCTK2Large.png";
 
 function Maps4() {
   return (
@@ -52,8 +54,9 @@ function Maps4() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={finalMapCTK1}
+            <HorizontalTeamCard1
+              smimage={finalMapCTK1}
+              lgimage={finalMapCTK1Large}
               name="This is remade addition of an original map recreated"
               position={{ color: "info", label: "2007-2008 internal layout" }}
               description="The school I it's final phse of existence was utilised by the new amalgmation of C of E Middle and the former A.B.K school. C of E was utilised during heavy construction works on the abk site and called the lower campus. The map you see is one of the final internal layouts of the school prior to it's decomissioning and handing over to contractors for demolition."
@@ -72,8 +75,9 @@ function Maps4() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={finalMapCTK2}
+            <HorizontalTeamCard1
+              smimage={finalMapCTK2}
+              lgimage={finalMapCTK2Large}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "2007-2008 internal layout" }}
               description="A close up of the map above showing the schools internal layout in it's final years operating as Christ The Kings lower campus prior to demolition. "
