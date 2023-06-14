@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import cofeoverviewduring from "assets/images/historicSchool/cofeoverviewduring.png";
+import cofeoverviewduringLarge from "assets/images/historicSchool/cofeoverviewduringLarge.png";
 
 function Historic1() {
   return (
@@ -51,8 +52,9 @@ function Historic1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={cofeoverviewduring}
+            <HorizontalTeamCard1
+              smimage={cofeoverviewduring}
+              lgimage={cofeoverviewduringLarge}
               name="The School after demolition but during new construction phase"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
               description="TEXT TO BE ADDDED"

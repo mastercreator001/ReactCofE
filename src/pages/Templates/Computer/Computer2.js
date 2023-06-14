@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import bbcComputer1 from "assets/images/ComputerImages/bbcComputer1.jpg";
+import bbcComputer1Large from "assets/images/ComputerImages/bbcComputer1Large.jpg";
 
 function Computer1() {
   return (
@@ -51,8 +52,9 @@ function Computer1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={bbcComputer1}
+            <HorizontalTeamCard1
+              smimage={bbcComputer1}
+              lgimage={bbcComputer1Large}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
               description="The BBC was an extraordinary piece of kit and the school as a leader in the field"

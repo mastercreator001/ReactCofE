@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import bbcComputer3 from "assets/images/ComputerImages/bbcComputer3.png";
+import bbcComputer3Large from "assets/images/ComputerImages/bbcComputer3Large.png";
 
 function Computer3() {
   return (
@@ -51,8 +52,9 @@ function Computer3() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={bbcComputer3}
+            <HorizontalTeamCard1
+              smimage={bbcComputer3}
+              lgimage={bbcComputer3Large}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
               description="The upgraded model with casette access on the keyboard"

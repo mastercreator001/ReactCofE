@@ -78,7 +78,7 @@ export default [
       {
         image: harrisonImage,
         name: "Head Teachers",
-        route: "/pages/teachers",
+        route: "/pages/headteachers",
       },
       {
         image: feltonImage,

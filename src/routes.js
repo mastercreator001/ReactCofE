@@ -42,7 +42,7 @@ import Icon from "@mui/material/Icon";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
-import Teachers from "pages/Templates/Teachers/Team";
+import HeadTeachers from "pages/Templates/Teachers/HeadTeachers";
 import Science from "pages/Templates/Subjects/Science";
 import DhTeachers from "pages/Templates/Teachers/DhTeachers";
 import Maps from "pages/Templates/Maps/Maps";
@@ -107,8 +107,8 @@ const routes = [
         collapse: [
           {
             name: "Head Teachers",
-            route: "/pages/teachers",
-            component: <Teachers />,
+            route: "/pages/headteachers",
+            component: <HeadTeachers />,
           },
 
           {

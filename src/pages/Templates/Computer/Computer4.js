@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import floopyDisc from "assets/images/ComputerImages/floopyDisc.png";
+import floopyDiscLarge from "assets/images/ComputerImages/floopyDiscLarge.png";
 
 function Computer4() {
   return (
@@ -51,8 +52,9 @@ function Computer4() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={floopyDisc}
+            <HorizontalTeamCard1
+              smimage={floopyDisc}
+              lgimage={floopyDiscLarge}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
               description="Floopy Discs we're quite the innovation in their day, do you remember sharing games at lunch time "

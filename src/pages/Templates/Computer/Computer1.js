@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import bbcComputer1 from "assets/images/ComputerImages/bbcComputer1.jpg";
+import bbcComputer1Large from "assets/images/ComputerImages/bbcComputer1Large.jpg";
 
 function Computer1() {
   return (
@@ -51,8 +52,9 @@ function Computer1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={bbcComputer1}
+            <HorizontalTeamCard1
+              smimage={bbcComputer1}
+              lgimage={bbcComputer1Large}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
               description="The BBC Computer Literacy Project was created in the 1980s to explore the world of computing as it was at the time. The project ran for nearly a decade, during the birth of the home computer, and included interviews with Steve Jobs, Bill Gates, Steve Wozniak, Bob Moog, and Roger Foster. As part of the project, the BBC commissioned its iconic BBC Micro computer, which became the cornerstone of computing in education throughout the 1980s.0 The Model B had 32 KB of user RAM and was built by Acorn Computers. The BBC Micro was notable for its ruggedness, expandability, and the quality of its operating system.1 It was launched in December 1981 as part of the BBC's Computer Literacy Project."

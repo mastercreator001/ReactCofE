@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import schoolClosing4 from "assets/images/historicSchool/schoolClosing4.png";
+import schoolClosing4Large from "assets/images/historicSchool/schoolClosing4Large.png";
 
 function Historic3() {
   return (
@@ -51,8 +52,9 @@ function Historic3() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={schoolClosing4}
+            <HorizontalTeamCard1
+              smimage={schoolClosing4}
+              lgimage={schoolClosing4Large}
               name="The School receives It's first set of equiptment to allow the demolition crews to start stripping the internal of the building."
               position={{ color: "info", label: "September 2018 Schools Awaits demolition Crews" }}
               description="TEXT TO BE ADDED"
