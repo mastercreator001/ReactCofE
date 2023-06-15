@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import careTaker from "assets/images/Auxstaff/careTaker.png";
+import careTakerLarge from "assets/images/Auxstaff/careTakerLarge.png";
 import mrBlank from "assets/images/Dhteachers/mrBlank.png";
 
 function Caretakers1() {
@@ -51,8 +52,9 @@ function Caretakers1() {
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1} mt={10}>
-              <HorizontalTeamCard
-                image={mrBlank}
+              <HorizontalTeamCard1
+                smimage={mrBlank}
+                lgimage={mrBlank}
                 name="Mr Farringford"
                 position={{ color: "info", label: "Caretaker 1977-1981" }}
                 description="TEXT TO BE ADDED FOR THE 1ST CARE TAKER ???"
@@ -62,8 +64,9 @@ function Caretakers1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={careTaker}
+            <HorizontalTeamCard1
+              smimage={careTaker}
+              lgimage={careTakerLarge}
               name="Mr Houghton"
               position={{ color: "info", label: "Caretaker number 2" }}
               description="Ah Caretakers were in my mind the coolest as they weren't here to punish us poor students or perhaps torment us in the classroom but they were usually understanding, kind and helpful. That's been my experience, what about yours? Perhaps they weren't always as helpful or kind.

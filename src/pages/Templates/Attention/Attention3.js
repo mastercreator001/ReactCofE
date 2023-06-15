@@ -22,12 +22,15 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import schoolwindow from "assets/images/Attentioncatchers/schoolwindow.png";
+import schoolwindowLarge from "assets/images/Attentioncatchers/schoolwindowLarge.png";
 import schoolwindowedited from "assets/images/Attentioncatchers/schoolwindowedited.jpg";
+import schoolwindoweditedLarge from "assets/images/Attentioncatchers/schoolwindoweditedLarge.jpg";
 import octogonWindow from "assets/images/Attentioncatchers/octogonWindow.jpg";
+import octogonWindowLarge from "assets/images/Attentioncatchers/octogonWindowLarge.jpg";
 import farewellFBClip from "assets/images/facebookClippings/FarewellFBClip.jpg";
 
 function Attention3() {
@@ -54,8 +57,9 @@ function Attention3() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={octogonWindow}
+            <HorizontalTeamCard1
+              smimage={octogonWindow}
+              lgimage={octogonWindowLarge}
               name="A Magical Sight"
               position={{
                 color: "info",
@@ -73,8 +77,9 @@ function Attention3() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={schoolwindow}
+            <HorizontalTeamCard1
+              smimage={schoolwindow}
+              lgimage={schoolwindowLarge}
               name="A SVG recreation of the original Music room Window"
               position={{ color: "info", label: "A full recreation of the Window." }}
               description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
@@ -83,8 +88,9 @@ function Attention3() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={schoolwindowedited}
+            <HorizontalTeamCard1
+              smimage={schoolwindowedited}
+              lgimage={schoolwindoweditedLarge}
               name="A photograph of the Octogon/Music Room Window"
               position={{
                 color: "info",
@@ -106,7 +112,7 @@ function Attention3() {
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={farewellFBClip} name="" position={{}} description="" />
+            <HorizontalTeamCard1 smimage={farewellFBClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

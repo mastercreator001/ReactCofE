@@ -22,12 +22,15 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import frontCoverPam from "assets/images/Attentioncatchers/frontCoverPam.png";
+import frontCoverPamLarge from "assets/images/Attentioncatchers/frontCoverPamLarge.png";
 import advancedMap from "assets/images/Attentioncatchers/advancedMap.jpg";
+import advancedMapLarge from "assets/images/school maps/advancedMaplarge.jpg";
 import schoolOpening from "assets/images/Attentioncatchers/schoolopening.jpg";
+import schoolOpeningLarge from "assets/images/Attentioncatchers/schoolopeningLarge.jpg";
 import englishClip from "assets/images/facebookClippings/englishClip.jpg";
 
 function Attention1() {
@@ -54,8 +57,9 @@ function Attention1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={schoolOpening}
+            <HorizontalTeamCard1
+              smimage={schoolOpening}
+              lgimage={schoolOpeningLarge}
               name="Thursday February 4th 1971"
               position={{
                 color: "info",
@@ -73,8 +77,9 @@ function Attention1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={frontCoverPam}
+            <HorizontalTeamCard1
+              smimage={frontCoverPam}
+              lgimage={frontCoverPamLarge}
               name="A copy of the Pamphlet released on the opening day of the school."
               position={{ color: "info", label: "Opening Day" }}
               description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
@@ -83,8 +88,9 @@ function Attention1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={advancedMap}
+            <HorizontalTeamCard1
+              smimage={advancedMap}
+              lgimage={advancedMapLarge}
               name="Map and general layout."
               position={{ color: "info", label: "A map showing the new layout of the new school." }}
               description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
@@ -103,7 +109,7 @@ function Attention1() {
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard1 smimage={englishClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

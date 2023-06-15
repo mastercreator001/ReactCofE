@@ -22,10 +22,11 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import kitchenStaff2 from "assets/images/Auxstaff/kitchenStaff2.jpg";
+import kitchenStaff2Large from "assets/images/Auxstaff/kitchenStaff2Large.jpg";
 
 function KitchenStaff2() {
   return (
@@ -50,8 +51,9 @@ function KitchenStaff2() {
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1} mt={10}>
-              <HorizontalTeamCard
-                image={kitchenStaff2}
+              <HorizontalTeamCard1
+                smimage={kitchenStaff2}
+                lgimage={kitchenStaff2Large}
                 name="kitchen lady"
                 position={{ color: "info", label: "Ca1977-1981" }}
                 description="TEXT TO BE ADDED FOR THE 1ST KITCHEN STAFF ???"

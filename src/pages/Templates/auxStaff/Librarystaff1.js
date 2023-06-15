@@ -22,11 +22,12 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
 import mrsColenutt from "assets/images/Auxstaff/mrsColenutt.png";
+import mrsColenuttLarge from "assets/images/Auxstaff/mrsColenutt.Large.png";
 
 function Librarystaff1() {
   return (
@@ -51,8 +52,9 @@ function Librarystaff1() {
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1} mt={10}>
-              <HorizontalTeamCard
-                image={mrsBlank}
+              <HorizontalTeamCard1
+                smimage={mrsBlank}
+                lgimage={mrsBlank}
                 name="1st Librarian"
                 position={{ color: "info", label: "??" }}
                 description="TEXT TO BE ADDED FOR THE 1ST Libririan ???"
@@ -62,8 +64,9 @@ function Librarystaff1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsColenutt}
+            <HorizontalTeamCard1
+              smimage={mrsColenutt}
+              lgimage={mrsColenuttLarge}
               name="Mrs Colenutt"
               position={{ color: "info", label: "Librarian" }}
               description="Ok I'm hoping I got this wright Mrs Colenutt was in command of the library the very source of power in the school and indeed the world. 

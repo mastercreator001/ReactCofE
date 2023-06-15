@@ -22,12 +22,15 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import schoolClosing1 from "assets/images/Attentioncatchers/schoolClosing1.png";
+import schoolClosing1Large from "assets/images/Attentioncatchers/schoolClosing1Large.png";
 import trinitymiddlefire22 from "assets/images/Attentioncatchers/trinitymiddlefire22.jpg";
+import trinitymiddlefire22Large from "assets/images/Attentioncatchers/trinitymiddlefire22Large.jpg";
 import schoolClosure5 from "assets/images/Attentioncatchers/schoolClosure5.png";
+import schoolClosure5Large from "assets/images/Attentioncatchers/schoolClosure5Large.png";
 function Attention2() {
   return (
     <MKBox
@@ -52,8 +55,9 @@ function Attention2() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={trinitymiddlefire22}
+            <HorizontalTeamCard1
+              smimage={trinitymiddlefire22}
+              lgimage={trinitymiddlefire22Large}
               name="The Start of the was fire spoted by former pupil turned fire man."
               position={{ color: "info", label: "As quoted from The Island Echo Coverage" }}
               description="A blaze that broke out at the former Trinity Middle School site in Newport late last night (Monday) is not being investigated by Police at the request of the site owners, it has been confirmed.
@@ -84,8 +88,9 @@ The fire in the roof space measured 50m x 70m.
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={schoolClosure5}
+            <HorizontalTeamCard1
+              smimage={schoolClosure5}
+              lgimage={schoolClosure5Large}
               name="The Aftermath of the fire"
               position={{
                 color: "info",
@@ -117,8 +122,9 @@ The Isle of Wight Fire and Rescue Service are treated in the incident as suspect
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={schoolClosing1}
+            <HorizontalTeamCard1
+              smimage={schoolClosing1}
+              lgimage={schoolClosing1Large}
               name="A shell of it's former self"
               position={{ color: "info", label: "Investigation and closed soon after." }}
               description="Even though the council and police started an investigation into the balze the owners of the site |Christ The King had asked the police to not investigate and the case was only closed as supected arson to the building. Although the building was awaiting demolition I would have hope the school would have persued a police inwuiry to attempt to identify the criminals responsible however this was not the case. The building was resecured and handed over to the contractors for demolition preparation, although these works were slightly hampered by the damaged sustained to the roof of the building being in a dangerous condition post frire damage."
