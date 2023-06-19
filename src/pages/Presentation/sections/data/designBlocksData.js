@@ -69,6 +69,17 @@ import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeove
 import FireAlarm from "../../../../assets/images/logos/FireAlarm.jpg";
 import schoolDiary from "../../../../assets/images/schoolDay/schoolDiary.png";
 import Clock1 from "../../../../assets/images/schoolDay/Clock1.png";
+import Malham1990 from "../../../../assets/images/Galleries/Malham1990.jpg";
+import Malham1985 from "../../../../assets/images/Galleries/Malham1985.jpg";
+import SchoolTrips from "../../../../assets/images/Galleries/SchoolTrips.jpg";
+import Various from "../../../../assets/images/Galleries/Various.jpg";
+import MissForerGermany1 from "../../../../assets/images/Galleries/MissForerGermany1.jpg";
+import MissFMalham from "../../../../assets/images/Galleries/MissFMalham.jpg";
+import SchoolPerformances from "../../../../assets/images/Galleries/SchoolPerformances.jpg";
+import Singleton from "../../../../assets/images/Galleries/Singleton.jpg";
+import Demolition1 from "../../../../assets/images/Galleries/Demolition1.jpg";
+import EarlySchool from "../../../../assets/images/Galleries/EarlySchool.jpg";
+
 //import schoolClosing1 from "../../../../assets/images/Attentioncatchers/schoolClosing1.png";
 export default [
   {
@@ -234,6 +245,62 @@ export default [
       {
         image: schoolClosing4,
         name: "A image of the school demolished overlaid with outline of the original. ",
+        route: "/pages/historic3",
+      },
+    ],
+  },
+  {
+    title: "School Gallery",
+    description: "All School Images.",
+    items: [
+      {
+        image: EarlySchool,
+        name: "Early School Images (1971-1980). ",
+        route: "/pages/earlyschoolimages",
+      },
+      {
+        image: MissForerGermany1,
+        name: "Miss Forer Germany Visit. ",
+        route: "/pages/missforergermany",
+      },
+      {
+        image: SchoolPerformances,
+        name: "Around The School, Performances. ",
+        route: "/pages/aroundtheschoolperformances",
+      },
+      {
+        image: MissFMalham,
+        name: "School Trips Malham(Miss Forer's Collection). ",
+        route: "/pages/schooltripsmalhamf",
+      },
+      {
+        image: SchoolTrips,
+        name: "School Trips Island (Miss Forer's Collection). ",
+        route: "/pages/historic3",
+      },
+      {
+        image: Singleton,
+        name: "Singleton Trips (Mr Felton's Collection). ",
+        route: "/pages/historic3",
+      },
+      {
+        image: Malham1990,
+        name: "Malham Trips (Mr Felton's Collection 1985-1990). ",
+        route: "/pages/historic3",
+      },
+      {
+        image: Malham1985,
+        name: "Malham Trips (Mr Felton's Collection 1985 onWards). ",
+        route: "/pages/historic3",
+      },
+      {
+        image: Various,
+        name: "Various Images of the School. ",
+        route: "/pages/historic3",
+      },
+      {
+        image: Demolition1,
+        name: "School Demolition Gallery. ",
         route: "/pages/historic3",
       },
     ],

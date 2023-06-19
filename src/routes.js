@@ -94,6 +94,10 @@ import Apollo from "pages/Templates/Trips/Apollo";
 import BradingandVarious from "pages/Templates/Trips/BradingandVarious";
 import OsbourneHouse from "pages/Templates/Trips/OsbourneHouse";
 import HomeWork from "pages/Templates/FireAlarms/HomeWork";
+import EarlyschoolImages from "pages/Templates/Galleries/EarlyschoolImages";
+import MissForerGermany from "pages/Templates/Galleries/MissForerGermany";
+import AroundTheSchoolPerformances from "pages/Templates/Galleries/AroundTheSchoolPerformances";
+import SchoolTripsMalhamF from "pages/Templates/Galleries/SchoolTripsMalhamF";
 
 const routes = [
   {
@@ -377,7 +381,7 @@ const routes = [
     ],
   },
   {
-    icon: <Icon>article</Icon>,
+    icon: <Icon>assistant_navigation</Icon>,
     name: "Maps",
     description: "See school maps in development",
     dropdown: true,
@@ -438,13 +442,61 @@ const routes = [
     ],
   },
   {
-    icon: <Icon>article</Icon>,
-    name: "School Demolition",
+    icon: <Icon>burst_mode</Icon>,
+    name: "School Gallery",
+    description: "All School Images ",
+    dropdown: true,
+    collapse: [
+      {
+        name: "Early School Images (1971-1980)",
+        route: "/pages/earlyschoolimages",
+        component: <EarlyschoolImages />,
+      },
+      {
+        name: "Miss Forer Germany Visit",
+        route: "/pages/missforergermany",
+        component: <MissForerGermany />,
+      },
+      {
+        name: "Around The School, Performances",
+        route: "/pages/aroundtheschoolperformances",
+        component: <AroundTheSchoolPerformances />,
+      },
+      {
+        name: "School Trips Malham(Miss Forer's Collection)",
+        route: "/pages/schooltripsmalhamf",
+        component: <SchoolTripsMalhamF />,
+      },
+      {
+        name: "School Trips Island (Miss Forer's Collection)",
+        route: "/pages/historic",
+        component: <Historic />,
+      },
+      {
+        name: "Singleton Trips (Mr Felton's Collection)",
+        route: "/pages/historic",
+        component: <Historic />,
+      },
+      {
+        name: "Malham Trips (Mr Felton's Collection 1985-1990)",
+        route: "/pages/historic",
+        component: <Historic />,
+      },
+      {
+        name: "Various Images of the School",
+        route: "/pages/historic",
+        component: <Historic />,
+      },
+    ],
+  },
+  {
+    icon: <Icon>building</Icon>,
+    name: "School Demolition Gallery",
     description: "Schools demolition to be made ",
     dropdown: true,
     collapse: [
       {
-        name: "Historic School View",
+        name: "School Demolition Images",
         route: "/pages/historic",
         component: <Historic />,
       },
