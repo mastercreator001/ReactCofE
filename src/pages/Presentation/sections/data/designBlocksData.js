@@ -59,12 +59,9 @@ import romanVillanewport from "../../../../assets/images/schoolTrips/romanVillan
 import tripsOut from "../../../../assets/images/schoolTrips/tripsOut.jpg";
 import osbourneHouse from "../../../../assets/images/schoolTrips/osbourneHouse.png";
 import apolloTheatre from "../../../../assets/images/schoolTrips/apolloTheatre.png";
-//import schoolmapcurrentoverview from "../../../../assets/images/historicSchool/schoolmapcurrentoverview.png";
-//import schoolhistorictotaloverview1 from "../../../../assets/images/historicSchool/schoolhistorictotaloverview1.png";
 import overhead2015 from "../../../../assets/images/historicSchool/overhead2015.png";
 import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
-//import schoolClosure5 from "../../../../assets/images/Attentioncatchers/schoolClosure5.png";
 import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
 import FireAlarm from "../../../../assets/images/logos/FireAlarm.jpg";
 import schoolDiary from "../../../../assets/images/schoolDay/schoolDiary.png";
@@ -80,7 +77,6 @@ import Singleton from "../../../../assets/images/Galleries/Singleton.jpg";
 import Demolition1 from "../../../../assets/images/Galleries/Demolition1.jpg";
 import EarlySchool from "../../../../assets/images/Galleries/EarlySchool.jpg";
 
-//import schoolClosing1 from "../../../../assets/images/Attentioncatchers/schoolClosing1.png";
 export default [
   {
     title: "Staff Heads/teachers&support staff",
@@ -276,32 +272,32 @@ export default [
       {
         image: SchoolTrips,
         name: "School Trips Island (Miss Forer's Collection). ",
-        route: "/pages/historic3",
+        route: "/pages/schooltripsgallery",
       },
       {
         image: Singleton,
         name: "Singleton Trips (Mr Felton's Collection). ",
-        route: "/pages/historic3",
+        route: "/pages/singletongallery",
       },
       {
         image: Malham1990,
         name: "Malham Trips (Mr Felton's Collection 1985-1990). ",
-        route: "/pages/historic3",
+        route: "/pages/schoolmalhammrf1",
       },
       {
         image: Malham1985,
         name: "Malham Trips (Mr Felton's Collection 1985 onWards). ",
-        route: "/pages/historic3",
+        route: "/pages/schoolmalhammrf2",
       },
       {
         image: Various,
         name: "Various Images of the School. ",
-        route: "/pages/historic3",
+        route: "/pages/variousgallery",
       },
       {
         image: Demolition1,
         name: "School Demolition Gallery. ",
-        route: "/pages/historic3",
+        route: "/pages/demolitiongallery",
       },
     ],
   },

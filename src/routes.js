@@ -98,6 +98,12 @@ import EarlyschoolImages from "pages/Templates/Galleries/EarlyschoolImages";
 import MissForerGermany from "pages/Templates/Galleries/MissForerGermany";
 import AroundTheSchoolPerformances from "pages/Templates/Galleries/AroundTheSchoolPerformances";
 import SchoolTripsMalhamF from "pages/Templates/Galleries/SchoolTripsMalhamF";
+import SchoolTripsGallery from "pages/Templates/Galleries/SchoolTripsGallery";
+import SingletonGallery from "pages/Templates/Galleries/SingletonGallery";
+import SchoolMalhamMRF1 from "pages/Templates/Galleries/SchoolMalhamMRF1";
+import SchoolMalhamMRF2 from "pages/Templates/Galleries/SchoolMalhamMRF2";
+import VariousGallery from "pages/Templates/Galleries/VariousGallery";
+import DemolitionGallery from "pages/Templates/Galleries/DemolitionGallery";
 
 const routes = [
   {
@@ -469,23 +475,33 @@ const routes = [
       },
       {
         name: "School Trips Island (Miss Forer's Collection)",
-        route: "/pages/historic",
-        component: <Historic />,
+        route: "/pages/schooltripsgallery",
+        component: <SchoolTripsGallery />,
       },
       {
         name: "Singleton Trips (Mr Felton's Collection)",
-        route: "/pages/historic",
-        component: <Historic />,
+        route: "/pages/singletongallery",
+        component: <SingletonGallery />,
       },
       {
         name: "Malham Trips (Mr Felton's Collection 1985-1990)",
-        route: "/pages/historic",
-        component: <Historic />,
+        route: "/pages/schoolmalhammrf1",
+        component: <SchoolMalhamMRF1 />,
+      },
+      {
+        name: "Mr Feltons Collection 1990 0nwards",
+        route: "/pages/schoolmalhammrf2",
+        component: <SchoolMalhamMRF2 />,
       },
       {
         name: "Various Images of the School",
-        route: "/pages/historic",
-        component: <Historic />,
+        route: "/pages/variousgallery",
+        component: <VariousGallery />,
+      },
+      {
+        name: "Demolition of the School",
+        route: "/pages/demolitiongallery",
+        component: <DemolitionGallery />,
       },
     ],
   },
