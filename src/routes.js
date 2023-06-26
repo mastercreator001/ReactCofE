@@ -104,6 +104,7 @@ import SchoolMalhamMRF1 from "pages/Templates/Galleries/SchoolMalhamMRF1";
 import SchoolMalhamMRF2 from "pages/Templates/Galleries/SchoolMalhamMRF2";
 import VariousGallery from "pages/Templates/Galleries/VariousGallery";
 import DemolitionGallery from "pages/Templates/Galleries/DemolitionGallery";
+import RebuildingGallery from "pages/Templates/Galleries/RebuildingGallery";
 
 const routes = [
   {
@@ -498,11 +499,6 @@ const routes = [
         route: "/pages/variousgallery",
         component: <VariousGallery />,
       },
-      {
-        name: "Demolition of the School",
-        route: "/pages/demolitiongallery",
-        component: <DemolitionGallery />,
-      },
     ],
   },
   {
@@ -512,9 +508,14 @@ const routes = [
     dropdown: true,
     collapse: [
       {
-        name: "School Demolition Images",
-        route: "/pages/historic",
-        component: <Historic />,
+        name: "Demolition of the School",
+        route: "/pages/demolitiongallery",
+        component: <DemolitionGallery />,
+      },
+      {
+        name: "Rebuliding On The School Site",
+        route: "/pages/rebuildinggallery",
+        component: <RebuildingGallery />,
       },
     ],
   },

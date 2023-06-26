@@ -76,6 +76,7 @@ import SchoolPerformances from "../../../../assets/images/Galleries/SchoolPerfor
 import Singleton from "../../../../assets/images/Galleries/Singleton.jpg";
 import Demolition1 from "../../../../assets/images/Galleries/Demolition1.jpg";
 import EarlySchool from "../../../../assets/images/Galleries/EarlySchool.jpg";
+import Rebuildingmainimage from "../../../../assets/images/RebuildingGallery/Rebuildmainimage.jpg";
 
 export default [
   {
@@ -298,6 +299,11 @@ export default [
         image: Demolition1,
         name: "School Demolition Gallery. ",
         route: "/pages/demolitiongallery",
+      },
+      {
+        image: Rebuildingmainimage,
+        name: "Rebuliding On The School Site. ",
+        route: "/pages/rebuildinggallery",
       },
     ],
   },

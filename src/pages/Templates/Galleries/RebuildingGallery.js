@@ -25,31 +25,30 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
-import DG1Sm from "assets/images/DemolitionGallery/DG1Sm.jpg";
-import DG2Sm from "assets/images/DemolitionGallery/DG2Sm.jpg";
-import DG3Sm from "assets/images/DemolitionGallery/DG3Sm.jpg";
-import DG4Sm from "assets/images/DemolitionGallery/DG4Sm.jpg";
-import DG5Sm from "assets/images/DemolitionGallery/DG5Sm.jpg";
-import DG6Sm from "assets/images/DemolitionGallery/DG6Sm.jpg";
-import DG7Sm from "assets/images/DemolitionGallery/DG7Sm.jpg";
-import DG8Sm from "assets/images/DemolitionGallery/DG8Sm.jpg";
-import DG9Sm from "assets/images/DemolitionGallery/DG9Sm.jpg";
-import DG10Sm from "assets/images/DemolitionGallery/DG10Sm.jpg";
-import DG11Sm from "assets/images/DemolitionGallery/DG11Sm.jpg";
-// Images Large
-import DG1Lg from "assets/images/DemolitionGallery/DG1Lg.jpg";
-import DG2Lg from "assets/images/DemolitionGallery/DG2Lg.jpg";
-import DG3Lg from "assets/images/DemolitionGallery/DG3Lg.jpg";
-import DG4Lg from "assets/images/DemolitionGallery/DG4Lg.jpg";
-import DG5Lg from "assets/images/DemolitionGallery/DG5Lg.jpg";
-import DG6Lg from "assets/images/DemolitionGallery/DG6Lg.jpg";
-import DG7Lg from "assets/images/DemolitionGallery/DG7Lg.jpg";
-import DG8Lg from "assets/images/DemolitionGallery/DG8Lg.jpg";
-import DG9Lg from "assets/images/DemolitionGallery/DG9Lg.jpg";
-import DG10Lg from "assets/images/DemolitionGallery/DG10Lg.jpg";
-import DG11Lg from "assets/images/DemolitionGallery/DG11Lg.jpg";
+import RB1Sm from "assets/images/RebuildingGallery/RB1Sm.jpg";
+import RB2Sm from "assets/images/RebuildingGallery/RB2Sm.jpg";
+import RB3Sm from "assets/images/RebuildingGallery/RB3Sm.jpg";
+import RB4Sm from "assets/images/RebuildingGallery/RB4Sm.jpg";
+import RB5Sm from "assets/images/RebuildingGallery/RB5Sm.jpg";
+import RB6Sm from "assets/images/RebuildingGallery/RB6Sm.jpg";
+import RB7Sm from "assets/images/RebuildingGallery/RB7Sm.jpg";
+import RB8Sm from "assets/images/RebuildingGallery/RB8Sm.jpg";
+import RB9Sm from "assets/images/RebuildingGallery/RB9Sm.jpg";
+import RB10Sm from "assets/images/RebuildingGallery/RB10Sm.jpg";
 
-function DemolitionGallery() {
+// Images Large
+import RB1Lg from "assets/images/RebuildingGallery/RB1Lg.jpg";
+import RB2Lg from "assets/images/RebuildingGallery/RB2Lg.jpg";
+import RB3Lg from "assets/images/RebuildingGallery/RB3Lg.jpg";
+import RB4Lg from "assets/images/RebuildingGallery/RB4Lg.jpg";
+import RB5Lg from "assets/images/RebuildingGallery/RB5Lg.jpg";
+import RB6Lg from "assets/images/RebuildingGallery/RB6Lg.jpg";
+import RB7Lg from "assets/images/RebuildingGallery/RB7Lg.jpg";
+import RB8Lg from "assets/images/RebuildingGallery/RB8Lg.jpg";
+import RB9Lg from "assets/images/RebuildingGallery/RB9Lg.jpg";
+import RB10Lg from "assets/images/RebuildingGallery/RB10Lg.jpg";
+
+function RebuildingGallery() {
   return (
     <MKBox
       component="section"
@@ -64,18 +63,18 @@ function DemolitionGallery() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Demolition Gallery
+              Rebulding on the school site
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Demolition School Pictures
+              ABK meets C Of E Middle equals Christ The King
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG1Sm}
-              lgimage={DG1Lg}
+              smimage={RB1Sm}
+              lgimage={RB1Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -85,8 +84,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG2Sm}
-              lgimage={DG2Lg}
+              smimage={RB2Sm}
+              lgimage={RB2Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -96,8 +95,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG3Sm}
-              lgimage={DG3Lg}
+              smimage={RB3Sm}
+              lgimage={RB3Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -107,8 +106,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG4Sm}
-              lgimage={DG4Lg}
+              smimage={RB4Sm}
+              lgimage={RB4Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -118,8 +117,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG5Sm}
-              lgimage={DG5Lg}
+              smimage={RB5Sm}
+              lgimage={RB5Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -129,8 +128,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG6Sm}
-              lgimage={DG6Lg}
+              smimage={RB6Sm}
+              lgimage={RB6Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -140,8 +139,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG7Sm}
-              lgimage={DG7Lg}
+              smimage={RB7Sm}
+              lgimage={RB7Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -151,8 +150,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG8Sm}
-              lgimage={DG8Lg}
+              smimage={RB8Sm}
+              lgimage={RB8Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -162,8 +161,8 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG9Sm}
-              lgimage={DG9Lg}
+              smimage={RB9Sm}
+              lgimage={RB9Lg}
               name="Demolition Images from the school "
               position={{ color: "info", label: "Demolition School Images" }}
               description="Images."
@@ -183,10 +182,10 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG10Sm}
-              lgimage={DG10Lg}
+              smimage={RB10Sm}
+              lgimage={RB10Lg}
               name="A close up of the map above recreated as an svg file"
-              position={{ color: "info", label: "DG1Lg School Images" }}
+              position={{ color: "info", label: "RB1Sm School Images" }}
               description="
                "
             />
@@ -195,10 +194,10 @@ function DemolitionGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={DG11Sm}
-              lgimage={DG11Lg}
+              smimage={RB10Sm}
+              lgimage={RB10Lg}
               name="A close up of the map above recreated as an svg file"
-              position={{ color: "info", label: "DG1Lg School Images" }}
+              position={{ color: "info", label: "RB1Sm School Images" }}
               description="
                "
             />
@@ -209,4 +208,4 @@ function DemolitionGallery() {
   );
 }
 
-export default DemolitionGallery;
+export default RebuildingGallery;
