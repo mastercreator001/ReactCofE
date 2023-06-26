@@ -81,7 +81,7 @@ import Rebuildingmainimage from "../../../../assets/images/RebuildingGallery/Reb
 export default [
   {
     title: "Staff Heads/teachers&support staff",
-    description: "A page of senior staff members support staff and more ",
+    description: "A page of senior staff members, support staff and more ",
     items: [
       {
         image: harrisonImage,

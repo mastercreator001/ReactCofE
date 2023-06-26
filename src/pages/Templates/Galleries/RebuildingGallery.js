@@ -63,7 +63,7 @@ function RebuildingGallery() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Rebulding on the school site
+              Rebuilding on the Old School Site
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
               ABK meets C Of E Middle equals Christ The King
@@ -75,8 +75,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB1Sm}
               lgimage={RB1Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -86,8 +86,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB2Sm}
               lgimage={RB2Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -97,8 +97,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB3Sm}
               lgimage={RB3Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -108,8 +108,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB4Sm}
               lgimage={RB4Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -119,8 +119,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB5Sm}
               lgimage={RB5Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -130,8 +130,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB6Sm}
               lgimage={RB6Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -141,8 +141,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB7Sm}
               lgimage={RB7Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -152,8 +152,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB8Sm}
               lgimage={RB8Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -163,8 +163,8 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB9Sm}
               lgimage={RB9Lg}
-              name="Demolition Images from the school "
-              position={{ color: "info", label: "Demolition School Images" }}
+              name="The Rebuilding Phase of the school Site to transition into an overflow Carpark for the Christ The King Main complex "
+              position={{ color: "info", label: "Redevelopment Images" }}
               description="Images."
             />
           </MKBox>
@@ -172,7 +172,7 @@ function RebuildingGallery() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              School Maps SVG recreation of the schools internal layout.
+              Progression to A new Road Level Car park
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
               Close up of the buildings only
@@ -184,7 +184,7 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB10Sm}
               lgimage={RB10Lg}
-              name="A close up of the map above recreated as an svg file"
+              name="Demolition and the sunsequent rebuilding phase of the school."
               position={{ color: "info", label: "RB1Sm School Images" }}
               description="
                "
@@ -196,7 +196,7 @@ function RebuildingGallery() {
             <HorizontalTeamCard2
               smimage={RB10Sm}
               lgimage={RB10Lg}
-              name="A close up of the map above recreated as an svg file"
+              name="Demolition and the sunsequent rebuilding phase of the school."
               position={{ color: "info", label: "RB1Sm School Images" }}
               description="
                "
