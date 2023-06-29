@@ -26,7 +26,9 @@ import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
 // Images
 import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
+// Images Small
 import mrsColenutt from "assets/images/Auxstaff/mrsColenutt.png";
+// Images Large
 import mrsColenuttLarge from "assets/images/Auxstaff/mrsColenutt.Large.png";
 
 function Librarystaff1() {

@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
+// Images Small
 import Singleton from "assets/images/Galleries/Singleton.jpg";
+// Images Large
 import SingletonLarge from "assets/images/Galleries/SingletonLarge.jpg";
 
 function SingletonGallery() {

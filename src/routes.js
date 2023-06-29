@@ -64,13 +64,9 @@ import Maps2 from "pages/Templates/Maps/Maps2";
 import Maps3 from "pages/Templates/Maps/Maps3";
 import Maps4 from "pages/Templates/Maps/Maps4";
 import Librarystaff1 from "pages/Templates/auxStaff/Librarystaff1";
-// Sections
 import NavTabs from "layouts/sections/navigation/nav-tabs";
 import FireAlarm1 from "pages/Templates/FireAlarms/FireAlarm1";
 import SchoolRoutine from "pages/Templates/FireAlarms/SchoolRoutine";
-
-//import Avatars from "layouts/sections/elements/avatars";
-//import Badges from "layouts/sections/elements/badges";
 import Computer1 from "pages/Templates/Computer/Computer1";
 import Computer2 from "pages/Templates/Computer/Computer2";
 import Computer3 from "pages/Templates/Computer/Computer3";

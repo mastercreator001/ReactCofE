@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
+// Images Small
 import MissForerGermany1 from "assets/images/Galleries/MissForerGermany1.jpg";
+// Images Large
 import MissForerGermanyLarge1 from "assets/images/Galleries/MissForerGermanyLarge1.jpg";
 
 function MissForerGermany() {

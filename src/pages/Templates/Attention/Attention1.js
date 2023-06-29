@@ -24,14 +24,15 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import frontCoverPam from "assets/images/Attentioncatchers/frontCoverPam.png";
-import frontCoverPamLarge from "assets/images/Attentioncatchers/frontCoverPamLarge.png";
 import advancedMap from "assets/images/Attentioncatchers/advancedMap.jpg";
-import advancedMapLarge from "assets/images/school maps/advancedMaplarge.jpg";
 import schoolOpening from "assets/images/Attentioncatchers/schoolopening.jpg";
-import schoolOpeningLarge from "assets/images/Attentioncatchers/schoolopeningLarge.jpg";
 import englishClip from "assets/images/facebookClippings/englishClip.jpg";
+// Images Large
+import schoolOpeningLarge from "assets/images/Attentioncatchers/schoolopeningLarge.jpg";
+import frontCoverPamLarge from "assets/images/Attentioncatchers/frontCoverPamLarge.png";
+import advancedMapLarge from "assets/images/school maps/advancedMaplarge.jpg";
 
 function Attention1() {
   return (

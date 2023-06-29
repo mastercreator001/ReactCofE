@@ -24,13 +24,15 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import schoolClosing1 from "assets/images/Attentioncatchers/schoolClosing1.png";
-import schoolClosing1Large from "assets/images/Attentioncatchers/schoolClosing1Large.png";
 import trinitymiddlefire22 from "assets/images/Attentioncatchers/trinitymiddlefire22.jpg";
-import trinitymiddlefire22Large from "assets/images/Attentioncatchers/trinitymiddlefire22Large.jpg";
 import schoolClosure5 from "assets/images/Attentioncatchers/schoolClosure5.png";
+// Images Large
 import schoolClosure5Large from "assets/images/Attentioncatchers/schoolClosure5Large.png";
+import schoolClosing1Large from "assets/images/Attentioncatchers/schoolClosing1Large.png";
+import trinitymiddlefire22Large from "assets/images/Attentioncatchers/trinitymiddlefire22Large.jpg";
+
 function Attention2() {
   return (
     <MKBox

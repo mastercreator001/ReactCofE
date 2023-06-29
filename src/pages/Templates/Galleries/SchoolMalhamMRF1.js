@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
+// Images Small
 import Malham1990 from "assets/images/Galleries/Malham1990.jpg";
+// Images Large
 import Malham1990Large from "assets/images/Galleries/Malham1990Large.jpg";
 
 function SchoolMalhamMRF1() {

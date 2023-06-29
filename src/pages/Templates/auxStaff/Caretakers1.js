@@ -24,10 +24,11 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import careTaker from "assets/images/Auxstaff/careTaker.png";
-import careTakerLarge from "assets/images/Auxstaff/careTakerLarge.png";
 import mrBlank from "assets/images/Dhteachers/mrBlank.png";
+// Images Large
+import careTakerLarge from "assets/images/Auxstaff/careTakerLarge.png";
 
 function Caretakers1() {
   return (

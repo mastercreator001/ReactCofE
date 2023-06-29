@@ -16,17 +16,18 @@ Coded by www.creative-tim.com
 //const imagesPrefix =
 "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
 
+// Images Head teachers
 import harrisonImage from "../../../../assets/images/headTeachers/harrison.jpg";
 import feltonImage from "../../../../assets/images/headTeachers/feltonimg.jpg";
 import teachersGroup from "../../../../assets/images/Allteachers/teachersGroup.jpg";
-//import teachingStaff from "../../../../assets/images/Allteachers/teachingStaff.jpg";
+//Images Aux Staff
 import careTaker from "../../../../assets/images/Auxstaff/careTaker.png";
 import kitchenStaff1 from "../../../../assets/images/Auxstaff/kitchenStaff1.jpg";
 import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg";
 import mrsTout from "../../../../assets/images/Auxstaff/mrsTout.png";
 import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
 import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
-//import frenchTeacher from "../../../../assets/images/Dhteachers/frenchTeacher.jpg";
+//Iamges Subjects
 import science from "../../../../assets/images/logos/science.png";
 import maths from "../../../../assets/images/logos/maths.png";
 import english from "../../../../assets/images/logos/english.png";
@@ -37,12 +38,14 @@ import artClass from "../../../../assets/images/logos/artClass.png";
 import cookingclass from "../../../../assets/images/logos/cooking class.png";
 import religiousEducation from "../../../../assets/images/logos/religiousEducation.png";
 import frenchClass from "../../../../assets/images/logos/frenchClass.png";
+//Images School Views
 import advancedMap from "../../../../assets/images/school maps/advancedMap.jpg";
 import bookMap from "../../../../assets/images/school maps/bookMap.jpg";
 import finalMapCTK from "../../../../assets/images/school maps/finalMapCTK.png";
 import finalMapCTK1 from "../../../../assets/images/school maps/finalMapCTK1.png";
 import finalMapCTK2 from "../../../../assets/images/school maps/finalMapCTK2.png";
 import schoolPlanfinal from "../../../../assets/images/school maps/schoolPlanfinal.png";
+//Images Computing
 import bbcComputer1 from "../../../../assets/images/ComputerImages/bbcComputer1.jpg";
 import bbcComputer2 from "../../../../assets/images/ComputerImages/bbcComputer2.png";
 import bbcComputer3 from "../../../../assets/images/ComputerImages/bbcComputer3.png";
@@ -50,6 +53,7 @@ import floopyDisc from "../../../../assets/images/ComputerImages/floopyDisc.png"
 import schoolopening from "../../../../assets/images/Attentioncatchers/schoolopening.jpg";
 import trinitymiddlefire22 from "../../../../assets/images/Attentioncatchers/trinitymiddlefire22.jpg";
 import octogonWindow from "../../../../assets/images/Attentioncatchers/octogonWindow.jpg";
+//Images Trips Away
 import weald from "../../../../assets/images/schoolTrips/weald.jpg";
 import totlandYouthhostel from "../../../../assets/images/schoolTrips/totlandYouthhostel.png";
 import newfieldHall from "../../../../assets/images/schoolTrips/newfieldHall.png";
@@ -59,13 +63,16 @@ import romanVillanewport from "../../../../assets/images/schoolTrips/romanVillan
 import tripsOut from "../../../../assets/images/schoolTrips/tripsOut.jpg";
 import osbourneHouse from "../../../../assets/images/schoolTrips/osbourneHouse.png";
 import apolloTheatre from "../../../../assets/images/schoolTrips/apolloTheatre.png";
+//Images School Maps
 import overhead2015 from "../../../../assets/images/historicSchool/overhead2015.png";
 import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
 import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
+//Images School Day
 import FireAlarm from "../../../../assets/images/logos/FireAlarm.jpg";
 import schoolDiary from "../../../../assets/images/schoolDay/schoolDiary.png";
 import Clock1 from "../../../../assets/images/schoolDay/Clock1.png";
+//Images School Galleries
 import Malham1990 from "../../../../assets/images/Galleries/Malham1990.jpg";
 import Malham1985 from "../../../../assets/images/Galleries/Malham1985.jpg";
 import SchoolTrips from "../../../../assets/images/Galleries/SchoolTrips.jpg";

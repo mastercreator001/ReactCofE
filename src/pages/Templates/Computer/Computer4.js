@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import floopyDisc from "assets/images/ComputerImages/floopyDisc.png";
+// Images Large
 import floopyDiscLarge from "assets/images/ComputerImages/floopyDiscLarge.png";
 
 function Computer4() {

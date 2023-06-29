@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import bbcComputer1 from "assets/images/ComputerImages/bbcComputer1.jpg";
+// Images Large
 import bbcComputer1Large from "assets/images/ComputerImages/bbcComputer1Large.jpg";
 
 function Computer1() {

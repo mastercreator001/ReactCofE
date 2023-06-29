@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
+// Images Small
 import SchoolPerformances from "assets/images/Galleries/SchoolPerformances.jpg";
+// Images Large
 import SchoolPerformancesLarge from "assets/images/Galleries/SchoolPerformancesLarge.jpg";
 
 function AroundTheSchoolPerformances() {

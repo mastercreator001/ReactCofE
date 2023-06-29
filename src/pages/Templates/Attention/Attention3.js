@@ -24,14 +24,15 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import schoolwindow from "assets/images/Attentioncatchers/schoolwindow.png";
-import schoolwindowLarge from "assets/images/Attentioncatchers/schoolwindowLarge.png";
 import schoolwindowedited from "assets/images/Attentioncatchers/schoolwindowedited.jpg";
-import schoolwindoweditedLarge from "assets/images/Attentioncatchers/schoolwindoweditedLarge.jpg";
 import octogonWindow from "assets/images/Attentioncatchers/octogonWindow.jpg";
-import octogonWindowLarge from "assets/images/Attentioncatchers/octogonWindowLarge.jpg";
 import farewellFBClip from "assets/images/facebookClippings/FarewellFBClip.jpg";
+//Images Large
+import schoolwindowLarge from "assets/images/Attentioncatchers/schoolwindowLarge.png";
+import octogonWindowLarge from "assets/images/Attentioncatchers/octogonWindowLarge.jpg";
+import schoolwindoweditedLarge from "assets/images/Attentioncatchers/schoolwindoweditedLarge.jpg";
 
 function Attention3() {
   return (

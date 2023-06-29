@@ -24,8 +24,9 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Images Small
 import kitchenStaff2 from "assets/images/Auxstaff/kitchenStaff2.jpg";
+// Images Large
 import kitchenStaff2Large from "assets/images/Auxstaff/kitchenStaff2Large.jpg";
 
 function KitchenStaff2() {
@@ -56,7 +57,9 @@ function KitchenStaff2() {
                 lgimage={kitchenStaff2Large}
                 name="kitchen lady"
                 position={{ color: "info", label: "Ca1977-1981" }}
-                description="TEXT TO BE ADDED FOR THE 1ST KITCHEN STAFF ???"
+                description="Not a mission today but any helpful hints reminders or names would be of most help. We have been scrolling through the old school photos and have copied some of the dinner ladies who were at the school and keeping everyone fed and I would like to see if we can generate some names and if possible some stories we have had of them. I personally was sent to school with a packed lunch as it was deemed to expensive for me to have school dinnera but I'm hoping there are still some out there who remember the ladies of the kitchen. 
+                
+                Generic text from Facebook???"
               />
             </MKBox>
           </Grid>
