@@ -22,13 +22,16 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
-import frontCoverPam from "assets/images/Attentioncatchers/frontCoverPam.png";
-import advancedMap from "assets/images/Attentioncatchers/advancedMap.jpg";
-import FireAlarm from "assets/images/logos/FireAlarm.jpg";
+import MissForerGermany1 from "assets/images/FireAlarms/MissForerGermany1.jpg";
+import MissForerGermany1Large from "assets/images/FireAlarms/MissForerGermanyLarge1.jpg";
+import FireAlarmlg from "assets/images/FireAlarms/FireAlarmlg.jpg";
+import FireAlarm from "assets/images/FireAlarms/FireAlarm.jpg";
 import englishClip from "assets/images/facebookClippings/englishClip.jpg";
+import EarlySchool from "assets/images/FireAlarms/EarlySchool.jpg";
+import EarlySchoolLarge from "assets/images/FireAlarms/EarlySchoolLarge.jpg";
 
 function FireAlarm1() {
   return (
@@ -48,20 +51,21 @@ function FireAlarm1() {
               The Story Behind the fire alarms.....
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Moern School Massive fire detection system.
+              Modern School Massive fire detection system.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={FireAlarm}
+            <HorizontalTeamCard2
+              smimage={FireAlarm}
+              lgimage={FireAlarmlg}
               name="Thursday February 4th 1971"
               position={{
                 color: "info",
-                label: "Opening day of the school and a new type of school is born",
+                label: "The school Fire alarms and the testing ",
               }}
-              description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
+              description="When in school it helped us grow as adults or should I say helped us grow into adults as a routine was drilled into us and the frequency of follwing the routine were instilled in us due to this. I rememeber the West Primary School we had a hand rung bell to advise staff and students alike of the start and end of lunch breaks but oddly I never needed to be told when it was time to head home.Fire alarms and the fire alarm testing was a little bit of a challenge. As mentioned above we all knew fire was a risk although we never perhaps appreciated the responses need and the ultimate consenquences of not following the alarms. The school had a system place that sought to evacuate the school with precision and accuracy as to account for every student. As your sitting down sometimes in form groups and sometimes in afternoon lesson we all heard the familur ringing of the school fire alarms and the teachers diligently asked all students to head for the tennis courts for a registration check. I personally cannot recall any period when the fire larms were malicously activated but I'm sure it must have happened over the years. Do you remember it happening and do you have any thoughts on the fire alarms ?? contact us and we catch up. "
             />
           </MKBox>
         </Grid>
@@ -73,37 +77,39 @@ function FireAlarm1() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={frontCoverPam}
-              name="A copy of the Pamphlet released on the opening day of the school."
-              position={{ color: "info", label: "Opening Day" }}
-              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
+            <HorizontalTeamCard2
+              smimage={MissForerGermany1}
+              lgimage={MissForerGermany1Large}
+              name="Ready for lunch on the bell"
+              position={{ color: "info", label: "Lunches and period breaks" }}
+              description="I'm not wanting to sound like I didn't enjoy school but I did also enjoy my first period breaks and the subsequent breaks at lunch time and the period heading towards home time. I can't think of a good way to get the students to go to lunch or getting them to return but we do have the school bell. As I mentioned above the schools fire alarm system was utlised as opefully you remmebr to get the students to signal lunch breaks and I think it worked pretty well aside from the odd occasion Mrs Tour Or Mrs Smith insisted to the studetns tht break was indeed over. "
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={advancedMap}
-              name="Map and general layout."
-              position={{ color: "info", label: "A map showing the new layout of the new school." }}
-              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
+            <HorizontalTeamCard2
+              smimage={EarlySchool}
+              lgimage={EarlySchoolLarge}
+              name="Time for home"
+              position={{ color: "info", label: "Home time 15.00 as I remember" }}
+              description="In Mr Knights time at the school he introduced a tradition of first period after lunch was to allow he students to calm down from footbal or running or playing anround and let them regain their focus. Tis said the school day seemed quite long and for the right reasons, as it was. We started at 0900 and eneded at 1500 so a fairly long day but I always used to be able to tell the time around 1500 as it was a favoutire part of the day. Staff and students delighted by the ringing of the fire alarms and the fact the buses had usually arrived ready for the students collection and either were coming from ABK to Us and then to Carisbrooke High. The teachers were usually outside in pairs to see children cross the road safely and then no trouble occoured outside the school. Mr Felto once mentioned is little treasures but I'm sure after a tough day they were glad to be heading home on the bell as we all were.  "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              The Story Behind the Music Room
+              The Modern Fire Alarm System
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Music Room.
+              Fitted throught the school
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={englishClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

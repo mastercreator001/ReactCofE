@@ -69,8 +69,8 @@ import Overview1 from "../../../../assets/images/historicSchool/Overview1.png";
 import schoolClosing4 from "../../../../assets/images/historicSchool/schoolClosing4.png";
 import cofeoverviewduring from "../../../../assets/images/historicSchool/cofeoverviewduring.png";
 //Images School Day
-import FireAlarm from "../../../../assets/images/logos/FireAlarm.jpg";
-import schoolDiary from "../../../../assets/images/schoolDay/schoolDiary.png";
+import FireAlarm from "../../../../assets/images/FireAlarms/FireAlarm.jpg";
+import schoolDiary from "../../../../assets/images/SchoolDiary/schoolDiary.png";
 import Clock1 from "../../../../assets/images/schoolDay/Clock1.png";
 //Images School Galleries
 import Malham1990 from "../../../../assets/images/Galleries/Malham1990.jpg";

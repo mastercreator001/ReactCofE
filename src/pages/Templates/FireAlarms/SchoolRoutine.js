@@ -33,7 +33,7 @@ import Clock5 from "assets/images/schoolDay/Clock5.png";
 import Clock6 from "assets/images/schoolDay/Clock6.png";
 import hometime from "assets/images/schoolDay/hometime.png";
 import assemblyTime from "assets/images/schoolDay/assemblyTime.png";
-import schoolDiary from "assets/images/schoolDay/schoolDiary.png";
+import schoolDiary from "assets/images/SchoolDiary/schoolDiary.png";
 import schoolhistorictotaloverview1 from "assets/images/schoolDay/schoolhistorictotaloverview1.png";
 
 function SchoolRoutine() {

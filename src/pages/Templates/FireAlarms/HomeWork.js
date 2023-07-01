@@ -22,13 +22,17 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
-import HomeworkDiary from "assets/images/logos/HomeworkDiary.png";
-import schoolDiary from "assets/images/schoolDay/schoolDiary.png";
-import schoolDiary1 from "assets/images/schoolDay/schoolDiary1.png";
-import usedDiary from "assets/images/schoolDay/usedDiary.jpg";
+import HomeworkDiarysm from "assets/images/SchoolDiary/HomeworkDiarysm.png";
+import HomeworkDiarylg from "assets/images/SchoolDiary/HomeworkDiarylg.png";
+import schoolDiarysm from "assets/images/SchoolDiary/schoolDiarysm.png";
+import schoolDiarylg from "assets/images/SchoolDiary/schoolDiarylg.png";
+import schoolDiary1sm from "assets/images/SchoolDiary/schoolDiary1sm.png";
+import schoolDiary1lg from "assets/images/SchoolDiary/schoolDiary1lg.png";
+import usedDiarysm from "assets/images/SchoolDiary/usedDiarysm.jpg";
+import usedDiarylg from "assets/images/SchoolDiary/usedDiarylg.jpg";
 
 function HomeWork() {
   return (
@@ -54,8 +58,9 @@ function HomeWork() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={HomeworkDiary}
+            <HorizontalTeamCard2
+              smimage={HomeworkDiarysm}
+              lgimage={HomeworkDiarylg}
               name="Thursday February 4th 1971"
               position={{
                 color: "info",
@@ -73,8 +78,9 @@ function HomeWork() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={schoolDiary}
+            <HorizontalTeamCard2
+              smimage={schoolDiarysm}
+              lgimage={schoolDiarylg}
               name="A copy of the Pamphlet released on the opening day of the school."
               position={{ color: "info", label: "Opening Day" }}
               description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
@@ -83,8 +89,20 @@ function HomeWork() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={schoolDiary1}
+            <HorizontalTeamCard2
+              smimage={schoolDiary1sm}
+              lgimage={schoolDiary1lg}
+              name="Map and general layout."
+              position={{ color: "info", label: "A map showing the new layout of the new school." }}
+              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={25}>
+            <HorizontalTeamCard2
+              smimage={usedDiarysm}
+              lgimage={usedDiarylg}
               name="Map and general layout."
               position={{ color: "info", label: "A map showing the new layout of the new school." }}
               description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
@@ -101,11 +119,6 @@ function HomeWork() {
               onto repsonsiable adults.
             </MKTypography>
           </Grid>
-        </Grid>
-        <Grid item xs={3} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={usedDiary} name="" position={{}} description="" />
-          </MKBox>
         </Grid>
       </Container>
     </MKBox>
