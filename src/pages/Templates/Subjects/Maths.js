@@ -22,13 +22,18 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import monk1 from "assets/images/Allteachers/monk1.png";
-import mrMoorse1 from "assets/images/Allteachers/mrMoorse1.jpg";
-import mrTansley1 from "assets/images/Allteachers/mrTansley1.jpg";
-import scienceClip from "assets/images/facebookClippings/scienceClip.jpg";
+// Small Images
+import mrsHayles from "assets/images/Allteachers/mrsHayles.png";
+import mrsCrump from "assets/images/Allteachers/mrsCrump.png";
+import mrFelton from "assets/images/Dhteachers/mrFelton.png";
+// Large Images
+import mrFeltonLarge from "assets/images/Dhteachers/mrFeltonLarge.png";
+import mrsCrumpLarge from "assets/images/Allteachers/mrsCrumpLarge.png";
+import mrsHaylesLarge from "assets/images/Allteachers/mrsHaylesLarge.png";
+//Facobook Clipping
+import mathsFB from "assets/images/facebookClippings/mathsFB.jpg";
 
 function Maths() {
   return (
@@ -54,11 +59,22 @@ function Maths() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrTansley1}
-              name="Why Do We Need to learn Science At School"
-              position={{ color: "info", label: "Mr Tansley head of science" }}
-              description="Science education is important for students as it provides critical thinking skills and engages them in science from the start. Governmental guidelines and tests often focus on middle and high school-level STEM education, but many educators believe that science education should begin much earlier.1 Science education can support the development of a knowledgeable citizenry, meaningful learning of language and mathematics, wonderment about how the natural world works, and preparation for STEM-related careers. Science feeds a natural love for learning and is a great medium to do so, as children are inquisitive explores by nature and science offers lots to explore."
+            <HorizontalTeamCard2
+              smimage={mrsHayles}
+              lgimage={mrsHaylesLarge}
+              name="Why Do We Need to learn Maths At School"
+              position={{ color: "info", label: "Mrs Hayles head of Maths" }}
+              description="
+The most frequent word one hears today in all education and business circles is STEM. We need to educate all students in the fields of science, technology, engineering and mathematics (STEM) in order to be competitive in the 21st century global economy. This issue has gained significant momentum over the last few years and is reaching critical mass but we still have a long way to go in raising the level of our education and student achievement in these fields in order to fulfill the increasing demand for qualified employees our corporations and universities need in the Information Age.
+
+Why is Maths So Important?
+No matter which way I look at it, math came first and foremost and was at the core of my success. Science, technology and engineering, so essential to the future success of our country, cannot thrive without practitioners having a solid mathematics foundation.
+
+The importance of a solid mathematics education goes much beyond the current conversation of improved proficiency on test scores. I have used the word mathematics very frequently in my education and career but never until recently thought about the actual meaning of the word.
+
+Once I looked from an Etymology perspective, I found interesting literal definitions in two ancient languages. In Greek, it is “learning.” In Hebrew, it’s root is “thinking.”
+
+They tell us that mathematics gives us the critical ability to learn and think logically in any field of endeavor. The skills of learning today are more important than knowledge, which is so readily available on the Internet."
             />
           </MKBox>
         </Grid>
@@ -70,11 +86,12 @@ function Maths() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrMoorse1}
-              name="Mr Moorse"
-              position={{ color: "info", label: "Science teacher" }}
-              description="Our labs at school may never have been the biggest available but they were a place whre the mind wondered about the possibilities and allowed us to esacpe some of the subjects we might not love but are required to learn. Having done my four years at C of E Middle School it was always fun to attend science as it had a less formal feel to me than say maths or french class. Mr Tansley was  my teacher and he always made learning fun. I always wondered what else was inside the magical potions cupboard. "
+            <HorizontalTeamCard2
+              smimage={mrsCrump}
+              lgimage={mrsCrumpLarge}
+              name="Mr Crump (Manche)"
+              position={{ color: "info", label: "Maths teachers" }}
+              description="Maths taught at C of E Middle school was fairly hum drum as it' and area of academic stalemate especially in a council/ church controled school as the sylabus an the need for students to attain basic maths skills were firmly laid out with books course work and key skills. The need to learn althou explained above gave studetns a basic understanding of the importance of maths in life and the need to be albe tp basic maths as part of a job and indeed life. Does anyone in the group remember the maths classes as I'm sure basic algebra may send a shiver dowm most people's spine as it did mine."
             />
             <Grid container mt="30px">
               <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
@@ -82,27 +99,28 @@ function Maths() {
                 <MKTypography variant="body2" color="white" opacity={0.8}></MKTypography>
               </Grid>
             </Grid>
-            <HorizontalTeamCard
-              image={monk1}
-              name="Mr Monk"
-              position={{ color: "info", label: "Science teacher" }}
-              description="Well before the time of Harry Potter science always has the ability to make you wonder and some of the experiments were awe inspiring for a young person. I have heard stories of Mr Moorse nearly setting fire to the science lab. It may have not been something I have witnessed personally but if any ex students reading this has first hand experience we would love a blow by blow renactment of the events that nearly took the science lab to dust. Did you enjoy Science class or were you more favourble to the other subject prehaps? Scienec had to be one of my personal favourites and the teachers always made if fun to learn. Any stories of the teachers featured above please do feel free to share by eailing me and well get your storie added to the site.  "
+            <HorizontalTeamCard2
+              smimage={mrFelton}
+              lgimage={mrFeltonLarge}
+              name="Mr Felton"
+              position={{ color: "info", label: "Maths teachers" }}
+              description="We were well equipped at C of E to not only comete with other school but excel as we had various set for maths and although I could never claim to be a high flyer for maths I learn't the basics. Some students hated the thoght of becoming a student who would be moved up a maths set for fear of being out of their depth but agin other had the dissapointment of being downgraded and dropped a maths set. I do remember during the late eighities we had the opportunity to purchase a small batch of scientific calculators thats the school had purchased. Texas Instruments I believe and although expensive I think the most taxing thing I did to mine was to type shell oil in it. Yes you guessed it we were bottom set maths but someone had to be ??   "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              Science Class
+              Maths Classes
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Some of your thoughts about the Science lab
+              Some of your thoughts about the Maths Class
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={scienceClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={mathsFB} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

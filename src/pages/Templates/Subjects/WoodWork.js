@@ -22,14 +22,19 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import mrsMontgomery1 from "assets/images/Allteachers/mrsMontgomery1.jpg";
-import mrHawes1 from "assets/images/Allteachers/mrHawes1.jpg";
-import missForer3 from "assets/images/Allteachers/missForer3.jpg";
-import englishClip from "assets/images/facebookClippings/englishClip.jpg";
+// Small Images
+import mrFelton from "assets/images/Dhteachers/mrFelton.png";
+import mrHawes from "assets/images/Allteachers/mrHawes.png";
+import monk1 from "assets/images/Allteachers/monk1.png";
+// Large Images
+import mrFeltonLarge from "assets/images/Dhteachers/mrFeltonLarge.png";
+import mrHawesLarge from "assets/images/Allteachers/mrHawesLarge.png";
+import monk1Large from "assets/images/Allteachers/monk1Large.png";
 
+//Wood WorkFBClip
+import CDTFBClip from "assets/images/facebookClippings/CDTFBClip.jpg";
 function WoodWork() {
   return (
     <MKBox
@@ -48,17 +53,30 @@ function WoodWork() {
               CDT or Wood Work Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Working with and working to measurements, creating the pencil holder.
+              Working with and working to measurements, creating the pencil holder or perhaps the
+              parrot.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={missForer3}
-              name="Why Do We Need to learn English At School"
-              position={{ color: "info", label: "Mr Forer head of English, Drama, and French" }}
-              description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
+            <HorizontalTeamCard2
+              smimage={mrFelton}
+              lgimage={mrFeltonLarge}
+              name="Why Do We Need to learn Design and Technology At School"
+              position={{ color: "info", label: "Design And Technology Teacher" }}
+              description="Middle school wood shop project requirements can vary by school and district as well as by the equipment provided to the class and teacher. The focus of wood shop class at this age tends to be on teaching the students how to work safely with the wood and tools, thus leading the majority of the work to be completed solely with hand tools.
+
+Cars/ pencil holders
+Using hardwood or laminated wood and a variety of hand tools such as band saw and rasp, students in a middle school wood shop can learn how to make wooden toy cars. The students use paper patterns to lay out the design of the car before cutting the wood. They then assemble the cut pieces using wood glue before using a drill to attach the dowel and wooden wheels to make the car mobile. The finished products are sanded and painted if necessary.
+
+The creation of a clock can be an easy wood shop project, and the project allows the students to work on their cutting skills. Students cut out the main plank or step with a handsaw and then work on tapering skills while cutting the legs of the stool. They will also need to cut out a brace and attach it and the legs to the main piece by precisely drilling holes and screwing the pieces together. Depending on the lumber chosen for the project, the stools may or may not be covered with a finish before completion.
+
+For middle school wood shop classes working on a more advanced level, the students may even wish to try their hand at creating the playing pieces to go along with their checker or chess board.
+
+Parrots come in a variety of shapes and sizes, making the choice for the type built in a middle school wood shop dependent on the skill level of the students, and the tools provided. A picnic-style holder can be built with a square base with slightly raised edges and small piece of wood attached to two dowels to weigh the napkins down.
+
+A Parrot or Pencil holder more suited for the desk and requires the students to measure and cut a base and two sides and affix them together for the napkins to rest into vertically upon completion."
             />
           </MKBox>
         </Grid>
@@ -70,37 +88,42 @@ function WoodWork() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsMontgomery1}
-              name="Mrs Montgomery"
-              position={{ color: "info", label: "English Teacher, French Teacher" }}
-              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
+            <HorizontalTeamCard2
+              smimage={monk1}
+              lgimage={monk1Large}
+              name="Mr Monk"
+              position={{ color: "info", label: "Design And Technology Teacher, Science Teacher" }}
+              description="Ye Gods for an expression of a sign of frustration for the people who remember Mr Monk in both the Science lab and the C.D.T area helping students and occasional making the familiur phrase so many of you seem to remember so well. Mr felton Created the tool boxes, does anyone remember them at all? we had coloured bands on the tools to make sure that all the tools ended up ack in the correct kit. Mr Felton is quite the talented wood worker if you hadn't guessed by now and has made some very attractive wooden birds which adord his cabinet as we speak.    "
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={mrHawes1}
+            <HorizontalTeamCard2
+              smimage={mrHawes}
+              lgimage={mrHawesLarge}
               name="Mr Hawes"
-              position={{ color: "info", label: "English Teacher, Sex Education Teacher" }}
-              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
+              position={{
+                color: "info",
+                label: "English Teacher, Sex Education Teacher Wood work?",
+              }}
+              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this. Wheather  it was Mr Monk or it was Mr Felton it was always a pleasure to be able to work in the wood working department and I have been told in the early days of the school we never had a wood working department. It all evolced from a discussion Mr Felton had with Mr Knight about expanding the cirriclum and it wasn't expected to last. As such was the case Mr Felton precivered and the C.D.T deprtment came into existence and with it the famous wooden animals and the prnicl holder or perhaps it was the parrot you may have made. Initially Mr O'Donaghue wasn't heen on loosing a chunk of the art room as this was originally all the art class, kindly submitting the C.D.T department was formed into what we rememeber today, thanks Mr O'D much appreciated. "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              English Class
+              Wood Working or C.D.T Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Some of your thoughts about English Class
+              Some of your thoughts about C.D.T Class
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={CDTFBClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

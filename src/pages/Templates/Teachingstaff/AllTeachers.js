@@ -24,53 +24,55 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Small Images
 import missBarabraWatson from "assets/images/Allteachers/missBarabraWatson.png";
-import missBarabraWatsonLarge from "assets/images/Allteachers/missBarabraWatsonLarge.png";
 import missDennis from "assets/images/Allteachers/missDennis.png";
-import missDennisLarge from "assets/images/Allteachers/missDennisLarge.png";
 import missForer2 from "assets/images/Allteachers/missForer2.png";
-import missForer2Large from "assets/images/Allteachers/missForer2Large.png";
 import missGoodship from "assets/images/Allteachers/missGoodship.png";
-import missGoodshipLarge from "assets/images/Allteachers/missGoodshipLarge.png";
 import mrFelton from "assets/images/Allteachers/mrFelton.png";
-import mrFeltonLarge from "assets/images/Allteachers/mrFeltonLarge.png";
 import mrChristensen from "assets/images/Allteachers/mrChristensen.png";
-import mrChristensenLarge from "assets/images/Allteachers/mrChristensenLarge.png";
 import monk1 from "assets/images/Allteachers/monk1.png";
-import monk1Large from "assets/images/Allteachers/monk1Large.png";
 import mrsBall from "assets/images/Allteachers/mrsBall.png";
-import mrsBallLarge from "assets/images/Allteachers/mrsBallLarge.png";
 import mrMoorse from "assets/images/Allteachers/mrMoorse.png";
-import mrMoorseLarge from "assets/images/Allteachers/mrMoorseLarge.png";
 import mrsBrock from "assets/images/Allteachers/mrsBrock.png";
-import mrsBrockLarge from "assets/images/Allteachers/mrsBrockLarge.png";
 import mrsHayles from "assets/images/Allteachers/mrsHayles.png";
-import mrsHaylesLarge from "assets/images/Allteachers/mrsHaylesLarge.png";
 import mrsMurdoch from "assets/images/Allteachers/mrsMurdoch.png";
-import mrsMurdochLarge from "assets/images/Allteachers/mrsMurdochLarge.png";
 import mrsChalloner from "assets/images/Allteachers/mrsChalloner.png";
-import mrsChallonerLarge from "assets/images/Allteachers/mrsChallonerLarge.png";
 import mrsPassmore from "assets/images/Allteachers/mrsPassmore.png";
-import mrsPassmoreLarge from "assets/images/Allteachers/mrsPassmoreLarge.png";
 import mrsReynolds1 from "assets/images/Allteachers/mrsReynolds1.png";
-import mrsReynolds1Large from "assets/images/Allteachers/mrsReynolds1Large.png";
 import mrsWatkins from "assets/images/Allteachers/mrsWatkins.png";
-import mrsWatkinsLarge from "assets/images/Allteachers/mrsWatkinsLarge.png";
 import mrWalker from "assets/images/Allteachers/mrWalker.png";
-import mrWalkerLarge from "assets/images/Allteachers/mrWalkerLarge.png";
 import mrTansley2 from "assets/images/Allteachers/mrTansley2.png";
-import mrTansley2Large from "assets/images/Allteachers/mrTansley2Large.png";
 import mrBlank from "assets/images/Dhteachers/mrBlank.png";
 import mrsCrump from "assets/images/Allteachers/mrsCrump.png";
-import mrsCrumpLarge from "assets/images/Allteachers/mrsCrumpLarge.png";
 import mrHawes from "assets/images/Allteachers/mrHawes.png";
-import mrHawesLarge from "assets/images/Allteachers/mrHawesLarge.png";
 import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
 import mrsDarby from "assets/images/Allteachers/mrsDarby.png";
-import mrsDarbyLarge from "assets/images/Allteachers/mrsDarbyLarge.png";
 import mrsEmery from "assets/images/Allteachers/mrsEmery.png";
+
+// Large Images
+import mrWalkerLarge from "assets/images/Allteachers/mrWalkerLarge.png";
+import mrsReynolds1Large from "assets/images/Allteachers/mrsReynolds1Large.png";
+import mrsPassmoreLarge from "assets/images/Allteachers/mrsPassmoreLarge.png";
+import mrsChallonerLarge from "assets/images/Allteachers/mrsChallonerLarge.png";
+import mrsMurdochLarge from "assets/images/Allteachers/mrsMurdochLarge.png";
+import mrsHaylesLarge from "assets/images/Allteachers/mrsHaylesLarge.png";
+import mrsBrockLarge from "assets/images/Allteachers/mrsBrockLarge.png";
+import mrMoorseLarge from "assets/images/Allteachers/mrMoorseLarge.png";
+import mrsBallLarge from "assets/images/Allteachers/mrsBallLarge.png";
+import monk1Large from "assets/images/Allteachers/monk1Large.png";
+import mrFeltonLarge from "assets/images/Allteachers/mrFeltonLarge.png";
+import missGoodshipLarge from "assets/images/Allteachers/missGoodshipLarge.png";
+import mrsWatkinsLarge from "assets/images/Allteachers/mrsWatkinsLarge.png";
+import mrChristensenLarge from "assets/images/Allteachers/mrChristensenLarge.png";
+import missDennisLarge from "assets/images/Allteachers/missDennisLarge.png";
+import mrTansley2Large from "assets/images/Allteachers/mrTansley2Large.png";
+import missBarabraWatsonLarge from "assets/images/Allteachers/missBarabraWatsonLarge.png";
+import mrsDarbyLarge from "assets/images/Allteachers/mrsDarbyLarge.png";
+import mrHawesLarge from "assets/images/Allteachers/mrHawesLarge.png";
+import mrsCrumpLarge from "assets/images/Allteachers/mrsCrumpLarge.png";
 import mrsEmeryLarge from "assets/images/Allteachers/mrsEmeryLarge.png";
+import missForer2Large from "assets/images/Allteachers/missForer2Large.png";
 
 function AllTeachers() {
   return (

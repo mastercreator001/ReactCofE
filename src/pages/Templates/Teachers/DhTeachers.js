@@ -24,14 +24,15 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
 
-// Images
+// Small Images
 import mrBlank from "assets/images/Dhteachers/mrBlank.png";
 import missForer from "assets/images/Dhteachers/missForer.jpg";
-import missForerLarge from "assets/images/Dhteachers/missForerLarge.jpg";
 import mrLuckett from "assets/images/Dhteachers/mrLuckett.png";
+import mrFelton from "assets/images/Dhteachers/mrFelton.png";
+// Large Images
+import mrFeltonLarge from "assets/images/Dhteachers/mrFeltonLarge.png";
+import missForerLarge from "assets/images/Dhteachers/missForerLarge.jpg";
 import mrLuckettLarge from "assets/images/Dhteachers/mrLuckettLarge.png";
-import mrFelton from "assets/images/Dhteachers/mrFelton.jpg";
-import mrFeltonLarge from "assets/images/Dhteachers/mrFeltonLarge.jpg";
 
 function dhTeachers() {
   return (

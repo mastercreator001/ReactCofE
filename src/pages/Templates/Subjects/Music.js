@@ -22,13 +22,19 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import mrsMontgomery1 from "assets/images/Allteachers/mrsMontgomery1.jpg";
-import mrHawes1 from "assets/images/Allteachers/mrHawes1.jpg";
-import missForer3 from "assets/images/Allteachers/missForer3.jpg";
-import englishClip from "assets/images/facebookClippings/englishClip.jpg";
+// Small Images
+import missForer2 from "assets/images/Allteachers/missForer2.png";
+import missGoodship from "assets/images/Allteachers/missGoodship.png";
+import mrsBrock from "assets/images/Allteachers/mrsBrock.png";
+// Large Images
+import missForer2Large from "assets/images/Allteachers/missForer2Large.png";
+import mrsBrockLarge from "assets/images/Allteachers/mrsBrockLarge.png";
+import missGoodshipLarge from "assets/images/Allteachers/missGoodshipLarge.png";
+
+// FB Clippings
+import musicFBClip from "assets/images/facebookClippings/musicFBClip.jpg";
 
 function Music() {
   return (
@@ -48,17 +54,29 @@ function Music() {
               Music Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              The Beauty of Music and sound
+              The Beauty of Music and sound of the heavens
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={missForer3}
-              name="Why Do We Need to learn English At School"
-              position={{ color: "info", label: "Mr Forer head of English, Drama, and French" }}
-              description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
+            <HorizontalTeamCard2
+              smimage={missForer2}
+              lgimage={missForer2Large}
+              name="Why Do We Need to learn Music At School"
+              position={{ color: "info", label: "Whis is Music Important at school" }}
+              description="Music education is important in our schools.  And yet, it seems these days, it is being offered less and less in many school systems. Unfortunately, many schools have begun to exclude music from their curriculums to make room for other subjects.
+
+Music is an extremely important subject for all children to learn and can lead to better brain development, increases in human connection, and even stress relief. As music is removed from schools, children will no longer receive these benefits unless they enroll in private lessons, which is much too expensive for some families to afford.
+
+Here are five reasons why music education in schools is important:
+
+Music stimulates brain development in childrenstudents singing
+Various studies have found that engagement with music can lead to an improvement in brain development in children. A study at Northwestern University found better neural processing in students who played a musical instrument when they were compared with students who simply listened to music. This study shows the importance of receiving music education, rather than simply turning on background music when students are doing work in other subjects. Other studies have also found increases in IQ points in children who engaged with music. When compared with students who didn’t take any music lessons, musically-engaged students had more improvements in IQ subtests, index scores, and a standardized measure of academic achievement.
+
+If you’re interested in enrolling your child in music lessons outside of the school system for more engagement with music, take a look at this article to learn about the costs.
+
+Music education is also a great way to enhance reading comprehension abilities in children. Another study, which was also conducted at Northwestern University, found that students who actively participated in music classes had better speech processing abilities along with higher reading scores than children who weren’t involved. Reading is an important skill for all children to develop because it is needed for all subjects. Even subjects that are not related to English literature will involve reading. For example, math word problems require excellent reading comprehension abilities in order to answer them correctly."
             />
           </MKBox>
         </Grid>
@@ -70,37 +88,39 @@ function Music() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsMontgomery1}
-              name="Mrs Montgomery"
-              position={{ color: "info", label: "English Teacher, French Teacher" }}
-              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
+            <HorizontalTeamCard2
+              smimage={missGoodship}
+              lgimage={missGoodshipLarge}
+              name="Miss Goodship"
+              position={{ color: "info", label: "Music Teacher" }}
+              description="Well a story to relate to you, Mr Felton and I were chatting over the years and the subject came up about the school and the overall layout of the rooms. Now you have to rememeber that Mr felton joined the school in 1973/74 so the school was well established and running so most running snags had been overcome and the schools layout was pretty much set in stone. When we approached the fact about the Octogon room and the fact it was an isoated building was an odd aspect or so I thought but after  chatting to Mr Felton leaned the double truth. The music rom had actually quite delibrately been designed as a seperate unit from the school so the acoustic could be appreciated for the shape of the romm was designed with this in mind but as it appears the most popualr answer was so that all the loud and immatured players were in fact not disturbing the remainder of the school and there is the very good reason for the disconnected nature of the class room which was to me 4B or brock."
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={mrHawes1}
-              name="Mr Hawes"
-              position={{ color: "info", label: "English Teacher, Sex Education Teacher" }}
-              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
+            <HorizontalTeamCard2
+              smimage={mrsBrock}
+              lgimage={mrsBrockLarge}
+              name="Mrs Brock"
+              position={{ color: "info", label: "Music Teacher" }}
+              description="The school was way ahead of it's times and to have a dedicated music area which in it's self and by design was speciall designed to allow for the acoustic benefits was pretty advanced for the years around 1971. The very fact the school was brand new and still shinnig was also to the jealous green eye of others in the near by building of A.B.K too. A fact that never seem to go unoticed by some students as the schools turned out and engaged the nearest buses. A new school and a new way of teaching and quite the long list of pupils waiting to attend the school. Mr Felton mentioned to me the fact that if a student left the school then they could have a new student attend and be enrolled in just a matter of days, depeandant on the list of course.  "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              English Class
+              Music Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Some of your thoughts about English Class
+              Some of your thoughts about Music Classes
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={musicFBClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>
