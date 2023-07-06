@@ -22,13 +22,18 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import mrsMontgomery1 from "assets/images/Allteachers/mrsMontgomery1.jpg";
-import mrHawes1 from "assets/images/Allteachers/mrHawes1.jpg";
-import missForer3 from "assets/images/Allteachers/missForer3.jpg";
-import englishClip from "assets/images/facebookClippings/englishClip.jpg";
+//Small Images
+import mrsPassmore from "assets/images/Allteachers/mrsPassmore.png";
+import MRODsm from "assets/images/SubjectsArt/MRODlg.jpg";
+
+//Large Images
+import mrsPassmoreLarge from "assets/images/Allteachers/mrsPassmoreLarge.png";
+import MRODlg from "assets/images/SubjectsArt/MRODlg.jpg";
+import mrBlank from "assets/images/Dhteachers/mrBlank.png";
+//Fb Clip
+import artFBClip from "assets/images/facebookClippings/artFBClip.jpg";
 
 function Art() {
   return (
@@ -48,17 +53,25 @@ function Art() {
               Art Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Art Creating something inspiring from nothing
+              Art Creating something inspiring from nothing more than the basics
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={missForer3}
-              name="Why Do We Need to learn English At School"
-              position={{ color: "info", label: "Mr Forer head of English, Drama, and French" }}
-              description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
+            <HorizontalTeamCard2
+              smimage={MRODsm}
+              lgimage={MRODlg}
+              name="Mr O'Donnaghue"
+              position={{ color: "info", label: "Art teacher 1971-1984" }}
+              description="WHY IS ART EDUCATION IMPORTANT?
+Anyone who’s passionate about the arts recalls formative moments of experiencing a work of art pushing through a creative challenge. When we’re exposed to remarkable artworks or have opportunities to create, we find that art is crucial to individual growth and development and can even impact our health.
+
+A literature review from Frontiers in Psychology outlined several studies linking aesthetic experiences with broad improvements in subjects’ emotional states that promote physical and psychological well-being. Giving learners the time, space, and materials for creative expression can lower stress, improve memory, and make them feel more socially connected. Instructors can build their careers on bringing those experiences to students in a variety of settings, like galleries, museums, or events organized by nonprofit and community organizations.
+
+Appreciation for art also makes a significant difference in people’s lives on a macro level. Entire societies may stand to gain from an investment in the arts. Drawing on data from the General Social Survey, researchers from the University of Illinois at Chicago’s Department of Public Administration linked participation as either an audience member or creator to higher levels of civic engagement and social tolerance. This work suggests that learning how to draw, paint, sing, or just appreciate the works made by others can help us become not just happier and healthier, but also better people.
+
+"
             />
           </MKBox>
         </Grid>
@@ -70,37 +83,39 @@ function Art() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsMontgomery1}
-              name="Mrs Montgomery"
-              position={{ color: "info", label: "English Teacher, French Teacher" }}
-              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
+            <HorizontalTeamCard2
+              smimage={mrsPassmore}
+              lgimage={mrsPassmoreLarge}
+              name="Mrs Passmore"
+              position={{ color: "info", label: "Art Teacher  1984-1991" }}
+              description="Who remembers art in school, I hear you cry me me me. I loved art and it was a great was for students to be creative and express themselves more so than perhaps academically. I personally wasn't a gifted student and therefore I was pretty good at art and expressive forms so Art was definatly one of my most favorite subjects. The teachers were pretty uch a strong stable backbone in the school and as so many of you have pointed out Mr O' Donnaghue was the 1st and Mrs Passmore was the second but the third was Mr Patterson whom I haven't had the pleasure of meeting. Perhaps you could tell me a little more about your experiences and the classes projects you enjoyed in the art class. I have to say Mrs passmore was a little of a boyhood crush and that is probably true of many other students as well but she was a fabllous teacher who helped me personally make some tye die art work using wax to cover the colours and also a prehistoric cave for which I received a gold letter as well. Art is a freedom subject or so I would call it as it allow expressive outbursts of creativity which wouldn't perhpas as well understood in a class  environment typically.    "
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={mrHawes1}
-              name="Mr Hawes"
-              position={{ color: "info", label: "English Teacher, Sex Education Teacher" }}
-              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
+            <HorizontalTeamCard2
+              smimage={mrBlank}
+              lgimage={mrBlank}
+              name="Mr Patterson"
+              position={{ color: "info", label: "Art teacher 1991 onwards" }}
+              description="Not sadly a teacher I ever met but he was new to the school in 1991 so arrived shorlty after I left the school. Do you have any memories of Mr Patterson as any memories projects or picture of him and or the class wpuld be greatly appreciated. I would like to do justice to him and his teaching carrear as I'm sure he left an impression on the class as my teacher di for me as well. Please emmail stories via the contact us links ."
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              English Class
+              Art Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Some of your thoughts about English Class
+              Some of your thoughts about Art Class
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={artFBClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

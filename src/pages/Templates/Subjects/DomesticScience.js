@@ -27,10 +27,12 @@ import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 // Small Images
 import mrsMurdoch from "assets/images/Allteachers/mrsMurdoch.png";
 import missForer2 from "assets/images/Allteachers/missForer2.png";
+import MMBookSm from "assets/images/SubDomesticScience/MMBookSm.jpg";
 
 // Large Images
 import mrsMurdochLarge from "assets/images/Allteachers/mrsMurdochLarge.png";
 import missForer2Large from "assets/images/Allteachers/missForer2Large.png";
+import MMBookLg from "assets/images/SubDomesticScience/MMBookLg.jpg";
 
 // Domestic Science FB Clip
 import DSFBClip from "assets/images/facebookClippings/DSFBClip.jpg";
@@ -92,8 +94,8 @@ Schools are a sensible and popular setting to implement programs for equipping c
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
             <HorizontalTeamCard2
-              smimage={missForer2}
-              lgimage={missForer2}
+              smimage={MMBookSm}
+              lgimage={MMBookLg}
               name="Mrs Broadbent"
               position={{ color: "info", label: "Dinner Lady part time domestic science" }}
               description=" "
@@ -103,10 +105,10 @@ Schools are a sensible and popular setting to implement programs for equipping c
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              English Class
+              Cooking Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Some of your thoughts about English Class
+              Some of your thoughts about Domestic Science Class
             </MKTypography>
           </Grid>
         </Grid>
