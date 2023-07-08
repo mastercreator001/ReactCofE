@@ -26,9 +26,9 @@ import MKTypography from "components/MKTypography";
 
 import ModalImage from "react-modal-image-responsive";
 
-function HorizontalTeamCard2({ smimage, lgimage, position, description }) {
+function HorizontalTeamCard2({ smimage, lgimage, position, subheading, description }) {
   return (
-    <Card sx={{ mt: 3 }}>
+    <Card sx={{ mt: 8 }}>
       <Grid container>
         <Grid item xs={12} md={6} lg={4} sx={{ mt: -6 }}>
           <MKBox width="100%" pt={2} pb={1} px={2}>
@@ -46,8 +46,11 @@ function HorizontalTeamCard2({ smimage, lgimage, position, description }) {
         <Grid item xs={12} md={6} lg={8} sx={{ my: "auto" }}>
           <MKBox pt={{ xs: 2, lg: 2.5 }} pb={2.5} pr={4} pl={{ xs: 4, lg: 1 }} lineHeight={1}>
             <MKTypography variant="h5">{name}</MKTypography>
-            <MKTypography variant="h6" color={position.color} mb={1}>
+            <MKTypography variant="h6" color={position.color} mb={5}>
               {position.label}
+            </MKTypography>
+            <MKTypography variant="h6" color={position.color} mb={5}>
+              {subheading}
             </MKTypography>
             <MKTypography variant="body2" color="text">
               {description}
@@ -59,11 +62,12 @@ function HorizontalTeamCard2({ smimage, lgimage, position, description }) {
   );
 }
 
-// Typechecking props for the HorizontalTeamCard
+// Typechecking props for the HorizontalTeamCard2
 HorizontalTeamCard2.propTypes = {
   smimage: PropTypes.string.isRequired,
   lgimage: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  subheading: PropTypes.string.isRequired,
   position: PropTypes.shape({
     color: PropTypes.oneOf([
       "primary",
@@ -77,6 +81,7 @@ HorizontalTeamCard2.propTypes = {
     ]),
     label: PropTypes.string.isRequired,
   }).isRequired,
+
   description: PropTypes.string.isRequired,
 };
 

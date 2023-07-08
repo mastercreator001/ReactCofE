@@ -22,14 +22,19 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import mrsMontgomery1 from "assets/images/Allteachers/mrsMontgomery1.jpg";
-import mrHawes1 from "assets/images/Allteachers/mrHawes1.jpg";
-import missForer3 from "assets/images/Allteachers/missForer3.jpg";
-import englishClip from "assets/images/facebookClippings/englishClip.jpg";
+// Small Images
+import mrsChalloner from "assets/images/Allteachers/mrsChalloner.png";
+import missDennis from "assets/images/Allteachers/missDennis.png";
+import AssembliesSm from "assets/images/ReligiousEducation/AssembliesSm.jpg";
+// Large Images
+import missDennisLarge from "assets/images/Allteachers/missDennisLarge.png";
+import mrsChallonerLarge from "assets/images/Allteachers/mrsChallonerLarge.png";
+import AssembliesLg from "assets/images/ReligiousEducation/AssembliesLg.jpg";
 
+//FB Clips
+import REFBClip from "assets/images/facebookClippings/REFBClip.jpg";
 function ReligiousEducation() {
   return (
     <MKBox
@@ -54,11 +59,18 @@ function ReligiousEducation() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={missForer3}
-              name="Why Do We Need to learn English At School"
-              position={{ color: "info", label: "Mr Forer head of English, Drama, and French" }}
-              description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
+            <HorizontalTeamCard2
+              smimage={mrsChalloner}
+              lgimage={mrsChallonerLarge}
+              name="Why Do We Need to learn Religious Education At School"
+              position={{ color: "info", label: "Mrs Challoner head of Religious Education" }}
+              description="Religious Education (RE) is a compulsory subject in the state education system in England, despite it not being part of the national curriculum. Schools are required to teach a programme of religious studies according to local and national guidelines.
+
+Religious education in England is mandated by the Education Act 1944 as amended by the Education Reform Act 1988 and the School Standards and Framework Act 1998. The provision of religious education is compulsory in all state-funded schools, but it is not compulsory for any children to take the subject. The subject consists of the study of different religions, religious leaders, and other religious and moral themes. The syllabus is agreed locally by a Standing Advisory Council on Religious Education, and it may reflect the predominant place of Christianity in religious life, but also it might give an equal platform to all of the major world religions. All parents have the right to withdraw a child from religious education, which schools must approve.
+
+Additionally, all schools are required by law to provide a daily act of collective worship, of which at least 51% must be Christian in basis over the course of the academic year. This is separate and unrelated to RE lessons. Sarah Smalley, the chair of the Association of Religious Education Inspectors, Advisors and Consultants, stated that some schools did have problems fulfilling the requirement for worship due to what they thought was a lack of space to gather the entire school for worship,although Smalley noted that there is actually no requirement for such a gathering, as smaller groups are allowed. The National Union of Teachers suggested in 2008 that parents should have a right to have specific schooling in their own faith and that imams, rabbis and priests should be invited to offer religious instruction to pupils in all state schools.
+
+Each government jurisdiction in England has a Local Agreed Syllabus which serves as a mandate for the scope and sequence of subject teaching for each Key Stage, and possibly for each school year; use of the syllabi is only mandated for certain types of schools, such as Voluntary Controlled schools. Voluntary Aided and independent schools are free to outline their own course of study; the schools most likely to actually use the syllabi maintained schools and Voluntary Aided nondenominational schools. The Qualifications and Curriculum Authority has also produced the non-statutory National Framework for Religious Education, which provides guidelines for the provision of RE at all key stages, and models the eight-levels as applied in National Curriculum subjects"
             />
           </MKBox>
         </Grid>
@@ -70,37 +82,39 @@ function ReligiousEducation() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsMontgomery1}
-              name="Mrs Montgomery"
-              position={{ color: "info", label: "English Teacher, French Teacher" }}
-              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
+            <HorizontalTeamCard2
+              smimage={missDennis}
+              lgimage={missDennisLarge}
+              name="Miss Dennis"
+              position={{ color: "info", label: "Now Reverand Dennis" }}
+              description="Religious Education can be a contentious subject but for a faith school it s a corner stone of the system. My Family were religious me not so much in my later life but having a school founded and built around a strong religious footing can help build  a school and tie it all together in a faith bound network. Also an added benefit of C Of E was the finances of the chrch can be used to improve the lives of the schol stuents through bursaries granted to the school as an option for the under privilaged students to be also able to attend such as parent funded trips such as Malham and such. Having only recently spoken to Mr Felton he mentioned an number of times the school was able to tap into church funded routes to enable students to attend all events. Religious education is a full faith based system but it wasn't a prerequisate to work at C OF E, nor a limit to your sucess job path through the school. It has beeen mentioned that teachers who wern't part of a church were not inhibited or restricted from progression as other had. I have a story of some teachers applying for A.B.K and their personal pathways through the school being limited as non beiever as they may well be catagorised. As it's a common fact Mr Harrision rose to head teacher and he was a believer in the Quaker faith system so as the teaching of a faith ina faith based school is a very importnat part of the cirricilum."
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={mrHawes1}
-              name="Mr Hawes"
-              position={{ color: "info", label: "English Teacher, Sex Education Teacher" }}
-              description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={AssembliesSm}
+              lgimage={AssembliesLg}
+              name="One of the many School assemblies"
+              position={{ color: "info", label: "One of the many School assemblies" }}
+              description="SchoolAssemblies and the benefits of Passing the word of God. wheater you were a beleiever or wern't one the school and the faith it demonstarted were a great community bonding and none more so than having the assembly. The school assemblies were held weekly and were a combination of hymms and singing and faith based speaches which were innspiring and great for the school and he school spirit. Personally i aven't continued a faith based existence but it has been very beneficial in my life as I'm a firm believer if the school we went to wasn't faith based the love and nurturing given by staff and the care wouldn't have been so well established. I  had a four ear turnaround at C Of E the same as everyone else but the likes of Mrs Challoner and Miss Dennis (now Reverand Dennis) were clear as to how much the school was to both them and the ability of delivering god's word to students was. The school is now gone but the message experiences and the love that was given to each and every student is a sign of faith love and existence. Yes you could claim they were just dling their respective jobs but undeniably their individual times spet as the school teaching the subjects they love is a testament to how sucessful C of E was. "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h2" color="white">
-              English Class
+              Religious Education Class
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Some of your thoughts about English Class
+              Some of your thoughts about R.E Class
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={REFBClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>

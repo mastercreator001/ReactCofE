@@ -64,6 +64,7 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
+                  image="people"
                   icon="people"
                   title="School Staff"
                   description="A school is only ever as goood as the teachers you have teaching, find the staff and add suggestions for staff not included in the current list."

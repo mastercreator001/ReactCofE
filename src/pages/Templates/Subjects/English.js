@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import mrsMontgomery1 from "assets/images/Allteachers/mrsMontgomery1.jpg";
@@ -54,8 +54,9 @@ function English() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={missForer3}
+            <HorizontalTeamCard2
+              smimage={missForer3}
+              lgimage={missForer3}
               name="Why Do We Need to learn English At School"
               position={{ color: "info", label: "Mr Forer head of English, Drama, and French" }}
               description="Whether you are taking an English class in middle school, high school college or graduate school, you may wonder why English matters, particularly if you plan to study or work in a field in which you think English is irrelevant. Possibly the most important reason to take an English class is its relevance to virtually all fields and careers. Wherever reading skills, speaking skills, writing or critical thinking is required, English class is useful.Analyzing literature in English class challenges you to understand characters motivations, cultural contexts, and the causes and effects of various actions in stories plot lines. Learning to analyze literature effectively not only teaches you how to better enjoy books, music and film, but also how to better understand the causes and effects in the world around you whether that is events taking place in your family, neighborhood or school. English learners can better understand the world with nuance and conviction."
@@ -70,8 +71,9 @@ function English() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={mrsMontgomery1}
+            <HorizontalTeamCard2
+              smimage={mrsMontgomery1}
+              lgimage={mrsMontgomery1}
               name="Mrs Montgomery"
               position={{ color: "info", label: "English Teacher, French Teacher" }}
               description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
@@ -80,8 +82,9 @@ function English() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={25}>
-            <HorizontalTeamCard
-              image={mrHawes1}
+            <HorizontalTeamCard2
+              smimage={mrHawes1}
+              lgimage={mrHawes1}
               name="Mr Hawes"
               position={{ color: "info", label: "English Teacher, Sex Education Teacher" }}
               description="English the second most spoken language in the world and it still is growing fast in popularity, hence the natural born should really be able to use it correctly, I hope I'm not murdering it here as Miss Forer would not be happy if she were to read this.  "
@@ -100,7 +103,7 @@ function English() {
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard image={englishClip} name="" position={{}} description="" />
+            <HorizontalTeamCard2 smimage={englishClip} name="" position={{}} description="" />
           </MKBox>
         </Grid>
       </Container>
