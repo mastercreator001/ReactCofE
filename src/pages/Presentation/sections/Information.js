@@ -63,35 +63,43 @@ function Information() {
           <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  image="people"
-                  icon="people"
-                  title="School Staff"
-                  description="A school is only ever as goood as the teachers you have teaching, find the staff and add suggestions for staff not included in the current list."
-                />
+                <a href="/pages/headteachers">
+                  <DefaultInfoCard
+                    image="people"
+                    icon="people"
+                    title="School Staff"
+                    description="A school is only ever as goood as the teachers you have teaching, find the staff and add suggestions for staff not included in the current list."
+                  />
+                </a>
               </Grid>
               <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="home"
-                  title="The School's History"
-                  description="The definitive guide to the school and the history formed during the 38 years the school was open for, perhaps you can add to what we have."
-                />
+                <a href="/pages/historic">
+                  <DefaultInfoCard
+                    icon="home"
+                    title="The School's History"
+                    description="The definitive guide to the school and the history formed during the 38 years the school was open for, perhaps you can add to what we have."
+                  />
+                </a>
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="panorama"
-                  title="Galleries"
-                  description="Lots of photos from the school giving you an insight into the running and the daily life of the school. Any old photos most welcomed via the links on the contact page"
-                />
+                <a href="/pages/earlyschoolimages">
+                  <DefaultInfoCard
+                    icon="panorama"
+                    title="Galleries"
+                    description="Lots of photos from the school giving you an insight into the running and the daily life of the school. Any old photos most welcomed via the links on the contact page"
+                  />
+                </a>
               </Grid>
               <Grid item xs={12} md={6}>
-                <DefaultInfoCard
-                  icon="domain"
-                  title="The Demolition of the school"
-                  description="Regardless of how you felt about the school the eventual demolition is a sad moment here we take a look into the destruction process."
-                />
+                <a href="/pages/demolitiongallery">
+                  <DefaultInfoCard
+                    icon="domain"
+                    title="The Demolition of the school"
+                    description="Regardless of how you felt about the school the eventual demolition is a sad moment here we take a look into the destruction process."
+                  />
+                </a>
               </Grid>
             </Grid>
           </Grid>

@@ -26,6 +26,8 @@ import MKTypography from "components/MKTypography";
 
 import ModalImage from "react-modal-image-responsive";
 
+import parse from "html-react-parser";
+
 function HorizontalTeamCard2({ smimage, lgimage, position, subheading, description }) {
   return (
     <Card sx={{ mt: 8 }}>
@@ -53,7 +55,7 @@ function HorizontalTeamCard2({ smimage, lgimage, position, subheading, descripti
               {subheading}
             </MKTypography>
             <MKTypography variant="body2" color="text">
-              {description}
+              {parse(description)}
             </MKTypography>
           </MKBox>
         </Grid>

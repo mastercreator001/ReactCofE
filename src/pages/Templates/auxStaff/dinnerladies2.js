@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import mrsTout from "assets/images/Auxstaff/mrsTout.png";
@@ -52,15 +52,17 @@ function DinnerLadies2() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={mrsTout}
               lgimage={mrsToutLarge}
               name="Mrs Tout"
               position={{ color: "info", label: "Dinner lady" }}
               description="I'm not sure apart from domicilary staff we can categorise these two lovely ladies. Now I must apologise if I make a mistake but I'm pretty certain we have Mrs Smith and not so sure but Mrs Tout. 
 I might be incorrect in the second so if I am please do let me know and we will adjust the post based on the outrage I may cause.
-Ok they may not have been teachers to my recollection but I'm sure we have the dinner ladies of the school for many years. They usually worked as a pair and that's why we have reunited them again.
-As kids playing and having fun we were as always prone to gravity and I feel certain we will be reading in the posts of times these ladies came to our aid and added the plaster and cuddle we needed at the time.  
+Ok they may not have been teachers to my recollection but I'm sure we have the dinner ladies of the school for many years. They usually worked as a pair and that's why we have reunited them again.<br/> <br/>
+
+As kids playing and having fun we were as always prone to gravity and I feel certain we will be reading in the posts of times these ladies came to our aid and added the plaster and cuddle we needed at the time.<br/> <br/>
+  
 Fundamentally they were a core part of the day as we all loved to play and also dreaded the bell which required us to go learn but in equal measure bounced with excitement as the bell rang for playtime and they were there for us so any memories most welcome. "
             />
           </MKBox>

@@ -66,9 +66,9 @@ function DomesticScience() {
               lgimage={mrsMurdochLarge}
               name="Why Do We Need to learn Domestic Scienece At School"
               position={{ color: "info", label: "Mrs Murdoch Head Of Cooking" }}
-              description="Culinary education naturally cultivates teamwork in children, has strong curriculum links across key learning areas and helps develop critical thinking skills and an understanding of the land and our communities. When children are involved in hands-on learning through digging and picking, mixing and chopping, and sitting together sharing a meal together, the impact is multi-faceted.  Children appreciate the concept of living sustainably, show willingness to experiment with foods, a heightened self-confidence, readiness to absorb and recall related information and display an appetite for learning more.
+              description="Culinary education naturally cultivates teamwork in children, has strong curriculum links across key learning areas and helps develop critical thinking skills and an understanding of the land and our communities. When children are involved in hands-on learning through digging and picking, mixing and chopping, and sitting together sharing a meal together, the impact is multi-faceted.  Children appreciate the concept of living sustainably, show willingness to experiment with foods, a heightened self-confidence, readiness to absorb and recall related information and display an appetite for learning more.<br/> <br/>
 
-In the safe school environment, the Get Kids Cooking @ school teacher-led classes help children use a range of cooking skills to prepare, cook and eat healthy snacks and meals. Students can then transfer their knowledge to other cooking situations and re-create these dishes at home with confidence. Nutrition messages taught at school lend weight to the authority of information.  Higher levels of cooking skills and food knowledge are associated with higher vegetable consumption and healthier eating.
+In the safe school environment, the Get Kids Cooking @ school teacher-led classes help children use a range of cooking skills to prepare, cook and eat healthy snacks and meals. Students can then transfer their knowledge to other cooking situations and re-create these dishes at home with confidence. Nutrition messages taught at school lend weight to the authority of information.  Higher levels of cooking skills and food knowledge are associated with higher vegetable consumption and healthier eating.<br/> <br/>
 
 Schools are a sensible and popular setting to implement programs for equipping children with cooking skills because they offer continuous, intensive contact with children during their formative years."
             />
@@ -87,7 +87,9 @@ Schools are a sensible and popular setting to implement programs for equipping c
               lgimage={missForer2Large}
               name="Miss Forer"
               position={{ color: "info", label: "Part time Domestic Science" }}
-              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all. Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
+              description="Our English classes wern't my favourite class as we had lots of test on spellings and that may well mhave ben the reason why I'm not quite as good at spelling as I probably should be but we still try and keep pegging at it. Hence if you see a spelllin mistake amoungst this text or a grammar slip up Iam entirely to blame and don't hold my teachers responsiable at all.<br/> <br/>
+              
+              Spelling and grammar is super important in today's world but has somewhat taken a backseat given all the new slf correcting system we now have as you type. remember in the days we attended C Of E Middle School the most sophisticated technlogy we had was a BBC Computer or a scientific calculator.   "
             />
           </MKBox>
         </Grid>

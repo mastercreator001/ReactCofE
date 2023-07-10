@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import schoolClosing4 from "assets/images/historicSchool/schoolClosing4.png";
@@ -52,12 +52,15 @@ function Historic3() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={schoolClosing4}
               lgimage={schoolClosing4Large}
               name="The School receives It's first set of equiptment to allow the demolition crews to start stripping the internal of the building."
               position={{ color: "info", label: "September 2018 Schools Awaits demolition Crews" }}
-              description="The school looks a little like any other day but sadly this is an image of the school closed and awaiting it's demolition day. See more demolition pictures in the demolition section. Await the arris fencing to arrive and descure the perimeter of the site and then the destruction begins. The school is like any other project and need to await the arrival of gas engineers and electrical engineers for the school to be safe before proper demolition started. Im afraid to say I wasn't there for the start of the demolition of the school but I did captire plenty of moments in the progression of the schools destruction. Despite the sda event I was sad and happy to not have witnessed the school in it's final years as apparently the school became in the words of a teacher very ramshackle affair. Sad to see C Of E fall but progress of sorts I guess  "
+              description="The school looks a little like any other day but sadly this is an image of the school closed and awaiting it's demolition day. See more demolition pictures in the demolition section. Await the arris fencing to arrive and descure the perimeter of the site and then the destruction begins.<br/> <br/>
+              The school is like any other project and need to await the arrival of gas engineers and electrical engineers for the school to be safe before proper demolition started.<br/> <br/>
+              
+              Im afraid to say I wasn't there for the start of the demolition of the school but I did captire plenty of moments in the progression of the schools destruction. Despite the sda event I was sad and happy to not have witnessed the school in it's final years as apparently the school became in the words of a teacher very ramshackle affair. Sad to see C Of E fall but progress of sorts I guess  "
             />
           </MKBox>
         </Grid>

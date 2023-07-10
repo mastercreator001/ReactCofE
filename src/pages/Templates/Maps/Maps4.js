@@ -59,7 +59,9 @@ function Maps4() {
               lgimage={finalMapCTK1Large}
               name="This is remade addition of an original map recreated"
               position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="The school I it's final phse of existence was utilised by the new amalgmation of C of E Middle and the former A.B.K school. C of E was utilised during heavy construction works on the A.B.K site and called the lower campus. The map you see is one of the final internal layouts of the school prior to it's decomissioning and handing over to contractors for demolition."
+              description="The school in it's final phase of existence was utilised by the new amalgmation of C of E Middle and the former A.B.K school. C of E was utilised during heavy construction works on the A.B.K site and called the lower campus. <br/> <br/>
+              
+              The map you see is one of the final internal layouts of the school prior to it's decomissioning and handing over to contractors for demolition."
             />
           </MKBox>
         </Grid>

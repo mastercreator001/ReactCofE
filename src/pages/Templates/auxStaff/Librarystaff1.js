@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import mrsBlank from "assets/images/headTeachers/mrsBlank.png";
@@ -54,28 +54,29 @@ function Librarystaff1() {
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1} mt={10}>
-              <HorizontalTeamCard1
+              <HorizontalTeamCard2
                 smimage={mrsBlank}
                 lgimage={mrsBlank}
                 name="1st Librarian"
                 position={{ color: "info", label: "??" }}
-                description="TEXT TO BE ADDED FOR THE 1ST Libririan ???"
+                description="TEXT TO BE ADDED FOR THE 1ST Libririan any help please  ???"
               />
             </MKBox>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={mrsColenutt}
               lgimage={mrsColenuttLarge}
+              subheading=" hello hello"
               name="Mrs Colenutt"
-              position={{ color: "info", label: "Librarian" }}
-              description="Ok I'm hoping I got this wright Mrs Colenutt was in command of the library the very source of power in the school and indeed the world. 
-As the saying goes knowledge is power and to read is to learn and to learn is to know, with knowledge you can have anything, hence the saying.
-I have little memory of this lovely lady but I do know she served the school well as a dedicated staff member who committed her time to the library of the school. She may have had other school functions that I'm unaware of in the school so let's see if we can build some memories of her. 
-Maybe you know of her time here or family. 
-I'm sorry for the lower than usual knowledge but I started the staff profiles on the ones I rememberedand now it getting harder ."
+              position={{ color: "info", label: "Librarian Mrs Colenutt" }}
+              description="Ok I'm hoping I got this wright Mrs Colenutt was in command of the library the very source of power in the school and indeed the world. <br/> <br/>
+As the saying goes knowledge is power and to read is to learn and to learn is to know, with knowledge you can have anything, hence the saying.<br/> <br/>
+I have little memory of this lovely lady but I do know she served the school well as a dedicated staff member who committed her time to the library of the school. She may have had other school functions that I'm unaware of in the school so let's see if we can build some memories of her.<br/> <br/> 
+Maybe you know of her time here or family.<br/> <br/> 
+I'm sorry for the lower than usual knowledge but I started the staff profiles on the ones I remembered and now it getting harder ."
             />
           </MKBox>
         </Grid>

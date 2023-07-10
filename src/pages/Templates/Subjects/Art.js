@@ -65,9 +65,9 @@ function Art() {
               name="Mr O'Donnaghue"
               position={{ color: "info", label: "Art teacher 1971-1984" }}
               description="WHY IS ART EDUCATION IMPORTANT?
-Anyone who’s passionate about the arts recalls formative moments of experiencing a work of art pushing through a creative challenge. When we’re exposed to remarkable artworks or have opportunities to create, we find that art is crucial to individual growth and development and can even impact our health.
+Anyone who’s passionate about the arts recalls formative moments of experiencing a work of art pushing through a creative challenge. When we’re exposed to remarkable artworks or have opportunities to create, we find that art is crucial to individual growth and development and can even impact our health.<br/> <br/>
 
-A literature review from Frontiers in Psychology outlined several studies linking aesthetic experiences with broad improvements in subjects’ emotional states that promote physical and psychological well-being. Giving learners the time, space, and materials for creative expression can lower stress, improve memory, and make them feel more socially connected. Instructors can build their careers on bringing those experiences to students in a variety of settings, like galleries, museums, or events organized by nonprofit and community organizations.
+A literature review from Frontiers in Psychology outlined several studies linking aesthetic experiences with broad improvements in subjects’ emotional states that promote physical and psychological well-being. Giving learners the time, space, and materials for creative expression can lower stress, improve memory, and make them feel more socially connected. Instructors can build their careers on bringing those experiences to students in a variety of settings, like galleries, museums, or events organized by nonprofit and community organizations.<br/> <br/>
 
 Appreciation for art also makes a significant difference in people’s lives on a macro level. Entire societies may stand to gain from an investment in the arts. Drawing on data from the General Social Survey, researchers from the University of Illinois at Chicago’s Department of Public Administration linked participation as either an audience member or creator to higher levels of civic engagement and social tolerance. This work suggests that learning how to draw, paint, sing, or just appreciate the works made by others can help us become not just happier and healthier, but also better people.
 
@@ -88,7 +88,9 @@ Appreciation for art also makes a significant difference in people’s lives on 
               lgimage={mrsPassmoreLarge}
               name="Mrs Passmore"
               position={{ color: "info", label: "Art Teacher  1984-1991" }}
-              description="Who remembers art in school, I hear you cry me me me. I loved art and it was a great was for students to be creative and express themselves more so than perhaps academically. I personally wasn't a gifted student and therefore I was pretty good at art and expressive forms so Art was definatly one of my most favorite subjects. The teachers were pretty uch a strong stable backbone in the school and as so many of you have pointed out Mr O' Donnaghue was the 1st and Mrs Passmore was the second but the third was Mr Patterson whom I haven't had the pleasure of meeting. Perhaps you could tell me a little more about your experiences and the classes projects you enjoyed in the art class. I have to say Mrs passmore was a little of a boyhood crush and that is probably true of many other students as well but she was a fabllous teacher who helped me personally make some tye die art work using wax to cover the colours and also a prehistoric cave for which I received a gold letter as well. Art is a freedom subject or so I would call it as it allow expressive outbursts of creativity which wouldn't perhpas as well understood in a class  environment typically.    "
+              description="Who remembers art in school, I hear you cry me me me. I loved art and it was a great was for students to be creative and express themselves more so than perhaps academically. I personally wasn't a gifted student and therefore I was pretty good at art and expressive forms so Art was definatly one of my most favorite subjects. The teachers were pretty uch a strong stable backbone in the school and as so many of you have pointed out Mr O' Donnaghue was the 1st and Mrs Passmore was the second but the third was Mr Patterson whom I haven't had the pleasure of meeting.<br/> <br/>
+              
+              Perhaps you could tell me a little more about your experiences and the classes projects you enjoyed in the art class. I have to say Mrs passmore was a little of a boyhood crush and that is probably true of many other students as well but she was a fabllous teacher who helped me personally make some tye die art work using wax to cover the colours and also a prehistoric cave for which I received a gold letter as well. Art is a freedom subject or so I would call it as it allow expressive outbursts of creativity which wouldn't perhpas as well understood in a class  environment typically.    "
             />
           </MKBox>
         </Grid>
@@ -99,7 +101,9 @@ Appreciation for art also makes a significant difference in people’s lives on 
               lgimage={mrBlank}
               name="Mr Patterson"
               position={{ color: "info", label: "Art teacher 1991 onwards" }}
-              description="Not sadly a teacher I ever met but he was new to the school in 1991 so arrived shorlty after I left the school. Do you have any memories of Mr Patterson as any memories projects or picture of him and or the class wpuld be greatly appreciated. I would like to do justice to him and his teaching carrear as I'm sure he left an impression on the class as my teacher di for me as well. Please emmail stories via the contact us links ."
+              description="Not sadly a teacher I ever met but he was new to the school in 1991 so arrived shorlty after I left the school. Do you have any memories of Mr Patterson as any memories projects or picture of him and or the class wpuld be greatly appreciated.<br/> <br/>
+              
+              I would like to do justice to him and his teaching carrear as I'm sure he left an impression on the class as my teacher di for me as well. Please emmail stories via the contact us links ."
             />
           </MKBox>
         </Grid>

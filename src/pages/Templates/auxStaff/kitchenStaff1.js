@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
 import kitchenStaff1 from "assets/images/Auxstaff/kitchenStaff1.jpg";
@@ -52,12 +52,14 @@ function KitchenStaff1() {
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1} mt={10}>
-              <HorizontalTeamCard1
+              <HorizontalTeamCard2
                 smimage={kitchenStaff1}
                 lgimage={kitchenStaff1Large}
                 name="kitchen lady"
-                position={{ color: "info", label: "Ca1977-1981" }}
-                description="Not a mission today but any helpful hints reminders or names would be of most help. We have been scrolling through the old school photos and have copied some of the dinner ladies who were at the school and keeping everyone fed and I would like to see if we can generate some names and if possible some stories we have had of them. I personally was sent to school with a packed lunch as it was deemed to expensive for me to have school dinnera but I'm hoping there are still some out there who remember the ladies of the kitchen. 
+                position={{ color: "info", label: "1977-1981" }}
+                description="Not a mission today but any helpful hints reminders or names would be of most help. We have been scrolling through the old school photos and have copied some of the dinner ladies who were at the school and keeping everyone fed and I would like to see if we can generate some names and if possible some stories we have had of them.<br/> <br/>
+                
+                I personally was sent to school with a packed lunch as it was deemed to expensive for me to have school dinnera but I'm hoping there are still some out there who remember the ladies of the kitchen. 
                 
                 GENERIC POST FROM FACE BOOK???"
               />

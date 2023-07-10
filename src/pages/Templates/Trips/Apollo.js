@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import romanVilla1 from "assets/images/TripsAway/romanVilla1.jpg";
@@ -54,8 +54,9 @@ function Apollo() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={romanVilla1}
+            <HorizontalTeamCard2
+              smimage={romanVilla1}
+              lgimage={romanVilla1}
               name=""
               position={{ color: "info", label: "" }}
               description=""
@@ -64,8 +65,9 @@ function Apollo() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={romanVilla2}
+            <HorizontalTeamCard2
+              smimage={romanVilla2}
+              lgimage={romanVilla2}
               name=""
               position={{
                 color: "info",
@@ -77,8 +79,9 @@ function Apollo() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={romanVilla3}
+            <HorizontalTeamCard2
+              smimage={romanVilla3}
+              lgimage={romanVilla3}
               name=""
               position={{
                 color: "info",
@@ -90,8 +93,9 @@ function Apollo() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard
-              image={romanVilla4}
+            <HorizontalTeamCard2
+              smimage={romanVilla4}
+              lgimage={romanVilla4}
               name=""
               position={{
                 color: "info",

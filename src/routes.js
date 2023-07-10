@@ -56,6 +56,7 @@ import Attention3 from "pages/Templates/Attention/Attention3";
 import AllTeachers from "pages/Templates/Teachingstaff/AllTeachers";
 import Maps1 from "pages/Templates/Maps/Maps1";
 import DinnerLadies1 from "pages/Templates/auxStaff/DinnerLadies1";
+import DinnerLadies3 from "pages/Templates/auxStaff/DinnerLadies3";
 import DinnerLadies2 from "pages/Templates/auxStaff/DinnerLadies2";
 import KitchenStaff1 from "pages/Templates/auxStaff/KitchenStaff1";
 import KitchenStaff2 from "pages/Templates/auxStaff/KitchenStaff2";
@@ -151,6 +152,11 @@ const routes = [
             name: "Dinner Ladies",
             route: "/pages/auxstaff/dinnerladies1",
             component: <DinnerLadies1 />,
+          },
+          {
+            name: "Dinner Ladies",
+            route: "/pages/auxstaff/dinnerladies3",
+            component: <DinnerLadies3 />,
           },
           {
             name: "Dinner Ladies",

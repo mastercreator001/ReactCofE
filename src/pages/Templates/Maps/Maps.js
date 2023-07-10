@@ -56,13 +56,16 @@ function Maps() {
               lgimage={schoolPlanfinallarge}
               name="This Map is an Svg recreation of a previous map"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
+              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. <br/> <br/>
+            
     His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
     We can no longer see him or feel him but he is still with us all. 
-    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.
-    AS WRITTEN BY Mrs Hilary Knight 
+    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.<br/> <br/>
+    AS WRITTEN BY Mrs Hilary Knight <br/> <br/>
+
     It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
-    He had so may proud and happy memories. 
+    He had so may proud and happy memories. <br/> <br/>
+    
     Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
     By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
     Please any thoughts comments and memories can be added and I'm sure will be read by the family."

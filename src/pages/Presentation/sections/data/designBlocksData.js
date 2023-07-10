@@ -27,6 +27,7 @@ import kitchenStaff2 from "../../../../assets/images/Auxstaff/kitchenStaff2.jpg"
 import mrsTout from "../../../../assets/images/Auxstaff/mrsTout.png";
 import libraryStaff from "../../../../assets/images/Auxstaff/libraryStaff.jpg";
 import mrsSmith from "../../../../assets/images/Auxstaff/mrsSmith.jpg";
+import Dinner3 from "../../../../assets/images/Auxstaff/Dinner3.png";
 //Iamges Subjects
 import science from "../../../../assets/images/logos/science.png";
 import maths from "../../../../assets/images/logos/maths.png";
@@ -114,6 +115,11 @@ export default [
         image: mrsSmith,
         name: "Dinner Ladies Mrs Smith",
         route: "/pages/auxstaff/dinnerladies1",
+      },
+      {
+        image: Dinner3,
+        name: "Dinner Ladies The three",
+        route: "/pages/auxstaff/dinnerladies3",
       },
       {
         image: mrsTout,
