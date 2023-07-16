@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import bookMap from "assets/images/school maps/bookMap.jpg";
@@ -46,27 +46,23 @@ function Maps2() {
               School Maps
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              All my own text about maps
+              All maps of the school are current for the date they relate too and although additions
+              have been added they represent the base design of the school from 1971-2009.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={bookMap}
               lgimage={bookMaplarge}
               name="This is an original map recreated"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
-    His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
-    We can no longer see him or feel him but he is still with us all. 
-    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.
-    AS WRITTEN BY Mrs Hilary Knight 
-    It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
-    He had so may proud and happy memories. 
-    Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
-    By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
-    Please any thoughts comments and memories can be added and I'm sure will be read by the family."
+              position={{ color: "info", label: " A scan of the original map " }}
+              description="Of the most basic design was the map I present to you today and this is an original and uneditied map. The scanned school map you can see on display here was originally inside a pamphlett for the school which was distrubited from the church to celebrate the school's opening. In the design it clearly shows the limited footprint of the school and it's distinct lack of familarity as in the school's later days the other block were added and further development took place. <br/><br/>
+              
+              The map was most basic as time and design costs were clearly kept to a minimum unlike perhaps today wen you can add additions upto a couple of days before and run cpies off printer within the facility you may have access to. Printers need much tie to run a section of print and it could be fairly expensive as type setters were still used and even the most basic of computers were in there infancy. <br/> <br/>
+              
+              The basic design is easy to read and I'm sure it was mote than adequate for the time to show the basic layout of the school as it stood at that point in time. We all have to thaks Miss Forer for this little time capsule of the school as Miss Forer was there from the very start of the school and was there throught it's main history as C OF E only leaving a couple of years before the school became Christ The King Campus property."
             />
           </MKBox>
         </Grid>

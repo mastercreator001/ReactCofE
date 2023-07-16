@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 import schoolPlanfinal from "assets/images/school maps/schoolPlanfinal.png";
 import schoolPlanfinallarge from "assets/images/school maps/schoolPlanFinallarge.png";
 
@@ -44,31 +44,26 @@ function Maps() {
               School Maps
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              All head teachers of Church Of England Middle School 1971-2008 Welly Road including
-              transition to Christ The King College.
+              All maps of the school are current for the date they relate too and although additions
+              have been added they represent the base design of the school from 1971-2009.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={schoolPlanfinal}
               lgimage={schoolPlanfinallarge}
               name="This Map is an Svg recreation of a previous map"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. <br/> <br/>
-            
-    His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
-    We can no longer see him or feel him but he is still with us all. 
-    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.<br/> <br/>
-    AS WRITTEN BY Mrs Hilary Knight <br/> <br/>
+              position={{ color: "info", label: "The earliest map of the school known" }}
+              description="The school map you can see on display here was originally inside a pamphlett for the school which was distrubited from the church to celebrate the school's opening. In the design it clearly shows the limited footprint of the school and it's distinct lack of familarity as in the school's later days the other block were added and further development took place.<br/> <br/>
+              
+              The school wasn't originally designed for such a big roll as had been anticipated and the fact that the school was so popular was a benefit to it's sucess and further development. The additional block were added between 1971 and 1974 but I cannot find any actual dates for this work to have been undertaken.<br/> <br/>
 
-    It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
-    He had so may proud and happy memories. <br/> <br/>
-    
-    Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
-    By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
-    Please any thoughts comments and memories can be added and I'm sure will be read by the family."
+              The Map I created was a computer drawn map of the school copied over the original using a program called Inkscape and it allow for the most finate of detals to be added. Although this was a fairly simple task I decided early on to change the background to blue to excentuate the fact it was the earliest known of the school.<br/> <br/>
+
+              Notice the missing 1H classes parellel to the cooking site now forms a bin store and receessed acces to the local calssrooms. I have chatted with teaachers and cannot find ount anymore information as to the additional 2 classrooms. Obviously the school was updated and added onto over the following years but the additional 2 classrooms were the earliest to the school.
+            "
             />
           </MKBox>
         </Grid>

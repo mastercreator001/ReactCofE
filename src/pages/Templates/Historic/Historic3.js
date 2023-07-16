@@ -57,10 +57,11 @@ function Historic3() {
               lgimage={schoolClosing4Large}
               name="The School receives It's first set of equiptment to allow the demolition crews to start stripping the internal of the building."
               position={{ color: "info", label: "September 2018 Schools Awaits demolition Crews" }}
-              description="The school looks a little like any other day but sadly this is an image of the school closed and awaiting it's demolition day. See more demolition pictures in the demolition section. Await the arris fencing to arrive and descure the perimeter of the site and then the destruction begins.<br/> <br/>
-              The school is like any other project and need to await the arrival of gas engineers and electrical engineers for the school to be safe before proper demolition started.<br/> <br/>
+              description="One of the final images of the school in it's complete state and this picture was taken just prior to the demolition phase starting. Note te large rubber feet in the foreground shot waiting for temporary fencing to be errected to seal off the site to memebers of the public while the demolition starts. The image may well have been take by an ex student who attended the farewell to C of E Middle as there were only a couple of days between the school owning the site and the contractors taking posession of the site.<br/><br/>
               
-              Im afraid to say I wasn't there for the start of the demolition of the school but I did captire plenty of moments in the progression of the schools destruction. Despite the sda event I was sad and happy to not have witnessed the school in it's final years as apparently the school became in the words of a teacher very ramshackle affair. Sad to see C Of E fall but progress of sorts I guess  "
+              The way the demoliion cycle works are all agreed prior in cntracts and the contractors take posession of the site on an agreed date and all posesions need to be removed prior to this point. If anything is left on site the contractors dispose of it as rubbish or are free to remove if for future use . The Contractors must have taken control of the site days after this picture was taken given the presence of demoliton equiptment.<br/><br/>
+              
+              Farewell to C of E Middle School or at the time as most would have known the site As the Lower campus of Christ The King. A touching note left on one the of the school white boards read `Farewell Christ The King Lower Thanks for Everything`, a sad end to a fablous school. "
             />
           </MKBox>
         </Grid>

@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import finalMapCTK from "assets/images/school maps/finalMapCTK.png";
@@ -43,30 +43,26 @@ function Maps3() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              School Maps third vvv
+              School Maps laterly C of E
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              All my own text about maps
+              All maps of the school are current for the date they relate too and although additions
+              have been added they represent the base design of the school from 1971-2009.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={finalMapCTK}
               lgimage={finalMapCTKLarge}
-              name="This is an original map recreated"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
-    His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
-    We can no longer see him or feel him but he is still with us all. 
-    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.
-    AS WRITTEN BY Mrs Hilary Knight 
-    It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
-    He had so may proud and happy memories. 
-    Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
-    By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
-    Please any thoughts comments and memories can be added and I'm sure will be read by the family."
+              name="This the later map of the schools history"
+              position={{ color: "info", label: "The map is approx 1990-2008" }}
+              description="Ah now onto something more modern and out of my time period. As the popularity of the school continued to grow there was a need for more space and the additional building costs were prohibitive on the schools budget. The planning and additional space needed were a pressure the school needed to find a solution for and the obvious answer was to allow for mobile classrooms to be built. Modular in design and easy to place with the use of a crane the school could add classrooms in areas of the school quickly.<br/> <br/>
+              
+              The additional units added were to science classes making SC1 the original scienec class and almost adjacent to tis was the new class SC2 inside the new porta cabin, doubling the ability to teach scienec in the school. In total 5 new portacabins were added in various areas around the school site as you will see in the next map. <br/> <br/>
+              
+              This map is a copy of the map that was displayed in the school during the id 90's and early 2000's and as far as we are aware represents the final layout of the school on site until it's final demolition. The map may well have been photographed buy a student durnig the final farewell to the school open day which was changed with little  notice from a Friday to a Wednesday. Unfortunately it wasn't as well atteneded as it could have been save for this change so well done all of you who were able to attend it."
             />
           </MKBox>
         </Grid>

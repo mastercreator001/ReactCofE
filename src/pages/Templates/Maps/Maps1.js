@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard1 from "examples/Cards/TeamCards/HorizontalTeamCard1";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images
 import advancedMap from "assets/images/school maps/advancedMap.jpg";
@@ -46,28 +46,28 @@ function Maps1() {
               School Maps
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              All head teachers of Church Of England Middle School 1971-2008 Welly Road including
-              transition to Christ The King College.
+              All maps of the school are current for the date they relate too and although additions
+              have been added they represent the base design of the school from 1971-2009.
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard1
+            <HorizontalTeamCard2
               smimage={advancedMap}
               lgimage={advancedMaplarge}
               name="This is an original map recreated"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="Mr Knight was as many have said firm fair and strict which you would expect of a school master or headteacher. Having started the school and selected many of the original staff he created the school and it's success. 
-    His passing is at the grand old age of 93 with his family around him to comfort him into his new life beyond ours. 
-    We can no longer see him or feel him but he is still with us all. 
-    I have had the privilege to speak to Mrs Hilary Knight and she has asked me to pass along her thanks for all the kind messages but has also written a short piece that has been included below.
-    AS WRITTEN BY Mrs Hilary Knight 
-    It is 50 years since Tony Knight came to The Isle of Wight and was privileged to start the C of E Middle School and to guide it’s early years and it’s wonderful dedicated and carefully picked staff. He was deeply committed to its aims and always concerned to make Welly Road the best he could for each and all. 
-    He had so may proud and happy memories. 
-    Sadly he has departed this world after 93 well lived and enjoyed years. This photo was taken on his 90 th birthday.
-    By Hilary Knight wife and lifetime partner of Mr Tony Knight. 
-    Please any thoughts comments and memories can be added and I'm sure will be read by the family."
+              position={{
+                color: "info",
+                label: "A map showing an artists concept of landscaping ",
+              }}
+              description="This is a map from a promotionl brochure for the school, take note of the landscaping added to this map which shows it was a prefferential artist interpriation of what the school could look like in their opinion. The map is a hand drawn map and was used to show classroom layouts and prospective use of parking and scale of rooms for future use. <br/> <br/>
+              
+              The School eas of a new design and very moder in its both facilities and the layout with screens fitted through most classroom to make large open expanses in the school to utilise mass teaching shoul it be needed. In idea a brilliant concept but in pratice as most of you may remember a pain as you could generally speaking hear teachers and the classes next door. I would use Mr Walker as an example as his french class backed onto Mrs Reynolds class and it could be said the loudest teacher wins and often children who were at the back of the class were often hearing too classes.<br/> <br/>
+              
+              Hopefully by now you have had a good look at the map and sen the two missing things from the map that made the school the school. Firstly there is no provison for the school step and making of a clever earth retaining wall which was of amazing use at lunch breaks and the tennis courts also don't feature either. Perhaps this maps predates others. <br/> <br/>
+              
+              Could you imagine if we had had a large retaining wall in place instead of the wonderful steps, how many hours did you spend climbing and running up those steps. It was a sense of brilliance they were utilised as a support structure instead of a big block wall. They may have been in the design phase at the time but they clearly didn't make it onto this map."
             />
           </MKBox>
         </Grid>

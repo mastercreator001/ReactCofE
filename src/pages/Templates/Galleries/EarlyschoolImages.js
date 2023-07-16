@@ -73,8 +73,8 @@ function EarlyschoolImages() {
               smimage={ESG1SM}
               lgimage={ESG1LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Wow what a view, well I guess this may have been the opinion of some of the students who attended C Of E middle School. Classes were great at C Of E but Carisbrooke High was on another level as ou roll was 400 and Carisbrooke's was 1500 an intimidating prospect beyond the playground. "
             />
           </MKBox>
         </Grid>
@@ -84,8 +84,8 @@ function EarlyschoolImages() {
               smimage={ESG2SM}
               lgimage={ESG2LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Three ladies all in a row, maybe you know them or why they were being photographed. mid to late 1970's or eary 1980's"
             />
           </MKBox>
         </Grid>
@@ -95,8 +95,8 @@ function EarlyschoolImages() {
               smimage={ESG3SM}
               lgimage={ESG3LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Class teacher and students who were and when is the question? Maybe you can help."
             />
           </MKBox>
         </Grid>
@@ -106,8 +106,8 @@ function EarlyschoolImages() {
               smimage={ESG4SM}
               lgimage={ESG4LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Out and about in the cdt area, no doubt working on one of Mr Felton's creations."
             />
           </MKBox>
         </Grid>
@@ -117,8 +117,8 @@ function EarlyschoolImages() {
               smimage={ESG5SM}
               lgimage={ESG5LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="We had a pond, well yes we did actually although this was later removed and filled in. I couldn't say if it was student safety or investment but the Pond dissapeared.It was located near the Science classroomsand can be seen on the old maps in the near bottom corner to the side of 1H or room 1."
             />
           </MKBox>
         </Grid>
@@ -128,8 +128,8 @@ function EarlyschoolImages() {
               smimage={ESG6SM}
               lgimage={ESG6LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Ah a different time, Miss Forer would regularly let sudents walk her dog either  on site or bring hime to school so students could interact with him. However today this is sdaly not the case. Two lucky students using their breaks wisely."
             />
           </MKBox>
         </Grid>
@@ -139,8 +139,8 @@ function EarlyschoolImages() {
               smimage={ESG7SM}
               lgimage={ESG7LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Ah lunchtimes and school dinners, the school had a limited cafteria section and it was often the school had staggered lunch breaks to allow for this."
             />
           </MKBox>
         </Grid>
@@ -150,8 +150,8 @@ function EarlyschoolImages() {
               smimage={ESG8SM}
               lgimage={ESG8LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description="Students enjoying there lunch time away from the books and socialising with the other students and teachrs alike."
             />
           </MKBox>
         </Grid>
@@ -161,8 +161,8 @@ function EarlyschoolImages() {
               smimage={ESG9SM}
               lgimage={ESG9LG}
               name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "2007-2008 internal layout" }}
-              description="Images."
+              position={{ color: "info", label: "1971-through to early 1980's" }}
+              description=" Another lunch time shot of the kids enjoying themeselves away from the pressures of school work"
             />
           </MKBox>
         </Grid>

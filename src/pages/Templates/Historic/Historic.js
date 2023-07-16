@@ -55,8 +55,12 @@ function Historic() {
               smimage={overheadBig2015}
               lgimage={overheadBig2015Large}
               name="The School In full operation"
-              position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="TEXT TO BE ADDED"
+              position={{ color: "info", label: "1900 onwards through to 2008 " }}
+              description="The image displayed is of the school in full operation nd I would guess around 1990's to the laearly 2000's as the school can be seen with additonal parking at the top end of the site. As the classes grew as did the teacher's needed to staff the classes hence the need for more parking. While the school had a well favored route for buses and was on a main route the expense and sometimes inconvience and security grew it became betrer to take your kids to school as well. <br/><br/>.
+              
+              Notice also the tennis courtts have been coopted to be used as a tennis courts as well in the above photo. This indeed ,as well be a later photo as the amalgmation phase of the school allowed for the joining of C Of E Middle School with the Former Arch Bishop King School together also adding to the parking issues while construction was happening on the former middle's school site. I alos noted a path was constructed from the new overfill parking on the site to allow for staff to walk inside the school site and not having to trnasit over the grass of the school as well. <br/><br/>
+              
+              Do you notice anything more about this picture, let us know in the contact us section."
             />
           </MKBox>
         </Grid>

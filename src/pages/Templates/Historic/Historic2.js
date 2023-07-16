@@ -57,7 +57,9 @@ function Historic2() {
               lgimage={Overview1Large}
               name="The School Sadly demolished with overlay of site plan"
               position={{ color: "info", label: "Head Teacher 1971-1982" }}
-              description="TEXT TO BE ADDDED"
+              description="And now we come closer to the present day tis image was caprured by the Google satelites in July 2021 and shows the entire for the ost part pretty much finished and landscaped to completiition and very close to being used once again. As the site was demolised in 2019 I thouhght it may be fun to overlay the schools framework on the old site to be able to compare the old with the new. The school seeemed small in the days I attended but I'd have to say it may well be because I was in fact small at the time.<br/> <br/>
+              
+              Seeing the comparisson shows the sites current usage and the iportance of a commuting community these days and as a by product a need to park ones convayence upon arrival. During the construction of the Christ The King Complex despite the provision of extra parking that was utilised on te lower campus the parking issues plagued the site and a smaller carpark was made in the Victoria Recreation Ground which perhaps wasn't the best idea as it was frequetly water logged and became very boggy for people brave epuhg to use it. The Recration ground was returned to it's former state upon the works on the old C of E site and is nw part of the field once again. "
             />
           </MKBox>
         </Grid>
