@@ -210,9 +210,13 @@ function MissForerGermany() {
             <HorizontalTeamCard2
               smimage={MissFGVisit9sm}
               lgimage={MissFGVisit9lg}
-              name="Home time and the familar yellow submarine school busses"
+              name="Home time and perhaps the familar yellow submarine school buses"
               position={{ color: "info", label: "The end of the day at school, Home Time" }}
-              description=" A typical day stars and ends, and at the end of a school day is usually followed by one of the famous Yellow buses. Yes they were a famous thing for the school and I couldn't tell you who chose the colour but it was certainly distinctive and remembered until either the school didn't use the council buses anymore or they aquired a new contract wich didn't use them."
+              description=" A typical day stars and ends, and at the end of a school day is usually followed by one of the famous Yellow buses. Yes they were a famous thing for the school and I couldn't tell you who chose the colour but it was certainly distinctive and remembered until either the school didn't use the council buses anymore or they aquired a new contract which didn't use them possibly.<br/><br/>
+
+              If anyone has any information in regards to the old school buses or has any interesting stories for the school bus and leaving the school section please feel free to get in touch via the conact is links and we will add a story to the site.
+              
+              "
             />
           </MKBox>
         </Grid>
