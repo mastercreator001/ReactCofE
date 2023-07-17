@@ -26,8 +26,27 @@ import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
 import SchoolTrips from "assets/images/Galleries/SchoolTrips.jpg";
+import STripsIOW1sm from "assets/images/SchoolTripsIOW/STripsIOW1sm.jpg";
+import STripsIOW2sm from "assets/images/SchoolTripsIOW/STripsIOW2sm.jpg";
+import STripsIOW3sm from "assets/images/SchoolTripsIOW/STripsIOW3sm.jpg";
+import STripsIOW4sm from "assets/images/SchoolTripsIOW/STripsIOW4sm.jpg";
+import STripsIOW5sm from "assets/images/SchoolTripsIOW/STripsIOW5sm.jpg";
+import STripsIOW6sm from "assets/images/SchoolTripsIOW/STripsIOW6sm.jpg";
+import STripsIOW7sm from "assets/images/SchoolTripsIOW/STripsIOW7sm.jpg";
+import STripsIOW8sm from "assets/images/SchoolTripsIOW/STripsIOW8sm.jpg";
+import STripsIOW9sm from "assets/images/SchoolTripsIOW/STripsIOW9sm.jpg";
+
 // Images Large
 import SchoolTripsLarge from "assets/images/Galleries/SchoolTripsLarge.jpg";
+import STripsIOW1lg from "assets/images/SchoolTripsIOW/STripsIOW1lg.jpg";
+import STripsIOW2lg from "assets/images/SchoolTripsIOW/STripsIOW2lg.jpg";
+import STripsIOW3lg from "assets/images/SchoolTripsIOW/STripsIOW3lg.jpg";
+import STripsIOW4lg from "assets/images/SchoolTripsIOW/STripsIOW4lg.jpg";
+import STripsIOW5lg from "assets/images/SchoolTripsIOW/STripsIOW5lg.jpg";
+import STripsIOW6lg from "assets/images/SchoolTripsIOW/STripsIOW6lg.jpg";
+import STripsIOW7lg from "assets/images/SchoolTripsIOW/STripsIOW7lg.jpg";
+import STripsIOW8lg from "assets/images/SchoolTripsIOW/STripsIOW8lg.jpg";
+import STripsIOW9lg from "assets/images/SchoolTripsIOW/STripsIOW9lg.jpg";
 
 function SchoolTripsGallery() {
   return (
@@ -65,8 +84,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW1sm}
+              lgimage={STripsIOW1lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -76,8 +95,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW2sm}
+              lgimage={STripsIOW2lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -87,8 +106,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW3sm}
+              lgimage={STripsIOW3lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -98,8 +117,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW4sm}
+              lgimage={STripsIOW4lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -109,8 +128,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW5sm}
+              lgimage={STripsIOW5lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -120,8 +139,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW6sm}
+              lgimage={STripsIOW6lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -131,8 +150,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW7sm}
+              lgimage={STripsIOW7lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -142,8 +161,8 @@ function SchoolTripsGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW8sm}
+              lgimage={STripsIOW8lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="Images."
@@ -153,18 +172,18 @@ function SchoolTripsGallery() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              School Maps SVG recreation of the schools internal layout.
+              Local School trips out and about the Island
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Close up of the buildings only
+              Iow Based trips Carisbrooke, Brading
             </MKTypography>
           </Grid>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={SchoolTrips}
-              lgimage={SchoolTripsLarge}
+              smimage={STripsIOW9sm}
+              lgimage={STripsIOW9lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Iow Local Trips Miss Forer" }}
               description="

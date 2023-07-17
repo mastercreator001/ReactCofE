@@ -26,7 +26,28 @@ import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
 import MissFMalham from "assets/images/Galleries/MissFMalham.jpg";
+import MalhamForer1sm from "assets/images/MalhamForer/MalhamForer1sm.jpg";
+import MalhamForer2sm from "assets/images/MalhamForer/MalhamForer2sm.jpg";
+import MalhamForer3sm from "assets/images/MalhamForer/MalhamForer3sm.jpg";
+import MalhamForer4sm from "assets/images/MalhamForer/MalhamForer4sm.jpg";
+import MalhamForer5sm from "assets/images/MalhamForer/MalhamForer5sm.jpg";
+import MalhamForer6sm from "assets/images/MalhamForer/MalhamForer6sm.jpg";
+import MalhamForer7sm from "assets/images/MalhamForer/MalhamForer7sm.jpg";
+import MalhamForer8sm from "assets/images/MalhamForer/MalhamForer8sm.jpg";
+import MalhamForer9sm from "assets/images/MalhamForer/MalhamForer9sm.jpg";
+import MalhamForer10sm from "assets/images/MalhamForer/MalhamForer10sm.jpg";
 // Images Large
+import MalhamForer1lg from "assets/images/MalhamForer/MalhamForer1lg.jpg";
+import MalhamForer2lg from "assets/images/MalhamForer/MalhamForer2lg.jpg";
+import MalhamForer3lg from "assets/images/MalhamForer/MalhamForer3lg.jpg";
+import MalhamForer4lg from "assets/images/MalhamForer/MalhamForer4lg.jpg";
+import MalhamForer5lg from "assets/images/MalhamForer/MalhamForer5lg.jpg";
+import MalhamForer6lg from "assets/images/MalhamForer/MalhamForer6lg.jpg";
+import MalhamForer7lg from "assets/images/MalhamForer/MalhamForer7lg.jpg";
+import MalhamForer8lg from "assets/images/MalhamForer/MalhamForer8lg.jpg";
+import MalhamForer9lg from "assets/images/MalhamForer/MalhamForer9lg.jpg";
+import MalhamForer10lg from "assets/images/MalhamForer/MalhamForer10lg.jpg";
+
 import MissFMalhamLarge from "assets/images/Galleries/MissFMalhamLarge.jpg";
 
 function SchoolTripsMalhamF() {
@@ -65,8 +86,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer1sm}
+              lgimage={MalhamForer1lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -76,8 +97,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer2sm}
+              lgimage={MalhamForer2lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -87,8 +108,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer3sm}
+              lgimage={MalhamForer3lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -98,8 +119,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer4sm}
+              lgimage={MalhamForer4lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -109,8 +130,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer5sm}
+              lgimage={MalhamForer5lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -120,8 +141,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer6sm}
+              lgimage={MalhamForer6lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -131,8 +152,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer7sm}
+              lgimage={MalhamForer7lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -142,8 +163,8 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer8sm}
+              lgimage={MalhamForer8lg}
               name="Old school Images of the school staff and students "
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="Images."
@@ -163,8 +184,20 @@ function SchoolTripsMalhamF() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={MissFMalham}
-              lgimage={MissFMalhamLarge}
+              smimage={MalhamForer9sm}
+              lgimage={MalhamForer9lg}
+              name="A close up of the map above recreated as an svg file"
+              position={{ color: "info", label: "Miss Forer Malham Trip" }}
+              description="
+               "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={MalhamForer10sm}
+              lgimage={MalhamForer10lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Miss Forer Malham Trip" }}
               description="
