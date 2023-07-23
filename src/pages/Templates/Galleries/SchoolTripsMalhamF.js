@@ -179,7 +179,7 @@ function SchoolTripsMalhamF() {
               Ah and now onto the famous waterfall
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Close up of the buildings only
+              What is the name of the waterfall
             </MKTypography>
           </Grid>
         </Grid>
