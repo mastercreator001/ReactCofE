@@ -25,8 +25,26 @@ import MKTypography from "components/MKTypography";
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
+import MG2MRF1sm from "assets/images/MalhamGallery2/MG2MRF1sm.jpg";
+import MG2MRF2sm from "assets/images/MalhamGallery2/MG2MRF2sm.jpg";
+import MG2MRF3sm from "assets/images/MalhamGallery2/MG2MRF3sm.jpg";
+import MG2MRF4sm from "assets/images/MalhamGallery2/MG2MRF4sm.jpg";
+import MG2MRF5sm from "assets/images/MalhamGallery2/MG2MRF5sm.jpg";
+import MG2MRF6sm from "assets/images/MalhamGallery2/MG2MRF6sm.jpg";
+import MG2MRF7sm from "assets/images/MalhamGallery2/MG2MRF7sm.jpg";
+import MG2MRF8sm from "assets/images/MalhamGallery2/MG2MRF8sm.jpg";
+import MG2MRF9sm from "assets/images/MalhamGallery2/MG2MRF9sm.jpg";
 import Malham1985 from "assets/images/Galleries/Malham1985.jpg";
 // Images Large
+import MG2MRF1lg from "assets/images/MalhamGallery2/MG2MRF1lg.jpg";
+import MG2MRF2lg from "assets/images/MalhamGallery2/MG2MRF2lg.jpg";
+import MG2MRF3lg from "assets/images/MalhamGallery2/MG2MRF3lg.jpg";
+import MG2MRF4lg from "assets/images/MalhamGallery2/MG2MRF4lg.jpg";
+import MG2MRF5lg from "assets/images/MalhamGallery2/MG2MRF5lg.jpg";
+import MG2MRF6lg from "assets/images/MalhamGallery2/MG2MRF6lg.jpg";
+import MG2MRF7lg from "assets/images/MalhamGallery2/MG2MRF7lg.jpg";
+import MG2MRF8lg from "assets/images/MalhamGallery2/MG2MRF8lg.jpg";
+import MG2MRF9lg from "assets/images/MalhamGallery2/MG2MRF9lg.jpg";
 import Malham1985Large from "assets/images/Galleries/Malham1985Large.jpg";
 
 function SchoolMalhamMRF2() {
@@ -65,8 +83,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF1sm}
+              lgimage={MG2MRF1lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -76,8 +94,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF2sm}
+              lgimage={MG2MRF2lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -87,8 +105,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF3sm}
+              lgimage={MG2MRF3lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -98,8 +116,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF4sm}
+              lgimage={MG2MRF4lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -109,8 +127,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF5sm}
+              lgimage={MG2MRF5lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -120,8 +138,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF6sm}
+              lgimage={MG2MRF6lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -131,8 +149,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF7sm}
+              lgimage={MG2MRF7lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -142,8 +160,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF8sm}
+              lgimage={MG2MRF8lg}
               name="Mr Feltons slides of Malham 1985 onwards "
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="Images."
@@ -163,8 +181,8 @@ function SchoolMalhamMRF2() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Malham1985}
-              lgimage={Malham1985Large}
+              smimage={MG2MRF9sm}
+              lgimage={MG2MRF9lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Mr Feltons slides of Malham 1985 onwards" }}
               description="

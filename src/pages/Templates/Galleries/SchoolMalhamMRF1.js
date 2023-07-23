@@ -26,27 +26,27 @@ import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
 import Malham1990 from "assets/images/Galleries/Malham1990.jpg";
-import MG1MRF1sm from "assets/images/MalhamGallery/MG1MRF1sm.jpg";
-import MG1MRF2sm from "assets/images/MalhamGallery/MG1MRF2sm.jpg";
-import MG1MRF3sm from "assets/images/MalhamGallery/MG1MRF3sm.jpg";
-import MG1MRF4sm from "assets/images/MalhamGallery/MG1MRF4sm.jpg";
-import MG1MRF5sm from "assets/images/MalhamGallery/MG1MRF5sm.jpg";
-import MG1MRF6sm from "assets/images/MalhamGallery/MG1MRF6sm.jpg";
-import MG1MRF7sm from "assets/images/MalhamGallery/MG1MRF7sm.jpg";
-import MG1MRF8sm from "assets/images/MalhamGallery/MG1MRF8sm.jpg";
-import MG1MRF9sm from "assets/images/MalhamGallery/MG1MRF9sm.jpg";
+import MG1MRF1sm from "assets/images/MalhamGallery1/MG1MRF1sm.jpg";
+import MG1MRF2sm from "assets/images/MalhamGallery1/MG1MRF2sm.jpg";
+import MG1MRF3sm from "assets/images/MalhamGallery1/MG1MRF3sm.jpg";
+import MG1MRF4sm from "assets/images/MalhamGallery1/MG1MRF4sm.jpg";
+import MG1MRF5sm from "assets/images/MalhamGallery1/MG1MRF5sm.jpg";
+import MG1MRF6sm from "assets/images/MalhamGallery1/MG1MRF6sm.jpg";
+import MG1MRF7sm from "assets/images/MalhamGallery1/MG1MRF7sm.jpg";
+import MG1MRF8sm from "assets/images/MalhamGallery1/MG1MRF8sm.jpg";
+import MG1MRF9sm from "assets/images/MalhamGallery1/MG1MRF9sm.jpg";
 
 // Images Large
 import Malham1990Large from "assets/images/Galleries/Malham1990Large.jpg";
-import MG1MRF1lg from "assets/images/MalhamGallery/MG1MRF1lg.jpg";
-import MG1MRF2lg from "assets/images/MalhamGallery/MG1MRF2lg.jpg";
-import MG1MRF3lg from "assets/images/MalhamGallery/MG1MRF3lg.jpg";
-import MG1MRF4lg from "assets/images/MalhamGallery/MG1MRF4lg.jpg";
-import MG1MRF5lg from "assets/images/MalhamGallery/MG1MRF5lg.jpg";
-import MG1MRF6lg from "assets/images/MalhamGallery/MG1MRF6lg.jpg";
-import MG1MRF7lg from "assets/images/MalhamGallery/MG1MRF7lg.jpg";
-import MG1MRF8lg from "assets/images/MalhamGallery/MG1MRF8lg.jpg";
-import MG1MRF9lg from "assets/images/MalhamGallery/MG1MRF9lg.jpg";
+import MG1MRF1lg from "assets/images/MalhamGallery1/MG1MRF1lg.jpg";
+import MG1MRF2lg from "assets/images/MalhamGallery1/MG1MRF2lg.jpg";
+import MG1MRF3lg from "assets/images/MalhamGallery1/MG1MRF3lg.jpg";
+import MG1MRF4lg from "assets/images/MalhamGallery1/MG1MRF4lg.jpg";
+import MG1MRF5lg from "assets/images/MalhamGallery1/MG1MRF5lg.jpg";
+import MG1MRF6lg from "assets/images/MalhamGallery1/MG1MRF6lg.jpg";
+import MG1MRF7lg from "assets/images/MalhamGallery1/MG1MRF7lg.jpg";
+import MG1MRF8lg from "assets/images/MalhamGallery1/MG1MRF8lg.jpg";
+import MG1MRF9lg from "assets/images/MalhamGallery1/MG1MRF9lg.jpg";
 
 function SchoolMalhamMRF1() {
   return (
