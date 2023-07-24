@@ -22,12 +22,41 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
 // Images Small
-import Various from "assets/images/Galleries/Various.jpg";
+
+import VGallery1sm from "assets/images/VariousGalleryImages/VGallery1sm.jpg";
+import VGallery2sm from "assets/images/VariousGalleryImages/VGallery2sm.jpg";
+import VGallery3sm from "assets/images/VariousGalleryImages/VGallery3sm.jpg";
+import VGallery4sm from "assets/images/VariousGalleryImages/VGallery4sm.jpg";
+import VGallery5sm from "assets/images/VariousGalleryImages/VGallery5sm.jpg";
+import VGallery6sm from "assets/images/VariousGalleryImages/VGallery6sm.jpg";
+import VGallery7sm from "assets/images/VariousGalleryImages/VGallery7sm.jpg";
+import VGallery8sm from "assets/images/VariousGalleryImages/VGallery8sm.jpg";
+import VGallery9sm from "assets/images/VariousGalleryImages/VGallery9sm.jpg";
+import VGallery10sm from "assets/images/VariousGalleryImages/VGallery10sm.jpg";
+import VGallery11sm from "assets/images/VariousGalleryImages/VGallery11sm.jpg";
+import VGallery12sm from "assets/images/VariousGalleryImages/VGallery12sm.jpg";
+import VGallery13sm from "assets/images/VariousGalleryImages/VGallery13sm.jpg";
+import VGallery14sm from "assets/images/VariousGalleryImages/VGallery14sm.jpg";
+import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
+
 // Images Large
-import VariousLarge from "assets/images/Galleries/VariousLarge.jpg";
+
+import VGallery1lg from "assets/images/VariousGalleryImages/VGallery1lg.jpg";
+import VGallery2lg from "assets/images/VariousGalleryImages/VGallery2lg.jpg";
+import VGallery3lg from "assets/images/VariousGalleryImages/VGallery3lg.jpg";
+import VGallery4lg from "assets/images/VariousGalleryImages/VGallery4lg.jpg";
+import VGallery5lg from "assets/images/VariousGalleryImages/VGallery5lg.jpg";
+import VGallery6lg from "assets/images/VariousGalleryImages/VGallery6lg.jpg";
+import VGallery7lg from "assets/images/VariousGalleryImages/VGallery7lg.jpg";
+import VGallery8lg from "assets/images/VariousGalleryImages/VGallery8lg.jpg";
+import VGallery9lg from "assets/images/VariousGalleryImages/VGallery9lg.jpg";
+import VGallery10lg from "assets/images/VariousGalleryImages/VGallery10lg.jpg";
+import VGallery11lg from "assets/images/VariousGalleryImages/VGallery11lg.jpg";
+import VGallery12lg from "assets/images/VariousGalleryImages/VGallery12lg.jpg";
+import VGallery13lg from "assets/images/VariousGalleryImages/VGallery13lg.jpg";
+import VGallery14lg from "assets/images/VariousGalleryImages/VGallery14lg.jpg";
 
 function VariousGallery() {
   return (
@@ -54,8 +83,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery1sm}
+              lgimage={VGallery1lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -65,8 +94,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery2sm}
+              lgimage={VGallery2lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -76,8 +105,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery3sm}
+              lgimage={VGallery3lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -87,8 +116,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery4sm}
+              lgimage={VGallery4lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -98,8 +127,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery5sm}
+              lgimage={VGallery5lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -109,8 +138,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery6sm}
+              lgimage={VGallery6lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -120,8 +149,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery7sm}
+              lgimage={VGallery7lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -131,8 +160,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery8sm}
+              lgimage={VGallery8lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -142,8 +171,8 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery9sm}
+              lgimage={VGallery9lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
               description="Images."
@@ -163,8 +192,56 @@ function VariousGallery() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Various}
-              lgimage={VariousLarge}
+              smimage={VGallery10sm}
+              lgimage={VGallery10lg}
+              name="A close up of the map above recreated as an svg file"
+              position={{ color: "info", label: "Various School Images" }}
+              description="
+               "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={VGallery11sm}
+              lgimage={VGallery11lg}
+              name="A close up of the map above recreated as an svg file"
+              position={{ color: "info", label: "Various School Images" }}
+              description="
+               "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={VGallery12sm}
+              lgimage={VGallery12lg}
+              name="A close up of the map above recreated as an svg file"
+              position={{ color: "info", label: "Various School Images" }}
+              description="
+               "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={VGallery13sm}
+              lgimage={VGallery13lg}
+              name="A close up of the map above recreated as an svg file"
+              position={{ color: "info", label: "Various School Images" }}
+              description="
+               "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={VGallery14sm}
+              lgimage={VGallery14lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
               description="

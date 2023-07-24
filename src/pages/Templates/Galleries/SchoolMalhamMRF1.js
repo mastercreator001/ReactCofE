@@ -77,7 +77,11 @@ function SchoolMalhamMRF1() {
               lgimage={Malham1990Large}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="Four teachers returning from a walking from the orienterring exercise most of the students undertook. Do you remember this occasion. As I remember Mr Felton and other teachers furnished a group of students with a ma a compass and a sense of direction to head back to Newfield Hall.<br/> <br/>
+              
+              Most made it and some students were sent back out to recover the missing students( it was made very clear to stay in your groups). No harm no foul but imagine it being done today Id' imagine it would be next to impossible without planning and a teacher or two in toe as well. <br/> <br/>
+              
+              We have Mr Felton on the far left Mr Monk next to him but do you recognise the other teachers ?"
             />
           </MKBox>
         </Grid>
@@ -88,7 +92,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF1lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="A view of Newfield Hall from the rear, note that extensive modernisiation has now taken place and the site no longer accomadates school groups. The bunk beads have long since been removed and it is now a very posh hotel run by HF Holidays so sadly no schools like ours."
             />
           </MKBox>
         </Grid>
@@ -99,7 +103,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF2lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description=" A side view of the main entrance of Newfield Hall, As mentioned above it is now a very popular but expensive hotel."
             />
           </MKBox>
         </Grid>
@@ -110,7 +114,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF3lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="Ah as you can see Mr Walker is helping a very tired student to wake up and get ready for breakfast. I'm not sure where they got the bell from but got it they did. Note all the other students in shot seem very awake already. Do you recognise any of the students?"
             />
           </MKBox>
         </Grid>
@@ -121,7 +125,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF4lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="A view of the extensive beauty and isloation that is the Yorkshire Dales, perhaps near Gordale Scar as this was on the walking agenda for most of the groups attending the Malham visit. "
             />
           </MKBox>
         </Grid>
@@ -132,7 +136,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF5lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="Beautiful scenery of the cut through aproaches on one of the many walks in the Dales, perhaps the orienteering expedition heading back to Newfield Hall, do you recognise the scene?"
             />
           </MKBox>
         </Grid>
@@ -143,7 +147,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF6lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="A group of students traversing the rocky path to an eventual and probably well deserved lunch at the Hall. Note all the wet weather gear we were required to bring along. I rember having a very specific check list for just such this occasion. "
             />
           </MKBox>
         </Grid>
@@ -154,7 +158,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF9lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="Well I never have seen such a big rat in all my life but being able to live this one down might have been the harder thing to have done. Do you recognise this student and the accompaniys ones as it would be great to reunite the students with this happy memory. "
             />
           </MKBox>
         </Grid>
@@ -165,14 +169,14 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF7lg}
               name="Mr Feltons slides of Malham "
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="Images."
+              description="A rocky out cropping and a sheer drop and some student hopefully being carefully monitored by the teachers. They all must have made it home safely as I don't remember any fatalities on the school trips ? "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Inspirational and informative, shots from Yorkshire
+              Inspirational shots from The Yorkshire Dales
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
               Malham shots from Mr Felton
@@ -186,8 +190,7 @@ function SchoolMalhamMRF1() {
               lgimage={MG1MRF8lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Mr Feltons slides of Malham" }}
-              description="
-               "
+              description="The sheer vastness of the Yorshire Dales is not to be under estimated as you can tell from this picture. I'm sure the students would have been pretty chuffed at the achievement of getting to the top of the hill/Mountain, is there any mountains in Yorkshire?."
             />
           </MKBox>
         </Grid>
