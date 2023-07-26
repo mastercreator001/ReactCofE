@@ -92,7 +92,7 @@ function AboutUs() {
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
               We&apos;re constantly trying to reinvent the site so if you have any cool ideas Please
-              mail us.
+              email us.
             </MKTypography>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on

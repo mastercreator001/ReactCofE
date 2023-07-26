@@ -73,7 +73,7 @@ function VariousGallery() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Miss Forer Malham Trips
+              Various Images of the site over the time.
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
               Various School Pictures
@@ -87,7 +87,7 @@ function VariousGallery() {
               lgimage={VGallery1lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="A very familur image as I would have imagined, over the years and probably long before the school became popluar I would guess we were all famous for the Yellow Ice Cream Cone on top the the music room. That is at least my memory of the school over the years. The only option to differentiate between the four schools up there was to improvise and the Ice Cream Code helped everyone do just that."
             />
           </MKBox>
         </Grid>
@@ -98,7 +98,7 @@ function VariousGallery() {
               lgimage={VGallery2lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="A image of the music room taken from the opening pamphlet of the school and colourised, althoough the color isn't perhaps a perfect match to the school it became a defining image representing the school over the many years it served the community."
             />
           </MKBox>
         </Grid>
@@ -109,7 +109,7 @@ function VariousGallery() {
               lgimage={VGallery3lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="A video still image of the side of the school showing the hall and the left aspect of the site. Sadly they are not very good images but they were screenshotted from a VHS tape that has sadly degraded overtime."
             />
           </MKBox>
         </Grid>
@@ -120,7 +120,7 @@ function VariousGallery() {
               lgimage={VGallery4lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="A second still from the same video tape moving towards the front aspect of the site, in view the music room and the head teahers office nd the admin side of the building. I recorded this for Video Studies project I was doing while a student at Carisbrooke High School."
             />
           </MKBox>
         </Grid>
@@ -131,7 +131,7 @@ function VariousGallery() {
               lgimage={VGallery5lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="The last of the still images from the VHS taop shooing the dinning are and front carpark. In my days room one was for Mr Hawes and the 1st year students but later on it was the 5th years as the start of the school and after the take over of the site by The Christ King amalgmation it was still used as a subject room but for a much older year groups."
             />
           </MKBox>
         </Grid>
@@ -142,7 +142,7 @@ function VariousGallery() {
               lgimage={VGallery6lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="Two very similar images together that show the schools front aspect and the height diffence from the road to the school height recessed in the site and lower. The school which is now a carpark has been infilled and raied to match the road height throught."
             />
           </MKBox>
         </Grid>
@@ -153,7 +153,7 @@ function VariousGallery() {
               lgimage={VGallery7lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="The second of two images just zoomed in a little as you can tell the rather lack luster look of the cone and the clear lack of love it has seen over the years. Sadly an accleration of the neglect and lack of maintenance sprialled towards it later years and eventual demolition. Noted by a former teacher who attended the open day and described the site as very shabby and neglected."
             />
           </MKBox>
         </Grid>
@@ -164,7 +164,7 @@ function VariousGallery() {
               lgimage={VGallery8lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="It's an amazing shot and the Google Camera car has done a greta job of giving us a look at the school in full flow. The carpark is full and the site is in full operation, the photo must have been taken in the early to mid 2000's as the choice of car and the change of livery on the school boards clearlty shows the Christ The King as being in charge."
             />
           </MKBox>
         </Grid>
@@ -175,7 +175,7 @@ function VariousGallery() {
               lgimage={VGallery9lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="Images."
+              description="A rare shot inside the school at the Farewell to Christ The King College site gathering, sadly a not very well attended closing down event due to logistical issues. A sad farewell to a much loved site and I would have loved to have been there and gave the site a final farewell."
             />
           </MKBox>
         </Grid>
@@ -196,8 +196,7 @@ function VariousGallery() {
               lgimage={VGallery10lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
-              description="
-               "
+              description="The Google Camera car in full swing looking at the front of the site as it swings past, again mid 2000's as the livery change of the school.The site is lookkng farly well looked after and may be before the final decision was to made to choose which site to close A.B.K or C of E Middle School."
             />
           </MKBox>
         </Grid>
@@ -220,8 +219,7 @@ function VariousGallery() {
               lgimage={VGallery12lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
-              description="
-               "
+              description="The google camera car sweeping along the road has another capture of the school before  oving towards Carisbrooke High School."
             />
           </MKBox>
         </Grid>
@@ -232,8 +230,7 @@ function VariousGallery() {
               lgimage={VGallery13lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
-              description="
-               "
+              description=" We can just about see the school still behind the healthy hedge of the school. The hedge provide a good level of privacy for the school and the students over the years as the early shots show a small fence and to that date a non existent hedge. It is still in plae today and forms a barrier between the pavement and the carpark, flanked by a new fence too."
             />
           </MKBox>
         </Grid>
@@ -244,8 +241,7 @@ function VariousGallery() {
               lgimage={VGallery14lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
-              description="
-               "
+              description="The last of the Google camera cars images listed before the demolition of the school showing a gap in the fence for the grass cutting tractors to enter the site during the summer grow."
             />
           </MKBox>
         </Grid>
