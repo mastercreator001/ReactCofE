@@ -98,7 +98,7 @@ function VariousGallery() {
               lgimage={VGallery2lg}
               name="Various Images from the school "
               position={{ color: "info", label: "Various School Images" }}
-              description="A image of the music room taken from the opening pamphlet of the school and colourised, althoough the color isn't perhaps a perfect match to the school it became a defining image representing the school over the many years it served the community."
+              description="A image of the music room taken from the opening pamphlet of the school and colourised, although the color isn't perhaps a perfect match to the school it became a defining image representing the school over the many years it served the community."
             />
           </MKBox>
         </Grid>
@@ -207,7 +207,9 @@ function VariousGallery() {
               lgimage={VGallery11lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
-              description="
+              description="As you may be able to tell this image was taken during the demolition process and the Hall was one of the last sections to de removed. By having a closer look you can see the general neglect that has come upon the school but the playground is unswept and the siding on the top of the hall is all broken but I'm sure happy memories still come back when we have a look. The play ground was used for many a school fair or a the odd play in the earlier days of the school so allot of history was lost upon the schools removal.<br/> <br/>
+
+              The general vie show just how varying the site was and the reasoning behind it was still a mystery, perhaps a cost effective option of to lower the school's height so as not to be as intrusive to the neighbours possibly. Maybe we shall never know but this photo shows the differing heights better than any other I have seen. 
                "
             />
           </MKBox>
@@ -219,7 +221,7 @@ function VariousGallery() {
               lgimage={VGallery12lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Various School Images" }}
-              description="The google camera car sweeping along the road has another capture of the school before  oving towards Carisbrooke High School."
+              description="The Google camera car sweeping along the road has another capture of the school before moving up the road towards the now demolished Carisbrooke High School. The camera car has proven very useful capturing aspects of the school that otherwise may not have been seen as the car sweeps by it uses rotating camera to capture a series of 360 images and then reaasemblies them for use as a Street view image you can now see."
             />
           </MKBox>
         </Grid>

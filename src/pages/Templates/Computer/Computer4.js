@@ -58,7 +58,7 @@ function Computer4() {
               lgimage={floopyDiscLarge}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
-              description="Floopy Discs we're quite the innovation in their day, do you remember sharing games at lunch time "
+              description="Floopy Discs we're quite the innovation in their day, do you remember sharing games at lunch time ?. The introduction of the floop disc made the loading of games faster and the ability to store more information and to also be able to do it so much faster than anyting else on the market. We may well have not had word processing classes but they would not have been far behind as familarity with computers was and is the future so having an ability to store data goes hand in hand with the march of the computer age. "
             />
           </MKBox>
         </Grid>

@@ -58,7 +58,7 @@ function Computer3() {
               lgimage={bbcComputer3Large}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
-              description="The upgraded model with casette access on the keyboard"
+              description="The upgraded model with casette access on the keyboard beacme the new must have piece of equiptment but it was still years ahed as the fast loading format through the onboard casette made programs relatively simple to load. The Acorn Electronic was an equlivent but used a three wire connected audio cassette system to load the programs and they were considerbly more likely to crash and given the already exteneded load time more outdated as the new Casette loading BBC have arrived at the school became the must have tool for the modernising school. "
             />
           </MKBox>
         </Grid>

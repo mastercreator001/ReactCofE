@@ -58,7 +58,7 @@ function Computer1() {
               lgimage={bbcComputer1Large}
               name="Bbc Computers"
               position={{ color: "info", label: "A massive leap forward" }}
-              description="The BBC was an extraordinary piece of kit and the school as a leader in the field"
+              description="The BBC was an extraordinary piece of kit and the school as a leader in the field. With the BBC and the general uptake of computers in wider society the BBC computer became a leader in he eduction field due to it's cost and gererall versatility to handle different programs."
             />
           </MKBox>
         </Grid>
