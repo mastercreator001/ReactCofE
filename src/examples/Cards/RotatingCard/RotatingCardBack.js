@@ -111,6 +111,7 @@ RotatingCard.propTypes = {
       type: PropTypes.oneOf(["external", "internal"]).isRequired,
       route: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
+      action: PropTypes.string.isRequired,
     }),
   ]).isRequired,
 };

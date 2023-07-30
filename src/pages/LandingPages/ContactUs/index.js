@@ -32,17 +32,18 @@ import footerRoutes from "footer.routes";
 
 // Image
 import bgImage from "assets/images/school-building/school-Front.jpg";
-
+// "https://http://www.wellyroad.com//send-web-page-link-hotmail-1690721685",
 function ContactUs() {
   return (
     <>
-      <MKBox position="fixed" top="0.5rem" width="100%">
+      <MKBox position="fixed" top="100%" width="100%">
         <DefaultNavbar
           routes={routes}
           action={{
             type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
+            route: "send-web-page-link-hotmail-1690721685",
             color: "info",
+            href: "https://http://www.wellyroad.com//send-web-page-link-hotmail-1690721685",
           }}
         />
       </MKBox>
@@ -50,9 +51,9 @@ function ContactUs() {
         <Grid item xs={10} lg={6}>
           <MKBox
             display={{ xs: "none", lg: "flex" }}
-            width="calc(100% - 2rem)"
-            height="calc(85vh - 2rem)"
-            borderRadius="lg"
+            width="calc(95% - 2rem)"
+            height="calc(70vh - 2rem)"
+            borderRadius="flex"
             ml={5}
             mt={5}
             sx={{ backgroundImage: `url(${bgImage})` }}
@@ -96,7 +97,7 @@ function ContactUs() {
               <MKTypography variant="body2" color="text" mb={3}>
                 For further questions, including story submission, please email us.
               </MKTypography>
-              <MKBox width="100%" component="form" method="post" autoComplete="off">
+              <MKBox width="100%" component="form" method="post" autoComplete="on">
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
                     <MKInput
@@ -107,13 +108,15 @@ function ContactUs() {
                     />
                   </Grid>
                   <Grid item xs={12} md={6}>
-                    <MKInput
-                      type="email"
-                      variant="standard"
-                      label="Email"
-                      InputLabelProps={{ shrink: true }}
-                      fullWidth
-                    />
+                    <a href="mailto:melon_man2000@hotmail.com">
+                      <MKInput
+                        type="send-web-page-link-hotmail-1690721685"
+                        variant="standard"
+                        label="Email Us"
+                        InputLabelProps={{ shrink: true }}
+                        fullWidth
+                      />
+                    </a>
                   </Grid>
                   <Grid item xs={12}>
                     <MKInput
