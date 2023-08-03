@@ -77,7 +77,11 @@ function SingletonGallery() {
               lgimage={SingletonTrips1lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="The Singleton Adventure was one of the very first trips I have attended on The New Middle school and for me moving from West Street Primary as many others did as well it was a big move as was a trip away to somewhere not local. Singleton for me was in 1Hawes  and the trip was fun and exciting and lots of places to run around. I couldn't tell you the weather or what I learn't but it was all part of getting older and making progress into the adult I have become.  <br/> <br/>
+              
+              Singlteon or as it later became known as The Weald And Downland Living And Open Air Museum is a unique place in the city of Chichester and hopefully you remember you trip away with the school.<br/><br/>
+              
+              As you can see in the image there is a recreation of an old school as it would have been  in the late 1800 or early 1900's"
             />
           </MKBox>
         </Grid>
@@ -88,7 +92,9 @@ function SingletonGallery() {
               lgimage={SingletonTrips2lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="The Singleton museum is unique and offers a rich heritage of building of all different styles and ages brought together to represent the progression through the ages of society in Britian. The collection is unique and aquires builidings that would have been demolished and rebuilds them like for like using the same materials and techniques that were used originally. If possible the building isn't even dismantled and will be moved as close to whole as it safely can. <br/> <br/>
+              
+              The collection covers all types of builiding school houses public meeting bulidings and offices of sorts schools are amoung their collections. The overall site is themed and has allowed for a collective of similur aged buildings to be hosted near to each other. The site spans 40 acres and is the only living museum with such a extensive collection in the United Kingdom. "
             />
           </MKBox>
         </Grid>
@@ -99,7 +105,15 @@ function SingletonGallery() {
               lgimage={SingletonLarge}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="From Farming to local politics the colection keeps expanding and is only limited by time and the willingness of building owners to either demolish or in exceptioal cases await the engineers from the museum to dismantle the building slowly so as not to do too much damage to the structure. The public building you see in the image is an old town hall that was rescued from Titchfield and it used to be a Market Hall which would otherwise continued to be either removed via demolition or collapse through natural decay and neglect.<br/></br>
+              
+              
+BUILDING HISTORYTOP 3 INTERESTING FACTS
+Market halls like this were once general throughout England. Among the earliest which have survived are several from the late 15th and early 16th centuries. The majority were timber-framed.
+
+Many were demolished in the 18th and 19th centuries, since they no longer served the purpose for which they were built and were occupying space needed for other uses. Many others were replaced by more solid buildings, with enclosed rooms taking the place of the open arcade. One by one they were transformed, lost, or, in a few cases, moved to a less valuable site.
+
+This was the fate of the Titchfield Market Hall in the middle of the last century — some two and a half centuries after it was first built."
             />
           </MKBox>
         </Grid>
@@ -110,7 +124,7 @@ function SingletonGallery() {
               lgimage={SingletonTrips3lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="As you can see there are some images from the school the trip by students was never a day out it was always a learning experience and the young lady has a clip board to recored certain facts about the building and probably a series for general coverage of the site overall. I'm afraid i dont remember the worksheets we had to use or fill out but perhps you do and could let me know what you remember about the trip. If like me it was one of your forst school trips off the Island how did it go for you? apphrension or worry or totaly fine I'd be interested to hear."
             />
           </MKBox>
         </Grid>
