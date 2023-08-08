@@ -29,6 +29,8 @@ import marketSquare from "assets/images/TripsAway/marketSquare.jpg";
 import northCrayHouse from "assets/images/TripsAway/northCrayHouse.jpg";
 import Pendean from "assets/images/TripsAway/Pendean.jpg";
 import TitchfieldMarketHall from "assets/images/TripsAway/TitchfieldMarketHall.jpg";
+import SingletonMaplg from "assets/images/SingletonGallery/SingletonMaplg.png";
+import SingletonMapsm from "assets/images/SingletonGallery/SingletonMapsm.png";
 
 function Singleton() {
   return (
@@ -48,7 +50,7 @@ function Singleton() {
               Singleton Trip.
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Singleton or as we called it the weald and Donland open air museum.
+              Singleton as we called it or The Weald and Downland Open Air Museum.
             </MKTypography>
           </Grid>
         </Grid>
@@ -118,6 +120,20 @@ This building dates from the 15th century and has a long, open room on the first
 The building was threatened with demolition due to an extension to an office building. Of the original four bays, two complete bays remained, plus a third of another. The original building would have been some 36 feet (10.97 m) long. The original roof covering would have been Horsham Slab, which was replaced when the building was re-erected at the museum. Only the centre part of the present building is the original. The ends are modern reconstructions replicating contemporary practice.<br/> <br/>
 
 The building is used as the museum's library and meeting place and is not normally open to the public.[55] The Worshipful Company of Drapers donated £5,000, which was used to part-fund the dismantling and re-erection of the building at the museum."
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={SingletonMapsm}
+              lgimage={SingletonMaplg}
+              name="Have you seen the map of the site."
+              position={{
+                color: "info",
+                label: "Weald And Downland Museum map",
+              }}
+              description="Visit the site and plan your return visit with your family perhaps."
             />
           </MKBox>
         </Grid>

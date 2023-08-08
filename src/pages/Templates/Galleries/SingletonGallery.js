@@ -35,6 +35,7 @@ import SingletonTrips6sm from "assets/images/SingletonGallery/SingletonTrips6sm.
 import SingletonTrips7sm from "assets/images/SingletonGallery/SingletonTrips7sm.jpg";
 import SingletonTrips8sm from "assets/images/SingletonGallery/SingletonTrips8sm.jpg";
 import SingletonTrips9sm from "assets/images/SingletonGallery/SingletonTrips9sm.jpg";
+import SingletonMapsm from "assets/images/SingletonGallery/SingletonMapsm.png";
 
 // Images Large
 import SingletonTrips1lg from "assets/images/SingletonGallery/SingletonTrips1lg.png";
@@ -47,6 +48,7 @@ import SingletonTrips7lg from "assets/images/SingletonGallery/SingletonTrips7lg.
 import SingletonTrips8lg from "assets/images/SingletonGallery/SingletonTrips8lg.jpg";
 import SingletonTrips9lg from "assets/images/SingletonGallery/SingletonTrips9lg.jpg";
 import SingletonLarge from "assets/images/Galleries/SingletonLarge.jpg";
+import SingletonMaplg from "assets/images/SingletonGallery/SingletonMaplg.png";
 
 function SingletonGallery() {
   return (
@@ -124,7 +126,7 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips3lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="As you can see there are some images from the school the trip by students was never a day out it was always a learning experience and the young lady has a clip board to recored certain facts about the building and probably a series for general coverage of the site overall. I'm afraid i dont remember the worksheets we had to use or fill out but perhps you do and could let me know what you remember about the trip. If like me it was one of your forst school trips off the Island how did it go for you? apphrension or worry or totaly fine I'd be interested to hear."
+              description="As you can see there are some images from the school the trip by students was never a day out it was always a learning experience and the young lady has a clip board to recored certain facts about the building and probably a series for general coverage of the site overall. I'm afraid I dont remember the worksheets we had to use or fill out but perhaps you do and could let me know what you remember about the trip. If like me it was one of your first school trips off the Island how did it go for you? apphrension or worry or totaly fine I'd be interested to hear."
             />
           </MKBox>
         </Grid>
@@ -135,7 +137,7 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips4lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="The Singleton trip was and is one of the most varied places for the differing architecture but also the landscape is pretty good as well. As you can see in the picture you can observe on the foreground lots of open space and the ability for the park to operate and seclude lots of different properties and they have been arranged thus so with a fair amount of spacing between to allow for the casual visitor to be encapsulated amoung one peried of house and them from a short walk to be transported into another age."
             />
           </MKBox>
         </Grid>
@@ -146,7 +148,7 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips5lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="In the picture you can see one of the properties that used a form of foundation placed on all four corner on essentially giant mushrooms. No really that is what they llok like but in reality they were used to keep mice or rodents out from getting to food stuffs within the barn. Generally in a subsistance economy or a small towwn the abilities held within the local community were essential for the totality of the village. Generally you might have a baker and repairer a blacksmith etc but also it could be in another town and this would require a special trip. <br/> <br/> Subsistance living was tough and cleary sitting in bed wasnt an option so naturally you needed somethinng to trade hence the more skills your villagers had the better they coped as the more complec thing you could do the more you were compensated. "
             />
           </MKBox>
         </Grid>
@@ -157,7 +159,7 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips6lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="The buildings held on site vary dramatically from early 18th century to mid to late 19th century and vary according to importance. Historically the building are beyond measure as it all seems to be buildings of note mixed woth ramshackle buildings that no one card about. Lovingly restored it is a amazing feat to visit the site as sonn as you appreciate the diverse collection and the centuries spanned you soon realise the history preserved. "
             />
           </MKBox>
         </Grid>
@@ -168,7 +170,10 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips7lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="A close up of a beam barn and the high roof allowed for staples to air and dry ready for either consumtion or preservation. You can appreciate the early constrution date of the farm as it appears to have no windows of sorts and this is a good way to approxiate a date for the building. Fortunately The Weald And Downland Museum have a full story for the structure and if referencing the website will show you loaction dates and it's local history.<br/> <br/>
+              
+              If you would like to take a look follow the posted link that follows.<br/><br/>
+              https://www.wealddown.co.uk/"
             />
           </MKBox>
         </Grid>
@@ -179,17 +184,17 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips8lg}
               name="Trips away To the Weald and Downland Museum "
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="Images."
+              description="Does anyone remember Mrs Reynolds, Yes I thought you might well it appears Mrs Reynolds visited Singleton but does anyone remember her going or maybe knows the studetns in the photograph with her. "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              School Maps SVG recreation of the schools internal layout.
+              A school trip for the 1st years
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Close up of the buildings only
+              Many sites to see throught history
             </MKTypography>
           </Grid>
         </Grid>
@@ -200,7 +205,19 @@ This was the fate of the Titchfield Market Hall in the middle of the last centur
               lgimage={SingletonTrips9lg}
               name="A close up of the map above recreated as an svg file"
               position={{ color: "info", label: "Singleton Gallery Photos" }}
-              description="
+              description="I can tell you exactly who was here as this is my year group in the photograph outside a barn and the poor unfortunate teacher if you couldn't tell already was Mr Hawes. I cannot say this is formaly 1H but it was the trip of 1986 to Singleton for sure. Ben Ansell, Tina Brown and Gregory Thorne, Geoffrey West are all in the picture, alongside Mr Hawes but who are the rest?. 
+               "
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <HorizontalTeamCard2
+              smimage={SingletonMapsm}
+              lgimage={SingletonMaplg}
+              name="A close up of the map above recreated as an svg file"
+              position={{ color: "info", label: "Singleton Gallery Photos" }}
+              description="Take a look at the map and see if you can remember any of the places you have seen or maybe plan your own return viit without the teacher for your children perhaps. 
                "
             />
           </MKBox>
