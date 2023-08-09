@@ -24,12 +24,16 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import newfieldFront1 from "assets/images/TripsAway/newfieldFront1.jpg";
-import newfieldHallHall from "assets/images/TripsAway/newfieldHallHall.jpg";
-import newfieldHallRear2 from "assets/images/TripsAway/newfieldHallRear2.jpg";
-import newfieldSunset from "assets/images/TripsAway/newfieldSunset.jpg";
-
+//Small Images
+import newfieldFront1sm from "assets/images/TripsAway/newfieldFront1sm.jpg";
+import newfieldHallHallsm from "assets/images/TripsAway/newfieldHallHallsm.jpg";
+import newfieldHallRear2sm from "assets/images/TripsAway/newfieldHallRear2sm.jpg";
+import newfieldSunsetsm from "assets/images/TripsAway/newfieldSunsetsm.jpg";
+//Large Images
+import newfieldFront1lg from "assets/images/TripsAway/newfieldFront1lg.jpg";
+import newfieldHallHalllg from "assets/images/TripsAway/newfieldHallHalllg.jpg";
+import newfieldHallRear2lg from "assets/images/TripsAway/newfieldHallRear2lg.jpg";
+import newfieldSunsetlg from "assets/images/TripsAway/newfieldSunsetlg.jpg";
 function Malham() {
   return (
     <MKBox
@@ -55,8 +59,8 @@ function Malham() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={newfieldFront1}
-              lgimage={newfieldFront1}
+              smimage={newfieldFront1sm}
+              lgimage={newfieldFront1lg}
               name="Malham"
               position={{ color: "info", label: "Third years trip away to the Torkshire Dales" }}
               description="Newfield Hall is a stone mansion located in the southern part of the Yorkshire Dales National Park, near the village of Malham.02 It was built in 1856 and has a pillared entrance, baronial hall, and courtyards. The hotel is owned and operated by HF Holidays Ltd and has 48 bedrooms, including single, twin, and family rooms, all with en-suite facilities.<br/> <br/>
@@ -68,8 +72,8 @@ function Malham() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={newfieldHallHall}
-              lgimage={newfieldHallHall}
+              smimage={newfieldHallHallsm}
+              lgimage={newfieldHallHalllg}
               name="Newfield Hall"
               position={{
                 color: "info",
@@ -88,8 +92,8 @@ Nowadays, thereâ€™s 46 well-appointed guest rooms in three categories (Classic, 
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={newfieldHallRear2}
-              lgimage={newfieldHallRear2}
+              smimage={newfieldHallRear2sm}
+              lgimage={newfieldHallRear2lg}
               name="Facilities Offered at Newfield Hall"
               position={{ color: "info", label: "Five Star Facilities" }}
               description="Rooms
@@ -115,8 +119,8 @@ On the day of departure, we kindly ask all guests to check out by 10:00am. Youâ€
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={newfieldSunset}
-              lgimage={newfieldSunset}
+              smimage={newfieldSunsetsm}
+              lgimage={newfieldSunsetlg}
               name="So Much To see and do in the Dales of Yorkshire"
               position={{
                 color: "info",

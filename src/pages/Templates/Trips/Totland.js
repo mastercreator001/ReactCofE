@@ -24,12 +24,16 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import yhaFront from "assets/images/TripsAway/yhaFront.jpg";
-import yhaTotland from "assets/images/TripsAway/yhaTotland.jpg";
-import Totland20 from "assets/images/TripsAway/Totland20.jpg";
-import Totland10 from "assets/images/TripsAway/Totland10.jpg";
-
+//Small Images
+import yhaFrontsm from "assets/images/TripsAway/yhaFrontsm.jpg";
+import yhaTotlandsm from "assets/images/TripsAway/yhaTotlandsm.jpg";
+import Totland20sm from "assets/images/TripsAway/Totland20sm.jpg";
+import Totland10sm from "assets/images/TripsAway/Totland10sm.jpg";
+//Large Images
+import yhaFrontlg from "assets/images/TripsAway/yhaFrontlg.jpg";
+import yhaTotlandlg from "assets/images/TripsAway/yhaTotlandlg.jpg";
+import Totland20lg from "assets/images/TripsAway/Totland20lg.jpg";
+import Totland10lg from "assets/images/TripsAway/Totland10lg.jpg";
 function dhTeachers() {
   return (
     <MKBox
@@ -55,8 +59,8 @@ function dhTeachers() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={yhaFront}
-              lgimage={yhaFront}
+              smimage={yhaFrontsm}
+              lgimage={yhaFrontlg}
               name="Front of the Building"
               position={{ color: "info", label: "Wecome to YCA Totland year 2 trip away" }}
               description="Set in an Area of Outstanding Natural Beauty, YHA Isle of Wight Totland has the best of both worlds - a seaside village location with many beautiful walking spots, but with Newport, the bustling Island Capital, just a 20-minute drive away. This makes it an ideal spot from which to explore the island.
@@ -70,8 +74,8 @@ The beaches and villages all have pubs, cafes, coffee shops and restaurants, for
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={yhaTotland}
-              lgimage={yhaTotland}
+              smimage={yhaTotlandsm}
+              lgimage={yhaTotlandlg}
               name="Rememeber Totland now"
               position={{ color: "info", label: "Lovely garden for 2nd years to Have fun in." }}
               description="Hostel facilities:
@@ -115,8 +119,8 @@ WiFi<br/> <br/>"
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Totland20}
-              lgimage={Totland20}
+              smimage={Totland20sm}
+              lgimage={Totland20lg}
               name="Not too shabby "
               position={{ color: "info", label: "Lovely and well equipped buildng for us." }}
               description="Hostel need to know
@@ -139,8 +143,8 @@ Dogs: Dogs are permitted at YHA Isle of Wight Totland when hiring the whole host
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Totland10}
-              lgimage={Totland10}
+              smimage={Totland10sm}
+              lgimage={Totland10lg}
               name="Just about enough room for everyone."
               position={{
                 color: "info",

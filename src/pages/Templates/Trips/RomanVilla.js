@@ -24,12 +24,16 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import romanVilla1 from "assets/images/TripsAway/romanVilla1.jpg";
-import romanVilla2 from "assets/images/TripsAway/romanVilla2.jpg";
-import romanVilla3 from "assets/images/TripsAway/romanVilla3.jpg";
-import romanVilla4 from "assets/images/TripsAway/romanVilla4.jpg";
-
+// Small Images
+import romanVilla1sm from "assets/images/TripsAway/romanVilla1sm.jpg";
+import romanVilla2sm from "assets/images/TripsAway/romanVilla2sm.jpg";
+import romanVilla3sm from "assets/images/TripsAway/romanVilla3sm.jpg";
+import romanVilla4sm from "assets/images/TripsAway/romanVilla4sm.jpg";
+// Large Images
+import romanVilla1lg from "assets/images/TripsAway/romanVilla1lg.jpg";
+import romanVilla2lg from "assets/images/TripsAway/romanVilla2lg.jpg";
+import romanVilla3lg from "assets/images/TripsAway/romanVilla3lg.jpg";
+import romanVilla4lg from "assets/images/TripsAway/romanVilla4lg.jpg";
 function RomanVilla() {
   return (
     <MKBox
@@ -55,8 +59,8 @@ function RomanVilla() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={romanVilla1}
-              lgimage={romanVilla1}
+              smimage={romanVilla1sm}
+              lgimage={romanVilla1lg}
               name="Newport Roman Villa was a 1,700-year-old farmhouse. "
               position={{ color: "info", label: "Isle of Wight Council Heritage Service." }}
               description="As School trips were I believe we walked from the school to the villa in 2 by 2 down Wellington road and then the Mall Fitlering off at the Castle street Zebra crossing and down Trafalgar Road and onto the Villa. I<br/> <br/>
@@ -67,8 +71,8 @@ function RomanVilla() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={romanVilla2}
-              lgimage={romanVilla2}
+              smimage={romanVilla2sm}
+              lgimage={romanVilla2lg}
               name="Newfield Hall"
               position={{
                 color: "info",
@@ -83,8 +87,8 @@ function RomanVilla() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={romanVilla3}
-              lgimage={romanVilla4}
+              smimage={romanVilla3sm}
+              lgimage={romanVilla3lg}
               name="A Small Glimpse into an Intreging past "
               position={{
                 color: "info",
@@ -105,8 +109,8 @@ It remains unknown when life at the villa ended. During excavation, the skull of
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={romanVilla4}
-              lgimage={romanVilla4}
+              smimage={romanVilla4sm}
+              lgimage={romanVilla4lg}
               name="So Much To see and do in the Villa."
               position={{
                 color: "info",

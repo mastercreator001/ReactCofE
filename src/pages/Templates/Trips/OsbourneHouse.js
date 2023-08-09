@@ -24,13 +24,18 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import osbourneHouse1 from "assets/images/TripsAway/osbourneHouse1.jpg";
-import osbourneHouse2 from "assets/images/TripsAway/osbourneHouse2.jpg";
-import osbourneHouse3 from "assets/images/TripsAway/osbourneHouse3.jpg";
-import osbourneHouse4 from "assets/images/TripsAway/osbourneHouse4.jpg";
-import osbourneHouse5 from "assets/images/TripsAway/osbourneHouse5.jpg";
-
+//Small Images
+import osbourneHouse1sm from "assets/images/TripsAway/osbourneHouse1sm.jpg";
+import osbourneHouse2sm from "assets/images/TripsAway/osbourneHouse2sm.jpg";
+import osbourneHouse3sm from "assets/images/TripsAway/osbourneHouse3sm.jpg";
+import osbourneHouse4sm from "assets/images/TripsAway/osbourneHouse4sm.jpg";
+import osbourneHouse5sm from "assets/images/TripsAway/osbourneHouse5sm.jpg";
+//Large Images
+import osbourneHouse1lg from "assets/images/TripsAway/osbourneHouse1lg.jpg";
+import osbourneHouse2lg from "assets/images/TripsAway/osbourneHouse2lg.jpg";
+import osbourneHouse3lg from "assets/images/TripsAway/osbourneHouse3lg.jpg";
+import osbourneHouse4lg from "assets/images/TripsAway/osbourneHouse4lg.jpg";
+import osbourneHouse5lg from "assets/images/TripsAway/osbourneHouse5lg.jpg";
 function OsbourneHouse() {
   return (
     <MKBox
@@ -56,8 +61,8 @@ function OsbourneHouse() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={osbourneHouse1}
-              lgimage={osbourneHouse1}
+              smimage={osbourneHouse1sm}
+              lgimage={osbourneHouse1lg}
               name="The Front of the Royal Palace"
               position={{ color: "info", label: "My Experiences" }}
               description="As in Most cases The Island had a amazing resource and it would be shall we say neglectful for the school not to have taken the opportunity to utilise this resource. A fromer royal residence is an amazing attraction for children to study particually C Of E Middle school kids. I remeber frequent trips to osbourne and the option opps necessaity to fill out the obligatory forms and fact sheets to facilitate leaning.<br/> <br/>
@@ -69,8 +74,8 @@ function OsbourneHouse() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={osbourneHouse2}
-              lgimage={osbourneHouse2}
+              smimage={osbourneHouse2sm}
+              lgimage={osbourneHouse2lg}
               name="Royal Dinning Room."
               position={{
                 color: "info",
@@ -87,8 +92,8 @@ In 1954, Queen Elizabeth II gave permission for the first floor rooms (the priva
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={osbourneHouse3}
-              lgimage={osbourneHouse3}
+              smimage={osbourneHouse3sm}
+              lgimage={osbourneHouse3lg}
               name="Top Floor Royal Nursing"
               position={{
                 color: "info",
@@ -107,8 +112,8 @@ Below the gardens on Osborne Bay was a private beach, where the Queen kept her o
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={osbourneHouse4}
-              lgimage={osbourneHouse4}
+              smimage={osbourneHouse4sm}
+              lgimage={osbourneHouse4lg}
               name="Swiss Retreat"
               position={{
                 color: "info",
@@ -129,8 +134,8 @@ On 14 January 1878, Alexander Graham Bell demonstrated an early version of the t
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={osbourneHouse5}
-              lgimage={osbourneHouse5}
+              smimage={osbourneHouse5sm}
+              lgimage={osbourneHouse5lg}
               name="A gift to the Nation"
               position={{
                 color: "info",

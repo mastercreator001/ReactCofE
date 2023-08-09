@@ -24,12 +24,17 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import Tripsout1 from "assets/images/TripsAway/Tripsout1.jpg";
-import Tripsout2 from "assets/images/TripsAway/Tripsout2.jpg";
-import Tripsout3 from "assets/images/TripsAway/Tripsout3.jpg";
-import Tripsout4 from "assets/images/TripsAway/Tripsout4.jpg";
+//Small Images
+import Tripsout1sm from "assets/images/TripsAway/Tripsout1sm.jpg";
+import Tripsout2sm from "assets/images/TripsAway/Tripsout2sm.jpg";
+import Tripsout3sm from "assets/images/TripsAway/Tripsout3sm.jpg";
+import Tripsout4sm from "assets/images/TripsAway/Tripsout4sm.jpg";
 import bradingFBclipping from "assets/images/facebookClippings/bradingFBclipping.jpg";
+//Large Images
+import Tripsout1lg from "assets/images/TripsAway/Tripsout1lg.jpg";
+import Tripsout2lg from "assets/images/TripsAway/Tripsout2lg.jpg";
+import Tripsout3lg from "assets/images/TripsAway/Tripsout3lg.jpg";
+import Tripsout4lg from "assets/images/TripsAway/Tripsout4lg.jpg";
 
 function BradingandVarious() {
   return (
@@ -56,8 +61,8 @@ function BradingandVarious() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Tripsout1}
-              lgimage={Tripsout1}
+              smimage={Tripsout1sm}
+              lgimage={Tripsout1lg}
               name="Usually when other year groups are away and to stop kids staying in school. "
               position={{
                 color: "info",
@@ -74,8 +79,8 @@ function BradingandVarious() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Tripsout2}
-              lgimage={Tripsout2}
+              smimage={Tripsout2sm}
+              lgimage={Tripsout2lg}
               name="Brading History"
               position={{
                 color: "info",
@@ -88,8 +93,8 @@ function BradingandVarious() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Tripsout3}
-              lgimage={Tripsout3}
+              smimage={Tripsout3sm}
+              lgimage={Tripsout3lg}
               name="Brading History "
               position={{
                 color: "info",
@@ -106,8 +111,8 @@ History records that St Wilfrid came to the island during the 680s, landed at Br
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Tripsout4}
-              lgimage={Tripsout4}
+              smimage={Tripsout4sm}
+              lgimage={Tripsout4lg}
               name="Brading History"
               position={{
                 color: "info",
@@ -128,7 +133,6 @@ In medieval times the town was governed by the Steward, Bailiffs and 13 Jurats, 
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
               smimage={bradingFBclipping}
-              lgimage={bradingFBclipping}
               name="What you have been Saying"
               position={{
                 color: "info",

@@ -24,13 +24,19 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import marketSquare from "assets/images/TripsAway/marketSquare.jpg";
-import northCrayHouse from "assets/images/TripsAway/northCrayHouse.jpg";
-import Pendean from "assets/images/TripsAway/Pendean.jpg";
-import TitchfieldMarketHall from "assets/images/TripsAway/TitchfieldMarketHall.jpg";
-import SingletonMaplg from "assets/images/SingletonGallery/SingletonMaplg.png";
+// Small Images
+import marketSquaresm from "assets/images/TripsAway/marketSquaresm.jpg";
+import northCrayHousesm from "assets/images/TripsAway/northCrayHousesm.jpg";
+import Pendeansm from "assets/images/TripsAway/Pendeansm.jpg";
+import TitchfieldMarketHallsm from "assets/images/TripsAway/TitchfieldMarketHallsm.jpg";
 import SingletonMapsm from "assets/images/SingletonGallery/SingletonMapsm.png";
+
+// Large Images
+import marketSquarelg from "assets/images/TripsAway/marketSquarelg.jpg";
+import northCrayHouselg from "assets/images/TripsAway/northCrayHouselg.jpg";
+import Pendeanlg from "assets/images/TripsAway/Pendeanlg.jpg";
+import TitchfieldMarketHalllg from "assets/images/TripsAway/TitchfieldMarketHalllg.jpg";
+import SingletonMaplg from "assets/images/SingletonGallery/SingletonMaplg.png";
 
 function Singleton() {
   return (
@@ -57,8 +63,8 @@ function Singleton() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={marketSquare}
-              lgimage={marketSquare}
+              smimage={marketSquaresm}
+              lgimage={marketSquarelg}
               name="Singleton"
               position={{ color: "info", label: "Weald and Downland Living Museum" }}
               description="The Weald and Downland Living Museum (known as the Weald and Downland Open Air Museum until January 2017) is an open-air museum in Singleton, West Sussex. The museum is a registered charity.<br/> <br/>
@@ -78,8 +84,8 @@ These buildings, plus two archaeological reconstructions, help the museum bring 
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={northCrayHouse}
-              lgimage={northCrayHouse}
+              smimage={northCrayHousesm}
+              lgimage={northCrayHouselg}
               name="History"
               position={{ color: "info", label: "Site History 1967 onwards" }}
               description="The Weald and Downland Open Air Museum was launched in 1967 by a group of enthusiasts led by the museum's founder, the late Dr. J.R. Armstrong MBE. The land for the museum was gifted by a local landowner, Edward James of West Dean at a peppercorn rent. The objective was to rescue vernacular buildings that would otherwise have been demolished. The museum first opened to the public on 5 September 1970.<br/> <br/>
@@ -91,8 +97,8 @@ The principle of an open-air museum was well established in Scandinavia as a way
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={Pendean}
-              lgimage={Pendean}
+              smimage={Pendeansm}
+              lgimage={Pendeanlg}
               name="Singleton attractions"
               position={{ color: "info", label: "Longport Farmhouse" }}
               description="
@@ -107,8 +113,8 @@ However, the 17th-century chimney stack was not reconstructed, but was dismantle
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={TitchfieldMarketHall}
-              lgimage={TitchfieldMarketHall}
+              smimage={TitchfieldMarketHallsm}
+              lgimage={TitchfieldMarketHalllg}
               name="Many many live exhibitions"
               position={{
                 color: "info",

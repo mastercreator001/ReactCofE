@@ -24,10 +24,11 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
+// Small Images
 import romanVilla1 from "assets/images/TripsAway/romanVilla1.jpg";
 import romanVilla2 from "assets/images/TripsAway/romanVilla2.jpg";
 import romanVilla3 from "assets/images/TripsAway/romanVilla3.jpg";
+// Large Images
 import romanVilla4 from "assets/images/TripsAway/romanVilla4.jpg";
 
 function Apollo() {

@@ -22,15 +22,21 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
+<HorizontalTeamCard2 image={pooleCertificatesm} name="" position={{}} description="" />;
 import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
 
-// Images
-import abselingPoole1 from "assets/images/TripsAway/abselingPoole1.jpg";
-import abselingPoole2 from "assets/images/TripsAway/abselingPoole2.jpg";
-import abselingPoole3 from "assets/images/TripsAway/abselingPoole3.jpg";
-import canoePoole3 from "assets/images/TripsAway/canoePoole3.jpg";
-import pooleCertificate from "assets/images/TripsAway/pooleCertificate.jpg";
-
+//Small Images
+import abselingPoole1sm from "assets/images/TripsAway/abselingPoole1sm.jpg";
+import abselingPoole2sm from "assets/images/TripsAway/abselingPoole2sm.jpg";
+import abselingPoole3sm from "assets/images/TripsAway/abselingPoole3sm.jpg";
+import canoePoole3sm from "assets/images/TripsAway/canoePoole3sm.jpg";
+import pooleCertificatesm from "assets/images/TripsAway/pooleCertificatesm.jpg";
+//Large Images
+import abselingPoole1lg from "assets/images/TripsAway/abselingPoole1lg.jpg";
+import abselingPoole2lg from "assets/images/TripsAway/abselingPoole2lg.jpg";
+import abselingPoole3lg from "assets/images/TripsAway/abselingPoole3lg.jpg";
+import canoePoole3lg from "assets/images/TripsAway/canoePoole3lg.jpg";
+import pooleCertificatelg from "assets/images/TripsAway/pooleCertificatelg.jpg";
 function Poole() {
   return (
     <MKBox
@@ -56,8 +62,8 @@ function Poole() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={abselingPoole1}
-              lgimage={abselingPoole1}
+              smimage={abselingPoole1sm}
+              lgimage={abselingPoole1lg}
               name="Poole"
               position={{ color: "info", label: "Fourth Years activity week." }}
               description="Having being a more mature age a more mature task and holiday with the school was neede and that came in the regualr Poole in Dorset Adventure center.<br/> <br/>
@@ -69,8 +75,8 @@ function Poole() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={abselingPoole2}
-              lgimage={abselingPoole2}
+              smimage={abselingPoole2sm}
+              lgimage={abselingPoole2lg}
               name="Abseling was a big challenge"
               position={{
                 color: "info",
@@ -87,8 +93,8 @@ function Poole() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={abselingPoole3}
-              lgimage={abselingPoole3}
+              smimage={abselingPoole3sm}
+              lgimage={abselingPoole3lg}
               name="We did Hiking "
               position={{ color: "info", label: "Hiking at Poole" }}
               description="Perhaps you remember other activities you did at Poole but mine were Canoes , Hiking possibly swimming nd definatly abseling? any more let me know. The hiking was a little more in depth than what we did at malham as we were older and more mature and able to handle a little more exercise. The task was A to B and as I remember we had been split into team and done a fair amount of orintierring to help educate us a little more with maps and map reading skills.<br/> <br/>
@@ -100,8 +106,8 @@ function Poole() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <HorizontalTeamCard2
-              smimage={canoePoole3}
-              lgimage={canoePoole3}
+              smimage={canoePoole3sm}
+              lgimage={canoePoole3lg}
               name="Canoes and the fun of the water."
               position={{
                 color: "info",
@@ -116,7 +122,13 @@ I remember as it scared me allot beyed that Poole was a adult adventure for mino
         </Grid>
         <Grid item xs={3} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2 image={pooleCertificate} name="" position={{}} description="" />
+            <HorizontalTeamCard2
+              smimage={pooleCertificatesm}
+              lgimage={pooleCertificatelg}
+              name=""
+              position={{}}
+              description=""
+            />
           </MKBox>
         </Grid>
       </Container>
