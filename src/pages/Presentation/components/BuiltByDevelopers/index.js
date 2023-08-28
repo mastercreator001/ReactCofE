@@ -42,7 +42,7 @@ function BuiltByDevelopers() {
       }}
     >
       <Container>
-        <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
+        <Grid container item xs={122} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
             Want to return to our Facebook group
           </MKTypography>
@@ -50,7 +50,7 @@ function BuiltByDevelopers() {
             Say Hello To Friends Old And New
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            Hello to Welly Road back again and on a new website for all to see enjoy and remember.
+            Hello to Welly Road back again and on a new website for all to see enjoy.
           </MKTypography>
           <MKTypography
             component="a"
