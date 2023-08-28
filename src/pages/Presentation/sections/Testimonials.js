@@ -21,7 +21,7 @@ import Divider from "@mui/material/Divider";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 // Images
-import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
+//import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
 
 function Information() {
   return (
@@ -36,11 +36,7 @@ function Information() {
           sx={{ mx: "auto", textAlign: "center" }}
         ></Grid>
         <Divider sx={{ my: 6 }} />
-        <Grid container spacing={3} justifyContent="center">
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={facebookLogo} alt="Facebook" width="100%" opacity={0.6} />
-          </Grid>
-        </Grid>
+        <Grid container spacing={3} justifyContent="center"></Grid>
       </Container>
     </MKBox>
   );

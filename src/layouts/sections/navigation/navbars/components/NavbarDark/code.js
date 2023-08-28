@@ -14,6 +14,7 @@ function NavbarDark() {
         routes={routes}
         action={{
           type: "external",
+          icon: "FacebookIcon",
           route: "https://www.facebook.com/groups/172663070820628",
           label: "Join Us",
           color: "info",

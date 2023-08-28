@@ -12,7 +12,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "C Of E Production",
+    name: "",
     route: "/",
   },
   socials: [
@@ -22,7 +22,7 @@ export default {
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://github.com/creative official",
     },
     {
       icon: <YouTubeIcon />,
@@ -31,8 +31,13 @@ export default {
   ],
   menus: [
     {
-      name: "C Of E Middle",
-      items: [{ name: "about us", href: "https://www.facebook.com/groups/172663070820628" }],
+      name: "About the Group",
+      items: [
+        {
+          name: "Facebook Memory Corner ",
+          href: "https://www.facebook.com/groups/172663070820628",
+        },
+      ],
     },
     {
       name: "help & support",
@@ -43,7 +48,7 @@ export default {
     },
   ],
   copyright: (
-    <MKTypography variant="button" fontWeight="regular">
+    <MKTypography variant="button" fontWeight="heavy">
       All rights reserved. Copyright &copy; {date} Mastercreator001{" "}
       <MKTypography
         component="a"
@@ -53,7 +58,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Richard Creator
+        Richard McMaster
       </MKTypography>
       .
     </MKTypography>
