@@ -20,6 +20,9 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 
+// react-router-dom components
+import { Link } from "react-router-dom";
+
 // Material Kit 2 React examples
 import RotatingCard from "examples/Cards/RotatingCard";
 import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
@@ -63,43 +66,43 @@ function Information() {
           <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
-                <a href="/pages/headteachers">
+                <Link to="/pages/headteachers">
                   <DefaultInfoCard
                     image="people"
                     icon="people"
                     title="School Staff"
                     description="A school is only ever as goood as the teachers you have teaching, find the staff and add suggestions for staff not included in the current list."
                   />
-                </a>
+                </Link>
               </Grid>
               <Grid item xs={12} md={6}>
-                <a href="/pages/historic">
+                <Link to="/pages/historic">
                   <DefaultInfoCard
                     icon="home"
                     title="The School's History"
                     description="The definitive guide to the school and the history formed during the 38 years the school was open for, perhaps you can add to what we have."
                   />
-                </a>
+                </Link>
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
-                <a href="/pages/earlyschoolimages">
+                <Link to="/pages/earlyschoolimages">
                   <DefaultInfoCard
                     icon="panorama"
                     title="Galleries"
                     description="Lots of photos from the school giving you an insight into the running and the daily life of the school. Any old photos most welcomed via the links on the contact page"
                   />
-                </a>
+                </Link>
               </Grid>
               <Grid item xs={12} md={6}>
-                <a href="/pages/demolitiongallery">
+                <Link to="/pages/demolitiongallery">
                   <DefaultInfoCard
                     icon="domain"
                     title="The Demolition of the school"
                     description="Regardless of how you felt about the school the eventual demolition is a sad moment here we take a look into the destruction process."
                   />
-                </a>
+                </Link>
               </Grid>
             </Grid>
           </Grid>
