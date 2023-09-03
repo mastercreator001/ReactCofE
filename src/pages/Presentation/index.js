@@ -49,10 +49,10 @@ function Presentation() {
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.facebook.com/groups/172663070820628",
-        }}
+        // action={{
+        //   type: "external",
+        //   route: "https://www.facebook.com/groups/172663070820628",
+        // }}
         sticky
       />
       <MKBox

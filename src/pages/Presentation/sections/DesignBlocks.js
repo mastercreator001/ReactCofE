@@ -73,8 +73,7 @@ function DesignBlocks() {
           <MKBadge
             variant="contained"
             color="info"
-            badgeContent="CHURCH OF ENGLAND MIDDLE SCHOOL WELLINGTON ROAD,
-           NEWPORT SLE OF WIGHT,PO305TA"
+            badgeContent="&nbsp;"
             container
             sx={{ mb: 6 }}
           />
