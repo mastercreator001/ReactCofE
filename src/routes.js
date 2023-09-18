@@ -452,6 +452,59 @@ const routes = [
   },
   {
     icon: <Icon>burst_mode</Icon>,
+    name: "Audio Gallery",
+    description: "All School Audio ",
+    dropdown: true,
+    collapse: [
+      {
+        name: "Mr Felton Audio (1971-1980)",
+        route: "/pages/earlyschoolimages",
+        component: <EarlyschoolImages />,
+      },
+      {
+        name: "Miss Forer Audio",
+        route: "/pages/missforergermany",
+        component: <MissForerGermany />,
+      },
+      {
+        name: "Mrs Murdoch Audio",
+        route: "/pages/aroundtheschoolperformances",
+        component: <AroundTheSchoolPerformances />,
+      },
+      {
+        name: "Mrs Challoner Audio",
+        route: "/pages/schooltripsmalhamf",
+        component: <SchoolTripsMalhamF />,
+      },
+      {
+        name: "Mr Hawes Audio",
+        route: "/pages/schooltripsgallery",
+        component: <SchoolTripsGallery />,
+      },
+      {
+        name: "Mr Walker Audio",
+        route: "/pages/singletongallery",
+        component: <SingletonGallery />,
+      },
+      {
+        name: "Mr Houghton Audio",
+        route: "/pages/schoolmalhammrf1",
+        component: <SchoolMalhamMRF1 />,
+      },
+      {
+        name: "Mrs Colenutt Audio",
+        route: "/pages/schoolmalhammrf2",
+        component: <SchoolMalhamMRF2 />,
+      },
+      {
+        name: "Random Audio",
+        route: "/pages/variousgallery",
+        component: <VariousGallery />,
+      },
+    ],
+  },
+  {
+    icon: <Icon>burst_mode</Icon>,
     name: "School Gallery",
     description: "All School Images ",
     dropdown: true,

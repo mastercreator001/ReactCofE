@@ -85,6 +85,7 @@ import Singleton from "../../../../assets/images/Galleries/Singleton.jpg";
 import Demolition1 from "../../../../assets/images/Galleries/Demolition1.jpg";
 import EarlySchool from "../../../../assets/images/Galleries/EarlySchool.jpg";
 import Rebuildingmainimage from "../../../../assets/images/RebuildingGallery/Rebuildmainimage.jpg";
+import AudioIcon from "../../../../assets/images/Audio/AudioIcon.jpg";
 
 export default [
   {
@@ -256,6 +257,57 @@ export default [
         image: schoolClosing4,
         name: "A image of the school demolished overlaid with outline of the original. ",
         route: "/pages/historic3",
+      },
+    ],
+  },
+  {
+    title: "Audio Gallery",
+    description: "All School Audio",
+    items: [
+      {
+        image: AudioIcon,
+        name: "Mr Felton Audio ",
+        route: "/pages/earlyschoolimages",
+      },
+      {
+        image: AudioIcon,
+        name: "Miss Forer Audio ",
+        route: "/pages/missforergermany",
+      },
+      {
+        image: AudioIcon,
+        name: "Mrs Murdoch Audio",
+        route: "/pages/aroundtheschoolperformances",
+      },
+      {
+        image: AudioIcon,
+        name: "Mrs Challoner Audio ",
+        route: "/pages/schooltripsmalhamf",
+      },
+      {
+        image: AudioIcon,
+        name: "Mr Hawes Audio",
+        route: "/pages/schooltripsgallery",
+      },
+      {
+        image: AudioIcon,
+        name: "Mr Walker Audio ",
+        route: "/pages/singletongallery",
+      },
+      {
+        image: AudioIcon,
+        name: "Mr Houghton Audio",
+        route: "/pages/schoolmalhammrf1",
+      },
+      {
+        image: AudioIcon,
+        name: "Mrs Colenutt Audio",
+        route: "/pages/schoolmalhammrf2",
+      },
+      {
+        image: AudioIcon,
+        name: "Random Audio",
+        route: "/pages/variousgallery",
       },
     ],
   },
