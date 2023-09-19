@@ -102,7 +102,9 @@ import SchoolMalhamMRF2 from "pages/Templates/Galleries/SchoolMalhamMRF2";
 import VariousGallery from "pages/Templates/Galleries/VariousGallery";
 import DemolitionGallery from "pages/Templates/Galleries/DemolitionGallery";
 import RebuildingGallery from "pages/Templates/Galleries/RebuildingGallery";
-
+import MrFeltonaudio from "pages/Templates/AudioFiles/MrFeltonaudio";
+import MissForeraudio from "pages/Templates/AudioFiles/MissForeraudio";
+import MrsMurdochaudio from "pages/Templates/AudioFiles/MrsMurdochaudio";
 const routes = [
   {
     name: "School Sections",
@@ -458,18 +460,18 @@ const routes = [
     collapse: [
       {
         name: "Mr Felton Audio (1971-1980)",
-        route: "/pages/earlyschoolimages",
-        component: <EarlyschoolImages />,
+        route: "/pages/MrFeltonaudio",
+        component: <MrFeltonaudio />,
       },
       {
         name: "Miss Forer Audio",
-        route: "/pages/missforergermany",
-        component: <MissForerGermany />,
+        route: "/pages/MissForeraudio",
+        component: <MissForeraudio />,
       },
       {
         name: "Mrs Murdoch Audio",
-        route: "/pages/aroundtheschoolperformances",
-        component: <AroundTheSchoolPerformances />,
+        route: "/pages/MrsMurdochaudio",
+        component: <MrsMurdochaudio />,
       },
       {
         name: "Mrs Challoner Audio",
