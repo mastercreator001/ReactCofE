@@ -267,17 +267,17 @@ export default [
       {
         image: AudioIcon,
         name: "Mr Felton Audio ",
-        route: "/pages/earlyschoolimages",
+        route: "/pages/MrFeltonaudio",
       },
       {
         image: AudioIcon,
         name: "Miss Forer Audio ",
-        route: "/pages/missforergermany",
+        route: "/pages/MissForeraudio",
       },
       {
         image: AudioIcon,
         name: "Mrs Murdoch Audio",
-        route: "/pages/aroundtheschoolperformances",
+        route: "/pages/MrsMurdochaudio",
       },
       {
         image: AudioIcon,
