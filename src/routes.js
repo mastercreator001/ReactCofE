@@ -102,8 +102,16 @@ import SchoolMalhamMRF2 from "pages/Templates/Galleries/SchoolMalhamMRF2";
 import VariousGallery from "pages/Templates/Galleries/VariousGallery";
 import DemolitionGallery from "pages/Templates/Galleries/DemolitionGallery";
 import RebuildingGallery from "pages/Templates/Galleries/RebuildingGallery";
+//Audio Files
+
 import MrFeltonaudio from "pages/Templates/AudioFiles/MrFeltonaudio";
 import MissForeraudio from "pages/Templates/AudioFiles/MissForeraudio";
+import MrsChalloneraudio from "pages/Templates/AudioFiles/MrsChalloneraudio";
+import MrHawesaudio from "pages/Templates/AudioFiles/MrHawesaudio";
+import MrWalkeraudio from "pages/Templates/AudioFiles/MrWalkeraudio";
+import MrsColenuttaudio from "pages/Templates/AudioFiles/MrsColenuttaudio";
+import MrHoughtonaudio from "pages/Templates/AudioFiles/MrHoughtonaudio";
+import Randomaudio from "pages/Templates/AudioFiles/Randomaudio";
 import MrsMurdochaudio from "pages/Templates/AudioFiles/MrsMurdochaudio";
 const routes = [
   {
@@ -475,33 +483,33 @@ const routes = [
       },
       {
         name: "Mrs Challoner Audio",
-        route: "/pages/schooltripsmalhamf",
-        component: <SchoolTripsMalhamF />,
+        route: "/pages/MrsChalloneraudio",
+        component: <MrsChalloneraudio />,
       },
       {
         name: "Mr Hawes Audio",
-        route: "/pages/schooltripsgallery",
-        component: <SchoolTripsGallery />,
+        route: "/pages/MrHawesaudio",
+        component: <MrHawesaudio />,
       },
       {
         name: "Mr Walker Audio",
-        route: "/pages/singletongallery",
-        component: <SingletonGallery />,
+        route: "/pages/MrWalkeraudio",
+        component: <MrWalkeraudio />,
       },
       {
         name: "Mr Houghton Audio",
-        route: "/pages/schoolmalhammrf1",
-        component: <SchoolMalhamMRF1 />,
+        route: "/pages/MrHoughtonaudio",
+        component: <MrHoughtonaudio />,
       },
       {
         name: "Mrs Colenutt Audio",
-        route: "/pages/schoolmalhammrf2",
-        component: <SchoolMalhamMRF2 />,
+        route: "/pages/MrsColenuttaudio",
+        component: <MrsColenuttaudio />,
       },
       {
         name: "Random Audio",
-        route: "/pages/variousgallery",
-        component: <VariousGallery />,
+        route: "/pages/Randomaudio",
+        component: <Randomaudio />,
       },
     ],
   },
