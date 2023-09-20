@@ -282,32 +282,32 @@ export default [
       {
         image: AudioIcon,
         name: "Mrs Challoner Audio ",
-        route: "/pages/schooltripsmalhamf",
+        route: "/pages/MrsChalloneraudio",
       },
       {
         image: AudioIcon,
         name: "Mr Hawes Audio",
-        route: "/pages/schooltripsgallery",
+        route: "/pages/MrHawesaudio",
       },
       {
         image: AudioIcon,
         name: "Mr Walker Audio ",
-        route: "/pages/singletongallery",
+        route: "/pages/MrWalkeraudio",
       },
       {
         image: AudioIcon,
         name: "Mr Houghton Audio",
-        route: "/pages/schoolmalhammrf1",
+        route: "/pages/MrHoughtonaudio",
       },
       {
         image: AudioIcon,
         name: "Mrs Colenutt Audio",
-        route: "/pages/schoolmalhammrf2",
+        route: "/pages/MrsColenuttaudio",
       },
       {
         image: AudioIcon,
         name: "Random Audio",
-        route: "/pages/variousgallery",
+        route: "/pages/Randomaudio",
       },
     ],
   },
