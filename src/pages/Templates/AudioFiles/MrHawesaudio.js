@@ -12,6 +12,12 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultFooter from "examples/Footers/DefaultFooter";
+
+// Routes
+import routes from "routes";
+import footerRoutes from "footer.routes";
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -22,7 +28,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
+import AudioCard from "examples/Cards/TeamCards/AudioCard";
 
 // Images Small
 import ESG1SM from "assets/images/EarlySchoolGall/ESG1SM.jpg";
@@ -45,6 +51,9 @@ import ESG7LG from "assets/images/EarlySchoolGall/ESG7LG.jpg";
 import ESG8LG from "assets/images/EarlySchoolGall/ESG8LG.jpg";
 import ESG9LG from "assets/images/EarlySchoolGall/ESG9LG.jpg";
 
+// Import Audio
+import MrH1 from "assets/audio/FallingForward.mp3";
+
 function MrHawesaudio() {
   return (
     <MKBox
@@ -56,6 +65,15 @@ function MrHawesaudio() {
       px={{ xs: 2, lg: 0 }}
       mx={-2}
     >
+      <DefaultNavbar
+        routes={routes}
+        // action={{
+        //   type: "external",
+        //   route: "https://www.facebook.com/groups/172663070820628",
+        // }}
+        sticky
+      />
+
       <Container>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
@@ -69,18 +87,19 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG1SM}
               lgimage={ESG1LG}
               name="Mr Feltons memories of the school "
               position={{ color: "info", label: "Mr Feltons Memories of the school" }}
               description="Wow what a view, well I guess this may have been the opinion of some of the students who attended C Of E middle School. Classes were great at C Of E but Carisbrooke High was on another level as ou roll was 400 and Carisbrooke's was 1500 an intimidating prospect beyond the playground. "
+              audiofile={MrH1}
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG2SM}
               lgimage={ESG2LG}
               name="Mr Feltons Memories of the school  "
@@ -91,7 +110,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG3SM}
               lgimage={ESG3LG}
               name="Mr Feltons Memories of the school "
@@ -102,7 +121,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG4SM}
               lgimage={ESG4LG}
               name="Mr Feltons Memories of the school "
@@ -113,7 +132,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG5SM}
               lgimage={ESG5LG}
               name="Mr Feltons Memories of the school"
@@ -124,7 +143,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG6SM}
               lgimage={ESG6LG}
               name="Mr Feltons Memories of the school "
@@ -135,7 +154,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG7SM}
               lgimage={ESG7LG}
               name="Mr Feltons Memories of the school"
@@ -146,7 +165,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG8SM}
               lgimage={ESG8LG}
               name="Old school Images of the school staff and students "
@@ -157,7 +176,7 @@ function MrHawesaudio() {
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
-            <HorizontalTeamCard2
+            <AudioCard
               smimage={ESG9SM}
               lgimage={ESG9LG}
               name="Old school Images of the school staff and students "
@@ -177,6 +196,9 @@ function MrHawesaudio() {
           </Grid>
         </Grid>
       </Container>
+      <MKBox pt={6} px={1} mt={6}>
+        <DefaultFooter content={footerRoutes} />
+      </MKBox>
     </MKBox>
   );
 }
