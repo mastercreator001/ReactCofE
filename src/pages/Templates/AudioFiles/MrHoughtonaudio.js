@@ -47,6 +47,9 @@ import ESG7LG from "assets/images/EarlySchoolGall/ESG7LG.jpg";
 import ESG8LG from "assets/images/EarlySchoolGall/ESG8LG.jpg";
 import ESG9LG from "assets/images/EarlySchoolGall/ESG9LG.jpg";
 
+// Import Audio
+import MrH from "assets/audio/FallingForward.mp3";
+
 function MrHoughtonaudio() {
   return (
     <MKBox
@@ -78,7 +81,7 @@ function MrHoughtonaudio() {
               position={{ color: "info", label: "Mr Feltons Memories of the school" }}
               description="Wow what a view, well I guess this may have been the opinion of some of the students who attended C Of E middle School. Classes were great at C Of E but Carisbrooke High was on another level as ou roll was 400 and Carisbrooke's was 1500 an intimidating prospect beyond the playground. "
             />
-            <ReactAudioPlayer src="my_audio_file.ogg" autoPlay controls />;
+            <ReactAudioPlayer src={MrH} autoPlay controls />;
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
