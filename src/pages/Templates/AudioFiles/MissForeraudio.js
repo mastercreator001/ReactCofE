@@ -82,7 +82,7 @@ function MissForeraudio() {
               Miss Forer audio Memories
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Miss Forer audio corner Miss Forer audio corner
+              Miss Forer audiable memories of the school the staff and the students.
             </MKTypography>
           </Grid>
         </Grid>
@@ -91,9 +91,15 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG1SM}
               lgimage={ESG1LG}
-              name="Mr Feltons memories of the school "
-              position={{ color: "info", label: "Mr Feltons Memories of the school" }}
-              description="Wow what a view, well I guess this may have been the opinion of some of the students who attended C Of E middle School. Classes were great at C Of E but Carisbrooke High was on another level as ou roll was 400 and Carisbrooke's was 1500 an intimidating prospect beyond the playground. "
+              name="Miss Forer's memories of the school "
+              position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
+              description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
+              
+              The memories have been recorded by Myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
+              
+              We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
+              
+              So please now sit back and listen to the good old days from voices you will remember."
               audiofile={MrH1}
             />
           </MKBox>
@@ -103,9 +109,9 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG2SM}
               lgimage={ESG2LG}
-              name="Mr Feltons Memories of the school  "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Three ladies all in a row, maybe you know them or why they were being photographed. mid to late 1970's or eary 1980's"
+              name="Audio Recording 1 with Miss Forer "
+              position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
+              description=""
             />
           </MKBox>
         </Grid>
@@ -114,9 +120,9 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG3SM}
               lgimage={ESG3LG}
-              name="Mr Feltons Memories of the school "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Class teacher and students who were and when is the question? Maybe you can help."
+              name="Audio Recording 2 with Miss Forer "
+              position={{ color: "info", label: "Audio Recording 2 with Miss Forer" }}
+              description=""
             />
           </MKBox>
         </Grid>
@@ -125,9 +131,9 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG4SM}
               lgimage={ESG4LG}
-              name="Mr Feltons Memories of the school "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Out and about in the cdt area, no doubt working on one of Mr Felton's creations."
+              name="Audio Recording 3 with Miss Forer"
+              position={{ color: "info", label: "Audio Recording 3 with Miss Forer" }}
+              description=""
             />
           </MKBox>
         </Grid>
@@ -136,9 +142,9 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG5SM}
               lgimage={ESG5LG}
-              name="Mr Feltons Memories of the school"
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="We had a pond, well yes we did actually although this was later removed and filled in. I couldn't say if it was student safety or investment but the Pond dissapeared.It was located near the Science classroomsand can be seen on the old maps in the near bottom corner to the side of 1H or room 1."
+              name="Audio Recording 4 with Miss Forer"
+              position={{ color: "info", label: "Audio Recording 4 with Miss Forer" }}
+              description=""
             />
           </MKBox>
         </Grid>
@@ -147,9 +153,9 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG6SM}
               lgimage={ESG6LG}
-              name="Mr Feltons Memories of the school "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Ah a different time, Miss Forer would regularly let sudents walk her dog either  on site or bring hime to school so students could interact with him. However today this is sdaly not the case. Two lucky students using their breaks wisely."
+              name="Audio Recording 5 with Miss Forer "
+              position={{ color: "info", label: "Audio Recording 5 with Miss Forer" }}
+              description=""
             />
           </MKBox>
         </Grid>
@@ -158,8 +164,8 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG7SM}
               lgimage={ESG7LG}
-              name="Mr Feltons Memories of the school"
-              position={{ color: "info", label: "1971-through to early 1980's" }}
+              name="Audio Recording 6 with Miss Forer"
+              position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
               description="Ah lunchtimes and school dinners, the school had a limited cafteria section and it was often the school had staggered lunch breaks to allow for this."
             />
           </MKBox>
@@ -169,8 +175,8 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG8SM}
               lgimage={ESG8LG}
-              name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
+              name="Audio Recording 7 with Miss Forer "
+              position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
               description="Students enjoying there lunch time away from the books and socialising with the other students and teachrs alike."
             />
           </MKBox>
