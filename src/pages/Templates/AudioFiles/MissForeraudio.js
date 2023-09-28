@@ -32,30 +32,11 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import AudioCard from "examples/Cards/TeamCards/AudioCard";
 
-// Images Small
-import ESG1SM from "assets/images/EarlySchoolGall/ESG1SM.jpg";
-import ESG2SM from "assets/images/EarlySchoolGall/ESG2SM.jpg";
-import ESG3SM from "assets/images/EarlySchoolGall/ESG3SM.jpg";
-import ESG4SM from "assets/images/EarlySchoolGall/ESG4SM.jpg";
-import ESG5SM from "assets/images/EarlySchoolGall/ESG5SM.jpg";
-import ESG6SM from "assets/images/EarlySchoolGall/ESG6SM.jpg";
-import ESG7SM from "assets/images/EarlySchoolGall/ESG7SM.jpg";
-import ESG8SM from "assets/images/EarlySchoolGall/ESG8SM.jpg";
-import ESG9SM from "assets/images/EarlySchoolGall/ESG9SM.jpg";
-// Images Large
-import ESG1LG from "assets/images/EarlySchoolGall/ESG1LG.jpg";
-import ESG2LG from "assets/images/EarlySchoolGall/ESG2LG.jpg";
-import ESG3LG from "assets/images/EarlySchoolGall/ESG3LG.jpg";
-import ESG4LG from "assets/images/EarlySchoolGall/ESG4LG.jpg";
-import ESG5LG from "assets/images/EarlySchoolGall/ESG5LG.jpg";
-import ESG6LG from "assets/images/EarlySchoolGall/ESG6LG.jpg";
-import ESG7LG from "assets/images/EarlySchoolGall/ESG7LG.jpg";
-import ESG8LG from "assets/images/EarlySchoolGall/ESG8LG.jpg";
-import ESG9LG from "assets/images/EarlySchoolGall/ESG9LG.jpg";
+import AudioIcon from "assets/images/Audio/AudioIcon.jpg";
 
 // Import Audio
 import MrH1 from "assets/audio/FallingForward.mp3";
-
+import AlisonCaligari from "assets/audio/AlisonCaligari.mp3";
 function MissForeraudio() {
   return (
     <MKBox
@@ -89,8 +70,8 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG1SM}
-              lgimage={ESG1LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Miss Forer's memories of the school "
               position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
               description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
@@ -100,6 +81,18 @@ function MissForeraudio() {
               We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
               
               So please now sit back and listen to the good old days from voices you will remember."
+              audiofile={AlisonCaligari}
+            />
+          </MKBox>
+        </Grid>
+        <Grid item xs={12} lg={6}>
+          <MKBox mb={1} mt={10}>
+            <AudioCard
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
+              name="Audio Recording 1 with Miss Forer "
+              position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
+              description=""
               audiofile={MrH1}
             />
           </MKBox>
@@ -107,30 +100,20 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG2SM}
-              lgimage={ESG2LG}
-              name="Audio Recording 1 with Miss Forer "
-              position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
-              description=""
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG3SM}
-              lgimage={ESG3LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 2 with Miss Forer "
               position={{ color: "info", label: "Audio Recording 2 with Miss Forer" }}
               description=""
+              audiofile={MrH1}
             />
           </MKBox>
         </Grid>
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG4SM}
-              lgimage={ESG4LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 3 with Miss Forer"
               position={{ color: "info", label: "Audio Recording 3 with Miss Forer" }}
               description=""
@@ -140,8 +123,8 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG5SM}
-              lgimage={ESG5LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 4 with Miss Forer"
               position={{ color: "info", label: "Audio Recording 4 with Miss Forer" }}
               description=""
@@ -151,8 +134,8 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG6SM}
-              lgimage={ESG6LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 5 with Miss Forer "
               position={{ color: "info", label: "Audio Recording 5 with Miss Forer" }}
               description=""
@@ -162,8 +145,8 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG7SM}
-              lgimage={ESG7LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 6 with Miss Forer"
               position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
               description=""
@@ -173,8 +156,8 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG8SM}
-              lgimage={ESG8LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 7 with Miss Forer "
               position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
               description="."
@@ -184,8 +167,8 @@ function MissForeraudio() {
         <Grid item xs={12} lg={6}>
           <MKBox mb={1} mt={10}>
             <AudioCard
-              smimage={ESG9SM}
-              lgimage={ESG9LG}
+              smimage={AudioIcon}
+              lgimage={AudioIcon}
               name="Audio Recording 7 with Miss Forer "
               position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
               description=" "
