@@ -166,7 +166,7 @@ function MissForeraudio() {
               lgimage={ESG7LG}
               name="Audio Recording 6 with Miss Forer"
               position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
-              description="Ah lunchtimes and school dinners, the school had a limited cafteria section and it was often the school had staggered lunch breaks to allow for this."
+              description=""
             />
           </MKBox>
         </Grid>
@@ -177,7 +177,7 @@ function MissForeraudio() {
               lgimage={ESG8LG}
               name="Audio Recording 7 with Miss Forer "
               position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-              description="Students enjoying there lunch time away from the books and socialising with the other students and teachrs alike."
+              description="."
             />
           </MKBox>
         </Grid>
@@ -186,19 +186,19 @@ function MissForeraudio() {
             <AudioCard
               smimage={ESG9SM}
               lgimage={ESG9LG}
-              name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description=" Another lunch time shot of the kids enjoying themeselves away from the pressures of school work"
+              name="Audio Recording 7 with Miss Forer "
+              position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+              description=" "
             />
           </MKBox>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              EARLY SCHOOL YEARS PICTURES
+              Audio diaries of school teachers
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Close up of the buildings only
+              Memories in audio
             </MKTypography>
           </Grid>
         </Grid>
