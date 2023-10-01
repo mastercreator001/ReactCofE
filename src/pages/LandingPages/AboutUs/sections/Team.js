@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard from "components/common/SecondaryTemplate";
 
 // Images
 import team3 from "assets/images/richard-McMaster.jpg";

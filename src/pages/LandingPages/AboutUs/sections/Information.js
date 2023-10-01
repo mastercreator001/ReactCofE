@@ -21,7 +21,7 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
+import CenteredBlogCard from "components/common/SpinningCard";
 
 function Information() {
   return (

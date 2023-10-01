@@ -22,7 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React components
-import BackgroundBlogCard from "examples/Cards/BlogCards/BackgroundBlogCard";
+import BackgroundBlogCard from "components/common/AuthorContactCard";
 
 // Images
 import post4 from "assets/images/examples/schoolShirt.jpg";

@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
 
 // Routes
 import routes from "routes";
@@ -25,10 +25,10 @@ import Grid from "@mui/material/Grid";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-//import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+//import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
 
 // Material Kit 2 React examples
-import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
+import HorizontalTeamCard2 from "components/common/PrimaryTemplate";
 
 // Small Images
 

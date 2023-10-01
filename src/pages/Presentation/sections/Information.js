@@ -24,10 +24,10 @@ import MKBox from "components/MKBox";
 import { Link } from "react-router-dom";
 
 // Material Kit 2 React examples
-import RotatingCard from "examples/Cards/RotatingCard";
-import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
-import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import RotatingCard from "components/common/RotatingCard";
+import RotatingCardFront from "components/common/RotatingCard/RotatingCardFront";
+import RotatingCardBack from "components/common/RotatingCard/RotatingCardBack";
+import DefaultInfoCard from "components/common/IconHeader";
 
 // Images
 import overhead2015 from "../../../assets/images/historicSchool/overhead2015.png";

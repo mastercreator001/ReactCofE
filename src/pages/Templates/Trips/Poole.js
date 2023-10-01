@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
 
 // Routes
 import routes from "routes";
@@ -28,7 +28,7 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 <HorizontalTeamCard2 image={pooleCertificatesm} name="" position={{}} description="" />;
-import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
+import HorizontalTeamCard2 from "components/common/PrimaryTemplate";
 
 //Small Images
 import abselingPoole1sm from "assets/images/TripsAway/abselingPoole1sm.jpg";

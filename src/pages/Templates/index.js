@@ -17,8 +17,8 @@ Coded by www.creative-tim.com
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
+import DefaultFooter from "components/common/Footers/DefaultFooter";
 
 import Team from "pages/Templates/teachers/Team";
 // Routes

@@ -12,8 +12,8 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
+import DefaultFooter from "components/common/Footers/DefaultFooter";
 
 // Routes
 import routes from "routes";
@@ -28,7 +28,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import AudioCard from "examples/Cards/TeamCards/AudioCard";
+import AudioCard from "components/common/AudioCard";
 
 // Images Small
 import ESG1SM from "assets/images/EarlySchoolGall/ESG1SM.jpg";
