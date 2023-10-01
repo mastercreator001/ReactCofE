@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
 
 // Routes
 import routes from "routes";
@@ -44,7 +44,7 @@ import VGallery11sm from "assets/images/VariousGalleryImages/VGallery11sm.jpg";
 import VGallery12sm from "assets/images/VariousGalleryImages/VGallery12sm.jpg";
 import VGallery13sm from "assets/images/VariousGalleryImages/VGallery13sm.jpg";
 import VGallery14sm from "assets/images/VariousGalleryImages/VGallery14sm.jpg";
-import HorizontalTeamCard2 from "examples/Cards/TeamCards/HorizontalTeamCard2";
+import HorizontalTeamCard2 from "components/common/PrimaryTemplate";
 
 // Images Large
 
