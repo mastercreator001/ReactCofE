@@ -30,7 +30,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import AudioCard from "components/common/AudioCard";
+import AudioCard from "components/common/TransparentBlogCard";
 
 import AudioIcon from "assets/images/Audio/AudioIcon.jpg";
 
@@ -67,113 +67,124 @@ function MissForeraudio() {
             </MKTypography>
           </Grid>
         </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Miss Forer's memories of the school "
-              position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
-              description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
-              
-              The memories have been recorded by Myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
-              
-              We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
-              
-              So please now sit back and listen to the good old days from voices you will remember."
-              audiofile={AlisonCaligari}
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 1 with Miss Forer "
-              position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
-              description=""
-              audiofile={MrH1}
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 2 with Miss Forer "
-              position={{ color: "info", label: "Audio Recording 2 with Miss Forer" }}
-              description=""
-              audiofile={MrH1}
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 3 with Miss Forer"
-              position={{ color: "info", label: "Audio Recording 3 with Miss Forer" }}
-              description=""
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 4 with Miss Forer"
-              position={{ color: "info", label: "Audio Recording 4 with Miss Forer" }}
-              description=""
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 5 with Miss Forer "
-              position={{ color: "info", label: "Audio Recording 5 with Miss Forer" }}
-              description=""
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 6 with Miss Forer"
-              position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
-              description=""
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 7 with Miss Forer "
-              position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-              description="."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={AudioIcon}
-              lgimage={AudioIcon}
-              name="Audio Recording 7 with Miss Forer "
-              position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-              description=" "
-            />
-          </MKBox>
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Miss Forer's memories of the school "
+                position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
+                description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
+          
+          The memories have been recorded by Myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
+          
+          We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
+          
+          So please now sit back and listen to the good old days from voices you will remember."
+                audiofile={AlisonCaligari}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                name="Audio Recording 1 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
+                description=""
+                audiofile={MrH1}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 2 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 2 with Miss Forer" }}
+                description=""
+                audiofile={MrH1}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 3 with Miss Forer"
+                position={{ color: "info", label: "Audio Recording 3 with Miss Forer" }}
+                description=""
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 4 with Miss Forer"
+                position={{ color: "info", label: "Audio Recording 4 with Miss Forer" }}
+                description=""
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 5 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 5 with Miss Forer" }}
+                description=""
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 6 with Miss Forer"
+                position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
+                description=""
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description="."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>

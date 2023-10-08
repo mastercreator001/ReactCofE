@@ -38,7 +38,7 @@ function Information() {
               description="People Come to the site hoping for a beautiful experience and at C Of E Middle we aim to do just that. If you experience any difficulties please use the contact us section to let us know."
               action={{
                 type: "internal",
-                route: "/pages/landing-pages/contact-us",
+                route: "/contact-us",
                 color: "info",
                 label: "Contact us",
               }}

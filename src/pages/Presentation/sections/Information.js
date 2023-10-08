@@ -57,7 +57,7 @@ function Information() {
                 description="The school may have been demolished but the memories will last forever. Any stories of memories please do let us know in the contact us section or submit your stories."
                 action={{
                   type: "internal",
-                  route: "/pages/landing-pages/contact-us",
+                  route: "/contact-us",
                   label: "Submit your stories",
                 }}
               />

@@ -19,7 +19,6 @@ import ReactAudioPlayer from "react-audio-player";
 import PropTypes from "prop-types";
 
 // @mui material components
-import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
@@ -32,40 +31,20 @@ import parse from "html-react-parser";
 
 function AudioCard({ smimage, lgimage, position, subheading, description, audiofile }) {
   return (
-    <Card sx={{ mt: 8 }}>
-      <Grid container>
-        <Grid item xs={12} md={6} lg={4} sx={{ mt: -6 }}>
-          <MKBox width="100%" pt={2} pb={1} px={2}>
-            <ModalImage small={smimage} large={lgimage} />
-            {/* <MKBox
-              component="img"
-              src={image}
-              alt={name}
-              width="100%"
-              borderRadius="md"
-              shadow="lg"
-            /> */}
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} md={6} lg={8} sx={{ my: "auto" }}>
-          <MKBox pt={{ xs: 2, lg: 2.5 }} pb={2.5} pr={4} pl={{ xs: 4, lg: 1 }} lineHeight={1}>
-            <MKTypography variant="h5">{name}</MKTypography>
-            <MKTypography variant="h6" color={position.color} mb={5}>
-              {position.label}
-            </MKTypography>
-            <MKTypography variant="h6" color={position.color} mb={5}>
-              {subheading}
-            </MKTypography>
-            <MKTypography variant="body2" color="text">
-              <ReactAudioPlayer src={audiofile} controls />
-              <br />
-              <br />
-              {parse(description)}
-            </MKTypography>
-          </MKBox>
-        </Grid>
+    <Grid container item xs={12} md={6} lg={4} sx={{ mt: -6 }}>
+      <MKTypography variant="h6" color={position.color} mb={5}>
+        {subheading}
+      </MKTypography>
+      <Grid item xs={12} md={12} lg={12} sx={{ mt: -6 }}>
+        <MKBox width="100%" pt={2} pb={1} px={2}>
+          <ModalImage small={smimage} large={lgimage} />
+          <ReactAudioPlayer src={audiofile} controls />
+        </MKBox>
+        <MKTypography variant="body2" color="text">
+          {parse(description)}
+        </MKTypography>
       </Grid>
-    </Card>
+    </Grid>
   );
 }
 

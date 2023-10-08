@@ -125,13 +125,13 @@ const routes = [
         collapse: [
           {
             name: "Head Teachers",
-            route: "/pages/headteachers",
+            route: "/headteachers",
             component: <HeadTeachers />,
           },
 
           {
             name: "Deputy Head Teachers",
-            route: "/pages/teachers/dhTeachers",
+            route: "/teachers/dhTeachers",
             component: <DhTeachers />,
           },
         ],
@@ -143,7 +143,7 @@ const routes = [
         collapse: [
           {
             name: "Teaching Staff",
-            route: "/pages/teachingstaff/allteachers",
+            route: "/teachingstaff/allteachers",
             component: <AllTeachers />,
           },
         ],
@@ -155,37 +155,37 @@ const routes = [
         collapse: [
           {
             name: "Caretakers",
-            route: "/pages/auxstaff/caretakers1",
+            route: "/auxstaff/caretakers1",
             component: <Caretakers1 />,
           },
           {
             name: "Dinner Ladies",
-            route: "/pages/auxstaff/dinnerladies1",
+            route: "/auxstaff/dinnerladies1",
             component: <DinnerLadies1 />,
           },
           {
             name: "Dinner Ladies",
-            route: "/pages/auxstaff/dinnerladies3",
+            route: "/auxstaff/dinnerladies3",
             component: <DinnerLadies3 />,
           },
           {
             name: "Dinner Ladies",
-            route: "/pages/auxstaff/dinnerladies2",
+            route: "/auxstaff/dinnerladies2",
             component: <DinnerLadies2 />,
           },
           {
             name: "Kitchen Staff",
-            route: "/pages/auxstaff/kitchenstaff1",
+            route: "/auxstaff/kitchenstaff1",
             component: <KitchenStaff1 />,
           },
           {
             name: "Kitchen Staff",
-            route: "/pages/auxstaff/kitchenstaff2",
+            route: "/auxstaff/kitchenstaff2",
             component: <KitchenStaff2 />,
           },
           {
             name: "Library Staff",
-            route: "/pages/auxstaff/librarystaff1",
+            route: "/auxstaff/librarystaff1",
             component: <Librarystaff1 />,
           },
         ],
@@ -197,52 +197,52 @@ const routes = [
         collapse: [
           {
             name: "Science Class",
-            route: "/pages/subjects/science",
+            route: "/subjects/science",
             component: <Science />,
           },
           {
             name: "English Class",
-            route: "/pages/subjects/english",
+            route: "/subjects/english",
             component: <English />,
           },
           {
             name: "Maths Class",
-            route: "/pages/subjects/maths",
+            route: "/subjects/maths",
             component: <Maths />,
           },
           {
             name: "Physical Education",
-            route: "/pages/subjects/physicaleducation",
+            route: "/subjects/physicaleducation",
             component: <PE />,
           },
           {
             name: "Music Class",
-            route: "/pages/subjects/music",
+            route: "/subjects/music",
             component: <Music />,
           },
           {
             name: "C.D.T Class",
-            route: "/pages/subjects/woodwork",
+            route: "/subjects/woodwork",
             component: <WoodWork />,
           },
           {
             name: "Domestic Science",
-            route: "/pages/subjects/domesticscience",
+            route: "/subjects/domesticscience",
             component: <DomesticScience />,
           },
           {
             name: "Art Class",
-            route: "/pages/subjects/art",
+            route: "/subjects/art",
             component: <Art />,
           },
           {
             name: "Religious Education Class",
-            route: "/pages/subjects/religiouseducation",
+            route: "/subjects/religiouseducation",
             component: <ReligiousEducation />,
           },
           {
             name: "French Class",
-            route: "/pages/subjects/French",
+            route: "/subjects/French",
             component: <French />,
           },
           {
@@ -260,47 +260,47 @@ const routes = [
         collapse: [
           {
             name: "Singleton Trip",
-            route: "/pages/trips/singleton",
+            route: "/trips/singleton",
             component: <Singleton />,
           },
           {
             name: "Totland Trip",
-            route: "/pages/trips/totland",
+            route: "/trips/totland",
             component: <Totland />,
           },
           {
             name: "Malham Trip",
-            route: "/pages/trips/malham",
+            route: "/trips/malham",
             component: <Malham />,
           },
           {
             name: "Poole In Dorset Adventure Center Trip",
-            route: "/pages/trips/poole",
+            route: "/trips/poole",
             component: <Poole />,
           },
           {
             name: "Carisbrooke Castle Trips",
-            route: "/pages/trips/carisbrooke",
+            route: "/trips/carisbrooke",
             component: <Carisbrooke />,
           },
           {
             name: "Newport Roman Villa Trips",
-            route: "/pages/trips/romanvilla",
+            route: "/trips/romanvilla",
             component: <RomanVilla />,
           },
           {
             name: "Apollo Theatre Trips",
-            route: "/pages/trips/apollo",
+            route: "/trips/apollo",
             component: <Apollo />,
           },
           {
             name: " Brading Trips",
-            route: "/pages/trips/bradingandvarious",
+            route: "/trips/bradingandvarious",
             component: <BradingandVarious />,
           },
           {
             name: "Osbourne House Trips",
-            route: "/pages/trips/osbournehouse",
+            route: "/trips/osbournehouse",
             component: <OsbourneHouse />,
           },
         ],
@@ -312,7 +312,7 @@ const routes = [
         collapse: [
           {
             name: "To be created",
-            route: "/pages/teachingstaff/allteachers",
+            route: "/teachingstaff/allteachers",
             component: <AllTeachers />,
           },
         ],
@@ -324,22 +324,22 @@ const routes = [
         collapse: [
           {
             name: "A Massive Leap Forward",
-            route: "/pages/computer1",
+            route: "/computer1",
             component: <Computer1 />,
           },
           {
             name: "A row of BBC Computers",
-            route: "/pages/computer2",
+            route: "/computer2",
             component: <Computer2 />,
           },
           {
             name: "New And Updated Keyboards",
-            route: "/pages/computer3",
+            route: "/computer3",
             component: <Computer3 />,
           },
           {
             name: "Floopy Disc Revolution",
-            route: "/pages/computer4",
+            route: "/computer4",
             component: <Computer4 />,
           },
         ],
@@ -352,17 +352,17 @@ const routes = [
         collapse: [
           {
             name: "The Story Behind The Music Room",
-            route: "/pages/attention1",
+            route: "/attention1",
             component: <Attention1 />,
           },
           {
             name: "The Closing Tragedy",
-            route: "/pages/attention2",
+            route: "/attention2",
             component: <Attention2 />,
           },
           {
             name: "Marvels Build Into The School",
-            route: "/pages/attention3",
+            route: "/attention3",
             component: <Attention3 />,
           },
         ],
@@ -375,7 +375,7 @@ const routes = [
           {
             name: "The School Day",
             name1: "School Routines, lunch Breaktimes",
-            route: "/pages/templates/firealarms/schoolroutine",
+            route: "/firealarms/schoolroutine",
             component: <SchoolRoutine />,
           },
         ],
@@ -387,12 +387,12 @@ const routes = [
         collapse: [
           {
             name: "Fire Alarms and Testing",
-            route: "/pages/templates/firealarms/firealarm1",
+            route: "/firealarms/firealarm1",
             component: <FireAlarm1 />,
           },
           {
             name: "HomeworkDiary",
-            route: "/pages/templates/firealarms/homework",
+            route: "/firealarms/homework",
             component: <HomeWork />,
           },
         ],
@@ -407,27 +407,27 @@ const routes = [
     collapse: [
       {
         name: "School Maps Svg Recreation",
-        route: "/pages/maps",
+        route: "/maps",
         component: <Maps />,
       },
       {
         name: "School Maps original Map",
-        route: "/pages/maps1",
+        route: "/maps1",
         component: <Maps1 />,
       },
       {
         name: "School Maps plain map",
-        route: "/pages/maps2",
+        route: "/maps2",
         component: <Maps2 />,
       },
       {
         name: "School Maps Christ The King",
-        route: "/pages/maps3",
+        route: "/maps3",
         component: <Maps3 />,
       },
       {
         name: "School Maps Recreation of final map",
-        route: "/pages/maps4",
+        route: "/maps4",
         component: <Maps4 />,
       },
     ],
@@ -440,22 +440,22 @@ const routes = [
     collapse: [
       {
         name: "Historic School View",
-        route: "/pages/historic",
+        route: "/historic",
         component: <Historic />,
       },
       {
         name: "Historic School During further Redevolpment",
-        route: "/pages/historic1",
+        route: "/historic/redevolpment",
         component: <Historic1 />,
       },
       {
         name: "Historic School View Overlaid",
-        route: "/pages/historic2",
+        route: "/historic/overlaid",
         component: <Historic2 />,
       },
       {
         name: "Historic School View Overlaid",
-        route: "/pages/historic3",
+        route: "/historic/overlaid2",
         component: <Historic3 />,
       },
     ],
@@ -468,47 +468,47 @@ const routes = [
     collapse: [
       {
         name: "Mr Felton Audio (1971-1980)",
-        route: "/pages/MrFeltonaudio",
+        route: "/audio/MrFeltonaudio",
         component: <MrFeltonaudio />,
       },
       {
         name: "Miss Forer Audio",
-        route: "/pages/MissForeraudio",
+        route: "/audio/MissForeraudio",
         component: <MissForeraudio />,
       },
       {
         name: "Mrs Murdoch Audio",
-        route: "/pages/MrsMurdochaudio",
+        route: "/audio/MrsMurdochaudio",
         component: <MrsMurdochaudio />,
       },
       {
         name: "Mrs Challoner Audio",
-        route: "/pages/MrsChalloneraudio",
+        route: "/MrsChalloneraudio",
         component: <MrsChalloneraudio />,
       },
       {
         name: "Mr Hawes Audio",
-        route: "/pages/MrHawesaudio",
+        route: "/audio/MrHawesaudio",
         component: <MrHawesaudio />,
       },
       {
         name: "Mr Walker Audio",
-        route: "/pages/MrWalkeraudio",
+        route: "/audio/MrWalkeraudio",
         component: <MrWalkeraudio />,
       },
       {
         name: "Mr Houghton Audio",
-        route: "/pages/MrHoughtonaudio",
+        route: "/MrHoughtonaudio",
         component: <MrHoughtonaudio />,
       },
       {
         name: "Mrs Colenutt Audio",
-        route: "/pages/MrsColenuttaudio",
+        route: "/audio/MrsColenuttaudio",
         component: <MrsColenuttaudio />,
       },
       {
         name: "Random Audio",
-        route: "/pages/Randomaudio",
+        route: "/audio/Randomaudio",
         component: <Randomaudio />,
       },
     ],
@@ -521,47 +521,47 @@ const routes = [
     collapse: [
       {
         name: "Early School Images (1971-1980)",
-        route: "/pages/earlyschoolimages",
+        route: "/gallery/earlyschoolimages",
         component: <EarlyschoolImages />,
       },
       {
         name: "Miss Forer Germany Visit",
-        route: "/pages/missforergermany",
+        route: "/gallery/missforergermany",
         component: <MissForerGermany />,
       },
       {
         name: "Around The School, Performances",
-        route: "/pages/aroundtheschoolperformances",
+        route: "/gallery/aroundtheschoolperformances",
         component: <AroundTheSchoolPerformances />,
       },
       {
         name: "School Trips Malham(Miss Forer's Collection)",
-        route: "/pages/schooltripsmalhamf",
+        route: "/gallery/schooltripsmalhamf",
         component: <SchoolTripsMalhamF />,
       },
       {
         name: "School Trips Island (Miss Forer's Collection)",
-        route: "/pages/schooltripsgallery",
+        route: "/gallery/schooltripsgallery",
         component: <SchoolTripsGallery />,
       },
       {
         name: "Singleton Trips (Mr Felton's Collection)",
-        route: "/pages/singletongallery",
+        route: "/gallery/singletongallery",
         component: <SingletonGallery />,
       },
       {
         name: "Malham Trips (Mr Felton's Collection 1985-1990)",
-        route: "/pages/schoolmalhammrf1",
+        route: "/gallery/schoolmalhammrf1",
         component: <SchoolMalhamMRF1 />,
       },
       {
         name: "Mr Feltons Collection 1990 0nwards",
-        route: "/pages/schoolmalhammrf2",
+        route: "/gallery/schoolmalhammrf2",
         component: <SchoolMalhamMRF2 />,
       },
       {
         name: "Various Images of the School",
-        route: "/pages/variousgallery",
+        route: "/gallery/variousgallery",
         component: <VariousGallery />,
       },
     ],
@@ -574,12 +574,12 @@ const routes = [
     collapse: [
       {
         name: "Demolition of the School",
-        route: "/pages/demolitiongallery",
+        route: "/demolitiongallery",
         component: <DemolitionGallery />,
       },
       {
         name: "Rebuliding On The School Site",
-        route: "/pages/rebuildinggallery",
+        route: "/rebuildinggallery",
         component: <RebuildingGallery />,
       },
     ],
@@ -595,17 +595,17 @@ const routes = [
         collapse: [
           {
             name: "about us",
-            route: "/pages/landing-pages/about-us",
+            route: "/about-us",
             component: <AboutUs />,
           },
           {
             name: "contact us",
-            route: "/pages/landing-pages/contact-us",
+            route: "/contact-us",
             component: <ContactUs />,
           },
           {
             name: "author",
-            route: "/pages/landing-pages/author",
+            route: "/author",
             component: <Author />,
           },
         ],

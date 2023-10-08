@@ -44,7 +44,7 @@ function Places() {
               description="C of E Can be used anywhere you have an internet connection so log up read remise and submit your funny stories of your time at the school."
               action={{
                 type: "internal",
-                route: "/pages/blogs/author",
+                route: "/blogs/author",
                 label: "read more",
               }}
             />
