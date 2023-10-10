@@ -52,7 +52,7 @@ function TransparentBlogCard({ smimage, lgimage, title, description, action, aud
     <Card
       sx={{
         background: "transparent",
-        boxShadow: "none",
+        boxShadow: "5",
         overflow: "visible",
       }}
     >
@@ -64,7 +64,7 @@ function TransparentBlogCard({ smimage, lgimage, title, description, action, aud
         </MuiLink>
       )}
       <ReactAudioPlayer src={audiofile} controls />
-      <MKBox pt={2} pb={3}>
+      <MKBox ml={1} pt={2} pb={3}>
         {action.type === "internal" ? (
           <Link to={action.route} sx={cardActionStyles}>
             <MKTypography variant="h5" gutterBottom>
@@ -78,7 +78,7 @@ function TransparentBlogCard({ smimage, lgimage, title, description, action, aud
             </MKTypography>
           </MuiLink>
         )}
-        <MKTypography variant="body2" component="p" color="text" mb={3}>
+        <MKTypography variant="body2" component="p" color="white" mb={3}>
           {description}
         </MKTypography>
         {action.type === "internal" ? (

@@ -59,10 +59,10 @@ function MissForeraudio() {
       <Container>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
-            <MKTypography variant="h3" color="white">
+            <MKTypography variant="h5" color="white">
               Miss Forer audio Memories
             </MKTypography>
-            <MKTypography variant="body2" color="white" opacity={0.8}>
+            <MKTypography variant="body2" color="light" opacity={0.8}>
               Miss Forer audiable memories of the school the staff and the students.
             </MKTypography>
           </Grid>
@@ -73,12 +73,17 @@ function MissForeraudio() {
               <AudioCard
                 smimage={AudioIcon}
                 lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Audio Miss Forer 1",
+                }}
                 title="Miss Forer's memories of the school "
                 position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
                 description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
           
-          The memories have been recorded by Myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
+          The memories have been recorded by myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
           
           We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
           
@@ -92,7 +97,12 @@ function MissForeraudio() {
               <AudioCard
                 smimage={AudioIcon}
                 lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                  label: "Miss Forer's Audio memories session 2",
+                }}
                 name="Audio Recording 1 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
                 description=""
@@ -105,7 +115,7 @@ function MissForeraudio() {
               <AudioCard
                 smimage={AudioIcon}
                 lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "" }}
                 title="Audio Recording 2 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 2 with Miss Forer" }}
                 description=""
@@ -118,7 +128,12 @@ function MissForeraudio() {
               <AudioCard
                 smimage={AudioIcon}
                 lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                  label: "Audio Recording 3 with Miss Forer",
+                }}
                 title="Audio Recording 3 with Miss Forer"
                 position={{ color: "info", label: "Audio Recording 3 with Miss Forer" }}
                 description=""
@@ -130,10 +145,15 @@ function MissForeraudio() {
               <AudioCard
                 smimage={AudioIcon}
                 lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                  label: "Audio Recording 4 with Miss Forer",
+                }}
                 title="Audio Recording 4 with Miss Forer"
                 position={{ color: "info", label: "Audio Recording 4 with Miss Forer" }}
-                description=""
+                description="Audio Recording 2 with Miss Forer"
               />
             </MKBox>
           </Grid>
