@@ -59,7 +59,7 @@ function MissForeraudio() {
       <Container>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
-            <MKTypography variant="h5" color="white">
+            <MKTypography variant="h1" color="white">
               Miss Forer audio Memories
             </MKTypography>
             <MKTypography variant="body2" color="light" opacity={0.8}>
@@ -110,7 +110,7 @@ function MissForeraudio() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={12} lg={4}>
             <MKBox mb={1} mt={10}>
               <AudioCard
                 smimage={AudioIcon}
