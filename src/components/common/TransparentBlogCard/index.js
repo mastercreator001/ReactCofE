@@ -51,7 +51,7 @@ function TransparentBlogCard({ smimage, lgimage, title, description, action, aud
   return (
     <Card
       sx={{
-        background: "transparent",
+        background: "white",
         boxShadow: "5",
         overflow: "visible",
       }}
@@ -78,7 +78,7 @@ function TransparentBlogCard({ smimage, lgimage, title, description, action, aud
             </MKTypography>
           </MuiLink>
         )}
-        <MKTypography variant="body2" component="p" color="white" mb={3}>
+        <MKTypography variant="body2" component="p" color="black" mb={3}>
           {description}
         </MKTypography>
         {action.type === "internal" ? (
