@@ -115,6 +115,10 @@ import MrsColenuttaudio from "pages/Templates/AudioFiles/MrsColenuttaudio";
 import MrHoughtonaudio from "pages/Templates/AudioFiles/MrHoughtonaudio";
 import Randomaudio from "pages/Templates/AudioFiles/Randomaudio";
 import MrsMurdochaudio from "pages/Templates/AudioFiles/MrsMurdochaudio";
+
+//Class List Files
+import Class1977 from "pages/Templates/ClassLists/Class1977";
+
 const routes = [
   {
     name: "School Sections",
@@ -522,6 +526,19 @@ const routes = [
         name: "Random Audio",
         route: "/audio/Randomaudio",
         component: <Randomaudio />,
+      },
+    ],
+  },
+  {
+    icon: <Icon>burst_mode</Icon>,
+    name: "Class List",
+    description: "1997 - 1993",
+    dropdown: true,
+    collapse: [
+      {
+        name: "1997",
+        route: "/classlists/1977",
+        component: <Class1977 />,
       },
     ],
   },
