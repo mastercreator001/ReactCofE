@@ -12,6 +12,7 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+
 // Material Kit 2 React examples
 import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
 import DefaultFooter from "components/common/Footers/DefaultFooter";
@@ -29,31 +30,29 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import AudioCard from "components/common/AudioCard";
+import AudioCard from "components/common/TransparentBlogCard";
 
-// Images Small
-import ESG1SM from "assets/images/EarlySchoolGall/ESG1SM.jpg";
-import ESG2SM from "assets/images/EarlySchoolGall/ESG2SM.jpg";
-import ESG3SM from "assets/images/EarlySchoolGall/ESG3SM.jpg";
-import ESG4SM from "assets/images/EarlySchoolGall/ESG4SM.jpg";
-import ESG5SM from "assets/images/EarlySchoolGall/ESG5SM.jpg";
-import ESG6SM from "assets/images/EarlySchoolGall/ESG6SM.jpg";
-import ESG7SM from "assets/images/EarlySchoolGall/ESG7SM.jpg";
-import ESG8SM from "assets/images/EarlySchoolGall/ESG8SM.jpg";
-import ESG9SM from "assets/images/EarlySchoolGall/ESG9SM.jpg";
-// Images Large
-import ESG1LG from "assets/images/EarlySchoolGall/ESG1LG.jpg";
-import ESG2LG from "assets/images/EarlySchoolGall/ESG2LG.jpg";
-import ESG3LG from "assets/images/EarlySchoolGall/ESG3LG.jpg";
-import ESG4LG from "assets/images/EarlySchoolGall/ESG4LG.jpg";
-import ESG5LG from "assets/images/EarlySchoolGall/ESG5LG.jpg";
-import ESG6LG from "assets/images/EarlySchoolGall/ESG6LG.jpg";
-import ESG7LG from "assets/images/EarlySchoolGall/ESG7LG.jpg";
-import ESG8LG from "assets/images/EarlySchoolGall/ESG8LG.jpg";
-import ESG9LG from "assets/images/EarlySchoolGall/ESG9LG.jpg";
+//Images
+import AudioIcon from "assets/images/Audio/AudioIcon.jpg";
 
 // Import Audio
-import MrH1 from "assets/audio/FallingForward.mp3";
+import HistoryMrFelton from "assets/audio/HistoryMrFelton.mp3";
+import Cdtaudio1 from "assets/audio/Cdtaudio1.mp3";
+import Cdtaudio2 from "assets/audio/Cdtaudio2.mp3";
+import Cdtaudio3 from "assets/audio/Cdtaudio3.mp3";
+import Cdtaudio4 from "assets/audio/Cdtaudio4.mp3";
+import Cdtaudio5 from "assets/audio/Cdtaudio5.mp3";
+import Cdtaudio6 from "assets/audio/Cdtaudio6.mp3";
+import Cdtaudio7 from "assets/audio/Cdtaudio7.mp3";
+import Cdtaudio8 from "assets/audio/Cdtaudio8.mp3";
+import Cdtaudio9 from "assets/audio/Cdtaudio9.mp3";
+import Cdtaudio10 from "assets/audio/Cdtaudio10.mp3";
+import Cdtaudio11 from "assets/audio/Cdtaudio11.mp3";
+import Cdtaudio12 from "assets/audio/Cdtaudio12.mp3";
+import Cdtaudio13 from "assets/audio/Cdtaudio13.mp3";
+import Cdtaudio14 from "assets/audio/Cdtaudio14.mp3";
+import Cdtaudio15 from "assets/audio/Cdtaudio15.mp3";
+import Cdtaudio16 from "assets/audio/Cdtaudio16.mp3";
 
 function MrFeltonaudio() {
   return (
@@ -77,121 +76,319 @@ function MrFeltonaudio() {
       <Container>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
-            <MKTypography variant="h3" color="white">
-              Mr Feltons Memories
+            <MKTypography variant="h1" color="white">
+              Mr Feltons audio Memories
             </MKTypography>
-            <MKTypography variant="body2" color="white" opacity={0.8}>
-              Mr Felton audio corner
+            <MKTypography variant="body1" color="light" opacity={0.8}>
+              Mr Feltons audiable memories of the school the staff and the students and the varying
+              fun in and around the CDT department through the years.
             </MKTypography>
           </Grid>
         </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG1SM}
-              lgimage={ESG1LG}
-              name="Mr Feltons memories of the school "
-              position={{ color: "info", label: "Mr Feltons Memories of the school" }}
-              description="Wow what a view, well I guess this may have been the opinion of some of the students who attended C Of E middle School. Classes were great at C Of E but Carisbrooke High was on another level as ou roll was 400 and Carisbrooke's was 1500 an intimidating prospect beyond the playground. "
-              audiofile={MrH1}
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG2SM}
-              lgimage={ESG2LG}
-              name="Mr Feltons Memories of the school  "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Three ladies all in a row, maybe you know them or why they were being photographed. mid to late 1970's or eary 1980's"
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG3SM}
-              lgimage={ESG3LG}
-              name="Mr Feltons Memories of the school "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Class teacher and students who were and when is the question? Maybe you can help."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG4SM}
-              lgimage={ESG4LG}
-              name="Mr Feltons Memories of the school "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Out and about in the cdt area, no doubt working on one of Mr Felton's creations."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG5SM}
-              lgimage={ESG5LG}
-              name="Mr Feltons Memories of the school"
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="We had a pond, well yes we did actually although this was later removed and filled in. I couldn't say if it was student safety or investment but the Pond dissapeared.It was located near the Science classroomsand can be seen on the old maps in the near bottom corner to the side of 1H or room 1."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG6SM}
-              lgimage={ESG6LG}
-              name="Mr Feltons Memories of the school "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Ah a different time, Miss Forer would regularly let sudents walk her dog either  on site or bring hime to school so students could interact with him. However today this is sdaly not the case. Two lucky students using their breaks wisely."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG7SM}
-              lgimage={ESG7LG}
-              name="Mr Feltons Memories of the school"
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Ah lunchtimes and school dinners, the school had a limited cafteria section and it was often the school had staggered lunch breaks to allow for this."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG8SM}
-              lgimage={ESG8LG}
-              name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description="Students enjoying there lunch time away from the books and socialising with the other students and teachrs alike."
-            />
-          </MKBox>
-        </Grid>
-        <Grid item xs={12} lg={6}>
-          <MKBox mb={1} mt={10}>
-            <AudioCard
-              smimage={ESG9SM}
-              lgimage={ESG9LG}
-              name="Old school Images of the school staff and students "
-              position={{ color: "info", label: "1971-through to early 1980's" }}
-              description=" Another lunch time shot of the kids enjoying themeselves away from the pressures of school work"
-            />
-          </MKBox>
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "black",
+                }}
+                title=" Mr Felton and his personal history "
+                position={{
+                  color: "info",
+                  label: "Historical information on Mr Felton",
+                }}
+                description="Like any other person Mr Felton progressed through many carrears throughout his life. Here we go on an audio trip through his personal history and discover what lead him to the Island and eventually to become the teacher we know today."
+                audiofile={HistoryMrFelton}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "black",
+                }}
+                title="Audio Recording 1 with Mr Felton "
+                position={{
+                  color: "info",
+                  label: "Mr Feltons audio memories of the school recording 1",
+                }}
+                description="Adapt, Adopt, Improve. An Introducion to Cdt or as it was first known Pratical Maths in It's first itteration.
+                
+                Mike Rose from Downside Middle trained Mr Felton in CDT."
+                audiofile={Cdtaudio1}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 2 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 1 with Mr Felton's" }}
+                description="Tools and the hand made toolboxes with the stripes. Do you remember checking your tools and the check sheets we ued at the start of the lesson."
+                audiofile={Cdtaudio2}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={12} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 3 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 3 with Mr Felton's" }}
+                description="Tools and the rewards of using tools though a worksheets at the school. Responsibility for your tools and learning to use them. "
+                audiofile={Cdtaudio3}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "" }}
+                title="Audio Recording 4 with Mr Felton "
+                position={{
+                  color: "info",
+                }}
+                description="Parents evening and the mysterious missing work, (not at C Of E Middle)."
+                audiofile={Cdtaudio4}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green" }}
+                title="Audio Recording 5 with Mr Felton"
+                position={{
+                  color: "info",
+                }}
+                description="Cdt Progression thoughout the years and need to stop students at the end of the lesson. Plywood animals 1st years or year 5's the first Cdt projects. Lucy Critchlow and the genius of Tippex."
+                audiofile={Cdtaudio5}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "" }}
+                title="Audio Recording 6 with Mr Felton "
+                position={{
+                  color: "info",
+                }}
+                description="Burgular Alarms projects, year five projects. Different materials project."
+                audiofile={Cdtaudio6}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{ type: "internal", route: "/", color: "green", label: "" }}
+                title="Audio Recording 7 with Mr Felton "
+                position={{
+                  color: "info",
+                }}
+                description="The Cardboard Lorry, chassis and cab, individual design. Pupils choice as to the final design."
+                audiofile={Cdtaudio7}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 8 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 9 with Mr Felton's" }}
+                description="Photo Frames in year six, build and design yours. Funny Face toys, did you make one?."
+                audiofile={Cdtaudio8}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 9 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 1 with Mr Felton's" }}
+                description="Year Six and the litter pickers, do you remember the grabs we used to collect cans around the school? The Pencil box and the varying designs."
+                audiofile={Cdtaudio9}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 10 with Mr Felton "
+                position={{
+                  color: "info",
+                  label: "Mr Feltons audio memories of the school recording 10",
+                }}
+                description="The Steady Hand game, Doctor,Docotor anyone and the Pull Along Toy Project."
+                audiofile={Cdtaudio10}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 11 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 11 with Mr Felton's" }}
+                description="South Haven Marine Bridge project, Fictious place and the building of bridges and syringes for hydraulic movement.And the balancing Toy Parrot toy."
+                audiofile={Cdtaudio11}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 12 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 13 with Mr Felton's" }}
+                description="Design and make a box project, multiuse boxes. And the thougth that went into conception of a school project and timescales. "
+                audiofile={Cdtaudio12}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 13 with Mr Felton "
+                position={{
+                  color: "info",
+                  label: "Mr Feltons audio memories of the school recording 13",
+                }}
+                description="New Guinea Jungle project, Trebushe over the dangerous river ? Medieval seige engine if anyone remembers. Fairground projects. "
+                audiofile={Cdtaudio13}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 14 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 14 with Mr Felton's" }}
+                description="Charity week, the making of the hedgehogs and the cocktail sticks. Made as Wight mice today and available in local shops."
+                audiofile={Cdtaudio14}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 15 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 15 with Mr Felton" }}
+                description="A Messy Church project held in out of the school sessions."
+                audiofile={Cdtaudio15}
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <AudioCard
+                smimage={AudioIcon}
+                lgimage={AudioIcon}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "green",
+                }}
+                title="Audio Recording 16 with Mr Felton "
+                position={{ color: "info", label: "Audio Recording 16 with Mr Felton's" }}
+                description="Clocks a Brief project with Quartz movements."
+                audiofile={Cdtaudio16}
+              />
+            </MKBox>
+          </Grid>
         </Grid>
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              EARLY SCHOOL YEARS PICTURES
+              Audio diaries of school teachers
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Close up of the buildings only
+              Memories in audio
             </MKTypography>
           </Grid>
         </Grid>

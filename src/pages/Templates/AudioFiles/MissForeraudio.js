@@ -62,7 +62,7 @@ function MissForeraudio() {
             <MKTypography variant="h1" color="white">
               Miss Forer audio Memories
             </MKTypography>
-            <MKTypography variant="body2" color="light" opacity={0.8}>
+            <MKTypography variant="body1" color="light" opacity={0.8}>
               Miss Forer audiable memories of the school the staff and the students.
             </MKTypography>
           </Grid>
@@ -83,11 +83,11 @@ function MissForeraudio() {
                 position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
                 description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
           
-          The memories have been recorded by myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
-          
-          We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
-          
-          So please now sit back and listen to the good old days from voices you will remember."
+            The memories have been recorded by myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
+            
+            We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
+            
+            So please now sit back and listen to the good old days from voices you will remember."
                 audiofile={AlisonCaligari}
               />
             </MKBox>
@@ -103,7 +103,7 @@ function MissForeraudio() {
                   color: "green",
                   label: "Miss Forer's Audio memories session 2",
                 }}
-                name="Audio Recording 1 with Miss Forer "
+                title="Audio Recording 1 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
                 description=""
                 audiofile={MrH1}
