@@ -68,7 +68,7 @@ import CL198113LG from "assets/images/ClassLists/CL1981/CL198113LG.jpg";
 import CL198114LG from "assets/images/ClassLists/CL1981/CL198114LG.jpg";
 import CL198115LG from "assets/images/ClassLists/CL1981/CL198115LG.jpg";
 
-function Class1977() {
+function Class1981() {
   return (
     <MKBox
       component="section"
@@ -91,10 +91,10 @@ function Class1977() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h1" color="white">
-              Class of 1977
+              Classes of 1981
             </MKTypography>
             <MKTypography variant="body1" color="light" opacity={0.8}>
-              Here are a few faces that atteneded C of E Middle in 1977
+              Here are a few faces that atteneded C of E Middle in 1981
             </MKTypography>
           </Grid>
         </Grid>
@@ -206,7 +206,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19816SM}
                 lgimage={CL19816LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 6 with Miss Forer"
                 position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
                 description=""
@@ -218,7 +218,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19817SM}
                 lgimage={CL19817LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description="."
@@ -230,7 +230,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19818SM}
                 lgimage={CL19818LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -242,7 +242,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19819SM}
                 lgimage={CL19819LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -254,7 +254,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL198110SM}
                 lgimage={CL198110LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -266,7 +266,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL198111SM}
                 lgimage={CL198111LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -278,7 +278,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL198112SM}
                 lgimage={CL198112LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -290,7 +290,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL198113SM}
                 lgimage={CL198113LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -302,7 +302,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL198114SM}
                 lgimage={CL198114LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -314,7 +314,7 @@ function Class1977() {
               <ClassListCard
                 smimage={CL198115SM}
                 lgimage={CL198115LG}
-                action={{ type: "internal", route: "/", color: "white", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -340,4 +340,4 @@ function Class1977() {
   );
 }
 
-export default Class1977;
+export default Class1981;
