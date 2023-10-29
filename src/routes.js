@@ -39,6 +39,8 @@ Coded by www.creative-tim.com
 import Icon from "@mui/material/Icon";
 
 // Pages
+
+import SignIn from "pages/Templates/SignIn";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
@@ -133,6 +135,16 @@ const routes = [
             name: "Deputy Head Teachers",
             route: "/teachers/dhTeachers",
             component: <DhTeachers />,
+          },
+        ],
+      },
+      {
+        name: "account",
+        collapse: [
+          {
+            name: "sign in",
+            route: "/login",
+            component: <SignIn />,
           },
         ],
       },
