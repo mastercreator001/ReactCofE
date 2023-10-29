@@ -32,7 +32,41 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import ClassListCard from "components/common/ClassListCard";
 
-import AudioIcon from "assets/images/Audio/AudioIcon.jpg";
+//Small Images
+import CL1981SM from "assets/images/ClassLists/CL1981/CL1981SM.jpg";
+import CL19811SM from "assets/images/ClassLists/CL1981/CL19811SM.jpg";
+import CL19812SM from "assets/images/ClassLists/CL1981/CL19812SM.jpg";
+import CL19813SM from "assets/images/ClassLists/CL1981/CL19813SM.jpg";
+import CL19814SM from "assets/images/ClassLists/CL1981/CL19814SM.jpg";
+import CL19815SM from "assets/images/ClassLists/CL1981/CL19815SM.jpg";
+import CL19816SM from "assets/images/ClassLists/CL1981/CL19816SM.jpg";
+import CL19817SM from "assets/images/ClassLists/CL1981/CL19817SM.jpg";
+import CL19818SM from "assets/images/ClassLists/CL1981/CL19818SM.jpg";
+import CL19819SM from "assets/images/ClassLists/CL1981/CL19819SM.jpg";
+import CL198110SM from "assets/images/ClassLists/CL1981/CL198110SM.jpg";
+import CL198111SM from "assets/images/ClassLists/CL1981/CL198111SM.jpg";
+import CL198112SM from "assets/images/ClassLists/CL1981/CL198112SM.jpg";
+import CL198113SM from "assets/images/ClassLists/CL1981/CL198113SM.jpg";
+import CL198114SM from "assets/images/ClassLists/CL1981/CL198114SM.jpg";
+import CL198115SM from "assets/images/ClassLists/CL1981/CL198115SM.jpg";
+
+//Large Images
+import CL1981LG from "assets/images/ClassLists/CL1981/CL1981LG.jpg";
+import CL19811LG from "assets/images/ClassLists/CL1981/CL19811LG.jpg";
+import CL19812LG from "assets/images/ClassLists/CL1981/CL19812LG.jpg";
+import CL19813LG from "assets/images/ClassLists/CL1981/CL19813LG.jpg";
+import CL19814LG from "assets/images/ClassLists/CL1981/CL19814LG.jpg";
+import CL19815LG from "assets/images/ClassLists/CL1981/CL19815LG.jpg";
+import CL19816LG from "assets/images/ClassLists/CL1981/CL19816LG.jpg";
+import CL19817LG from "assets/images/ClassLists/CL1981/CL19817LG.jpg";
+import CL19818LG from "assets/images/ClassLists/CL1981/CL19818LG.jpg";
+import CL19819LG from "assets/images/ClassLists/CL1981/CL19819LG.jpg";
+import CL198110LG from "assets/images/ClassLists/CL1981/CL198110LG.jpg";
+import CL198111LG from "assets/images/ClassLists/CL1981/CL198111LG.jpg";
+import CL198112LG from "assets/images/ClassLists/CL1981/CL198112LG.jpg";
+import CL198113LG from "assets/images/ClassLists/CL1981/CL198113LG.jpg";
+import CL198114LG from "assets/images/ClassLists/CL1981/CL198114LG.jpg";
+import CL198115LG from "assets/images/ClassLists/CL1981/CL198115LG.jpg";
 
 function Class1977() {
   return (
@@ -68,106 +102,110 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL1981SM}
+                lgimage={CL1981LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
                   label: "Audio Miss Forer 1",
                 }}
-                title="Miss Forer's memories of the school "
-                position={{ color: "info", label: "Mrs Forer's audiable Memories of the school" }}
-                description="Welcome to the school's Memory corner. The ability of the human memory is limited and we all tend to forget over time the voices of our favourite teachers so i have sought out the teachers and tried to capture their memories of the school the staff and the students for everyone to enjoy.<br><br>
-          
-            The memories have been recorded by myself (Richard McMaster) and the teachers have kindly agreed for the recording to be aired over the internet to former students and staff alike.<br><br>
-            
-            We hope you enjoy the tip back in time and the voices may trigger a few memories of your own.Talking myself to the teachers they have all have their own distinct styles and you would definitely will get a flash of memories from hearing them speak.<br><br>
-            
-            So please now sit back and listen to the good old days from voices you will remember."
+                title="Miss Forer's class "
+                position={{ color: "info", label: "Mrs Forer's Class list for 4F 1981" }}
+                description="4F Miss Forer's Class list for 1981"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL19811SM}
+                lgimage={CL19811LG}
                 action={{
                   type: "internal",
                   route: "/",
-                  color: "green",
-                  label: "Miss Forer's Audio memories session 2",
+                  color: "white",
+                  label: "Audio Miss Forer 1",
                 }}
-                title="Audio Recording 1 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 1 with Miss Forer" }}
-                description=""
+                title="Mr Walker's Class"
+                position={{ color: "info", label: "Mr Walkers class list for 4W 1981" }}
+                description="Mr Walkers class list for 4W 1981"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={12} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "" }}
-                title="Audio Recording 2 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 2 with Miss Forer" }}
-                description=""
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL19812SM}
+                lgimage={CL19812LG}
                 action={{
                   type: "internal",
                   route: "/",
-                  color: "green",
-                  label: "Audio Recording 3 with Miss Forer",
+                  color: "white",
+                  label: "Miss Howe Class list 4H 1981",
                 }}
-                title="Audio Recording 3 with Miss Forer"
-                position={{ color: "info", label: "Audio Recording 3 with Miss Forer" }}
-                description=""
+                title="Miss Howe's Class "
+                position={{ color: "info", label: "Miss Howe Class list 4H 1981" }}
+                description="Miss Howe Class list 4H 1981"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL19813SM}
+                lgimage={CL19813LG}
                 action={{
                   type: "internal",
                   route: "/",
-                  color: "green",
-                  label: "Audio Recording 4 with Miss Forer",
+                  color: "white",
+                  label: "Miss Howe Class",
                 }}
-                title="Audio Recording 4 with Miss Forer"
-                position={{ color: "info", label: "Audio Recording 4 with Miss Forer" }}
-                description="Audio Recording 2 with Miss Forer"
+                title="Class lists for year 3 1981"
+                position={{ color: "info", label: "Class lists for year 3 1981" }}
+                description="September 1981 year 3 class"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
-                title="Audio Recording 5 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 5 with Miss Forer" }}
-                description=""
+                smimage={CL19814SM}
+                lgimage={CL19814LG}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Class lists for year 2 1981",
+                }}
+                title="Class lists for year 2 1981"
+                position={{ color: "info", label: "Class lists for year 2 1981" }}
+                description="Class lists for year 2 1981"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL19815SM}
+                lgimage={CL19815LG}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Class lists for year 4 1981",
+                }}
+                title="Class lists for year 4 1981"
+                position={{ color: "info", label: "Class lists for year 4 1981" }}
+                description="Class lists for year 4 1981"
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL19816SM}
+                lgimage={CL19816LG}
                 action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 6 with Miss Forer"
                 position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
@@ -178,8 +216,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL19817SM}
+                lgimage={CL19817LG}
                 action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
@@ -190,8 +228,92 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={AudioIcon}
-                lgimage={AudioIcon}
+                smimage={CL19818SM}
+                lgimage={CL19818LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL19819SM}
+                lgimage={CL19819LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL198110SM}
+                lgimage={CL198110LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL198111SM}
+                lgimage={CL198111LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL198112SM}
+                lgimage={CL198112LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL198113SM}
+                lgimage={CL198113LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL198114SM}
+                lgimage={CL198114LG}
+                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                title="Audio Recording 7 with Miss Forer "
+                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
+                description=" "
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL198115SM}
+                lgimage={CL198115LG}
                 action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
