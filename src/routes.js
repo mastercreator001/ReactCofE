@@ -118,6 +118,7 @@ import MrsMurdochaudio from "pages/Templates/AudioFiles/MrsMurdochaudio";
 
 //Class List Files
 import Class1977 from "pages/Templates/ClassLists/Class1977";
+import Class1978 from "pages/Templates/ClassLists/Class1978";
 import Class1981 from "pages/Templates/ClassLists/Class1981";
 
 const routes = [
@@ -537,12 +538,17 @@ const routes = [
     dropdown: true,
     collapse: [
       {
-        name: "1977",
+        name: "Class of 1977",
         route: "/classlists/1977",
         component: <Class1977 />,
       },
       {
-        name: "1981",
+        name: "Class of 1978",
+        route: "/classlists/1978",
+        component: <Class1978 />,
+      },
+      {
+        name: "Class of 1981",
         route: "/classlists/1981",
         component: <Class1981 />,
       },

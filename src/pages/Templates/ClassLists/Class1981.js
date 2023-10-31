@@ -91,10 +91,10 @@ function Class1981() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h1" color="white">
-              Classes of 1981
+              Class of 1981
             </MKTypography>
             <MKTypography variant="body1" color="light" opacity={0.8}>
-              Here are a few faces that atteneded C of E Middle in 1981
+              Here are a few class lists of students that attended C of E Middle in 1981
             </MKTypography>
           </Grid>
         </Grid>
