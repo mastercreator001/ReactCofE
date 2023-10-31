@@ -206,7 +206,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL19816SM}
                 lgimage={CL19816LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 6 with Miss Forer"
                 position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
                 description=""
@@ -218,7 +218,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL19817SM}
                 lgimage={CL19817LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description="."
@@ -230,7 +230,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL19818SM}
                 lgimage={CL19818LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -242,7 +242,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL19819SM}
                 lgimage={CL19819LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -254,7 +254,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL198110SM}
                 lgimage={CL198110LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -266,7 +266,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL198111SM}
                 lgimage={CL198111LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -278,7 +278,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL198112SM}
                 lgimage={CL198112LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -290,7 +290,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL198113SM}
                 lgimage={CL198113LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -302,7 +302,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL198114SM}
                 lgimage={CL198114LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "
@@ -314,7 +314,7 @@ function Class1981() {
               <ClassListCard
                 smimage={CL198115SM}
                 lgimage={CL198115LG}
-                action={{ type: "internal", route: "/", color: "green", label: "Sod Off" }}
+                action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
                 description=" "

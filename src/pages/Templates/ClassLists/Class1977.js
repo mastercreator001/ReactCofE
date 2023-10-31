@@ -33,40 +33,35 @@ import MKTypography from "components/MKTypography";
 import ClassListCard from "components/common/ClassListCard";
 
 //Small Images
-import CL1981SM from "assets/images/ClassLists/CL1981/CL1981SM.jpg";
-import CL19811SM from "assets/images/ClassLists/CL1981/CL19811SM.jpg";
-import CL19812SM from "assets/images/ClassLists/CL1981/CL19812SM.jpg";
-import CL19813SM from "assets/images/ClassLists/CL1981/CL19813SM.jpg";
-import CL19814SM from "assets/images/ClassLists/CL1981/CL19814SM.jpg";
-import CL19815SM from "assets/images/ClassLists/CL1981/CL19815SM.jpg";
-import CL19816SM from "assets/images/ClassLists/CL1981/CL19816SM.jpg";
-import CL19817SM from "assets/images/ClassLists/CL1981/CL19817SM.jpg";
-import CL19818SM from "assets/images/ClassLists/CL1981/CL19818SM.jpg";
-import CL19819SM from "assets/images/ClassLists/CL1981/CL19819SM.jpg";
-import CL198110SM from "assets/images/ClassLists/CL1981/CL198110SM.jpg";
-import CL198111SM from "assets/images/ClassLists/CL1981/CL198111SM.jpg";
-import CL198112SM from "assets/images/ClassLists/CL1981/CL198112SM.jpg";
-import CL198113SM from "assets/images/ClassLists/CL1981/CL198113SM.jpg";
-import CL198114SM from "assets/images/ClassLists/CL1981/CL198114SM.jpg";
-import CL198115SM from "assets/images/ClassLists/CL1981/CL198115SM.jpg";
 
-//Large Images
-import CL1981LG from "assets/images/ClassLists/CL1981/CL1981LG.jpg";
-import CL19811LG from "assets/images/ClassLists/CL1981/CL19811LG.jpg";
-import CL19812LG from "assets/images/ClassLists/CL1981/CL19812LG.jpg";
-import CL19813LG from "assets/images/ClassLists/CL1981/CL19813LG.jpg";
-import CL19814LG from "assets/images/ClassLists/CL1981/CL19814LG.jpg";
-import CL19815LG from "assets/images/ClassLists/CL1981/CL19815LG.jpg";
-import CL19816LG from "assets/images/ClassLists/CL1981/CL19816LG.jpg";
-import CL19817LG from "assets/images/ClassLists/CL1981/CL19817LG.jpg";
-import CL19818LG from "assets/images/ClassLists/CL1981/CL19818LG.jpg";
-import CL19819LG from "assets/images/ClassLists/CL1981/CL19819LG.jpg";
-import CL198110LG from "assets/images/ClassLists/CL1981/CL198110LG.jpg";
-import CL198111LG from "assets/images/ClassLists/CL1981/CL198111LG.jpg";
-import CL198112LG from "assets/images/ClassLists/CL1981/CL198112LG.jpg";
-import CL198113LG from "assets/images/ClassLists/CL1981/CL198113LG.jpg";
-import CL198114LG from "assets/images/ClassLists/CL1981/CL198114LG.jpg";
-import CL198115LG from "assets/images/ClassLists/CL1981/CL198115LG.jpg";
+import CL19771SM from "assets/images/ClassLists/CL1981/CL19771SM.jpg";
+import CL19772SM from "assets/images/ClassLists/CL1981/CL19772SM.jpg";
+import CL19773SM from "assets/images/ClassLists/CL1981/CL19773SM.jpg";
+import CL19774SM from "assets/images/ClassLists/CL1981/CL19774SM.jpg";
+import CL19775SM from "assets/images/ClassLists/CL1981/CL19775SM.jpg";
+import CL19776SM from "assets/images/ClassLists/CL1981/CL19776SM.jpg";
+import CL19777SM from "assets/images/ClassLists/CL1981/CL19777SM.jpg";
+import CL19778SM from "assets/images/ClassLists/CL1981/CL19778SM.jpg";
+import CL19779SM from "assets/images/ClassLists/CL1981/CL19779SM.jpg";
+import CL197710SM from "assets/images/ClassLists/CL1981/CL177110SM.jpg";
+import CL197711SM from "assets/images/ClassLists/CL1981/CL177111SM.jpg";
+import CL197712SM from "assets/images/ClassLists/CL1981/CL177112SM.jpg";
+import CL197713SM from "assets/images/ClassLists/CL1981/CL177113SM.jpg";
+77; //Large Images
+
+import CL19771LG from "assets/images/ClassLists/CL1981/CL19771LG.jpg";
+import CL19772LG from "assets/images/ClassLists/CL1981/CL19772LG.jpg";
+import CL19773LG from "assets/images/ClassLists/CL1981/CL19773LG.jpg";
+import CL19774LG from "assets/images/ClassLists/CL1981/CL19774LG.jpg";
+import CL19775LG from "assets/images/ClassLists/CL1981/CL19775LG.jpg";
+import CL19776LG from "assets/images/ClassLists/CL1981/CL19776LG.jpg";
+import CL19777LG from "assets/images/ClassLists/CL1981/CL19777LG.jpg";
+import CL19778LG from "assets/images/ClassLists/CL1981/CL19778LG.jpg";
+import CL19779LG from "assets/images/ClassLists/CL1981/CL19779LG.jpg";
+import CL197710LG from "assets/images/ClassLists/CL1981/CL1977110LG.jpg";
+import CL197711LG from "assets/images/ClassLists/CL1981/CL1977111LG.jpg";
+import CL197712LG from "assets/images/ClassLists/CL1981/CL1977112LG.jpg";
+import CL197713LG from "assets/images/ClassLists/CL1981/CL1977113LG.jpg";
 
 function Class1977() {
   return (
@@ -102,8 +97,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1981SM}
-                lgimage={CL1981LG}
+                smimage={CL19771SM}
+                lgimage={CL19771LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -119,8 +114,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19811SM}
-                lgimage={CL19811LG}
+                smimage={CL19772SM}
+                lgimage={CL19772LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -136,8 +131,8 @@ function Class1977() {
           <Grid item xs={12} sm={12} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19812SM}
-                lgimage={CL19812LG}
+                smimage={CL19773SM}
+                lgimage={CL19773LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -153,8 +148,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19813SM}
-                lgimage={CL19813LG}
+                smimage={CL19774SM}
+                lgimage={CL19774LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -170,8 +165,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19814SM}
-                lgimage={CL19814LG}
+                smimage={CL19775SM}
+                lgimage={CL19775LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -187,8 +182,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19815SM}
-                lgimage={CL19815LG}
+                smimage={CL19776SM}
+                lgimage={CL19776LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -204,8 +199,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19816SM}
-                lgimage={CL19816LG}
+                smimage={CL19778SM}
+                lgimage={CL19778LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 6 with Miss Forer"
                 position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
@@ -216,8 +211,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19817SM}
-                lgimage={CL19817LG}
+                smimage={CL19779SM}
+                lgimage={CL19779LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
@@ -228,8 +223,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19818SM}
-                lgimage={CL19818LG}
+                smimage={CL197710SM}
+                lgimage={CL197710LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
@@ -240,8 +235,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19819SM}
-                lgimage={CL19819LG}
+                smimage={CL197711SM}
+                lgimage={CL197711LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
@@ -252,8 +247,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL198110SM}
-                lgimage={CL198110LG}
+                smimage={CL197712SM}
+                lgimage={CL197712LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
@@ -264,8 +259,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL198111SM}
-                lgimage={CL198111LG}
+                smimage={CL197711SM}
+                lgimage={CL197711LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
@@ -276,44 +271,8 @@ function Class1977() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL198112SM}
-                lgimage={CL198112LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL198113SM}
-                lgimage={CL198113LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL198114SM}
-                lgimage={CL198114LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL198115SM}
-                lgimage={CL198115LG}
+                smimage={CL197712SM}
+                lgimage={CL197712LG}
                 action={{ type: "internal", route: "/", color: "white", label: "" }}
                 title="Audio Recording 7 with Miss Forer "
                 position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
