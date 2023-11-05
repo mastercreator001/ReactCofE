@@ -102,11 +102,11 @@ function Class1978() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Audio Miss Forer 1",
+                  label: "Mr Hawes Class",
                 }}
-                title="Miss Forer's class "
-                position={{ color: "info", label: "Mrs Forer's Class list for 4F 1978" }}
-                description="4F Miss Forer's Class list for 1978"
+                title="Mr Hawes Class"
+                position={{ color: "info", label: "Mr Hawes's Class list for 1H 1978" }}
+                description="Mr Hawes's Class list for 1H 1978"
               />
             </MKBox>
           </Grid>
@@ -119,11 +119,11 @@ function Class1978() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Audio Miss Forer 1",
+                  label: "Miss Manchee's Class",
                 }}
-                title="Mr Walker's Class"
-                position={{ color: "info", label: "Mr Walkers class list for 4W 1978" }}
-                description="Mr Walkers class list for 4W 1978"
+                title="Miss Manchee's Class"
+                position={{ color: "info", label: "Miss Manchee's Class list for 1M 1978" }}
+                description="Miss Manchee's Class list for 1M 1978"
               />
             </MKBox>
           </Grid>
@@ -136,11 +136,11 @@ function Class1978() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Howe Class list 4H 1978",
+                  label: "Miss Watson's Class ",
                 }}
-                title="Miss Howe's Class "
-                position={{ color: "info", label: "Miss Howe Class list 4H 1978" }}
-                description="Miss Howe Class list 4H 1978"
+                title="Miss Watson's Class  "
+                position={{ color: "info", label: "Miss Watson's Class list for 1W 1978" }}
+                description="Miss Watson's Class list for 1W 1978"
               />
             </MKBox>
           </Grid>
@@ -153,11 +153,11 @@ function Class1978() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Howe Class",
+                  label: "Mrs Besley's Class",
                 }}
-                title="Class lists for year 3 1978"
-                position={{ color: "info", label: "Class lists for year 3 1978" }}
-                description="September 1978 year 3 class"
+                title="Mrs Besley's Class"
+                position={{ color: "info", label: "Mrs Besley's Class list for 2B 1978" }}
+                description="Mrs Besley's Class list for 2B 1978"
               />
             </MKBox>
           </Grid>
@@ -170,11 +170,14 @@ function Class1978() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Class lists for year 2 1978",
+                  label: "Mrs Hutchinson's Class",
                 }}
-                title="Class lists for year 2 1978"
-                position={{ color: "info", label: "Class lists for year 2 1978" }}
-                description="Class lists for year 2 1978"
+                title="Mrs Hutchinson's Class"
+                position={{
+                  color: "info",
+                  label: "Mrs Hutchinson's Class lists for 2H 1978",
+                }}
+                description="Mrs Hutchinson's Class lists for 2H 1978"
               />
             </MKBox>
           </Grid>
@@ -187,11 +190,14 @@ function Class1978() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Class lists for year 4 1978",
+                  label: "Mrs Murdoch's Class",
                 }}
-                title="Class lists for year 4 1978"
-                position={{ color: "info", label: "Class lists for year 4 1978" }}
-                description="Class lists for year 4 1978"
+                title="Mrs Murdoch's Class"
+                position={{
+                  color: "info",
+                  label: "Mrs Murdoch's Class lists 2M 1978",
+                }}
+                description="Mrs Murdoch's Class lists 2M 1978"
               />
             </MKBox>
           </Grid>
@@ -200,10 +206,15 @@ function Class1978() {
               <ClassListCard
                 smimage={CL19787SM}
                 lgimage={CL19787LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording  with Miss Forer"
-                position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
-                description=""
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Curry's Class",
+                }}
+                title="Miss Curry's Class"
+                position={{ color: "info", label: "Miss Curry's Class list for 3C 1978" }}
+                description="Miss Curry's Class list for 3C 1978"
               />
             </MKBox>
           </Grid>
@@ -212,10 +223,15 @@ function Class1978() {
               <ClassListCard
                 smimage={CL19788SM}
                 lgimage={CL19788LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Class List for year 1978 "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description="."
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Goodship's Class",
+                }}
+                title="Miss Goodship's Class "
+                position={{ color: "info", label: "Miss Goodship's Class for 3C 1978" }}
+                description="Miss Goodship's Class for 3C 1978"
               />
             </MKBox>
           </Grid>
@@ -224,10 +240,15 @@ function Class1978() {
               <ClassListCard
                 smimage={CL19789SM}
                 lgimage={CL19789LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Class List for year 1978 "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Howe's Class",
+                }}
+                title="Miss Howe's Class"
+                position={{ color: "info", label: "Miss Howe's Class for 3H 1978" }}
+                description="Miss Howe's Class for 3H 1978 "
               />
             </MKBox>
           </Grid>
@@ -236,10 +257,15 @@ function Class1978() {
               <ClassListCard
                 smimage={CL197810SM}
                 lgimage={CL197810LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Class List for year 1978 "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Mr Felton's Class ",
+                }}
+                title="Mr Felton's Class "
+                position={{ color: "info", label: "Mr Felton's Class List for 4FE 1978" }}
+                description="Mr Felton's Class List for 4FE 1978 "
               />
             </MKBox>
           </Grid>
@@ -248,10 +274,15 @@ function Class1978() {
               <ClassListCard
                 smimage={CL197811SM}
                 lgimage={CL197811LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Class List for year 1978 "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Mr Besley's Class",
+                }}
+                title="Mr Besley's Class"
+                position={{ color: "info", label: "Mr Besley's Class for 4B 1978" }}
+                description="Mr Besley's Class for 4B 1978 "
               />
             </MKBox>
           </Grid>
@@ -260,10 +291,15 @@ function Class1978() {
               <ClassListCard
                 smimage={CL197812SM}
                 lgimage={CL197812LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Class List for year 1978 "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Forer's Class",
+                }}
+                title="Miss Forer's Class "
+                position={{ color: "info", label: "Miss Forer's Class list for 4FO 1978" }}
+                description="Miss Forer's Class list for 4FO 1978 "
               />
             </MKBox>
           </Grid>
@@ -271,10 +307,10 @@ function Class1978() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Audio diaries of school teachers
+              Class lists of 1978
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Memories in audio
+              To the class of 1978
             </MKTypography>
           </Grid>
         </Grid>
