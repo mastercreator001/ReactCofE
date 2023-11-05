@@ -102,11 +102,11 @@ function Class1977() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Audio Miss Forer 1",
+                  label: " Class Lists Mrs  Manchee 1M",
                 }}
-                title="Miss Forer's class "
-                position={{ color: "info", label: "Mrs Forer's Class list for 4F 1981" }}
-                description="4F Miss Forer's Class list for 1981"
+                title="Miss Manchee's Class "
+                position={{ color: "info", label: "Mrs Manchee Class list for 1M 1977" }}
+                description="Mrs Manchee Class list for 1M 1977"
               />
             </MKBox>
           </Grid>
@@ -119,11 +119,11 @@ function Class1977() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Audio Miss Forer 1",
+                  label: "Class Lists Mrs Watson 1WA",
                 }}
-                title="Mr Walker's Class"
-                position={{ color: "info", label: "Mr Walkers class list for 4W 1981" }}
-                description="Mr Walkers class list for 4W 1981"
+                title="Mrs Watson's Class"
+                position={{ color: "info", label: "Mrs Watson's's class list for 1WA 1977" }}
+                description="Mrs Watson's class list for 1WA 1977"
               />
             </MKBox>
           </Grid>
@@ -136,11 +136,11 @@ function Class1977() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Howe Class list 4H 1981",
+                  label: "Mrs Wright's Class",
                 }}
-                title="Miss Howe's Class "
-                position={{ color: "info", label: "Miss Howe Class list 4H 1981" }}
-                description="Miss Howe Class list 4H 1981"
+                title="Mrs Wright's Class "
+                position={{ color: "info", label: "Mrs Wright's Class list 1WR 1977" }}
+                description="Mrs Wright's Class list 1WR 1977"
               />
             </MKBox>
           </Grid>
@@ -153,11 +153,11 @@ function Class1977() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Howe Class",
+                  label: "Miss Haggan's Class",
                 }}
-                title="Class lists for year 3 1981"
-                position={{ color: "info", label: "Class lists for year 3 1981" }}
-                description="September 1981 year 3 class"
+                title="Miss Haggan's Class"
+                position={{ color: "info", label: "Mrs Haggan's Class lists 2HA 1977" }}
+                description="Mrs Haggan's Class lists 2HA 1977"
               />
             </MKBox>
           </Grid>
@@ -170,11 +170,11 @@ function Class1977() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Class lists for year 2 1981",
+                  label: "Miss Hutchinson Class",
                 }}
-                title="Class lists for year 2 1981"
-                position={{ color: "info", label: "Class lists for year 2 1981" }}
-                description="Class lists for year 2 1981"
+                title="Mrs Hutchinson's Class"
+                position={{ color: "info", label: "Mrs Hutchinson's Class list for 2HU 1977" }}
+                description="Mrs Hutchinson's Class list for 2HU 1977"
               />
             </MKBox>
           </Grid>
@@ -187,11 +187,11 @@ function Class1977() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Class lists for year 4 1981",
+                  label: "Mrs Murdoch's Class",
                 }}
-                title="Class lists for year 4 1981"
-                position={{ color: "info", label: "Class lists for year 4 1981" }}
-                description="Class lists for year 4 1981"
+                title="Mrs Murdoch's Class"
+                position={{ color: "info", label: "Mrs Murdoch's Class lists for 2MU 1977" }}
+                description="Mrs Murdoch's Class lists for 2MU 1977"
               />
             </MKBox>
           </Grid>
@@ -200,10 +200,15 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19777SM}
                 lgimage={CL19777LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 6 with Miss Forer"
-                position={{ color: "info", label: "Audio Recording 6 with Miss Forer" }}
-                description=""
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Goodship's Class",
+                }}
+                title="Miss Goodship's Class"
+                position={{ color: "info", label: "Miss Goodship's Class list for 2G 1977" }}
+                description="Miss Goodship's Class list for 2G 1977"
               />
             </MKBox>
           </Grid>
@@ -212,10 +217,13 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19778SM}
                 lgimage={CL19778LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description="."
+                action={{
+                  color: "white",
+                  label: "Mr Luckett's Class ",
+                }}
+                title="Mr Luckett's Class "
+                position={{ color: "info", label: "Mr Luckett's Class list for 3L 1977" }}
+                description="Mr Luckett's Class list for 3L 1977"
               />
             </MKBox>
           </Grid>
@@ -224,10 +232,15 @@ function Class1977() {
               <ClassListCard
                 smimage={CL19779SM}
                 lgimage={CL19779LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Howe's Class",
+                }}
+                title="Miss Howe's Class"
+                position={{ color: "info", label: "Miss Howe's Class list for 3L 1977" }}
+                description=" Miss Howe's Class list for 3L 1977"
               />
             </MKBox>
           </Grid>
@@ -236,10 +249,15 @@ function Class1977() {
               <ClassListCard
                 smimage={CL197710SM}
                 lgimage={CL197710LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Mr Besley's Class",
+                }}
+                title="Mr Besley's Class"
+                position={{ color: "info", label: "Mr Besley's Class list for 4B 1977" }}
+                description="Mr Besley's Class list for 4B 1977 "
               />
             </MKBox>
           </Grid>
@@ -248,10 +266,15 @@ function Class1977() {
               <ClassListCard
                 smimage={CL197711SM}
                 lgimage={CL197711LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Mr Felton's Class",
+                }}
+                title="Mr Felton's Class"
+                position={{ color: "info", label: "Mr Felton's Class for 4FE 1977" }}
+                description=" Mr Felton's Class for 4FE 1977"
               />
             </MKBox>
           </Grid>
@@ -260,22 +283,15 @@ function Class1977() {
               <ClassListCard
                 smimage={CL197712SM}
                 lgimage={CL197712LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL197712SM}
-                lgimage={CL197712LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Forer's Class",
+                }}
+                title="Miss Forer's Class "
+                position={{ color: "info", label: "Miss Forer's Class for 4F 1977" }}
+                description="Miss Forer's Class for 4F 1977 "
               />
             </MKBox>
           </Grid>
@@ -283,10 +299,10 @@ function Class1977() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h3" color="white">
-              Audio diaries of school teachers
+              Class lists of 1977
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Memories in audio
+              To the class of 1977
             </MKTypography>
           </Grid>
         </Grid>
