@@ -46,9 +46,6 @@ import CL19809SM from "assets/images/ClassLists/CL1980/CL19809SM.jpg";
 import CL198010SM from "assets/images/ClassLists/CL1980/CL198010SM.jpg";
 import CL198011SM from "assets/images/ClassLists/CL1980/CL198011SM.jpg";
 import CL198012SM from "assets/images/ClassLists/CL1980/CL198012SM.jpg";
-import CL198013SM from "assets/images/ClassLists/CL1980/CL198013SM.jpg";
-import CL198014SM from "assets/images/ClassLists/CL1980/CL198014SM.jpg";
-import CL198015SM from "assets/images/ClassLists/CL1980/CL198015SM.jpg";
 
 //Large Images
 
@@ -64,9 +61,6 @@ import CL19809LG from "assets/images/ClassLists/CL1980/CL19809LG.jpg";
 import CL198010LG from "assets/images/ClassLists/CL1980/CL198010LG.jpg";
 import CL198011LG from "assets/images/ClassLists/CL1980/CL198011LG.jpg";
 import CL198012LG from "assets/images/ClassLists/CL1980/CL198012LG.jpg";
-import CL198013LG from "assets/images/ClassLists/CL1980/CL198013LG.jpg";
-import CL198014LG from "assets/images/ClassLists/CL1980/CL198014LG.jpg";
-import CL198015LG from "assets/images/ClassLists/CL1980/CL198015LG.jpg";
 
 function Class1980() {
   return (
@@ -91,31 +85,14 @@ function Class1980() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h1" color="white">
-              Class of 1981
+              Class of 1980
             </MKTypography>
             <MKTypography variant="body1" color="light" opacity={0.8}>
-              Here are a few class lists of students that attended C of E Middle in 1981
+              Here are a few class lists of students that attended C of E Middle in 1980
             </MKTypography>
           </Grid>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL1980SM}
-                lgimage={CL1980LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Audio Miss Forer 1",
-                }}
-                title="Miss Forer's class "
-                position={{ color: "info", label: "Mrs Forer's Class list for 4F 1981" }}
-                description="4F Miss Forer's Class list for 1981"
-              />
-            </MKBox>
-          </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
@@ -284,52 +261,6 @@ function Class1980() {
                 description=" "
               />
             </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL198013SM}
-                lgimage={CL198013LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL198014SM}
-                lgimage={CL198014LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL198015SM}
-                lgimage={CL198015LG}
-                action={{ type: "internal", route: "/", color: "white", label: "" }}
-                title="Audio Recording 7 with Miss Forer "
-                position={{ color: "info", label: "Audio Recording 7 with Miss Forer" }}
-                description=" "
-              />
-            </MKBox>
-          </Grid>
-        </Grid>
-        <Grid container mt="30px">
-          <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
-            <MKTypography variant="h3" color="white">
-              Audio diaries of school teachers
-            </MKTypography>
-            <MKTypography variant="body2" color="white" opacity={0.8}>
-              Memories in audio
-            </MKTypography>
           </Grid>
         </Grid>
       </Container>
