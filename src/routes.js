@@ -123,6 +123,8 @@ import Class1979 from "pages/Templates/ClassLists/Class1979";
 import Class1980 from "pages/Templates/ClassLists/Class1980";
 import Class1981 from "pages/Templates/ClassLists/Class1981";
 import Class1982 from "pages/Templates/ClassLists/Class1982";
+import Class1983 from "pages/Templates/ClassLists/Class1983";
+import Class1984 from "pages/Templates/ClassLists/Class1984";
 
 const routes = [
   {
@@ -569,6 +571,16 @@ const routes = [
         name: "Class of 1982",
         route: "/classlists/1982",
         component: <Class1982 />,
+      },
+      {
+        name: "Class of 1983",
+        route: "/classlists/1983",
+        component: <Class1983 />,
+      },
+      {
+        name: "Class of 1984",
+        route: "/classlists/1984",
+        component: <Class1984 />,
       },
     ],
   },
