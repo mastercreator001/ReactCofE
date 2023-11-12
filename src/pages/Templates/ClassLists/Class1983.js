@@ -89,6 +89,16 @@ function Class1983() {
             </MKBox>
           </Grid>
         </Grid>
+        <Grid container mt="30px">
+          <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
+            <MKTypography variant="h3" color="white">
+              School Memories school friends
+            </MKTypography>
+            <MKTypography variant="body2" color="white" opacity={0.8}>
+              Memories in Class Lists
+            </MKTypography>
+          </Grid>
+        </Grid>
       </Container>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
