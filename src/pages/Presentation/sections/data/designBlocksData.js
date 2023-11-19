@@ -86,6 +86,9 @@ import Demolition1 from "../../../../assets/images/Galleries/Demolition1.jpg";
 import EarlySchool from "../../../../assets/images/Galleries/EarlySchool.jpg";
 import Rebuildingmainimage from "../../../../assets/images/RebuildingGallery/Rebuildmainimage.jpg";
 import AudioIcon from "../../../../assets/images/Audio/AudioIcon.jpg";
+//Images Class lists
+import CL19771LG from "../../../../assets/images/ClassLists/CL1977/CL19771LG.jpg";
+import CL19771SM from "../../../../assets/images/ClassLists/CL1977/CL19771SM.jpg";
 
 export default [
   {
@@ -369,6 +372,82 @@ export default [
         image: Rebuildingmainimage,
         name: "Rebuliding On The School Site. ",
         route: "/rebuildinggallery",
+      },
+    ],
+  },
+  {
+    title: "Class Lists",
+    description: "Class lists from the school form the years 1979 to 1993",
+    items: [
+      {
+        image: CL19771LG,
+        name: "1977 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771LG,
+        name: "1978 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771LG,
+        name: "1979 Class Lists",
+        route: "/computer2",
+      },
+      {
+        image: CL19771LG,
+        name: "1980 Class Lists",
+        route: "/computer3",
+      },
+      {
+        image: CL19771LG,
+        name: "1981 Class lists",
+        route: "/computer4",
+      },
+      {
+        image: CL19771LG,
+        name: "1982 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771LG,
+        name: "1983 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1984 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1985 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1986 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1987 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1988 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1989 Class Lists",
+        route: "/classlists/1977",
+      },
+      {
+        image: CL19771SM,
+        name: "1990 Class Lists",
+        route: "/classlists/1977",
       },
     ],
   },
