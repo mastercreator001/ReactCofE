@@ -34,15 +34,12 @@ import ClassListCard from "components/common/ClassListCard";
 
 //Small Images
 
-import CL19871SM from "assets/images/ClassLists/CL1987/CL19871SM.jpg";
 import CL1983SM from "assets/images/ClassLists/CL1983/CL1983SM.jpg";
 
 //Large Images
-
-import CL19871LG from "assets/images/ClassLists/CL1987/CL19871LG.jpg";
 import CL1983LG from "assets/images/ClassLists/CL1983/CL1983LG.jpg";
 
-function Class1987() {
+function Class1989() {
   return (
     <MKBox
       component="section"
@@ -65,31 +62,14 @@ function Class1987() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h1" color="white">
-              Class of 1987
+              Class of 1989
             </MKTypography>
             <MKTypography variant="body1" color="light" opacity={0.8}>
-              Here are a few class lists of students that attended C of E Middle in 1987
+              Here are a few class lists of students that attended C of E Middle in 1989
             </MKTypography>
           </Grid>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL19871SM}
-                lgimage={CL19871LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "1st Years Class list",
-                }}
-                title="1st Years Class list"
-                position={{ color: "info", label: "First Years class list 1987" }}
-                description="First Years class list 1987"
-              />
-            </MKBox>
-          </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
@@ -99,15 +79,15 @@ function Class1987() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "All Remaining clases for the remaining Years Lost",
+                  label: "Class Lists Lost",
                 }}
-                title="All Remaining clases for the remaining Years Lost"
+                title="Class Lists Lost"
                 position={{
                   color: "info",
                   label:
-                    "All Remaining clases for the remaining Years Lost. If you happen to know where these lists are please do contact me as we would love to share them in the group.",
+                    "Class list lost or removed from a reunion.If you happen to know where these lists are please do contact me as we would love to share them in the group.",
                 }}
-                description="All Remaining clases for the remaining Years Lost. If you happen to know where these lists are please do contact me as we would love to share them in the group."
+                description="Class list lost or removed from a reunion. If you happen to know where these lists are please do contact me as we would love to share them in the group."
               />
             </MKBox>
           </Grid>
@@ -130,4 +110,4 @@ function Class1987() {
   );
 }
 
-export default Class1987;
+export default Class1989;
