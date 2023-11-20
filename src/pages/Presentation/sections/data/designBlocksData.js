@@ -381,6 +381,11 @@ export default [
     items: [
       {
         image: CL19771LG,
+        name: "1974 Class Lists",
+        route: "/classlists/1974",
+      },
+      {
+        image: CL19771LG,
         name: "1977 Class Lists",
         route: "/classlists/1977",
       },

@@ -34,31 +34,35 @@ import ClassListCard from "components/common/ClassListCard";
 
 //Small Images
 
-import CL1993941SM from "assets/images/ClassLists/CL199394/CL1993941SM.jpg";
-import CL1993942SM from "assets/images/ClassLists/CL199394/CL1993942SM.jpg";
-import CL1993943SM from "assets/images/ClassLists/CL199394/CL1993943SM.jpg";
-import CL1993944SM from "assets/images/ClassLists/CL199394/CL1993944SM.jpg";
-import CL1993945SM from "assets/images/ClassLists/CL199394/CL1993945SM.jpg";
-import CL1993946SM from "assets/images/ClassLists/CL199394/CL1993946SM.jpg";
-import CL1993947SM from "assets/images/ClassLists/CL199394/CL1993947SM.jpg";
-import CL1993948SM from "assets/images/ClassLists/CL199394/CL1993948SM.jpg";
-import CL1993949SM from "assets/images/ClassLists/CL199394/CL1993949SM.jpg";
-import CL19939410SM from "assets/images/ClassLists/CL199394/CL19939410SM.jpg";
-import CL19939411SM from "assets/images/ClassLists/CL199394/CL19939411SM.jpg";
+import CL19741SM from "assets/images/ClassLists/CL1974/CL19741SM.jpg";
+import CL19742SM from "assets/images/ClassLists/CL1974/CL19742SM.jpg";
+import CL19743SM from "assets/images/ClassLists/CL1974/CL19743SM.jpg";
+import CL19744SM from "assets/images/ClassLists/CL1974/CL19744SM.jpg";
+import CL19745SM from "assets/images/ClassLists/CL1974/CL19745SM.jpg";
+import CL19746SM from "assets/images/ClassLists/CL1974/CL19746SM.jpg";
+import CL19747SM from "assets/images/ClassLists/CL1974/CL19747SM.jpg";
+import CL19748SM from "assets/images/ClassLists/CL1974/CL19748SM.jpg";
+import CL19749SM from "assets/images/ClassLists/CL1974/CL19749SM.jpg";
+import CL197410SM from "assets/images/ClassLists/CL1974/CL197410SM.jpg";
+import CL197411SM from "assets/images/ClassLists/CL1974/CL197411SM.jpg";
+import CL197412SM from "assets/images/ClassLists/CL1974/CL197412SM.jpg";
 
-import CL1993941LG from "assets/images/ClassLists/CL199394/CL1993941LG.jpg";
-import CL1993942LG from "assets/images/ClassLists/CL199394/CL1993942LG.jpg";
-import CL1993943LG from "assets/images/ClassLists/CL199394/CL1993943LG.jpg";
-import CL1993944LG from "assets/images/ClassLists/CL199394/CL1993944LG.jpg";
-import CL1993945LG from "assets/images/ClassLists/CL199394/CL1993945LG.jpg";
-import CL1993946LG from "assets/images/ClassLists/CL199394/CL1993946LG.jpg";
-import CL1993947LG from "assets/images/ClassLists/CL199394/CL1993947LG.jpg";
-import CL1993948LG from "assets/images/ClassLists/CL199394/CL1993948LG.jpg";
-import CL1993949LG from "assets/images/ClassLists/CL199394/CL1993949LG.jpg";
-import CL19939410LG from "assets/images/ClassLists/CL199394/CL19939410LG.jpg";
-import CL19939411LG from "assets/images/ClassLists/CL199394/CL19939411LG.jpg";
+//Large Images
 
-function Class199394() {
+import CL19741LG from "assets/images/ClassLists/CL1974/CL19741LG.jpg";
+import CL19742LG from "assets/images/ClassLists/CL1974/CL19742LG.jpg";
+import CL19743LG from "assets/images/ClassLists/CL1974/CL19743LG.jpg";
+import CL19744LG from "assets/images/ClassLists/CL1974/CL19744LG.jpg";
+import CL19745LG from "assets/images/ClassLists/CL1974/CL19745LG.jpg";
+import CL19746LG from "assets/images/ClassLists/CL1974/CL19746LG.jpg";
+import CL19747LG from "assets/images/ClassLists/CL1974/CL19747LG.jpg";
+import CL19748LG from "assets/images/ClassLists/CL1974/CL19748LG.jpg";
+import CL19749LG from "assets/images/ClassLists/CL1974/CL19749LG.jpg";
+import CL197410LG from "assets/images/ClassLists/CL1974/CL197410LG.jpg";
+import CL197411LG from "assets/images/ClassLists/CL1974/CL197411LG.jpg";
+import CL197412LG from "assets/images/ClassLists/CL1974/CL197412LG.jpg";
+
+function Class1974() {
   return (
     <MKBox
       component="section"
@@ -81,10 +85,10 @@ function Class199394() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h1" color="white">
-              Class of 1993/ 1994
+              Class of 1988
             </MKTypography>
             <MKTypography variant="body1" color="light" opacity={0.8}>
-              Here are a few class lists of students that attended C of E Middle in 1993/1994
+              Here are a few class lists of students that attended C of E Middle in 1988
             </MKTypography>
           </Grid>
         </Grid>
@@ -92,8 +96,8 @@ function Class199394() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993941SM}
-                lgimage={CL1993941LG}
+                smimage={CL19741SM}
+                lgimage={CL19741LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -101,16 +105,16 @@ function Class199394() {
                   label: "Mrs Ball's Class",
                 }}
                 title="Mrs Ball's Class"
-                position={{ color: "info", label: "Mrs Ball's class list 5B 1990" }}
-                description="Mrs Ball's class list 5B 1990"
+                position={{ color: "info", label: "Mrs Ball's class list 1B 1988" }}
+                description="Mrs Ball's class list 1B 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={12} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993942SM}
-                lgimage={CL1993942LG}
+                smimage={CL19742SM}
+                lgimage={CL19742LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -118,16 +122,16 @@ function Class199394() {
                   label: "Miss Dennis Class",
                 }}
                 title="Miss Dennis Class"
-                position={{ color: "info", label: "Miss Dennis class lists for 5D 1990" }}
-                description="Miss Dennis class lists for 5D 1990"
+                position={{ color: "info", label: "Miss Dennis class lists for 1D 1988" }}
+                description="Miss Dennis class lists for 1D 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993943SM}
-                lgimage={CL1993943LG}
+                smimage={CL19743SM}
+                lgimage={CL19743LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -135,16 +139,16 @@ function Class199394() {
                   label: "Mrs Reynolds Class",
                 }}
                 title="Mrs Reynolds Class"
-                position={{ color: "info", label: "Mrs Reynolds class list 5R 1990" }}
-                description="Mrs Reynolds class list 5R 1990"
+                position={{ color: "info", label: "Mrs Reynolds class list 1R 1988" }}
+                description="Mrs Reynolds class list 1R 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993944SM}
-                lgimage={CL1993944LG}
+                smimage={CL19744SM}
+                lgimage={CL19744LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -152,33 +156,16 @@ function Class199394() {
                   label: "Mrs Chaloner's Class",
                 }}
                 title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class lists for 6C 1990" }}
-                description="Mrs Chaloner's class lists for 6C 1990"
+                position={{ color: "info", label: "Mrs Chaloner's class lists for 2C 1988" }}
+                description="Mrs Chaloner's class lists for 2C 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993945SM}
-                lgimage={CL1993945LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "6H Class",
-                }}
-                title="6H Class"
-                position={{ color: "info", label: "Mr?? class list for 6H 1990" }}
-                description="Mr?? class list for 6H 1990"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL1993946SM}
-                lgimage={CL1993946LG}
+                smimage={CL19745SM}
+                lgimage={CL19745LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -186,33 +173,50 @@ function Class199394() {
                   label: "Mrs Murdoch's Class",
                 }}
                 title="Mrs Murdoch's Class"
-                position={{ color: "info", label: "Mrs Murdoch's class list for 6M 1990" }}
-                description="Mrs Murdoch's class list for 6M 1990"
+                position={{ color: "info", label: "Mrs Murdoch's class list for 2M 1988" }}
+                description="Mrs Murdoch's class list for 2M 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993947SM}
-                lgimage={CL1993947LG}
+                smimage={CL19746SM}
+                lgimage={CL19746LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Chaloner's Class",
+                  label: "Mr Tansley's Class",
                 }}
-                title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class list for 7C 1990" }}
-                description="Mrs Chaloner's class list for 7C 1990"
+                title="Mr Tansley's Class"
+                position={{ color: "info", label: "Mr Tansley's class list for 2T 1988" }}
+                description="Mr Tansley's class list for 2T 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993948SM}
-                lgimage={CL1993948LG}
+                smimage={CL19747SM}
+                lgimage={CL19747LG}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Mrs Hayles Class",
+                }}
+                title="Mrs Hayles Class"
+                position={{ color: "info", label: "Mrs Hayles class list for 3H 1988" }}
+                description="Mrs Hayles class list for 3H 1988"
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL19748SM}
+                lgimage={CL19748LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -220,59 +224,76 @@ function Class199394() {
                   label: "Mr Hawes Class",
                 }}
                 title="Mr Hawes Class"
-                position={{ color: "info", label: "Mr Hawes class list for 7H 1990" }}
-                description=" Mr Hawes class list for 7H 190"
+                position={{ color: "info", label: "Mr Hawes class list for 3H 1988" }}
+                description=" Mr Hawes class list for 3H 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL1993949SM}
-                lgimage={CL1993949LG}
+                smimage={CL19749SM}
+                lgimage={CL19749LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "7M ? Class",
+                  label: "Mr Walker's Class",
                 }}
-                title="7M ? Class"
-                position={{ color: "info", label: "7M ?class list for 7M 1990" }}
-                description="7M class list for 7M 1990"
+                title="Mr Walker's Class"
+                position={{ color: "info", label: "Mr Walker's class list for 3W 1988" }}
+                description="Mr Walker's class list for 3W 1988"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19939410SM}
-                lgimage={CL19939410LG}
+                smimage={CL197410SM}
+                lgimage={CL197410LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Walkers Class",
+                  label: "Mrs Betts Class ",
                 }}
-                title="Mr Walkers Class"
-                position={{ color: "info", label: "Mr Walkers class list for 7W 1990" }}
-                description=" Mr Walkers class list for 7W 1990"
+                title="Mrs Betts Class"
+                position={{ color: "info", label: "Mrs Betts class list for 4B 1986" }}
+                description=" Mrs Betts class list for 4B 1986"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19939411SM}
-                lgimage={CL19939411LG}
+                smimage={CL197411SM}
+                lgimage={CL197411LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Brocks Class",
+                  label: "Miss Forer's Class",
                 }}
-                title="Mrs Brocks Class"
-                position={{ color: "info", label: "Mrs Brocks class list for 4B 1990" }}
-                description="Mrs Brocks class list for 4B 1990"
+                title="Miss Forer's Class"
+                position={{ color: "info", label: "Miss Forer's class list for 4F 1986" }}
+                description="Miss Forer's class list for 4F 1986"
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={4}>
+            <MKBox mb={1} mt={10}>
+              <ClassListCard
+                smimage={CL197412SM}
+                lgimage={CL197412LG}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Mrs Watkins Class",
+                }}
+                title="Mrs Watkins Class"
+                position={{ color: "info", label: "Mrs Watkins class list for 4W 1986" }}
+                description="Mrs Watkins class list for 4W 1986"
               />
             </MKBox>
           </Grid>
@@ -295,4 +316,4 @@ function Class199394() {
   );
 }
 
-export default Class199394;
+export default Class1974;

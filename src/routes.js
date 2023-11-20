@@ -117,6 +117,7 @@ import Randomaudio from "pages/Templates/AudioFiles/Randomaudio";
 import MrsMurdochaudio from "pages/Templates/AudioFiles/MrsMurdochaudio";
 
 //Class List Files
+import Class1974 from "pages/Templates/ClassLists/Class1974";
 import Class1977 from "pages/Templates/ClassLists/Class1977";
 import Class1978 from "pages/Templates/ClassLists/Class1978";
 import Class1979 from "pages/Templates/ClassLists/Class1979";
@@ -551,6 +552,11 @@ const routes = [
     description: "1997 - 1993",
     dropdown: true,
     collapse: [
+      {
+        name: "Class of 1974",
+        route: "/classlists/1974",
+        component: <Class1974 />,
+      },
       {
         name: "Class of 1977",
         route: "/classlists/1977",

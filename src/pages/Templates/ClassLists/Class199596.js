@@ -34,37 +34,37 @@ import ClassListCard from "components/common/ClassListCard";
 
 //Small Images
 
-import CL19901SM from "assets/images/ClassLists/CL1990/CL19901SM.jpg";
-import CL19902SM from "assets/images/ClassLists/CL1990/CL19902SM.jpg";
-import CL19903SM from "assets/images/ClassLists/CL1990/CL19903SM.jpg";
-import CL19904SM from "assets/images/ClassLists/CL1990/CL19904SM.jpg";
-import CL19905SM from "assets/images/ClassLists/CL1990/CL19905SM.jpg";
-import CL19906SM from "assets/images/ClassLists/CL1990/CL19906SM.jpg";
-import CL19907SM from "assets/images/ClassLists/CL1990/CL19907SM.jpg";
-import CL19908SM from "assets/images/ClassLists/CL1990/CL19908SM.jpg";
-import CL19909SM from "assets/images/ClassLists/CL1990/CL19909SM.jpg";
-import CL199010SM from "assets/images/ClassLists/CL1990/CL199010SM.jpg";
-import CL199011SM from "assets/images/ClassLists/CL1990/CL199011SM.jpg";
-import CL199012SM from "assets/images/ClassLists/CL1990/CL199012SM.jpg";
-import CL199013SM from "assets/images/ClassLists/CL1990/CL199013SM.jpg";
-import CL199014SM from "assets/images/ClassLists/CL1990/CL199014SM.jpg";
+import CL1995961SM from "assets/images/ClassLists/CL199595/CL1995961SM.jpg";
+import CL1995962SM from "assets/images/ClassLists/CL199595/CL1995962SM.jpg";
+import CL1995963SM from "assets/images/ClassLists/CL199595/CL1995963SM.jpg";
+import CL1995964SM from "assets/images/ClassLists/CL199595/CL1995964SM.jpg";
+import CL1995965SM from "assets/images/ClassLists/CL199595/CL1995965SM.jpg";
+import CL1995966SM from "assets/images/ClassLists/CL199595/CL1995966SM.jpg";
+import CL1995967SM from "assets/images/ClassLists/CL199595/CL1995967SM.jpg";
+import CL1995968SM from "assets/images/ClassLists/CL199595/CL1995968SM.jpg";
+import CL1995969SM from "assets/images/ClassLists/CL199595/CL1995969SM.jpg";
+import CL19959610SM from "assets/images/ClassLists/CL199596/CL19959610SM.jpg";
+import CL19959611SM from "assets/images/ClassLists/CL199596/CL19959611SM.jpg";
+import CL19959612SM from "assets/images/ClassLists/CL199596/CL19959612SM.jpg";
+import CL19959613SM from "assets/images/ClassLists/CL199596/CL19959613SM.jpg";
+import CL19959614SM from "assets/images/ClassLists/CL199596/CL19959614SM.jpg";
 
 //Large Images
 
-import CL19901LG from "assets/images/ClassLists/CL1990/CL19901LG.jpg";
-import CL19902LG from "assets/images/ClassLists/CL1990/CL19902LG.jpg";
-import CL19903LG from "assets/images/ClassLists/CL1990/CL19903LG.jpg";
-import CL19904LG from "assets/images/ClassLists/CL1990/CL19904LG.jpg";
-import CL19905LG from "assets/images/ClassLists/CL1990/CL19905LG.jpg";
-import CL19906LG from "assets/images/ClassLists/CL1990/CL19906LG.jpg";
-import CL19907LG from "assets/images/ClassLists/CL1990/CL19907LG.jpg";
-import CL19908LG from "assets/images/ClassLists/CL1990/CL19908LG.jpg";
-import CL19909LG from "assets/images/ClassLists/CL1990/CL19909LG.jpg";
-import CL199010LG from "assets/images/ClassLists/CL1990/CL199010LG.jpg";
-import CL199011LG from "assets/images/ClassLists/CL1990/CL199011LG.jpg";
-import CL199012LG from "assets/images/ClassLists/CL1990/CL199012LG.jpg";
-import CL199013LG from "assets/images/ClassLists/CL1990/CL199013LG.jpg";
-import CL199014LG from "assets/images/ClassLists/CL1990/CL199014LG.jpg";
+import CL1995961LG from "assets/images/ClassLists/CL199596/CL1995961LG.jpg";
+import CL1995962LG from "assets/images/ClassLists/CL199596/CL1995962LG.jpg";
+import CL1995963LG from "assets/images/ClassLists/CL199596/CL1995963LG.jpg";
+import CL1995964LG from "assets/images/ClassLists/CL199596/CL1995964LG.jpg";
+import CL1995965LG from "assets/images/ClassLists/CL199596/CL1995965LG.jpg";
+import CL1995966LG from "assets/images/ClassLists/CL199596/CL1995966LG.jpg";
+import CL1995967LG from "assets/images/ClassLists/CL199596/CL1995967LG.jpg";
+import CL1995968LG from "assets/images/ClassLists/CL199596/CL1995968LG.jpg";
+import CL1995969LG from "assets/images/ClassLists/CL199596/CL1995969LG.jpg";
+import CL19959610LG from "assets/images/ClassLists/CL199596/CL19959610LG.jpg";
+import CL19959611LG from "assets/images/ClassLists/CL199596/CL19959611LG.jpg";
+import CL19959612LG from "assets/images/ClassLists/CL199596/CL19959612LG.jpg";
+import CL19959613LG from "assets/images/ClassLists/CL199596/CL19959613LG.jpg";
+import CL19959614LG from "assets/images/ClassLists/CL199596/CL19959614LG.jpg";
 
 function Class199596() {
   return (
@@ -100,8 +100,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19901SM}
-                lgimage={CL19901LG}
+                smimage={CL1995961SM}
+                lgimage={CL1995961LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -117,8 +117,8 @@ function Class199596() {
           <Grid item xs={12} sm={12} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19902SM}
-                lgimage={CL19902LG}
+                smimage={CL1995962SM}
+                lgimage={CL1995962LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -134,8 +134,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19903SM}
-                lgimage={CL19903LG}
+                smimage={CL1995963SM}
+                lgimage={CL1995963LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -151,8 +151,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19904SM}
-                lgimage={CL19904LG}
+                smimage={CL1995964SM}
+                lgimage={CL1995964LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -168,8 +168,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19905SM}
-                lgimage={CL19905LG}
+                smimage={CL1995965SM}
+                lgimage={CL1995965LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -185,8 +185,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19906SM}
-                lgimage={CL19906LG}
+                smimage={CL1995966SM}
+                lgimage={CL1995966LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -202,8 +202,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19907SM}
-                lgimage={CL19907LG}
+                smimage={CL1995967SM}
+                lgimage={CL1995967LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -219,8 +219,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19908SM}
-                lgimage={CL19908LG}
+                smimage={CL1995968SM}
+                lgimage={CL1995968LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -236,8 +236,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL19909SM}
-                lgimage={CL19909LG}
+                smimage={CL1995969SM}
+                lgimage={CL1995969LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -253,8 +253,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL199010SM}
-                lgimage={CL199010LG}
+                smimage={CL19959610SM}
+                lgimage={CL19959610LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -270,8 +270,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL199011SM}
-                lgimage={CL199011LG}
+                smimage={CL19959611SM}
+                lgimage={CL19959611LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -287,8 +287,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL199012SM}
-                lgimage={CL199012LG}
+                smimage={CL19959612SM}
+                lgimage={CL19959612LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -304,8 +304,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL199013SM}
-                lgimage={CL199013LG}
+                smimage={CL19959613SM}
+                lgimage={CL19959613LG}
                 action={{
                   type: "internal",
                   route: "/",
@@ -321,8 +321,8 @@ function Class199596() {
           <Grid item xs={12} sm={6} lg={4}>
             <MKBox mb={1} mt={10}>
               <ClassListCard
-                smimage={CL199014SM}
-                lgimage={CL199014LG}
+                smimage={CL19959614SM}
+                lgimage={CL19959614LG}
                 action={{
                   type: "internal",
                   route: "/",
