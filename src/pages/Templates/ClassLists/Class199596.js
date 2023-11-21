@@ -34,15 +34,15 @@ import ClassListCard from "components/common/ClassListCard";
 
 //Small Images
 
-import CL1995961SM from "assets/images/ClassLists/CL199595/CL1995961SM.jpg";
-import CL1995962SM from "assets/images/ClassLists/CL199595/CL1995962SM.jpg";
-import CL1995963SM from "assets/images/ClassLists/CL199595/CL1995963SM.jpg";
-import CL1995964SM from "assets/images/ClassLists/CL199595/CL1995964SM.jpg";
-import CL1995965SM from "assets/images/ClassLists/CL199595/CL1995965SM.jpg";
-import CL1995966SM from "assets/images/ClassLists/CL199595/CL1995966SM.jpg";
-import CL1995967SM from "assets/images/ClassLists/CL199595/CL1995967SM.jpg";
-import CL1995968SM from "assets/images/ClassLists/CL199595/CL1995968SM.jpg";
-import CL1995969SM from "assets/images/ClassLists/CL199595/CL1995969SM.jpg";
+import CL1995961SM from "assets/images/ClassLists/CL199596/CL1995961SM.jpg";
+import CL1995962SM from "assets/images/ClassLists/CL199596/CL1995962SM.jpg";
+import CL1995963SM from "assets/images/ClassLists/CL199596/CL1995963SM.jpg";
+import CL1995964SM from "assets/images/ClassLists/CL199596/CL1995964SM.jpg";
+import CL1995965SM from "assets/images/ClassLists/CL199596/CL1995965SM.jpg";
+import CL1995966SM from "assets/images/ClassLists/CL199596/CL1995966SM.jpg";
+import CL1995967SM from "assets/images/ClassLists/CL199596/CL1995967SM.jpg";
+import CL1995968SM from "assets/images/ClassLists/CL199596/CL1995968SM.jpg";
+import CL1995969SM from "assets/images/ClassLists/CL199596/CL1995969SM.jpg";
 import CL19959610SM from "assets/images/ClassLists/CL199596/CL19959610SM.jpg";
 import CL19959611SM from "assets/images/ClassLists/CL199596/CL19959611SM.jpg";
 import CL19959612SM from "assets/images/ClassLists/CL199596/CL19959612SM.jpg";
