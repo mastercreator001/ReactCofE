@@ -85,10 +85,10 @@ function Class1974() {
         <Grid container mt="30px">
           <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
             <MKTypography variant="h1" color="white">
-              Class of 1988
+              Class of 1974
             </MKTypography>
             <MKTypography variant="body1" color="light" opacity={0.8}>
-              Here are a few class lists of students that attended C of E Middle in 1988
+              Here are a few class lists of students that attended C of E Middle in 1974
             </MKTypography>
           </Grid>
         </Grid>
@@ -102,11 +102,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Ball's Class",
+                  label: "Mrs Wright's Class",
                 }}
-                title="Mrs Ball's Class"
-                position={{ color: "info", label: "Mrs Ball's class list 1B 1988" }}
-                description="Mrs Ball's class list 1B 1988"
+                title="Mrs Wright's Class"
+                position={{ color: "info", label: "Mrs Wright's class list 1W 1974" }}
+                description="Mrs Wright's class list 1W 1974"
               />
             </MKBox>
           </Grid>
@@ -119,11 +119,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Dennis Class",
+                  label: "Mrs Manchee's Class",
                 }}
-                title="Miss Dennis Class"
-                position={{ color: "info", label: "Miss Dennis class lists for 1D 1988" }}
-                description="Miss Dennis class lists for 1D 1988"
+                title="MMrs Manchee's Class"
+                position={{ color: "info", label: "Mrs Manchee's class lists for 1M 1974" }}
+                description="Mrs Manchee's class lists for 1M 1974"
               />
             </MKBox>
           </Grid>
@@ -136,11 +136,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Reynolds Class",
+                  label: "Miss Watson's Class",
                 }}
-                title="Mrs Reynolds Class"
-                position={{ color: "info", label: "Mrs Reynolds class list 1R 1988" }}
-                description="Mrs Reynolds class list 1R 1988"
+                title="Miss Watson's Class"
+                position={{ color: "info", label: "Miss Watson's class list 1W 1974" }}
+                description="Miss Watson's class list 1W 1974"
               />
             </MKBox>
           </Grid>
@@ -153,11 +153,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Chaloner's Class",
+                  label: "Mr Monk's Class",
                 }}
-                title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class lists for 2C 1988" }}
-                description="Mrs Chaloner's class lists for 2C 1988"
+                title="Mr Monk's Class"
+                position={{ color: "info", label: "Mr Monk's class lists for 2Mo 1974" }}
+                description="Mr Monk's class lists for 2Mo 1974"
               />
             </MKBox>
           </Grid>
@@ -173,8 +173,8 @@ function Class1974() {
                   label: "Mrs Murdoch's Class",
                 }}
                 title="Mrs Murdoch's Class"
-                position={{ color: "info", label: "Mrs Murdoch's class list for 2M 1988" }}
-                description="Mrs Murdoch's class list for 2M 1988"
+                position={{ color: "info", label: "Mrs Murdoch's class list for 2M 1974" }}
+                description="Mrs Murdoch's class list for 2M 1974"
               />
             </MKBox>
           </Grid>
@@ -187,11 +187,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Tansley's Class",
+                  label: "Miss Blythe's Class",
                 }}
-                title="Mr Tansley's Class"
-                position={{ color: "info", label: "Mr Tansley's class list for 2T 1988" }}
-                description="Mr Tansley's class list for 2T 1988"
+                title="Miss Blythe's Class"
+                position={{ color: "info", label: "Miss Blythe's class list for 2B 1974" }}
+                description="Miss Blythe's class list for 2B 1974"
               />
             </MKBox>
           </Grid>
@@ -204,11 +204,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Hayles Class",
+                  label: "Mr Besley's Class",
                 }}
-                title="Mrs Hayles Class"
-                position={{ color: "info", label: "Mrs Hayles class list for 3H 1988" }}
-                description="Mrs Hayles class list for 3H 1988"
+                title="Mr Besley's Class"
+                position={{ color: "info", label: "Mr Besley's class list for 3B 1974" }}
+                description="Mr Besley's class list for 3B 1974"
               />
             </MKBox>
           </Grid>
@@ -221,11 +221,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Hawes Class",
+                  label: "Miss Forer's Class",
                 }}
-                title="Mr Hawes Class"
-                position={{ color: "info", label: "Mr Hawes class list for 3H 1988" }}
-                description=" Mr Hawes class list for 3H 1988"
+                title="Miss Forer's Class"
+                position={{ color: "info", label: "Miss Forer's class list for 3F 1974" }}
+                description=" Miss Forer's class list for 3F 1974"
               />
             </MKBox>
           </Grid>
@@ -238,11 +238,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Walker's Class",
+                  label: "Miss Howe's Class",
                 }}
-                title="Mr Walker's Class"
-                position={{ color: "info", label: "Mr Walker's class list for 3W 1988" }}
-                description="Mr Walker's class list for 3W 1988"
+                title="Miss Howe's Class"
+                position={{ color: "info", label: "Miss Howe's class list for 3H 1974" }}
+                description="Miss Howe's class list for 3H 1974"
               />
             </MKBox>
           </Grid>
@@ -255,11 +255,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Betts Class ",
+                  label: "Mr Felton's Class ",
                 }}
-                title="Mrs Betts Class"
-                position={{ color: "info", label: "Mrs Betts class list for 4B 1986" }}
-                description=" Mrs Betts class list for 4B 1986"
+                title="Mr Felton's Class "
+                position={{ color: "info", label: "Mr Felton's class list for 4Fo 1974" }}
+                description="Mr Felton's class list for 4Fo 1974"
               />
             </MKBox>
           </Grid>
@@ -275,8 +275,8 @@ function Class1974() {
                   label: "Miss Forer's Class",
                 }}
                 title="Miss Forer's Class"
-                position={{ color: "info", label: "Miss Forer's class list for 4F 1986" }}
-                description="Miss Forer's class list for 4F 1986"
+                position={{ color: "info", label: "Miss Forer's class list for 4Fo 1974" }}
+                description="Miss Forer's class list for 4Fo 1974"
               />
             </MKBox>
           </Grid>
@@ -289,11 +289,11 @@ function Class1974() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Watkins Class",
+                  label: "Mr Besley's Class",
                 }}
-                title="Mrs Watkins Class"
-                position={{ color: "info", label: "Mrs Watkins class list for 4W 1986" }}
-                description="Mrs Watkins class list for 4W 1986"
+                title="Mr Besley's Class"
+                position={{ color: "info", label: "Mr Besley's class list for 4B 1974" }}
+                description="Mr Besley's class list for 4B 1974"
               />
             </MKBox>
           </Grid>
