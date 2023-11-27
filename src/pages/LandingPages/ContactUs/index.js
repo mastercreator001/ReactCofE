@@ -36,17 +36,17 @@ import bgImage from "assets/images/school-building/school-Front.jpg";
 function ContactUs() {
   return (
     <>
-      <MKBox position="fixed" top="100%" width="100%">
-        <DefaultNavbar
-          routes={routes}
-          action={{
-            type: "external",
-            route: "send-web-page-link-hotmail-1690721685",
-            color: "info",
-            href: "https://http://www.wellyroad.com//send-web-page-link-hotmail-1690721685",
-          }}
-        />
-      </MKBox>
+      <DefaultNavbar
+        routes={routes}
+        action={{
+          type: "external",
+          route: "https://www.facebook.com/groups/172663070820628",
+          label: "Join Us",
+          color: "default",
+        }}
+        transparent
+        dark
+      />
       <Grid container spacing={2} alignItems="center">
         <Grid item xs={10} lg={6}>
           <MKBox
