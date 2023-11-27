@@ -109,8 +109,8 @@ function Class199596() {
                   label: "Mrs Ball's Class",
                 }}
                 title="Mrs Ball's Class"
-                position={{ color: "info", label: "Mrs Ball's class list 5B 1990" }}
-                description="Mrs Ball's class list 5B 1990"
+                position={{ color: "info", label: "Mrs Ball's class list 5B 1995/96" }}
+                description="Mrs Ball's class list 5B 1995/96"
               />
             </MKBox>
           </Grid>
@@ -126,8 +126,8 @@ function Class199596() {
                   label: "Miss Dennis Class",
                 }}
                 title="Miss Dennis Class"
-                position={{ color: "info", label: "Miss Dennis class lists for 5D 1990" }}
-                description="Miss Dennis class lists for 5D 1990"
+                position={{ color: "info", label: "Miss Dennis class lists for 5D 1995/96" }}
+                description="Miss Dennis class lists for 5D 1995/96"
               />
             </MKBox>
           </Grid>
@@ -143,8 +143,8 @@ function Class199596() {
                   label: "Mrs Reynolds Class",
                 }}
                 title="Mrs Reynolds Class"
-                position={{ color: "info", label: "Mrs Reynolds class list 5R 1990" }}
-                description="Mrs Reynolds class list 5R 1990"
+                position={{ color: "info", label: "Mrs Reynolds class list 5R 1995/96" }}
+                description="Mrs Reynolds class list 5R 1995/96"
               />
             </MKBox>
           </Grid>
@@ -157,11 +157,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Chaloner's Class",
+                  label: "6 CO's Class",
                 }}
-                title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class lists for 6C 1990" }}
-                description="Mrs Chaloner's class lists for 6C 1990"
+                title="6 CO's Class"
+                position={{ color: "info", label: "6 CO's class lists for 6C 1995/96" }}
+                description="6 CO's class lists for 6C 1995/96"
               />
             </MKBox>
           </Grid>
@@ -174,11 +174,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "6H Class",
+                  label: "Mrs Chaloners Class",
                 }}
-                title="6H Class"
-                position={{ color: "info", label: "Mr?? class list for 6H 1990" }}
-                description="Mr?? class list for 6H 1990"
+                title="Mrs Chaloners Class"
+                position={{ color: "info", label: "Mrs Chaloner's class list for 6C 1995/96" }}
+                description="Mrs Chaloners class list for 6C 1995/96"
               />
             </MKBox>
           </Grid>
@@ -191,11 +191,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Murdoch's Class",
+                  label: "Mr Hawes Class",
                 }}
-                title="Mrs Murdoch's Class"
-                position={{ color: "info", label: "Mrs Murdoch's class list for 6M 1990" }}
-                description="Mrs Murdoch's class list for 6M 1990"
+                title="Mr Hawes Class"
+                position={{ color: "info", label: "Mr Hawes Class class list for 6H 1995/96" }}
+                description="Mr Hawes Class class list for 6H 1995/96"
               />
             </MKBox>
           </Grid>
@@ -211,8 +211,8 @@ function Class199596() {
                   label: "Mrs Chaloner's Class",
                 }}
                 title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class list for 7C 1990" }}
-                description="Mrs Chaloner's class list for 7C 1990"
+                position={{ color: "info", label: "Mrs Chaloner's class list for 7C 1995/96" }}
+                description="Mrs Chaloner's class list for 7C 1995/96"
               />
             </MKBox>
           </Grid>
@@ -225,11 +225,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Hawes Class",
+                  label: "Miss Forer's Class",
                 }}
-                title="Mr Hawes Class"
-                position={{ color: "info", label: "Mr Hawes class list for 7H 1990" }}
-                description=" Mr Hawes class list for 7H 190"
+                title="Miss Forer's Class"
+                position={{ color: "info", label: "Miss Forer's class list for 7F 1995/96" }}
+                description=" Miss Forer's class list for 7F 1995/96"
               />
             </MKBox>
           </Grid>
@@ -242,11 +242,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "7M ? Class",
+                  label: " Mr Hawes Class",
                 }}
-                title="7M ? Class"
-                position={{ color: "info", label: "7M ?class list for 7M 1990" }}
-                description="7M class list for 7M 1990"
+                title="Mr Hawes Class"
+                position={{ color: "info", label: "Mr Hawes class list for 7H 1995/96" }}
+                description="Mr Hawes class list for 7H 1995/96"
               />
             </MKBox>
           </Grid>
@@ -262,8 +262,8 @@ function Class199596() {
                   label: "Mr Walkers Class",
                 }}
                 title="Mr Walkers Class"
-                position={{ color: "info", label: "Mr Walkers class list for 7W 1990" }}
-                description=" Mr Walkers class list for 7W 1990"
+                position={{ color: "info", label: "Mr Walkers class list for 7W 1995/96" }}
+                description=" Mr Walkers class list for 7W 1995/96"
               />
             </MKBox>
           </Grid>
@@ -279,8 +279,8 @@ function Class199596() {
                   label: "Mrs Brocks Class",
                 }}
                 title="Mrs Brocks Class"
-                position={{ color: "info", label: "Mrs Brocks class list for 4B 1990" }}
-                description="Mrs Brocks class list for 4B 1990"
+                position={{ color: "info", label: "Mrs Brocks class list for 8B 1995/96" }}
+                description="Mrs Brocks class list for 8B 1995/96"
               />
             </MKBox>
           </Grid>
@@ -296,8 +296,8 @@ function Class199596() {
                   label: "Miss Forer's Class",
                 }}
                 title="Miss Forer's Class"
-                position={{ color: "info", label: "Miss Forer's class list for 8F 1990" }}
-                description="Miss Forer's class list for 8F 1990"
+                position={{ color: "info", label: "Miss Forer's class list for 8F 1995/96" }}
+                description="Miss Forer's class list for 8F 1995/96"
               />
             </MKBox>
           </Grid>
@@ -310,11 +310,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "8P ? Class",
+                  label: "Mrs Murdoch's Class",
                 }}
-                title="8P ? Class"
-                position={{ color: "info", label: "8P class list for 8P 1990" }}
-                description="8P class list for 8P 1990"
+                title="Mrs Murdoch's Class"
+                position={{ color: "info", label: "Mrs Murdoch's class list for 8M 1995/96" }}
+                description="Mrs Murdoch's class list for 8M 1995/96"
               />
             </MKBox>
           </Grid>
@@ -327,11 +327,11 @@ function Class199596() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Tansley's Class",
+                  label: "Mrs Reynolds Class",
                 }}
-                title="Mr Tansley's Class"
-                position={{ color: "info", label: "Mr Tansley's class list for 8T 1990" }}
-                description="Mr Tansley's class list for 8T 1990"
+                title="Mrs Reynolds Class"
+                position={{ color: "info", label: "Mrs Reynolds class list for 8R 1995/96" }}
+                description="Mrs Reynolds class list for 8R 1995/96"
               />
             </MKBox>
           </Grid>

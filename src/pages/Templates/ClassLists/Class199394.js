@@ -38,25 +38,17 @@ import CL1993941SM from "assets/images/ClassLists/CL199394/CL1993941SM.jpg";
 import CL1993942SM from "assets/images/ClassLists/CL199394/CL1993942SM.jpg";
 import CL1993943SM from "assets/images/ClassLists/CL199394/CL1993943SM.jpg";
 import CL1993944SM from "assets/images/ClassLists/CL199394/CL1993944SM.jpg";
-import CL1993945SM from "assets/images/ClassLists/CL199394/CL1993945SM.jpg";
 import CL1993946SM from "assets/images/ClassLists/CL199394/CL1993946SM.jpg";
-import CL1993947SM from "assets/images/ClassLists/CL199394/CL1993947SM.jpg";
 import CL1993948SM from "assets/images/ClassLists/CL199394/CL1993948SM.jpg";
-import CL1993949SM from "assets/images/ClassLists/CL199394/CL1993949SM.jpg";
 import CL19939410SM from "assets/images/ClassLists/CL199394/CL19939410SM.jpg";
-import CL19939411SM from "assets/images/ClassLists/CL199394/CL19939411SM.jpg";
 
 import CL1993941LG from "assets/images/ClassLists/CL199394/CL1993941LG.jpg";
 import CL1993942LG from "assets/images/ClassLists/CL199394/CL1993942LG.jpg";
 import CL1993943LG from "assets/images/ClassLists/CL199394/CL1993943LG.jpg";
 import CL1993944LG from "assets/images/ClassLists/CL199394/CL1993944LG.jpg";
-import CL1993945LG from "assets/images/ClassLists/CL199394/CL1993945LG.jpg";
 import CL1993946LG from "assets/images/ClassLists/CL199394/CL1993946LG.jpg";
-import CL1993947LG from "assets/images/ClassLists/CL199394/CL1993947LG.jpg";
 import CL1993948LG from "assets/images/ClassLists/CL199394/CL1993948LG.jpg";
-import CL1993949LG from "assets/images/ClassLists/CL199394/CL1993949LG.jpg";
 import CL19939410LG from "assets/images/ClassLists/CL199394/CL19939410LG.jpg";
-import CL19939411LG from "assets/images/ClassLists/CL199394/CL19939411LG.jpg";
 
 function Class199394() {
   return (
@@ -101,8 +93,8 @@ function Class199394() {
                   label: "Mrs Ball's Class",
                 }}
                 title="Mrs Ball's Class"
-                position={{ color: "info", label: "Mrs Ball's class list 5B 1990" }}
-                description="Mrs Ball's class list 5B 1990"
+                position={{ color: "info", label: "Mrs Ball's class list 5B 1993/94" }}
+                description="Mrs Ball's class list 5B 1993/94"
               />
             </MKBox>
           </Grid>
@@ -118,8 +110,8 @@ function Class199394() {
                   label: "Miss Dennis Class",
                 }}
                 title="Miss Dennis Class"
-                position={{ color: "info", label: "Miss Dennis class lists for 5D 1990" }}
-                description="Miss Dennis class lists for 5D 1990"
+                position={{ color: "info", label: "Miss Dennis class lists for 5D 1993/94" }}
+                description="Miss Dennis class lists for 5D 1993/94"
               />
             </MKBox>
           </Grid>
@@ -135,8 +127,8 @@ function Class199394() {
                   label: "Mrs Reynolds Class",
                 }}
                 title="Mrs Reynolds Class"
-                position={{ color: "info", label: "Mrs Reynolds class list 5R 1990" }}
-                description="Mrs Reynolds class list 5R 1990"
+                position={{ color: "info", label: "Mrs Reynolds class list 5R 1993/94" }}
+                description="Mrs Reynolds class list 5R 1993/94"
               />
             </MKBox>
           </Grid>
@@ -149,28 +141,11 @@ function Class199394() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Chaloner's Class",
+                  label: "7G's Class",
                 }}
-                title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class lists for 6C 1990" }}
-                description="Mrs Chaloner's class lists for 6C 1990"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL1993945SM}
-                lgimage={CL1993945LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "6H Class",
-                }}
-                title="6H Class"
-                position={{ color: "info", label: "Mr?? class list for 6H 1990" }}
-                description="Mr?? class list for 6H 1990"
+                title="7G's Class"
+                position={{ color: "info", label: "7G's class lists for 7G 1993/94" }}
+                description="7G's class lists for 7G 1993/94"
               />
             </MKBox>
           </Grid>
@@ -183,28 +158,11 @@ function Class199394() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Murdoch's Class",
+                  label: "Mr Hawes Class",
                 }}
-                title="Mrs Murdoch's Class"
-                position={{ color: "info", label: "Mrs Murdoch's class list for 6M 1990" }}
-                description="Mrs Murdoch's class list for 6M 1990"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL1993947SM}
-                lgimage={CL1993947LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Mrs Chaloner's Class",
-                }}
-                title="Mrs Chaloner's Class"
-                position={{ color: "info", label: "Mrs Chaloner's class list for 7C 1990" }}
-                description="Mrs Chaloner's class list for 7C 1990"
+                title="Mr Hawes Class"
+                position={{ color: "info", label: "Mr Hawes class list for 6M 1993/94" }}
+                description="Mr Hawes class list for 6M 1993/94"
               />
             </MKBox>
           </Grid>
@@ -217,28 +175,11 @@ function Class199394() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Hawes Class",
+                  label: "7P's Class",
                 }}
-                title="Mr Hawes Class"
-                position={{ color: "info", label: "Mr Hawes class list for 7H 1990" }}
-                description=" Mr Hawes class list for 7H 190"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL1993949SM}
-                lgimage={CL1993949LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "7M ? Class",
-                }}
-                title="7M ? Class"
-                position={{ color: "info", label: "7M ?class list for 7M 1990" }}
-                description="7M class list for 7M 1990"
+                title="7P's Class"
+                position={{ color: "info", label: "7P's class list for 7P 1993/94" }}
+                description=" 7P's class list for 7P 1993/94"
               />
             </MKBox>
           </Grid>
@@ -254,25 +195,8 @@ function Class199394() {
                   label: "Mr Walkers Class",
                 }}
                 title="Mr Walkers Class"
-                position={{ color: "info", label: "Mr Walkers class list for 7W 1990" }}
-                description=" Mr Walkers class list for 7W 1990"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL19939411SM}
-                lgimage={CL19939411LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Mrs Brocks Class",
-                }}
-                title="Mrs Brocks Class"
-                position={{ color: "info", label: "Mrs Brocks class list for 4B 1990" }}
-                description="Mrs Brocks class list for 4B 1990"
+                position={{ color: "info", label: "Mr Walkers class list for 7W 1993/94" }}
+                description=" Mr Walkers class list for 7W 1993/94"
               />
             </MKBox>
           </Grid>

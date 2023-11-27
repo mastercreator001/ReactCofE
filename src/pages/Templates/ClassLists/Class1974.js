@@ -121,7 +121,7 @@ function Class1974() {
                   color: "white",
                   label: "Mrs Manchee's Class",
                 }}
-                title="MMrs Manchee's Class"
+                title="Mrs Manchee's Class"
                 position={{ color: "info", label: "Mrs Manchee's class lists for 1M 1974" }}
                 description="Mrs Manchee's class lists for 1M 1974"
               />
