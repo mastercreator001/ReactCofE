@@ -104,6 +104,8 @@ import SchoolMalhamMRF2 from "pages/Templates/Galleries/SchoolMalhamMRF2";
 import VariousGallery from "pages/Templates/Galleries/VariousGallery";
 import DemolitionGallery from "pages/Templates/Galleries/DemolitionGallery";
 import RebuildingGallery from "pages/Templates/Galleries/RebuildingGallery";
+import TermsandConditions from "pages/LandingPages/Author/sections/TermsandConditions.js";
+
 //Audio Files
 
 import MrFeltonaudio from "pages/Templates/AudioFiles/MrFeltonaudio";
@@ -738,6 +740,11 @@ const routes = [
             name: "author",
             route: "/author",
             component: <Author />,
+          },
+          {
+            name: "terms and conditions",
+            route: "/termsandconditions",
+            component: <TermsandConditions />,
           },
         ],
       },

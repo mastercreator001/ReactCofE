@@ -3,6 +3,8 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
+//import TermsandConditions from "pages/LandingPages/Author/sections/TermsandConditions.js";
+
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
@@ -40,6 +42,15 @@ export default {
       ],
     },
     {
+      name: "Terms of Service",
+      items: [
+        {
+          name: "Terms And Conditions of Use",
+          route: "/termsandconditions",
+        },
+      ],
+    },
+    {
       name: "help & support",
       items: [
         { name: "contact us", href: "melon_man2000@hotmail.com" },
@@ -58,9 +69,9 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Richard McMaster
+        <br></br>
+        By Richard McMaster
       </MKTypography>
-      .
     </MKTypography>
   ),
 };
