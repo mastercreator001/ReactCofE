@@ -105,7 +105,10 @@ import VariousGallery from "pages/Templates/Galleries/VariousGallery";
 import DemolitionGallery from "pages/Templates/Galleries/DemolitionGallery";
 import RebuildingGallery from "pages/Templates/Galleries/RebuildingGallery";
 import TermsandConditions from "pages/LandingPages/Author/sections/TermsandConditions.js";
-
+import Rednosedays from "pages/Templates/SchoolCharity/Rednosedays.js";
+import CharityWeek from "pages/Templates/SchoolCharity/CharityWeek.js";
+import WalkTheWight from "pages/Templates/SchoolCharity/WalkTheWight.js";
+import ChildrensSociety from "pages/Templates/SchoolCharity/ChildrensSociety.js";
 //Audio Files
 
 import MrFeltonaudio from "pages/Templates/AudioFiles/MrFeltonaudio";
@@ -696,6 +699,34 @@ const routes = [
         name: "Various Images of the School",
         route: "/gallery/variousgallery",
         component: <VariousGallery />,
+      },
+    ],
+  },
+  {
+    icon: <Icon>people</Icon>,
+    name: "School Charity Events",
+    description: "School Charity events",
+    dropdown: true,
+    collapse: [
+      {
+        name: "Red Nose Day",
+        route: "/schoolcharity/rednosedays",
+        component: <Rednosedays />,
+      },
+      {
+        name: "Charity Week",
+        route: "/schoolcharity/charityweek",
+        component: <CharityWeek />,
+      },
+      {
+        name: "Walk The Wight",
+        route: "/schoolcharity/walkthewight",
+        component: <WalkTheWight />,
+      },
+      {
+        name: "Children's Society (Carisbrooke Castle)",
+        route: "/schoolcharity/childrenssociety",
+        component: <ChildrensSociety />,
       },
     ],
   },

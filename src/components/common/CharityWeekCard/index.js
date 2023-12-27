@@ -50,7 +50,7 @@ function TransparentBlogCard({ smimage, lgimage, title, description, action }) {
   return (
     <Card
       sx={{
-        background: "grey",
+        background: "white",
         boxShadow: "5",
         overflow: "visible",
       }}
