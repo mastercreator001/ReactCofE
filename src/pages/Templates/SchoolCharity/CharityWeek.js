@@ -30,7 +30,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import ClassListCard from "components/common/ClassListCard";
+import CharityWeekCard from "components/common/CharityWeekCard";
 
 //Small Images
 
@@ -40,12 +40,6 @@ import CL19743SM from "assets/images/ClassLists/CL1974/CL19743SM.jpg";
 import CL19744SM from "assets/images/ClassLists/CL1974/CL19744SM.jpg";
 import CL19745SM from "assets/images/ClassLists/CL1974/CL19745SM.jpg";
 import CL19746SM from "assets/images/ClassLists/CL1974/CL19746SM.jpg";
-import CL19747SM from "assets/images/ClassLists/CL1974/CL19747SM.jpg";
-import CL19748SM from "assets/images/ClassLists/CL1974/CL19748SM.jpg";
-import CL19749SM from "assets/images/ClassLists/CL1974/CL19749SM.jpg";
-import CL197410SM from "assets/images/ClassLists/CL1974/CL197410SM.jpg";
-import CL197411SM from "assets/images/ClassLists/CL1974/CL197411SM.jpg";
-import CL197412SM from "assets/images/ClassLists/CL1974/CL197412SM.jpg";
 
 //Large Images
 
@@ -55,17 +49,11 @@ import CL19743LG from "assets/images/ClassLists/CL1974/CL19743LG.jpg";
 import CL19744LG from "assets/images/ClassLists/CL1974/CL19744LG.jpg";
 import CL19745LG from "assets/images/ClassLists/CL1974/CL19745LG.jpg";
 import CL19746LG from "assets/images/ClassLists/CL1974/CL19746LG.jpg";
-import CL19747LG from "assets/images/ClassLists/CL1974/CL19747LG.jpg";
-import CL19748LG from "assets/images/ClassLists/CL1974/CL19748LG.jpg";
-import CL19749LG from "assets/images/ClassLists/CL1974/CL19749LG.jpg";
-import CL197410LG from "assets/images/ClassLists/CL1974/CL197410LG.jpg";
-import CL197411LG from "assets/images/ClassLists/CL1974/CL197411LG.jpg";
-import CL197412LG from "assets/images/ClassLists/CL1974/CL197412LG.jpg";
 
 function CharityWeek() {
   return (
     <MKBox
-      component="section"
+      component="center"
       variant="gradient"
       bgColor="dark"
       position="relative"
@@ -93,9 +81,9 @@ function CharityWeek() {
           </Grid>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <ClassListCard
+              <CharityWeekCard
                 smimage={CL19741SM}
                 lgimage={CL19741LG}
                 action={{
@@ -110,9 +98,9 @@ function CharityWeek() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} sm={12} lg={4}>
+          <Grid item xs={12} sm={12} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <ClassListCard
+              <CharityWeekCard
                 smimage={CL19742SM}
                 lgimage={CL19742LG}
                 action={{
@@ -127,9 +115,9 @@ function CharityWeek() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <ClassListCard
+              <CharityWeekCard
                 smimage={CL19743SM}
                 lgimage={CL19743LG}
                 action={{
@@ -144,9 +132,9 @@ function CharityWeek() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <ClassListCard
+              <CharityWeekCard
                 smimage={CL19744SM}
                 lgimage={CL19744LG}
                 action={{
@@ -161,9 +149,9 @@ function CharityWeek() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <ClassListCard
+              <CharityWeekCard
                 smimage={CL19745SM}
                 lgimage={CL19745LG}
                 action={{
@@ -178,9 +166,9 @@ function CharityWeek() {
               />
             </MKBox>
           </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <ClassListCard
+              <CharityWeekCard
                 smimage={CL19746SM}
                 lgimage={CL19746LG}
                 action={{
@@ -192,108 +180,6 @@ function CharityWeek() {
                 title="Miss Blythe's Class"
                 position={{ color: "info", label: "Miss Blythe's class list for 2B 1974" }}
                 description="Miss Blythe's class list for 2B 1974"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL19747SM}
-                lgimage={CL19747LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Mr Besley's Class",
-                }}
-                title="Mr Besley's Class"
-                position={{ color: "info", label: "Mr Besley's class list for 3B 1974" }}
-                description="Mr Besley's class list for 3B 1974"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL19748SM}
-                lgimage={CL19748LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Miss Forer's Class",
-                }}
-                title="Miss Forer's Class"
-                position={{ color: "info", label: "Miss Forer's class list for 3F 1974" }}
-                description=" Miss Forer's class list for 3F 1974"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL19749SM}
-                lgimage={CL19749LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Miss Howe's Class",
-                }}
-                title="Miss Howe's Class"
-                position={{ color: "info", label: "Miss Howe's class list for 3H 1974" }}
-                description="Miss Howe's class list for 3H 1974"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL197410SM}
-                lgimage={CL197410LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Mr Felton's Class ",
-                }}
-                title="Mr Felton's Class "
-                position={{ color: "info", label: "Mr Felton's class list for 4Fo 1974" }}
-                description="Mr Felton's class list for 4Fo 1974"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL197411SM}
-                lgimage={CL197411LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Miss Forer's Class",
-                }}
-                title="Miss Forer's Class"
-                position={{ color: "info", label: "Miss Forer's class list for 4Fo 1974" }}
-                description="Miss Forer's class list for 4Fo 1974"
-              />
-            </MKBox>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={4}>
-            <MKBox mb={1} mt={10}>
-              <ClassListCard
-                smimage={CL197412SM}
-                lgimage={CL197412LG}
-                action={{
-                  type: "internal",
-                  route: "/",
-                  color: "white",
-                  label: "Mr Besley's Class",
-                }}
-                title="Mr Besley's Class"
-                position={{ color: "info", label: "Mr Besley's class list for 4B 1974" }}
-                description="Mr Besley's class list for 4B 1974"
               />
             </MKBox>
           </Grid>
