@@ -34,21 +34,25 @@ import CharityWeekCard from "components/common/CharityWeekCard";
 
 //Small Images
 
-import CL19741SM from "assets/images/ClassLists/CL1974/CL19741SM.jpg";
-import CL19742SM from "assets/images/ClassLists/CL1974/CL19742SM.jpg";
-import CL19743SM from "assets/images/ClassLists/CL1974/CL19743SM.jpg";
-import CL19744SM from "assets/images/ClassLists/CL1974/CL19744SM.jpg";
-import CL19745SM from "assets/images/ClassLists/CL1974/CL19745SM.jpg";
-import CL19746SM from "assets/images/ClassLists/CL1974/CL19746SM.jpg";
+import WTW1SM from "assets/images/CharityEvents/WTW1SM.jpg";
+import WTW2SM from "assets/images/CharityEvents/WTW2SM.jpg";
+import WTW3SM from "assets/images/CharityEvents/WTW3SM.jpg";
+import WTW4SM from "assets/images/CharityEvents/WTW4SM.jpg";
+import WTW5SM from "assets/images/CharityEvents/WTW5SM.jpg";
+import WTW6SM from "assets/images/CharityEvents/WTW6SM.jpg";
+import WTW7SM from "assets/images/CharityEvents/WTW7SM.jpg";
+import WTW8SM from "assets/images/CharityEvents/WTW8SM.jpg";
 
 //Large Images
 
-import CL19741LG from "assets/images/ClassLists/CL1974/CL19741LG.jpg";
-import CL19742LG from "assets/images/ClassLists/CL1974/CL19742LG.jpg";
-import CL19743LG from "assets/images/ClassLists/CL1974/CL19743LG.jpg";
-import CL19744LG from "assets/images/ClassLists/CL1974/CL19744LG.jpg";
-import CL19745LG from "assets/images/ClassLists/CL1974/CL19745LG.jpg";
-import CL19746LG from "assets/images/ClassLists/CL1974/CL19746LG.jpg";
+import WTW1LG from "assets/images/CharityEvents/WTW1LG.jpg";
+import WTW2LG from "assets/images/CharityEvents/WTW2LG.jpg";
+import WTW3LG from "assets/images/CharityEvents/WTW3LG.jpg";
+import WTW4LG from "assets/images/CharityEvents/WTW4LG.jpg";
+import WTW5LG from "assets/images/CharityEvents/WTW5LG.jpg";
+import WTW6LG from "assets/images/CharityEvents/WTW6LG.jpg";
+import WTW7LG from "assets/images/CharityEvents/WTW7LG.jpg";
+import WTW8LG from "assets/images/CharityEvents/WTW8LG.jpg";
 
 function WalkTheWight() {
   return (
@@ -71,7 +75,7 @@ function WalkTheWight() {
       />
       <Container>
         <Grid container mt="30px">
-          <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={10}>
+          <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={15}>
             <MKTypography variant="h1" color="white">
               Walking The Wight With the School
             </MKTypography>
@@ -84,102 +88,145 @@ function WalkTheWight() {
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <CharityWeekCard
-                smimage={CL19741SM}
-                lgimage={CL19741LG}
+                smimage={WTW1SM}
+                lgimage={WTW1LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Wright's Class",
+                  label: "Students doing orienteering",
                 }}
-                title="Mrs Wright's Class"
-                position={{ color: "info", label: "Mrs Wright's class list 1W 1974" }}
-                description="Mrs Wright's class list 1W 1974"
+                title="Students possibly on Walk The Wight however they seem to be doing orienteering"
+                position={{ color: "info", label: "Students doing orientierring" }}
+                description="Unknown location and date unknown (WTW ?) "
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={12} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <CharityWeekCard
-                smimage={CL19742SM}
-                lgimage={CL19742LG}
+                smimage={WTW2SM}
+                lgimage={WTW2LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Manchee's Class",
+                  label: "Miss Forer minding the bags and taking a break",
                 }}
-                title="Mrs Manchee's Class"
-                position={{ color: "info", label: "Mrs Manchee's class lists for 1M 1974" }}
-                description="Mrs Manchee's class lists for 1M 1974"
+                title="Miss Forer minding the bags and taking a break on a sunny day"
+                position={{
+                  color: "info",
+                  label: "Miss Forer minding the bags and taking a break",
+                }}
+                description="Miss Forer doing Walk The Wight probably on Brightstone Downs (date unknown)"
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={12} lg={10} ml={13}>
+            <MKBox mb={1} mt={10}>
+              <CharityWeekCard
+                smimage={WTW3SM}
+                lgimage={WTW3LG}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "students with Miss Forer",
+                }}
+                title="Miss Forer and students below Ventnor Cascades on a sunny day "
+                position={{ color: "info", label: "students with Miss Forer" }}
+                description="An outing with Miss Forer purpose unclear(date unknown)"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <CharityWeekCard
-                smimage={CL19743SM}
-                lgimage={CL19743LG}
+                smimage={WTW4SM}
+                lgimage={WTW4LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Watson's Class",
+                  label: "Cold and wet team of students resting mid walk",
                 }}
-                title="Miss Watson's Class"
-                position={{ color: "info", label: "Miss Watson's class list 1W 1974" }}
-                description="Miss Watson's class list 1W 1974"
+                title="Students ready to go on the next leg"
+                position={{
+                  color: "info",
+                  label: "Cold and wet team of students resting mid walk",
+                }}
+                description="Walking The Wight possibly on a cold and wet day (dates unknown)"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <CharityWeekCard
-                smimage={CL19744SM}
-                lgimage={CL19744LG}
+                smimage={WTW5SM}
+                lgimage={WTW5LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mr Monk's Class",
+                  label: "Four year 1 students awaiting instructions",
                 }}
-                title="Mr Monk's Class"
-                position={{ color: "info", label: "Mr Monk's class lists for 2Mo 1974" }}
-                description="Mr Monk's class lists for 2Mo 1974"
+                title="Location unknown possibly Walk The Wight"
+                position={{ color: "info", label: "Four 1 year students awaiting instructions" }}
+                description="1st year students awaiting marching orders (dates unknown) "
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <CharityWeekCard
-                smimage={CL19745SM}
-                lgimage={CL19745LG}
+                smimage={WTW6SM}
+                lgimage={WTW6LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Murdoch's Class",
+                  label: "Students tackling Brading Marsh",
                 }}
-                title="Mrs Murdoch's Class"
-                position={{ color: "info", label: "Mrs Murdoch's class list for 2M 1974" }}
-                description="Mrs Murdoch's class list for 2M 1974"
+                title="Brading Marsh Possibly Walk The Wight (date unknown)"
+                position={{ color: "info", label: "Students tackling Brading Marsh" }}
+                description="Students unknown but looking like Brading Marshes, possibly WTW"
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <CharityWeekCard
-                smimage={CL19746SM}
-                lgimage={CL19746LG}
+                smimage={WTW7SM}
+                lgimage={WTW7LG}
                 action={{
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Blythe's Class",
+                  label: "Mrs Brock plus students",
                 }}
-                title="Miss Blythe's Class"
-                position={{ color: "info", label: "Miss Blythe's class list for 2B 1974" }}
-                description="Miss Blythe's class list for 2B 1974"
+                title="Mrs Brock Relaxing with students on bench"
+                position={{ color: "info", label: "Mrs Brock plus students" }}
+                description="Mrs Brock and students relaxing on a bench out for the Walk (date unknown)"
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
+            <MKBox mb={1} mt={10}>
+              <CharityWeekCard
+                smimage={WTW8SM}
+                lgimage={WTW8LG}
+                action={{
+                  type: "internal",
+                  route: "/",
+                  color: "white",
+                  label: "Miss Forer on the Downs heading to Freshwater",
+                }}
+                title="Miss Forer on the Downs heading to Freshwater"
+                position={{
+                  color: "info",
+                  label: "Miss Forer on the Brightstone Down heading to Freshwater",
+                }}
+                description="Miss Forer looking tired heading onward to Freshwater on a hot sunny day (date unknown)"
               />
             </MKBox>
           </Grid>
@@ -190,7 +237,7 @@ function WalkTheWight() {
               School Memories school friends
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Memories in Class Lists
+              Memories in Class Adventures
             </MKTypography>
           </Grid>
         </Grid>

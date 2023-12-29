@@ -48,6 +48,10 @@ import ChildrensS3LG from "assets/images/CharityEvents/ChildrensS3LG.jpg";
 import ChildrensS4LG from "assets/images/CharityEvents/ChildrensS4LG.jpg";
 import ChildrensS5LG from "assets/images/CharityEvents/ChildrensS5LG.jpg";
 
+//Cs video
+
+// import CSvideo1 from "assets/images/CharityEvents/CSvideo1.mp4;";
+
 function ChildrensSociety() {
   return (
     <MKBox
@@ -69,7 +73,7 @@ function ChildrensSociety() {
       />
       <Container>
         <Grid container mt="30px">
-          <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={20}>
+          <Grid item xs={12} md={9} sx={{ mb: 6 }} mt={15}>
             <MKTypography variant="h1" color="white">
               School Charity Week at Carisbrooke Castle
             </MKTypography>
@@ -91,7 +95,10 @@ function ChildrensSociety() {
                   label: "Childrens charity society event at Carisbrooke Castle",
                 }}
                 title="Children's Society Event"
-                position={{ color: "info", label: "Childrens society event at Carisbrroke Castle" }}
+                position={{
+                  color: "info",
+                  label: "Childrens society event at Carisbrroke Castle",
+                }}
                 description="Something different for you today as I happened upon a amazing post on the Newport and Carisbrooke Heriatge Society and saw a picture I thought maybe of interest to students in April 1988, did you attend ?
 An event was held at Carisbrooke Castle for the children's society and the picture features an assortment of our students.   I have permission to use the picture from a chap call Ray Langley  and it was featured in the County Press in April 1988, thanks to Sue Horner for noting the date.
 I have sectioned the picture and done a close up video which moves around the entire picture so you may see yourself if you look carefully. 
@@ -112,7 +119,7 @@ As usual like post comment and discuss."
                 }}
                 title="Mrs Crump in the middle"
                 position={{ color: "info", label: "Mrs Crump in the middle, close up shot 2" }}
-                description="Mouse over image and click to enlarge"
+                description="Click on image to increase size press escape to return (date Unknown)"
               />
             </MKBox>
           </Grid>
@@ -129,7 +136,7 @@ As usual like post comment and discuss."
                 }}
                 title="Close up shot 3"
                 position={{ color: "info", label: "Close up shot 3" }}
-                description="Mouse over image and click to enlarge"
+                description="Click on image to increase size press escape to return (date Unknown)"
               />
             </MKBox>
           </Grid>
@@ -146,7 +153,7 @@ As usual like post comment and discuss."
                 }}
                 title="Close up shot 4"
                 position={{ color: "info", label: "Close up shot 4" }}
-                description="Mouse over image and click to enlarge"
+                description="Click on image to increase size press escape to return (date Unknown)"
               />
             </MKBox>
           </Grid>
@@ -163,7 +170,23 @@ As usual like post comment and discuss."
                 }}
                 title="Close up shot 5"
                 position={{ color: "info", label: "Close up shot 5" }}
-                description="Mouse over image and click to enlarge"
+                description="Click on image to increase size press escape to return (date Unknown)"
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} sm={6} lg={10} ml={13}>
+            <MKBox mb={1} mt={10}>
+              <CharityWeekCard
+                action={{
+                  type: "internal",
+                  route: "CSvideo1.mp4",
+                  color: "white",
+                  label: "Video Walk Through of the photo",
+                }}
+                title="Video Walk Through of the photo"
+                position={{ color: "info", label: "Video Walk Through of the photo" }}
+                description="Click on image to increase size press escape to return (date Unknown)"
+                // videofile={CSvideo1}
               />
             </MKBox>
           </Grid>
