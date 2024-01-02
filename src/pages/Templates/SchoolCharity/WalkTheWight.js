@@ -237,7 +237,7 @@ function WalkTheWight() {
               School Memories school friends
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Memories in Class Adventures
+              Memories in Walk The Wight Adventures
             </MKTypography>
           </Grid>
         </Grid>
