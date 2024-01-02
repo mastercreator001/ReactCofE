@@ -92,11 +92,14 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Students doing orienteering",
+                  label: "Students doing a fun tennis courts based activity",
                 }}
-                title="Students possibly on Walk The Wight however they seem to be doing orienteering"
-                position={{ color: "info", label: "Students doing orientierring" }}
-                description="Unknown location and date unknown (WTW ?) "
+                title="Students being motivated by Miss Forer in Aid of Red Nose Day"
+                position={{
+                  color: "info",
+                  label: "Students doing a fun tennis courts based activity",
+                }}
+                description="Students doing a fun tennis courts based activity (exact date unknown)."
               />
             </MKBox>
           </Grid>
@@ -109,14 +112,14 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Miss Forer minding the bags and taking a break",
+                  label: "Students in proper attire, not forgetting their red noses",
                 }}
-                title="Miss Forer minding the bags and taking a break on a sunny "
+                title="Two Students celebrating Red Nose Day "
                 position={{
                   color: "info",
-                  label: "Miss Forer minding the bags and taking a break",
+                  label: "Students in proper attire, not forgetting their red noses",
                 }}
-                description="Miss Forer doing Walk The Wight probably on Brightstone Downs (date unknown)"
+                description="No doubt enjoying the mufty day as the school levied a small charge for wearing mufty as a charitable contrbution to the charity (date unknown)."
               />
             </MKBox>
           </Grid>
@@ -129,11 +132,11 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "students with Miss Forer",
+                  label: " Miss Forer in Mufty for the school disco",
                 }}
-                title="Miss Forer and students below Ventnor Cascades on a sunny  "
-                position={{ color: "info", label: "students with Miss Forer" }}
-                description="An outing with Miss Forer purpose unclear(date unknown)"
+                title="Miss Forer Kicking back on a school disco "
+                position={{ color: "info", label: "Miss Forer in Mufty for the school disco" }}
+                description="Miss Forer was hosting a Red Nose Day School Disco with her usual flair (date unknown)."
               />
             </MKBox>
           </Grid>
@@ -146,14 +149,14 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Cold and wet team of students resting mid walk",
+                  label: "Miss Forer any opportunity to dress up",
                 }}
-                title="Students ready to go on the next leg"
+                title="Miss Forer in casuals for the Day"
                 position={{
                   color: "info",
-                  label: "Cold and wet team of students resting mid walk",
+                  label: "Miss Forer any opportunity to dress up",
                 }}
-                description="Walking The Wight possibly on a cold and wet  (dates unknown)"
+                description="Another school disco and another opportuinity for an amazing costume (dates unknown)."
               />
             </MKBox>
           </Grid>
@@ -166,11 +169,14 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Four year 1 students awaiting instructions",
+                  label: "Miss Forer at the school disco surronded by students ",
                 }}
-                title="Location unknown possibly Walk The Wight"
-                position={{ color: "info", label: "Four 1 year students awaiting instructions" }}
-                description="1st year students awaiting marching orders (dates unknown) "
+                title="The Middle or the end of the disco."
+                position={{
+                  color: "info",
+                  label: "Miss Forer at the school disco surronded by students ",
+                }}
+                description="Miss Forer showing the students how to party up (dates unknown). "
               />
             </MKBox>
           </Grid>
@@ -183,11 +189,14 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Students tackling Brading Marsh",
+                  label: "A subsequent Red Nose Cratity Fundraiser disco",
                 }}
-                title="Brading Marsh Possibly Walk The Wight (date unknown)"
-                position={{ color: "info", label: "Students tackling Brading Marsh" }}
-                description="Students unknown but looking like Brading Marshes, possibly WTW"
+                title="A subsequent school disco for Red Nose day. (date unknown)"
+                position={{
+                  color: "info",
+                  label: "A subsequent Red Nose Cratity Fundraiser disco",
+                }}
+                description="Miss Forer not in sight ? perhaps she's taking the photo, Mid 1980's ?"
               />
             </MKBox>
           </Grid>
@@ -200,11 +209,14 @@ function Rednosedays() {
                   type: "internal",
                   route: "/",
                   color: "white",
-                  label: "Mrs Brock plus students",
+                  label: "Miss Forer in the hall undergoing a charity fundraiser",
                 }}
-                title="Mrs Brock Relaxing with students on bench"
-                position={{ color: "info", label: "Mrs Brock plus students" }}
-                description="Mrs Brock and students relaxing on a bench out for the Walk (date unknown)"
+                title="Miss Forer undergoing a trilthon for Red Nose Day "
+                position={{
+                  color: "info",
+                  label: "Miss Forer in the hall undergoing a charity fundraiser",
+                }}
+                description="Putting her through her paces in the hall for the Red Nose Money (date unknown)."
               />
             </MKBox>
           </Grid>
@@ -215,7 +227,7 @@ function Rednosedays() {
               School Memories school friends
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              Memories in Class Adventures
+              Memories in Red Nose Adventures
             </MKTypography>
           </Grid>
         </Grid>
