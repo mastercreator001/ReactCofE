@@ -12,7 +12,10 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+// <source
+/// src="https://www.wellyroad.com/videos/full-video-scan.mp4"
 
+// ></source>
 // Material Kit 2 React examples
 import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
 import DefaultFooter from "components/common/Footers/DefaultFooter";
@@ -31,7 +34,7 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import CharityWeekCard from "components/common/CharityWeekCard";
-
+import VideoCard from "components/common/VideoCard";
 //Small Images
 
 import ChildrensS1SM from "assets/images/CharityEvents/ChildrensS1SM.jpg";
@@ -48,9 +51,8 @@ import ChildrensS3LG from "assets/images/CharityEvents/ChildrensS3LG.jpg";
 import ChildrensS4LG from "assets/images/CharityEvents/ChildrensS4LG.jpg";
 import ChildrensS5LG from "assets/images/CharityEvents/ChildrensS5LG.jpg";
 
-//Cs video
-
-// import CSvideo1 from "assets/images/CharityEvents/CSvideo1.mp4;";
+// video
+import video from "https://www.wellyroad.com/videos/full-video-scan.mp4";
 
 function ChildrensSociety() {
   return (
@@ -176,17 +178,21 @@ As usual like post comment and discuss."
           </Grid>
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
-              <CharityWeekCard
+              <VideoCard
+                route={video}
                 action={{
-                  type: "internal",
-                  route: "CSvideo1.mp4",
+                  type: "external",
+                  //type: "video/mp4",
+                  route: "https://www.wellyroad.com/videos/full-video-scan.mp4",
+                  label: "video of school photo",
                   color: "white",
-                  label: "Video Walk Through of the photo",
                 }}
                 title="Video Walk Through of the photo"
-                position={{ color: "info", label: "Video Walk Through of the photo" }}
-                description="Click on image to increase size press escape to return (date Unknown)"
-                // videofile={CSvideo1}
+                width="800"
+                height="480"
+                controls
+                position={{ color: "info", label: "Close up shot 5" }}
+                description="gfdgfgf"
               />
             </MKBox>
           </Grid>
