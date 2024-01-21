@@ -52,7 +52,7 @@ import ChildrensS4LG from "assets/images/CharityEvents/ChildrensS4LG.jpg";
 import ChildrensS5LG from "assets/images/CharityEvents/ChildrensS5LG.jpg";
 
 // video
-import video from "https://www.wellyroad.com/videos/full-video-scan.mp4";
+// import video from "https://www.wellyroad.com/videos/full-video-scan.mp4";
 
 function ChildrensSociety() {
   return (
@@ -179,20 +179,17 @@ As usual like post comment and discuss."
           <Grid item xs={12} sm={6} lg={10} ml={13}>
             <MKBox mb={1} mt={10}>
               <VideoCard
-                route={video}
+                video={"https://www.wellyroad.com/videos/full-video-scan.mp4"}
                 action={{
-                  type: "external",
-                  //type: "video/mp4",
-                  route: "https://www.wellyroad.com/videos/full-video-scan.mp4",
+                  type: "internal",
+                  // type: "video/mp4",
+                  route: "/",
                   label: "video of school photo",
                   color: "white",
                 }}
-                title="Video Walk Through of the photo"
-                width="800"
-                height="480"
-                controls
                 position={{ color: "info", label: "Close up shot 5" }}
-                description="gfdgfgf"
+                description="gfdgfgf rd57rdtr 5r d574d5d 57rf"
+                title="gdgdgd"
               />
             </MKBox>
           </Grid>

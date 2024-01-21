@@ -16,8 +16,6 @@ Coded by www.creative-tim.com
 // react-router components
 import { Link } from "react-router-dom";
 
-import ModalImage from "react-modal-image-responsive";
-
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
@@ -56,10 +54,10 @@ function VideoCard({ video, title, description, action }) {
       }}
     >
       {action.type === "internal" ? (
-        <ModalImage video={video} />
+        <video src={video} controls />
       ) : (
         <MuiLink href={action.route} target="_blank" rel="noreferrer">
-          <ModalImage video={video} />
+          <video src={video} controls />
         </MuiLink>
       )}
       <MKBox ml={1} pt={2} pb={3}>
