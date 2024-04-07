@@ -15,9 +15,6 @@ Coded by www.creative-tim.com
 
 import { useState } from "react";
 
-// react-router-dom components
-import { Link } from "react-router-dom";
-
 // @mui material components
 import Card from "@mui/material/Card";
 import Switch from "@mui/material/Switch";
@@ -26,8 +23,6 @@ import MuiLink from "@mui/material/Link";
 
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import GoogleIcon from "@mui/icons-material/Google";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -35,34 +30,33 @@ import MKTypography from "components/MKTypography";
 import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 
-// Material Kit 2 React example components
-import DefaultNavbar from "components/common/Navbars/DefaultNavbar";
-import SimpleFooter from "components/common/Footers/SimpleFooter";
-
-// Material Kit 2 React page layout routes
-import routes from "routes";
-
 // Images
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
-function SignInBasic() {
+function SignInBasic(prop) {
+  const { parentCallback } = prop;
   const [rememberMe, setRememberMe] = useState(false);
 
   const handleSetRememberMe = () => setRememberMe(!rememberMe);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const password = e.target[2].value;
+    if (password === "S0d0ff") {
+      parentCallback(true);
+    } else if (password === "FY0u") {
+      parentCallback(true);
+    } else if (password === "Rud3") {
+      this.props.parentCallback(true);
+    } else {
+      console.log("user :", e.target[0].value);
+      console.log("password: ", password);
+      console.log("Not Logged in");
+      parentCallback(false);
+    }
+  };
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.facebook.com/groups/172663070820628",
-          label: "Join Us",
-          color: "info",
-        }}
-        transparent
-        light
-      />
       <MKBox
         position="absolute"
         top={0}
@@ -97,7 +91,7 @@ function SignInBasic() {
                 textAlign="center"
               >
                 <MKTypography variant="h4" fontWeight="medium" color="white" mt={1}>
-                  Sign in
+                  Sign in to C of E Middle <br></br>(Welly Road)
                 </MKTypography>
                 <Grid container spacing={3} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
                   <Grid item xs={2}>
@@ -105,20 +99,10 @@ function SignInBasic() {
                       <FacebookIcon color="inherit" />
                     </MKTypography>
                   </Grid>
-                  <Grid item xs={2}>
-                    <MKTypography component={MuiLink} href="#" variant="body1" color="white">
-                      <GitHubIcon color="inherit" />
-                    </MKTypography>
-                  </Grid>
-                  <Grid item xs={2}>
-                    <MKTypography component={MuiLink} href="#" variant="body1" color="white">
-                      <GoogleIcon color="inherit" />
-                    </MKTypography>
-                  </Grid>
                 </Grid>
               </MKBox>
               <MKBox pt={4} pb={3} px={3}>
-                <MKBox component="form" role="form">
+                <MKBox component="form" role="form" onSubmit={handleSubmit}>
                   <MKBox mb={2}>
                     <MKInput type="email" label="Email" fullWidth />
                   </MKBox>
@@ -138,23 +122,13 @@ function SignInBasic() {
                     </MKTypography>
                   </MKBox>
                   <MKBox mt={4} mb={1}>
-                    <MKButton variant="gradient" color="info" fullWidth>
+                    <MKButton variant="gradient" type="submit" color="info" fullWidth>
                       sign in
                     </MKButton>
                   </MKBox>
                   <MKBox mt={3} mb={1} textAlign="center">
                     <MKTypography variant="button" color="text">
-                      Don&apos;t have an account?{" "}
-                      <MKTypography
-                        component={Link}
-                        to="/authentication/sign-up/cover"
-                        variant="button"
-                        color="info"
-                        fontWeight="medium"
-                        textGradient
-                      >
-                        Sign up
-                      </MKTypography>
+                      Contact C Of E Middle Admin on Facebook{" "}
                     </MKTypography>
                   </MKBox>
                 </MKBox>
@@ -162,9 +136,6 @@ function SignInBasic() {
             </Card>
           </Grid>
         </Grid>
-      </MKBox>
-      <MKBox width="100%" position="absolute" zIndex={2} bottom="1.625rem">
-        <SimpleFooter light />
       </MKBox>
     </>
   );

@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -28,9 +28,11 @@ import Presentation from "layouts/pages/presentation";
 
 // Material Kit 2 React routes
 import routes from "routes";
+import SignInBasic from "pages/LandingPages/SignIn";
 
 export default function App() {
   const { pathname } = useLocation();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   // Setting page scroll to 0 when changing the route
   useEffect(() => {
@@ -50,15 +52,24 @@ export default function App() {
 
       return null;
     });
-
+  const handleCallback = (childData) => {
+    // Update the name in the component's state
+    setIsLoggedIn(childData);
+  };
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Routes>
-        {getRoutes(routes)}
-        <Route path="/" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
-      </Routes>
-    </ThemeProvider>
+    <>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {isLoggedIn ? (
+          <Routes>
+            {getRoutes(routes)}
+            <Route path="/" element={<Presentation />} />
+            <Route path="*" element={<Navigate to="/presentation" />} />
+          </Routes>
+        ) : (
+          <SignInBasic parentCallback={handleCallback} />
+        )}
+      </ThemeProvider>
+    </>
   );
 }

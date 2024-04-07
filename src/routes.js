@@ -40,7 +40,7 @@ import Icon from "@mui/material/Icon";
 
 // Pages
 
-import SignIn from "pages/Templates/SignIn";
+import SignIn from "pages/LandingPages/SignIn";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
