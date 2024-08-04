@@ -14,6 +14,8 @@ Coded by www.creative-tim.com
 */
 
 import { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -53,7 +55,9 @@ export default function App() {
       return null;
     });
   const handleCallback = (childData) => {
-    // Update the name in the component's state
+    if (childData === undefined) {
+      toast.error("Sorry, those credetials are invalid.");
+    }
     setIsLoggedIn(childData);
   };
   return (
@@ -69,6 +73,7 @@ export default function App() {
         ) : (
           <SignInBasic parentCallback={handleCallback} />
         )}
+        <ToastContainer />
       </ThemeProvider>
     </>
   );

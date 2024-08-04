@@ -34,6 +34,7 @@ import MKButton from "components/MKButton";
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
 function SignInBasic(prop) {
+  const signIns = require("../../../assets/data/signin.json");
   const { parentCallback } = prop;
   const [rememberMe, setRememberMe] = useState(false);
 
@@ -41,19 +42,9 @@ function SignInBasic(prop) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const password = e.target[2].value;
-    if (password === "S0d0ff") {
-      parentCallback(true);
-    } else if (password === "FY0u") {
-      parentCallback(true);
-    } else if (password === "Rud3") {
-      this.props.parentCallback(true);
-    } else {
-      console.log("user :", e.target[0].value);
-      console.log("password: ", password);
-      console.log("Not Logged in");
-      parentCallback(false);
-    }
+    parentCallback(
+      signIns.find((s) => s.email === e.target[0].value && s.password === e.target[2].value)
+    );
   };
   return (
     <>
